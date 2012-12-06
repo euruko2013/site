@@ -1,0 +1,68 @@
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+  background: url('../images/full_background.png') #c9c9c9 no-repeat center top;
+  min-width: 750px;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+#main_container {
+  width: 750px;
+  margin: 600px auto 0;
+  padding-bottom: 20px;
+}
+
+#dark_circle span {
+  background-color: #414141;
+  color: #E4E4E4;
+  font-size: 27px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 666px;
+  position: relative;
+  top: 35px;
+}
+
+#conference {
+  color: #8e8e8e;
+  font-size: 29px;
+  border-top: groove 2px #f1f1f1;
+  border-bottom: groove 2px #ebecec;
+  line-height: 120px;
+}
+
+#soon {
+  background: url('../images/shadow.png') transparent no-repeat 110px 30px;
+  font-family: 'Open Sans', Impact, Charcoal, sans-serif;
+  font-weight: 900;
+  color: #57585b;
+  text-align: right;
+  font-size: 33px;
+  line-height: 120px;
+}
+
+#links {
+  overflow: auto;
+}
+
+#links a {
+  background: url('../images/bullet.png') #d7d7d7 no-repeat 15px center;
+  color: #6d6e71;
+  font-size: 16px;
+  height: 45px;
+  line-height: 45px;
+  border: solid 1px #cecece;
+  padding: 0 15px 0 50px;
+  text-decoration: none;
+}
+
+#links a.left {
+  float: left;
+}
+
+#links a.right {
+  float: right;
+}
+
