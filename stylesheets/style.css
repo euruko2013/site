@@ -82,8 +82,10 @@ a {
 
 #links a.left {
   float: left;
+  width: 46%;
 }
 
 #links a.right {
   float: right;
+  width: 34%;
 }
