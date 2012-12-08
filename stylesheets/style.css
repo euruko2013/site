@@ -8,6 +8,10 @@ html, body {
   text-shadow: 1px 1px #ffffff;
 }
 
+a {
+  color: #6d6e71;
+}
+
 #main_container {
   width: 750px;
   margin: 610px auto 0;
@@ -68,7 +72,6 @@ html, body {
 
 #links a {
   background: url('../images/bullet.png') #d7d7d7 no-repeat 15px center;
-  color: #6d6e71;
   font-size: 16px;
   height: 45px;
   line-height: 45px;
