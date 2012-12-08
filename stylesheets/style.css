@@ -33,16 +33,6 @@ html, body {
   line-height: 120px;
 }
 
-#soon {
-  background: url('../images/shadow.png') transparent no-repeat 110px 30px;
-  font-family: 'Open Sans', Impact, Charcoal, sans-serif;
-  font-weight: 900;
-  color: #57585b;
-  text-align: right;
-  font-size: 33px;
-  line-height: 120px;
-}
-
 #links {
   overflow: auto;
 }
