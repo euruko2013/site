@@ -1,0 +1,91 @@
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  background: url('../images/full_background.png') #c9c9c9 no-repeat center top;
+  min-width: 750px;
+  overflow-x: hidden;
+  text-align: center;
+  text-shadow: 1px 1px #ffffff;
+}
+
+a {
+  color: #6d6e71;
+}
+
+#main_container {
+  width: 750px;
+  margin: 610px auto 0;
+  padding-bottom: 20px;
+}
+
+#dark_circle span {
+  background-color: #414141;
+  color: #E4E4E4;
+  font-size: 27px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 666px;
+  position: relative;
+  top: 35px;
+  text-shadow: none;
+}
+
+#conference {
+  color: #8e8e8e;
+  font-size: 29px;
+  border-top: groove 2px #f1f1f1;
+  border-bottom: groove 2px #ebecec;
+  padding: 40px 0;
+}
+
+#speakers {
+  color: #8e8e8e;
+  font-size: 16px;
+  border-bottom: groove 2px #ebecec;
+  padding: 30px 0;
+  margin-bottom: 35px;
+}
+
+#speakers .title {
+  margin-bottom: 40px;
+}
+
+#speakers ul {
+  overflow: auto;
+}
+
+#speakers ul li {
+  float: left;
+  width: 100%; /* Change this to add more speakers in a line */
+}
+
+#speakers ul li .speaker_title {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#links {
+  overflow: auto;
+}
+
+#links a {
+  background: url('../images/bullet.png') #d7d7d7 no-repeat 15px center;
+  font-size: 16px;
+  height: 45px;
+  line-height: 45px;
+  border: solid 1px #cecece;
+  padding: 0 15px 0 50px;
+  text-decoration: none;
+}
+
+#links a.left {
+  float: left;
+  width: 46%;
+}
+
+#links a.right {
+  float: right;
+  width: 34%;
+}
