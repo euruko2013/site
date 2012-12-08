@@ -1,5 +1,6 @@
 html, body {
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   background: url('../images/full_background.png') #c9c9c9 no-repeat center top;
   min-width: 750px;
   overflow-x: hidden;
