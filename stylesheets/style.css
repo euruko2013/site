@@ -33,7 +33,7 @@ html, body {
   font-size: 29px;
   border-top: groove 2px #f1f1f1;
   border-bottom: groove 2px #ebecec;
-  line-height: 120px;
+  padding: 40px 0;
 }
 
 #speakers {
