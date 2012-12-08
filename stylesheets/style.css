@@ -1,14 +1,16 @@
 html, body {
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   background: url('../images/full_background.png') #c9c9c9 no-repeat center top;
   min-width: 750px;
   overflow-x: hidden;
   text-align: center;
+  text-shadow: 1px 1px #ffffff;
 }
 
 #main_container {
   width: 750px;
-  margin: 600px auto 0;
+  margin: 610px auto 0;
   padding-bottom: 20px;
 }
 
@@ -23,6 +25,7 @@ html, body {
   border-radius: 666px;
   position: relative;
   top: 35px;
+  text-shadow: none;
 }
 
 #conference {
@@ -33,14 +36,30 @@ html, body {
   line-height: 120px;
 }
 
-#soon {
-  background: url('../images/shadow.png') transparent no-repeat 110px 30px;
-  font-family: 'Open Sans', Impact, Charcoal, sans-serif;
-  font-weight: 900;
-  color: #57585b;
-  text-align: right;
-  font-size: 33px;
-  line-height: 120px;
+#speakers {
+  color: #8e8e8e;
+  font-size: 16px;
+  border-bottom: groove 2px #ebecec;
+  padding: 30px 0;
+  margin-bottom: 35px;
+}
+
+#speakers .title {
+  margin-bottom: 40px;
+}
+
+#speakers ul {
+  overflow: auto;
+}
+
+#speakers ul li {
+  float: left;
+  width: 100%; /* Change this to add more speakers in a line */
+}
+
+#speakers ul li .speaker_title {
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 #links {
@@ -65,4 +84,3 @@ html, body {
 #links a.right {
   float: right;
 }
-
