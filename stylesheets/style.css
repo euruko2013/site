@@ -4,6 +4,7 @@ html, body {
   min-width: 750px;
   overflow-x: hidden;
   text-align: center;
+  text-shadow: 1px 1px #ffffff;
 }
 
 #main_container {
@@ -23,6 +24,7 @@ html, body {
   border-radius: 666px;
   position: relative;
   top: 35px;
+  text-shadow: none;
 }
 
 #conference {
