@@ -15,4 +15,4 @@ Once you've made your great commits:
 5. That's it!
 
 [fk]: http://help.github.com/forking/
-[is]: http://github.com/defunkt/mustache/issues
+[is]: http://github.com/euruko2013/site/issues
