@@ -42,6 +42,7 @@ h3 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-repeat:no-repeat;
   padding-top:0px;
+  position: relative;
 
   hgroup {
     margin:250px auto 15px auto;
@@ -63,10 +64,27 @@ h3 {
     width:600px;
     margin:$hr auto;
  }
+
  .centered {
     background:transparent url('/images/bubbles.png') 110px 20px no-repeat;
-    min-height:600px; 
+    min-height:630px; 
     text-align:center;
+ }
+
+ &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    display: block;
+    margin-left: -30px;
+    background: url('/images/sprite.png') 17px -358px no-repeat;
+    width: 24px;
+    height: 24px; 
+    padding: 17px; 
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #b2b2b2;
  }
 }
 
