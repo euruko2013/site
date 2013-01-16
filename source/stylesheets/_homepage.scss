@@ -7,8 +7,8 @@ h3 {
 }
 
 .section {
-  min-height: 400px;
-  padding-top: 60px;
+  min-height: 340px;
+  padding: 60px 0;
 }
 
 .back_top {
@@ -26,7 +26,7 @@ h3 {
 
 .more {
   display: block;
-  margin: $vr auto;
+  margin: $vr auto 0;
   font: 300 15px $ubuntu;
   color: $lighter_grey;
   text-align: center;
@@ -35,6 +35,7 @@ h3 {
 #introduction {
   position: relative;
   padding-top: 0;
+  padding-bottom: 0;
   background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 100%); /* FF3.6+ */
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.1))); /* Chrome,Safari4+ */
   background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Chrome10+,Safari5.1+ */
@@ -68,7 +69,7 @@ h3 {
   }
 
   .centered {
-    min-height: 630px;
+    min-height: 600px;
     background: transparent url('/images/bubbles.png') 110px 20px no-repeat; 
     text-align: center;
   }
@@ -141,7 +142,7 @@ h3 {
   .ticket {
     width: 350px;
     height: 165px;
-    margin: $vr*3 auto;
+    margin: $vr*2 auto $vr*3;
     background: transparent url('/images/sprite.png') 0px -180px no-repeat;
   }
 
@@ -193,9 +194,8 @@ h3 {
 
     a {
       display: block;
-      margin: 2*$vr 0;
+      margin: 2*$vr 0 0;
       font: 300 15px $ubuntu;
-      font-style: italic;
       color: $dark_white;
       text-align: center;
     }
@@ -212,15 +212,7 @@ h3 {
     text-align: center;
 
     a {
-      display: block;
       width: 300px;
-      margin: 2*$vr auto;
-      padding: 10px 10px;
-      border: 1px solid #cecece;
-      background: #d7d7d7;
-      font: 300 18px $ubuntu;
-      color: $light_grey;
-      text-decoration: none;
       @include bullet-left(#989898, 18px, rgba(152,152,152,.4));
     } 
   }
@@ -237,6 +229,7 @@ h3 {
 
   ul {
     margin-bottom: 4*$vr;
+    text-align: center;
 
     li {
       display: inline-block;
@@ -267,4 +260,19 @@ h3 {
 
 #contact {
   background: #e1e1e1;
+  text-align: center;
+
+  .stay-updated {
+    width: 460px;
+    margin-top: 2*$vr;
+    margin-bottom: 2*$vr;
+    padding: 10px 20px 10px 40px;
+    background-image: url('/images/sprite.png');
+    background-position:  16px -420px;
+    background-repeat: no-repeat;
+  }
+
+  .contact {
+    color: $light_grey;    
+  }
 }
