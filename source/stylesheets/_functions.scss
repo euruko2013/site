@@ -6,13 +6,26 @@
     -webkit-box-shadow:$inset $o $v $b $s $c;
     -moz-box-shadow:$inset $o $v $b $s $c;
     box-shadow:$inset $o $v $b $s $c;
-    }
+  }
+
   @else {
     -webkit-box-shadow:$o $v $b $s $c;
     -moz-box-shadow:$o $v $b $s $c;
     box-shadow:$o $v $b $s $c;
   }
 }
+
+
+/* Single Border Radius */
+
+@mixin border-radius($r) 
+{
+  -moz-border-radius: $r;
+  -webkit-border-radius: $r;
+  -o-border-radius: $r;
+  border-radius: $r;
+}
+
 
 /* Box Sizing */
 
@@ -32,4 +45,31 @@
   -moz-transition: $p $d $f;
   -o-transition: $p $d $f;
   transition: $p $d $f;
+}
+
+
+/* Button Styling with bullet left */
+
+@mixin bullet-left($color,$size, $color-opacity)
+{
+  position: relative;
+  padding-left: 30px;
+
+  &:before {
+    content: "\25CF";
+    font-size: $size;
+    position: absolute;
+    color: $color;
+    left: 10px;
+    top: 50%;
+    width: $size;
+    height: $size;
+    padding: 1px;
+    font-weight: bold;
+    line-height: $size - 2px;
+    text-align: center; 
+    border: 1px solid $color-opacity;
+    @include border-radius(2*$size);
+    margin-top: -(($size / 2) + 1);
+  }
 }

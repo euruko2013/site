@@ -221,6 +221,7 @@ h3 {
       font: 300 18px $ubuntu;
       color: $light_grey;
       text-decoration: none;
+      @include bullet-left(#989898, 18px, rgba(152,152,152,.4));
     } 
   }
 }
@@ -254,7 +255,13 @@ h3 {
   }
 
   .community li {
-    padding: 0 $hr;
+    padding: 2px $hr;
+    color: #808080;
+    @include bullet-left(#989898, 15px, rgba(152,152,152,.4));
+
+    &:before {
+      left: 6px;
+    }
   }
 }
 
