@@ -1,9 +1,9 @@
 h3 {
+  padding: $vr 0;
   font: bold 22px $ubuntu;
   color: #b5b5b5;
-  text-shadow: 1px 1px 0px white;
   text-align: center;
-  padding: $vr 0;
+  text-shadow: 1px 1px 0px white;
 }
 
 .section {
@@ -12,81 +12,81 @@ h3 {
 }
 
 .back_top {
-  text-align: right;
-  font: 300 13px $ubuntu;
-  font-style: italic;
-  border-bottom: 1px solid $dark_grey;
-  padding-bottom: $vr;
-  width: 140px;
-  text-decoration: none;
-  color: $lighter_grey;
   position: absolute;
   right: 0px;
+  width: 140px;
+  padding-bottom: $vr;
+  border-bottom: 1px solid $dark_grey;
+  font: 300 13px $ubuntu;
+  font-style: italic;
+  color: $lighter_grey;
+  text-align: right;
+  text-decoration: none;
 }
 
 .more {
-  font: 300 15px $ubuntu;
-  color: $lighter_grey;
   display: block;
   margin: $vr auto;
+  font: 300 15px $ubuntu;
+  color: $lighter_grey;
   text-align: center;
 }
 
 #introduction {
+  position: relative;
+  padding-top: 0;
   background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 100%); /* FF3.6+ */
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.1))); /* Chrome,Safari4+ */
   background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Chrome10+,Safari5.1+ */
   background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Opera 12+ */
   background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* IE10+ */
   background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-repeat: no-repeat;
-  padding-top: 0;
-  position: relative;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-  hgroup {
+  hgroup { 
+    overflow: hidden;
+    width: 275px;
+    height: 94px;
     margin: 250px auto 15px;
     background: transparent url('/images/sprite.png') 0px 0px no-repeat;
-    width: 275px;
-    height: 94px; 
-    overflow: hidden;
     text-indent: -9999px;
   }
 
   hgroup + p {
     width: 275px;
+    height: 67px;
     margin: 0px auto 3*$hr auto;
     background: transparent url('/images/sprite.png') 0px -120px no-repeat;
-    height: 67px;
     text-indent: -9999px;
   }
 
   p + p {
-    font: 300 22px/32px $ubuntu;
     width: 600px;
     margin: $hr auto;
+    font: 300 22px/32px $ubuntu;
   }
 
   .centered {
-    background: transparent url('/images/bubbles.png') 110px 20px no-repeat;
-    min-height: 630px; 
+    min-height: 630px;
+    background: transparent url('/images/bubbles.png') 110px 20px no-repeat; 
     text-align: center;
   }
 
   &:after {
     content: "";
     position: absolute;
-    left: 50%;
     bottom: -30px;
+    left: 50%;
     display: block;
-    margin-left: -30px;
-    background: url('/images/sprite.png') 17px -358px no-repeat;
     width: 24px;
-    height: 24px; 
-    padding: 17px; 
+    height: 24px;
+    margin-left: -30px; 
+    padding: 17px;
+    border: 1px solid #b2b2b2; 
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    border: 1px solid #b2b2b2;
+    background: url('/images/sprite.png') 17px -358px no-repeat;
   }
 }
 
@@ -103,30 +103,30 @@ h3 {
   }
 
   h4 {
+    margin-bottom: $vr;
     font: 300 20px $ubuntu;
     color: $dark_grey;
-    margin-bottom: $vr;
 
     span {
-      background: transparent url('/images/speakers/matz.jpg') center center no-repeat;
-      background-size: cover;
-      border: 8px solid white;
-      border-radius: 83px;
-      height: 150px;
-      width: 150px;
-      display: block;
       @include box-shadow(0px,0px,1px,0px,black);
       position: absolute;
-      left: 60px;
       top: 5px;
+      left: 60px;
+      display: block;
+      width: 150px;
+      height: 150px;
+      border: 8px solid white;
+      border-radius: 83px;
+      background: transparent url('/images/speakers/matz.jpg') center center no-repeat;
+      background-size: cover;
       text-indent: -999px;
     }
   }
 
   h5 {
+    margin-bottom: $hr;
     font: normal 15px $ubuntu;
     color: $lighter_grey;
-    margin-bottom: $hr;
   }
 
   p {
@@ -140,16 +140,16 @@ h3 {
 
   .ticket {
     width: 350px;
-    background: transparent url('/images/sprite.png') 0px -180px no-repeat;
     height: 165px;
     margin: $vr*3 auto;
+    background: transparent url('/images/sprite.png') 0px -180px no-repeat;
   }
 
   p {
-    text-align: center;
     font: 300 20px $ubuntu;
     font-style: italic;
     color: $lighter_grey;
+    text-align: center;
   }
 }
 
@@ -166,10 +166,10 @@ h3 {
   }
 
   h4 {
-    color: white;
-    font: 300 20px/32px $ubuntu;
-    text-align: center;
     margin: 3*$vr 0 $vr 0;
+    font: 300 20px/32px $ubuntu;
+    color: white;
+    text-align: center;
 
     span {
       font: 300 18px $ubuntu;
@@ -177,11 +177,11 @@ h3 {
   }
 
   p {
-    color: $dark_white;
-    text-align: center;
-    font: 300 16px/24px $ubuntu;
     width: 60%;
     margin: $vr auto;
+    font: 300 16px/24px $ubuntu;
+    color: $dark_white;
+    text-align: center;
 
     img {
       margin-top: 2*$vr;
@@ -192,12 +192,12 @@ h3 {
     }
 
     a {
-      text-align: center;
+      display: block;
+      margin: 2*$vr 0;
       font: 300 15px $ubuntu;
       font-style: italic;
       color: $dark_white;
-      margin: 2*$vr 0;
-      display: block;
+      text-align: center;
     }
   }
 }
@@ -207,17 +207,17 @@ h3 {
 
   p {
     margin: 2*$vr auto;
-    text-align: center;
-    color: $light_grey;
     font: 300 16px $ubuntu;
+    color: $light_grey;
+    text-align: center;
 
     a {
       display: block;
-      margin: 2*$vr auto;
-      background: #d7d7d7;
-      padding: 10px 10px;
       width: 300px;
+      margin: 2*$vr auto;
+      padding: 10px 10px;
       border: 1px solid #cecece;
+      background: #d7d7d7;
       font: 300 18px $ubuntu;
       color: $light_grey;
       text-decoration: none;
@@ -228,9 +228,9 @@ h3 {
 #contributors {
 
   h4 {
+    margin: 2*$vr auto;
     font: 300 20px $ubuntu;
     color: $dark_grey;
-    margin: 2*$vr auto;
     text-align: center;
   }
 
@@ -239,9 +239,9 @@ h3 {
 
     li {
       display: inline-block;
-      text-align: center;
       font: 300 13px $ubuntu;
       color: $light_grey;
+      text-align: center;
 
       img {
         margin-bottom: $vr/2;
