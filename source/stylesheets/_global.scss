@@ -9,6 +9,7 @@ $dark_white:#fefefe;
 $dark_grey: #231f20;
 $light_grey: #616161;
 $lighter_grey:#848484;
+$lightest_grey:#a8a8a8;
 $vr: 20px;
 $hr: 12px;
 
@@ -25,4 +26,30 @@ body, button, input, select, textarea {
   @include box-sizing(border-box);
 }
 
+.external-link {
+  display: block;
+  margin: 3*$vr auto 0;
+  padding: 10px 10px;
+  border: 1px solid #cecece;
+  background: #d7d7d7;
+  font: 300 18px $ubuntu;
+  color: $light_grey;
+  text-decoration: none;
+}
 
+.external-link:hover,
+.external-link:active, {
+  border: 1px solid #b6b6b6;
+  background: #cacaca;
+  color: #6d6e71;
+}
+
+.external-link.disabled {
+  border: 1px solid #dadada;
+  background: #e4e4e4;
+  color: $lightest_grey;
+
+  &:before {
+    opacity: .6;
+  }
+}
