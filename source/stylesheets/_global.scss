@@ -23,6 +23,7 @@ body, button, input, select, textarea {
   overflow:hidden;
   max-width:1180px;
   margin:0 auto;
+  width: 98%;
   @include box-sizing(border-box);
 }
 
@@ -52,6 +53,20 @@ body, button, input, select, textarea {
   &:before {
     opacity: .6;
   }
+}
+
+
+/* Media Queries: Tablet devices overwrite 641px...960px */
+
+@media only screen and (max-width:960px) {
+
+}
+
+
+/* Media Queries: Mobile devices overwrite 320px...640px */
+
+@media only screen and (max-width:640px) {
+
 }
 
 

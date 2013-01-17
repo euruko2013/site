@@ -242,11 +242,11 @@ h3 {
     background: transparent url('/images/antikythera/sprite.png') 0px 0px no-repeat;
     width: 217px;
     height: 215px;
-    animation: play-core 240s steps(60) infinite;
-    -moz-animation: play-core 240s steps(60) infinite;
-    -webkit-animation: play-core 240s steps(60) infinite;
-    -o-animation: play-core 240s steps(60) infinite;
-    -ms-animation: play-core 240s steps(60) infinite;
+    animation: play-core 240s steps(600) infinite;
+    -moz-animation: play-core 240s steps(600) infinite;
+    -webkit-animation: play-core 240s steps(600) infinite;
+    -o-animation: play-core 240s steps(600) infinite;
+    -ms-animation: play-core 240s steps(600) infinite;
   }
 
   .gears-1 {
@@ -384,7 +384,8 @@ h3 {
   }
 
   p {
-    width: 60%;
+    width: 75%;
+    max-width: 700px;
     margin: $vr auto;
     font: 300 16px/24px $ubuntu;
     color: $dark_white;
@@ -395,7 +396,7 @@ h3 {
     }
 
     img + img  {
-      margin-left: 100px;
+      margin-left: 75px;
     }
 
     a {
@@ -482,6 +483,84 @@ h3 {
     color: $light_grey;    
   }
 }
+
+
+/* Media Queries: Tablet devices overwrite 641px...960px */
+
+@media only screen and (max-width:960px) {
+
+  .section {
+    padding: 45px 0;
+  }
+
+  #introduction {
+
+    hgroup {
+      margin-top: 130px;
+    }
+
+    p + p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .news {
+      top: 420px;
+    }
+  }
+
+  #speakers {
+
+    ul li {
+      padding: 25px 0 50px 190px;
+
+      h4 {
+
+        span {
+          left: 20px;
+          width: 125px;
+          height: 125px;
+          top: 10px;
+        }
+      }
+    }
+  }
+
+  #venue {
+
+    p {
+
+      img,
+      img + img {
+        display: block;
+        margin: 40px auto;
+      }
+    }
+  }
+
+  #contributors {
+
+    .committee {
+      margin-bottom: 3*$vr;
+
+      li {
+        width: 24%;
+        margin-bottom: $vr;
+      }
+    }
+
+    .community {
+
+      li {
+        margin-bottom: $vr/2;
+      }
+    }
+  }
+}
+
+
+
+
 
 
 /* IE8 bug fixes */
