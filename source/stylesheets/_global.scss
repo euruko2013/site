@@ -53,3 +53,10 @@ body, button, input, select, textarea {
     opacity: .6;
   }
 }
+
+
+/* IE8 bug fixes */
+
+.centered {
+  min-width: 800px;
+}

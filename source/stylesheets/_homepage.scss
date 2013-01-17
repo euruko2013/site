@@ -7,7 +7,6 @@ h3 {
 }
 
 .section {
-  min-height: 340px;
   padding: 60px 0;
 }
 
@@ -481,5 +480,71 @@ h3 {
 
   .contact {
     color: $light_grey;    
+  }
+}
+
+
+/* IE8 bug fixes */
+
+.lt-ie9 {
+
+  .section {
+    padding: 60px 10px;
+  }
+
+  .back_top {
+    padding-right: 5px;
+  }
+
+  #introduction {
+    filter: none;
+    background: #ebebeb;
+
+    &:after {
+      border: none;
+    }
+  }
+
+  h1 {
+    display: block;
+    overflow: hidden;
+    width: 275px;
+    height: 94px;
+    margin: 250px auto 15px;
+    background: transparent url('/images/sprite.png') 0px 0px no-repeat;
+    text-indent: -9999px;
+    position: relative;
+    z-index: 9;
+  }
+
+  h2 {
+    width: 275px;
+    height: 67px;
+    margin: 0px auto 3*$hr auto;
+    text-indent: -9999px;
+    position: relative;
+    z-index: 8;
+    background: transparent url('/images/sprite.png') 0px -120px no-repeat;
+    text-indent: -9999px
+  }
+
+  h2 + p {
+    display: none;
+  }
+
+  #venue {
+    background: url('/images/venue/venue_bg.jpg') center 0px no-repeat #282828;
+
+    p {
+
+      img {
+        width: 220px;
+        height: 220px;
+      }
+
+      img + img {
+        margin-left: 20px;
+      }
+    }
   }
 }
