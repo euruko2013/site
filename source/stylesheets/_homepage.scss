@@ -52,14 +52,28 @@ h3 {
     margin: 250px auto 15px;
     background: transparent url('/images/sprite.png') 0px 0px no-repeat;
     text-indent: -9999px;
+    position: relative;
+    z-index: 9;
   }
 
   hgroup + p {
     width: 275px;
     height: 67px;
     margin: 0px auto 3*$hr auto;
-    background: transparent url('/images/sprite.png') 0px -120px no-repeat;
     text-indent: -9999px;
+    position: relative;
+    z-index: 8;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 275px;
+      height: 67px;
+      background: transparent url('/images/sprite.png') 0px -120px no-repeat;
+      z-index: 9;
+    }
   }
 
   p + p {
@@ -143,6 +157,146 @@ h3 {
     }
   }
 }
+
+
+/* Antikythera Mechanism Animation */
+
+@-moz-keyframes play-core {
+   from { -moz-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -moz-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@-webkit-keyframes play-core {
+   from { -webkit-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@-o-keyframes play-core {
+   from { -o-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@-ms-keyframes play-core {
+   from { -ms-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -ms-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@keyframes play-core {
+   from { transform: rotate(0deg); }
+     to { transform: rotate(360deg); }
+}
+
+@-moz-keyframes play-gears {
+   from { -moz-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -moz-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@-webkit-keyframes play-gears {
+   from { -webkit-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@-o-keyframes play-gears {
+   from { -o-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -o-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@-ms-keyframes play-gears {
+   from { -ms-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@keyframes play-gears {
+   from { transform: rotate(0deg); }
+     to { transform: rotate(-360deg); }
+}
+
+
+.antikythera-mechanism {
+    width: 217px;
+    height: 215px;
+    position: absolute;
+    top: -160px;
+    left: 25px;
+    z-index: 8;
+
+  .core {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent url('/images/antikythera/sprite.png') 0px 0px no-repeat;
+    width: 217px;
+    height: 215px;
+    animation: play-core 240s steps(60) infinite;
+    -moz-animation: play-core 240s steps(60) infinite;
+    -webkit-animation: play-core 240s steps(60) infinite;
+    -o-animation: play-core 240s steps(60) infinite;
+    -ms-animation: play-core 240s steps(60) infinite;
+  }
+
+  .gears-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 217px;
+    height: 215px;
+    -moz-animation: play-gears 200s steps(120) infinite;
+    -webkit-animation: play-gears 200s steps(120) infinite;
+    -o-animation: play-gears 200s steps(120) infinite;
+    -ms-animation: play-gears 200s steps(120) infinite;
+    animation: play-gears 200s steps(120) infinite;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -4px;
+      left: -19px;
+      background: url('/images/antikythera/sprite.png') 0px -239px no-repeat;
+      width: 91px;
+      height: 106px;    
+    }
+  }
+
+  .gears-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 217px;
+    height: 215px;
+    -moz-animation: play-gears 400s steps(600) infinite;
+    -webkit-animation: play-gears 400s steps(600) infinite;
+    -o-animation: play-gears 400s steps(600) infinite;
+    -ms-animation: play-gears 400s steps(600) infinite;
+    animation: play-gears 400s steps(600) infinite;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 1px;
+      left: 148px;
+      background: url('/images/antikythera/sprite.png') 0px -361px no-repeat;
+      width: 74px;
+      height: 76px;    
+    }
+  }
+}
+
 
 #speakers {
   background-color: #fafafa;
