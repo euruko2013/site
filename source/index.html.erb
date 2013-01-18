@@ -151,6 +151,6 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
     <% link_to 'https://twitter.com/euruko', class: 'external-link stay-updated', target: '_blank' do %>
       stay updated by following <em>@Euruko</em> on Twitter
     <% end %>
-    <a href="mailto:info@euruko2013.org" class="contact">info@euruko2013.org</a>
+    <%= mail_to 'info@euruko2013.org', 'info@euruko2013.org', class: 'contact' %>
   </p>
 </div>
