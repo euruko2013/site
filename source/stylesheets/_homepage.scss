@@ -559,8 +559,155 @@ h3 {
 }
 
 
+/* Media Queries: Mobile devices overwrite 320px...640px */
 
+@media only screen and (max-width:640px) {
 
+  h3 {
+    padding: 10px 0;
+  }
+
+  .section {
+    padding: 20px 0;
+  }
+
+  .back_top {
+    width: 70px;
+    padding-bottom: 10px;
+  }
+
+  #introduction {
+
+    &:after {
+      display: none;
+    }
+
+    .centered {
+      min-height: 0;
+    }
+
+    p + p {
+      width: 98%;
+      font-size: 17px;
+      line-height: 23px;
+    }
+
+    .news {
+      position: relative;
+      top: auto;
+      margin-top: 20px;
+    }
+  }
+
+  #speakers {
+
+    h3 {
+      margin-top: 0;
+    }
+
+    h3 + .centered {
+      margin-top: 10px;
+
+      li {
+        padding: 15px 0 30px 100px;
+
+        h4 span {
+          width: 70px;
+          height: 70px;
+          left: 5px;
+        }
+      }
+    }
+
+    .more {
+      margin-top: 0;
+    }
+  }
+
+  #tickets {
+
+    h3 + .centered {
+      overflow: hidden;
+      position: relative;
+      padding-top: 180px;
+    }
+
+    .ticket {
+      margin: 0 auto;
+      left: 50%;
+      top: 0;
+      position: absolute;
+      margin-left: -175px;
+    }
+  }
+
+  #venue {
+
+    h4 {
+      margin: $vr 0;
+    }
+
+    p {
+      width: 85%;
+
+      img,
+      img + img {
+        width: 250px;
+        height: 250px;
+        margin: $vr auto;
+      }
+    }
+  }
+
+  #sponsors {
+
+    p {
+      margin: 20px 0;
+      padding: 0 10px; 
+
+      a {
+        width: 240px;
+      }
+    }
+  }
+
+  #contributors {
+
+    ul {
+      margin-bottom: 1.5 * $vr;
+    }
+
+    h4 {
+      margin: $vr auto;
+    }
+
+    .committee {
+      margin-bottom: 1.5 * $vr;
+
+      li {
+        padding: 0 10px;
+        float: left;
+        width: 50%;
+        margin: 0 auto 20px;
+        @include box-sizing(border-box);
+
+        h5 {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  #contact {
+
+    .stay-updated {
+      width: 200px;
+      margin: $vr auto;
+    }
+  }
+}
 
 
 /* IE8 bug fixes */

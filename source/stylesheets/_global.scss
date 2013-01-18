@@ -60,6 +60,9 @@ body, button, input, select, textarea {
 
 @media only screen and (max-width:960px) {
 
+  .centered {
+    min-width: 0;
+  }
 }
 
 
@@ -67,11 +70,18 @@ body, button, input, select, textarea {
 
 @media only screen and (max-width:640px) {
 
+  .external-link {
+    font-size: 14px;
+    margin-top: 1.5 * $vr;
+  }
 }
 
 
 /* IE8 bug fixes */
 
-.centered {
-  min-width: 800px;
+.lt-ie9 {
+
+  .centered {
+    min-width: 800px;
+  }
 }

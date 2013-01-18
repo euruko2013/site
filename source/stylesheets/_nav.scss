@@ -58,7 +58,41 @@
 
 @media only screen and (max-width:960px) {
 
-  .centered {
+  #nav .centered {
     min-width: 0;
+  }
+}
+
+
+/* Media Queries: Mobile devices overwrite 320px...640px */
+
+@media only screen and (max-width:640px) {
+
+  #nav ul {
+
+    li {
+      margin: 0;
+      padding: 0 4px 0 0;
+      margin-left: 4px;
+
+      &:after {
+        padding-left: 10px;
+      }
+
+      a {
+        // font-size: 13px;
+      }
+    }
+
+    li:first-child {
+      margin-bottom: 10px;
+    }
+
+    li:first-child + li {
+      clear: left;
+    }
+
+    li:last-child {
+    }
   }
 }
