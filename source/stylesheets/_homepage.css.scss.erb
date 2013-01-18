@@ -83,7 +83,12 @@ h3 {
 
   .centered {
     min-height: 600px;
-    background: transparent image-url("bubbles.png") 110px 20px no-repeat; 
+    background-image: image-url("parallax/back.png"),
+                      image-url("parallax/middle.png"), 
+                      image-url("parallax/front_middle.png"), 
+                      image-url("parallax/front.png");
+    background-repaet: no-repeat;
+    background-position: 110px 20px, center center, center center, center center;
     text-align: center;
   }
 
