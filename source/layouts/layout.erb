@@ -6,8 +6,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
         <!-- Use title if it's in the page YAML frontmatter -->
         <title><%= data.page.title || "Euruko 2013" %></title>
+
         <meta name="description" content="<%= data.page.description %>">
         <meta name="viewport" content="width=device-width">
 
@@ -17,10 +19,11 @@
         <!-- Stylesheets -->
         <%= stylesheet_link_tag "reset", "main" %>
     </head>
+
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-            <![endif]-->
+        <![endif]-->
 
         <div id="nav">
           <ul class="centered clearfix">
@@ -31,7 +34,8 @@
             <li><a href="#speakers">Speakers</a></li>
            </ul>
         </div>
-          <%= yield %>
+
+        <%= yield %>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
