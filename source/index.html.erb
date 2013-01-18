@@ -29,11 +29,11 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
       <!-- News Placeholder list items -->
       <li>
         <span>10/01/2013</span>
-        <a href="#tickets">Tickets will be soon available</a>
+        <%= link_to 'Tickets will be soon available', '#tickets' %>
       </li>
       <li>
         <span>09/12/2012</span>
-        <a href="#speakers">New speaker confirmed</a>
+        <%= link_to 'New speaker confirmed', '#speakers' %>
       </li>
     </ul>
   </div>
@@ -42,7 +42,7 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
 
 <div class="section" id="speakers">
   <h3 class="centered">Speakers
-    <a href="#" class="back_top">to the top ^</a>
+    <%= link_to 'to the top ^', '#', class: 'back_top' %>
   </h3>
   <ul class="centered">
     <li>
@@ -51,12 +51,12 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
     <p>Matz needs no introduction. As the creator of the beautiful and elegant language we all love, we are honored to have Matz joining us for this year's EuRuKo.</p>
     </li>
   </ul>
-  <a href="#" class="more">other speakers will be announced soon ›</a>
+  <%= link_to 'other speakers will be announced soon ›', '#', class: 'more' %>
 </div>
 
 <div class="section" id="tickets">
   <h3 class="centered">Tickets
-    <a href="#" class="back_top">to the top ^</a>
+    <%= link_to 'to the top ^', '#', class: 'back_top' %>
   </h3>
   <div class="centered">
     <div class="ticket"></div>
@@ -67,7 +67,7 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
 <div class="section" id="venue">
   <div class="centered">
     <h3>Venue
-      <a href="#" class="back_top">to the top ^</a>
+      <%= link_to 'to the top ^', '#', class: 'back_top' %>
     </h3>
 
     <h4>
@@ -78,24 +78,24 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
     At full capacity the auditorium seats 2.500 people in an amphitheater arrangement without obstructed view for all the spectators. The performance area of the stage measures 30 meters width by 18 meters depth with a 15.50 meter height providing ample room for spectacular events.<br/>
     <%= tag :img, src: "images/venue/venue_1.png", alt: "Badminton Theater - Inside" %>
     <%= tag :img, src: "images/venue/venue_2.png", alt: "Badminton Theater - Inside" %>
-    <a href="#">more information ›</a>
+    <%= link_to 'more information ›', '#' %>
     </p>
   </div>
 </div>
 
 <div class="section" id="sponsors">
   <h3 class="centered">Sponsors
-    <a href="#" class="back_top">to the top ^</a>
+    <%= link_to 'to the top ^', '#', class: 'back_top' %>
   </h3>
   <p class="centered">
     Information about sponsorship packages will be available soon
-    <a href="#" class="external-link disabled">sponsorships - download brochure</a>
+    <%= link_to 'sponsorships - download brochure', '#', class: 'external-link disabled' %>
   </p>
 </div>
 
 <div class="section" id="contributors">
   <h3 class="centered">Contributors
-    <a href="#" class="back_top">to the top ^</a>
+    <%= link_to 'to the top ^', '#', class: 'back_top' %>
   </h3>
   <h4>Organizing Committee</h4>
   <ul class="centered committee">
@@ -140,15 +140,17 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
     <li>Giorgos Katsampoukas</li>
     <li>Vasilis Tanos</li>
   </ul>
-  <a href="#" class="more">help organize the event... contact us! ›</a>
+  <%= link_to 'help organize the event... contact us! ›', '#', class: 'more' %>
 </div>
 
 <div class="section" id="contact">
   <h3 class="centered">Contact
-    <a href="#" class="back_top">to the top ^</a>
+    <%= link_to 'to the top ^', '#', class: 'back_top' %>
   </h3>
   <p>
-    <a href="https://twitter.com/euruko" class="external-link stay-updated" target="_blank">stay updated by following <em>@Euruko</em> on twitter</a>
+    <% link_to 'https://twitter.com/euruko', class: 'external-link stay-updated', target: '_blank' do %>
+      stay updated by following <em>@Euruko</em> on Twitter
+    <% end %>
     <a href="mailto:info@euruko2013.org" class="contact">info@euruko2013.org</a>
   </p>
 </div>
