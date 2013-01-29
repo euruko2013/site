@@ -28,9 +28,17 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
       <h3>News</h3>
       <ul>
         <!-- News Placeholder list items -->
-        <li>
-          <span>10/01/2013</span>
+       <li>
+          <span>26/01/2013</span>
           <%= link_to 'Tickets will be available soon', '#tickets' %>
+        </li>
+        <li>
+          <span>24/01/2013</span>
+          <%= link_to 'Sponsorship packages will be announcened on 30/01/2013', '#sponsors' %>
+        </li>
+         <li>
+          <span>24/01/2013</span>
+          <%= link_to 'Website launch on 28/01/20013', '#about' %>
         </li>
         <li>
           <span>09/12/2012</span>
@@ -41,18 +49,33 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
 
   </div>
 
+  <div class="section" id="about">
+    <h3 class="centered">About
+      <%= link_to 'to the top ^', '#', class: 'back_top' %>
+    </h3>
+    <p class="intro">
+      <span>EuRuKo (the European Ruby Conference) is an annual conference which focuses on the Ruby programming language, with an informal atmosphere and lots of opportunities to listen, to talk, to hack, to have fun and where delegates experience distinct and insightful content from speakers of the highest calibre.</span>
+      <span>EuRuKo is being organised for the past 11 years in cities around Europe by Ruby developers for Ruby developers. It’s a truly volunteer-based event and like Ruby it is fostered by the community. Each year a different european city and its local community of Ruby enthusiasts are tasked to host the event and that’s what makes EuRuKo one of a kind.</span>
+      <span>This summer EuRuKo comes to Athens for two days on the 28th and 29th of June.</span>
+      <span>We can’t wait to see you in Athens this summer!</span>
+    </p>
+  </div>
+
   <div class="section" id="speakers">
     <h3 class="centered">Speakers
       <%= link_to 'to the top ^', '#', class: 'back_top' %>
     </h3>
+    <p class="intro">
+      <span>We consider the most important aspects of EuRuKo to be the delegates engagement and the conference programme, so we are working hard to announce an excellent programme, as well as a really exciting way of selecting speakers and topics.</span>
+    </p>
     <ul class="centered" itemscope itemprop="performer" itemtype="http://schema.org/Person">
       <li>
         <h4><span itemprop="additionalName">Matz</span><span itemprop="name">Yukihiro Matsumoto</span></h4>
         <h5 itemprop="jobTitle">Ruby Chief Architect</h5>
-        <p itemprop="description">Matz needs no introduction. As the creator of the beautiful and elegant language we all love, we are honored to have Matz joining us for this year's EuRuKo.</p>
+        <p itemprop="description">Yukihiro “Matz” Matsumoto, Ruby creator &amp; chief designer of Ruby, will grace us with his presence this summer in Athens.</p>
       </li>
     </ul>
-    <%= link_to 'other speakers will be announced soon ›', '#', class: 'more' %>
+    <p class="more">other speakers will be announced soon...</span>
   </div>
 
   <div class="section" id="tickets">
@@ -76,10 +99,10 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
         <span>P.O. Box 157 73, Athens, Greece</span>
       </h4>
       <p>
-      <span itermprop="description">At full capacity the auditorium seats 2.500 people in an amphitheater arrangement without obstructed view for all the spectators. The performance area of the stage measures 30 meters width by 18 meters depth with a 15.50 meter height providing ample room for spectacular events.</span><br/>
+      <span itermprop="description">Surrounded by a park near the east outskirts of Athens the EuRuKo 2013 venue is a stunning theatre built for the 2004 Athens Olympic Games. Access to ‘Badminton Theatre’ is easy and its indoors as well as outdoors ambience immaculate. The acoustics are pristine and the stage is a whopping 30m x 15.5m x 18.5m space backed by amazing audio-visual tech.</span><br/>
       <%= tag :img, src: "images/venue/venue_1.png", alt: "Badminton Theater - Inside", itemprop: "image" %>
       <%= tag :img, src: "images/venue/venue_2.png", alt: "Badminton Theater - Inside", itemprop: "image" %>
-      <%= link_to 'more information ›', '#' %>
+      <%#= link_to 'more information ›', '#' %>
       </p>
     </div>
   </div>
@@ -90,7 +113,7 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
     </h3>
     <p class="centered">
       Information about sponsorship packages will be available soon
-      <%= link_to 'sponsorships - download brochure', '#', class: 'external-link disabled' %>
+      <%= link_to 'sponsorships - download brochure', '#sponsors', class: 'external-link disabled' %>
     </p>
   </div>
 
@@ -98,12 +121,12 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
     <h3 class="centered">Contributors
       <%= link_to 'to the top ^', '#', class: 'back_top' %>
     </h3>
-    <h4>Organizing Committee</h4>
+    <h4>Organisers</h4>
     <ul class="centered committee">
       <li>
         <%= tag :img, src: "images/committee/member.png", alt: "" %>
         <h5>Fotos Georgiadis</h5>
-        </li>
+      </li>
       <li>
         <%= tag :img, src: "images/committee/member.png", alt: "" %>
         <h5>Vassilis Vatikiotis</h5>
@@ -118,11 +141,11 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
       </li>
       <li>
         <%= tag :img, src: "images/committee/member.png", alt: "" %>
-        <h5>Giannis Pagonis</h5>
+        <h5>Dr. John Pagonis</h5>
       </li>
       <li>
         <%= tag :img, src: "images/committee/member.png", alt: "" %>
-        <h5>Giorgis Tsiftsis</h5>
+        <h5>Giorgos Tsiftsis</h5>
       </li>
       <li>
         <%= tag :img, src: "images/committee/member.png", alt: "" %>
@@ -130,7 +153,7 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
       </li>
       <li>
         <%= tag :img, src: "images/committee/member.png", alt: "" %>
-        <h5>Vasilis Rizopoulos</h5>
+        <h5>Vassilis Rizopoulos</h5>
       </li>
     </ul>
     <h4>Community</h4>
@@ -143,13 +166,16 @@ description: Euruko 2013 - The European Ruby Conference in sunny Athens, Greece 
       <li>Alexia Konstantelia</li>
       <li>Christos Trochalakis</li>
     </ul>
-    <%= link_to 'help organize the event... contact us! ›', '#', class: 'more' %>
+    <%= link_to 'help organize the event... contact us! ›', '#contact', class: 'more' %>
   </div>
 
   <div class="section" id="contact">
     <h3 class="centered">Contact
       <%= link_to 'to the top ^', '#', class: 'back_top' %>
     </h3>
+    <p class="centered">
+      <span>Stay tuned and don’t miss out on news about EuRuKo 2013. Remember that traditionally EuRuKo tickets go in seconds so follow our progress closely and be prepared. We are sure you'll love this year’s EuRuKo.</span>
+    </p>
     <p>
       <% link_to 'https://twitter.com/euruko', class: 'external-link stay-updated', target: '_blank' do %>
         stay updated by following <em>@Euruko</em> on Twitter

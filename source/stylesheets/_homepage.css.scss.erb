@@ -296,9 +296,35 @@ h3 {
   }
 }
 
+#about {
+  background-color: #e1e1e1;
+
+  p.intro {
+    width: 70%;
+    max-width: 860px;
+    margin: $vr auto;
+    font: 300 16px/24px $ubuntu;
+    color: $lighter_grey;
+    text-align: center;
+
+    span {
+      margin: $vr auto;
+      display: block;
+    }
+  }
+}
 
 #speakers {
   background-color: #fafafa;
+
+  p.intro {
+    width: 90%;
+    max-width: 860px;
+    margin: $vr auto;
+    font: 300 16px/24px $ubuntu;
+    color: $lighter_grey;
+    text-align: center;
+  }
 
   ul {
     margin-top: 30px;
@@ -339,6 +365,13 @@ h3 {
   p {
     font: 300 13px $ubuntu;
     color: $lighter_grey;
+
+   &.more {
+      font: 300 20px $ubuntu;
+      font-style: italic;
+      color: $lighter_grey;
+      text-align: center;
+    }
   }
 }
 
@@ -384,8 +417,8 @@ h3 {
   }
 
   p {
-    width: 75%;
-    max-width: 700px;
+    width: 85%;
+    max-width: 800px;
     margin: $vr auto;
     font: 300 16px/24px $ubuntu;
     color: $dark_white;
@@ -451,11 +484,12 @@ h3 {
   }
 
   .committee li {
-    width: 13%;
+    width: 24%;
+    margin-bottom: $vr;
   }
 
   .community li {
-    padding: 2px $hr;
+    padding: 10px $hr;
     color: #808080;
     @include bullet-left(#989898, 15px, rgba(152,152,152,.4));
 
@@ -468,6 +502,14 @@ h3 {
 #contact {
   background: #e1e1e1;
   text-align: center;
+
+  p {
+    width: 85%;
+    margin: $vr auto;
+    font: 300 16px $ubuntu;
+    color: $light_grey;
+    text-align: center;
+  }
 
   .stay-updated {
     width: 460px;
@@ -542,15 +584,9 @@ h3 {
 
     .committee {
       margin-bottom: 3*$vr;
-
-      li {
-        width: 24%;
-        margin-bottom: $vr;
-      }
-    }
+   }
 
     .community {
-
       li {
         margin-bottom: $vr/2;
       }
