@@ -1,0 +1,776 @@
+h3 {
+  padding: $vr 0;
+  font: bold 22px $ubuntu;
+  color: #b5b5b5;
+  text-align: center;
+  text-shadow: 1px 1px 0px white;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.back_top {
+  position: absolute;
+  right: 0px;
+  width: 140px;
+  padding-bottom: $vr;
+  border-bottom: 1px solid $dark_grey;
+  font: 300 13px $ubuntu;
+  font-style: italic;
+  color: $lighter_grey;
+  text-align: right;
+  text-decoration: none;
+}
+
+.more {
+  display: block;
+  margin: $vr auto 0;
+  font: 300 15px $ubuntu;
+  color: $lighter_grey;
+  text-align: center;
+}
+
+#introduction {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.1))); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%); /* W3C */
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  hgroup { 
+    overflow: hidden;
+    width: 275px;
+    height: 94px;
+    margin: 250px auto 15px;
+    background: transparent image-url("sprite.png") 0px 0px no-repeat;
+    text-indent: -9999px;
+    position: relative;
+    z-index: 9;
+  }
+
+  hgroup + p {
+    width: 275px;
+    height: 67px;
+    margin: 0px auto 3*$hr auto;
+    text-indent: -9999px;
+    position: relative;
+    z-index: 8;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 275px;
+      height: 67px;
+      background: transparent image-url("sprite.png") 0px -120px no-repeat;
+      z-index: 9;
+    }
+  }
+
+  p + p {
+    width: 600px;
+    margin: $hr auto;
+    font: 300 22px/32px $ubuntu;
+  }
+
+  .centered {
+    min-height: 600px;
+    background: transparent image-url("bubbles.png") 110px 20px no-repeat; 
+    text-align: center;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: -30px; 
+    padding: 17px;
+    border: 1px solid #b2b2b2; 
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: image-url("sprite.png") 17px -358px no-repeat;
+  }
+
+  .news {
+    position: absolute;
+    top: 280px;
+    padding: 20px 20px 20px 30px;
+    text-align: left;
+    right: 0;
+    background: rgb(87,87,87);
+    background: rgba(0,0,0,.67);
+
+    h3 {
+      font-size: 14px;
+      color: #fff;
+      text-shadow: 0 0 #fff;
+      font-weight: 100;
+      text-align: left;
+      padding: 0 0 $vr/2;
+      margin-bottom: $vr/2;
+      border-bottom: 1px solid #848484;
+    }
+
+    ul {
+      font-size: 12px;
+      color: #fff;
+
+      li {
+        margin-bottom: $vr/4;
+      }
+
+      span {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        max-width: 175px;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        vertical-align: top;
+        padding-bottom: 3px;
+
+        &:hover,
+        &:active {
+          padding-bottom: 2px;
+          border-bottom: 1px dotted #fff;
+        }
+      }
+    }
+  }
+}
+
+
+/* Antikythera Mechanism Animation */
+
+@-moz-keyframes play-core {
+   from { -moz-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -moz-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@-webkit-keyframes play-core {
+   from { -webkit-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@-o-keyframes play-core {
+   from { -o-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@-ms-keyframes play-core {
+   from { -ms-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -ms-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+
+@keyframes play-core {
+   from { transform: rotate(0deg); }
+     to { transform: rotate(360deg); }
+}
+
+@-moz-keyframes play-gears {
+   from { -moz-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -moz-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@-webkit-keyframes play-gears {
+   from { -webkit-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@-o-keyframes play-gears {
+   from { -o-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -o-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@-ms-keyframes play-gears {
+   from { -ms-transform: rotate(0deg);
+          transform: rotate(0deg); }
+     to { -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+}
+
+@keyframes play-gears {
+   from { transform: rotate(0deg); }
+     to { transform: rotate(-360deg); }
+}
+
+
+.antikythera-mechanism {
+    width: 217px;
+    height: 215px;
+    position: absolute;
+    top: -160px;
+    left: 25px;
+    z-index: 8;
+
+  .core {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent image-url("antikythera/sprite.png") 0px 0px no-repeat;
+    width: 217px;
+    height: 215px;
+    animation: play-core 240s steps(600) infinite;
+    -moz-animation: play-core 240s steps(600) infinite;
+    -webkit-animation: play-core 240s steps(600) infinite;
+    -o-animation: play-core 240s steps(600) infinite;
+    -ms-animation: play-core 240s steps(600) infinite;
+  }
+
+  .gears-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 217px;
+    height: 215px;
+    -moz-animation: play-gears 200s steps(120) infinite;
+    -webkit-animation: play-gears 200s steps(120) infinite;
+    -o-animation: play-gears 200s steps(120) infinite;
+    -ms-animation: play-gears 200s steps(120) infinite;
+    animation: play-gears 200s steps(120) infinite;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -4px;
+      left: -19px;
+      background: image-url("antikythera/sprite.png") 0px -239px no-repeat;
+      width: 91px;
+      height: 106px;    
+    }
+  }
+
+  .gears-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 217px;
+    height: 215px;
+    -moz-animation: play-gears 400s steps(600) infinite;
+    -webkit-animation: play-gears 400s steps(600) infinite;
+    -o-animation: play-gears 400s steps(600) infinite;
+    -ms-animation: play-gears 400s steps(600) infinite;
+    animation: play-gears 400s steps(600) infinite;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 1px;
+      left: 148px;
+      background: image-url("antikythera/sprite.png") 0px -361px no-repeat;
+      width: 74px;
+      height: 76px;    
+    }
+  }
+}
+
+
+#speakers {
+  background-color: #fafafa;
+
+  ul {
+    margin-top: 30px;
+
+    li {
+      position: relative;
+      padding: 25px 0px 85px 255px;
+    }
+  }
+
+  h4 {
+    margin-bottom: $vr;
+    font: 300 20px $ubuntu;
+    color: $dark_grey;
+
+    span {
+      @include box-shadow(0px,0px,1px,0px,black);
+      position: absolute;
+      top: 5px;
+      left: 60px;
+      display: block;
+      width: 150px;
+      height: 150px;
+      border: 8px solid white;
+      border-radius: 83px;
+      background: transparent image-url("speakers/matz.jpg") center center no-repeat;
+      background-size: cover;
+      text-indent: -999px;
+    }
+  }
+
+  h5 {
+    margin-bottom: $hr;
+    font: normal 15px $ubuntu;
+    color: $lighter_grey;
+  }
+
+  p {
+    font: 300 13px $ubuntu;
+    color: $lighter_grey;
+  }
+}
+
+#tickets {
+  background-color: #e1e1e1;
+
+  .ticket {
+    width: 350px;
+    height: 165px;
+    margin: $vr*2 auto $vr*3;
+    background: transparent image-url("sprite.png") 0px -180px no-repeat;
+  }
+
+  p {
+    font: 300 20px $ubuntu;
+    font-style: italic;
+    color: $lighter_grey;
+    text-align: center;
+  }
+}
+
+#venue {
+  background:transparent image-url("venue/venue_bg.jpg") 0px 0px no-repeat;
+  background-size:cover;
+
+  h3 {
+    text-shadow: 1px 1px 0px black;
+  }
+
+  .back_top {
+    border-bottom: 1px solid white;
+  }
+
+  h4 {
+    margin: 3*$vr 0 $vr 0;
+    font: 300 20px/32px $ubuntu;
+    color: white;
+    text-align: center;
+
+    span {
+      font: 300 18px $ubuntu;
+    }
+  }
+
+  p {
+    width: 75%;
+    max-width: 700px;
+    margin: $vr auto;
+    font: 300 16px/24px $ubuntu;
+    color: $dark_white;
+    text-align: center;
+
+    img {
+      margin-top: 2*$vr;
+    }
+
+    img + img  {
+      margin-left: 75px;
+    }
+
+    a {
+      display: block;
+      margin: 2*$vr 0 0;
+      font: 300 15px $ubuntu;
+      color: $dark_white;
+      text-align: center;
+    }
+  }
+}
+
+#sponsors {
+  background: #f2f2f2;
+
+  p {
+    margin: 2*$vr auto;
+    font: 300 16px $ubuntu;
+    color: $light_grey;
+    text-align: center;
+
+    a {
+      width: 300px;
+      @include bullet-left(#989898, 18px, rgba(152,152,152,.4));
+    } 
+  }
+}
+
+#contributors {
+
+  h4 {
+    margin: 2*$vr auto;
+    font: 300 20px $ubuntu;
+    color: $dark_grey;
+    text-align: center;
+  }
+
+  ul {
+    margin-bottom: 4*$vr;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      font: 300 13px $ubuntu;
+      color: $light_grey;
+      text-align: center;
+
+      img {
+        margin-bottom: $vr/2;
+      }
+    }
+  }
+
+  .committee li {
+    width: 13%;
+  }
+
+  .community li {
+    padding: 2px $hr;
+    color: #808080;
+    @include bullet-left(#989898, 15px, rgba(152,152,152,.4));
+
+    &:before {
+      left: 6px;
+    }
+  }
+}
+
+#contact {
+  background: #e1e1e1;
+  text-align: center;
+
+  .stay-updated {
+    width: 460px;
+    margin-top: 2*$vr;
+    margin-bottom: 2*$vr;
+    padding: 10px 20px 10px 40px;
+    background-image: image-url("sprite.png");
+    background-position:  16px -420px;
+    background-repeat: no-repeat;
+  }
+
+  .contact {
+    color: $light_grey;    
+  }
+}
+
+
+/* Media Queries: Tablet devices overwrite 641px...960px */
+
+@media only screen and (max-width:960px) {
+
+  .section {
+    padding: 45px 0;
+  }
+
+  #introduction {
+
+    hgroup {
+      margin-top: 130px;
+    }
+
+    p + p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .news {
+      top: 420px;
+    }
+  }
+
+  #speakers {
+
+    ul li {
+      padding: 25px 0 50px 190px;
+
+      h4 {
+
+        span {
+          left: 20px;
+          width: 125px;
+          height: 125px;
+          top: 10px;
+        }
+      }
+    }
+  }
+
+  #venue {
+
+    p {
+
+      img,
+      img + img {
+        display: block;
+        margin: 40px auto;
+      }
+    }
+  }
+
+  #contributors {
+
+    .committee {
+      margin-bottom: 3*$vr;
+
+      li {
+        width: 24%;
+        margin-bottom: $vr;
+      }
+    }
+
+    .community {
+
+      li {
+        margin-bottom: $vr/2;
+      }
+    }
+  }
+}
+
+
+/* Media Queries: Mobile devices overwrite 320px...640px */
+
+@media only screen and (max-width:640px) {
+
+  h3 {
+    padding: 10px 0;
+  }
+
+  .section {
+    padding: 20px 0;
+  }
+
+  .back_top {
+    width: 70px;
+    padding-bottom: 10px;
+  }
+
+  #introduction {
+
+    &:after {
+      display: none;
+    }
+
+    .centered {
+      min-height: 0;
+    }
+
+    p + p {
+      width: 98%;
+      font-size: 17px;
+      line-height: 23px;
+    }
+
+    .news {
+      position: relative;
+      top: auto;
+      margin-top: 20px;
+    }
+  }
+
+  #speakers {
+
+    h3 {
+      margin-top: 0;
+    }
+
+    h3 + .centered {
+      margin-top: 10px;
+
+      li {
+        padding: 15px 0 30px 100px;
+
+        h4 span {
+          width: 70px;
+          height: 70px;
+          left: 5px;
+        }
+      }
+    }
+
+    .more {
+      margin-top: 0;
+    }
+  }
+
+  #tickets {
+
+    h3 + .centered {
+      overflow: hidden;
+      position: relative;
+      padding-top: 180px;
+    }
+
+    .ticket {
+      margin: 0 auto;
+      left: 50%;
+      top: 0;
+      position: absolute;
+      margin-left: -175px;
+    }
+  }
+
+  #venue {
+
+    h4 {
+      margin: $vr 0;
+    }
+
+    p {
+      width: 85%;
+
+      img,
+      img + img {
+        width: 250px;
+        height: 250px;
+        margin: $vr auto;
+      }
+    }
+  }
+
+  #sponsors {
+
+    p {
+      margin: 20px 0;
+      padding: 0 10px; 
+
+      a {
+        width: 240px;
+      }
+    }
+  }
+
+  #contributors {
+
+    ul {
+      margin-bottom: 1.5 * $vr;
+    }
+
+    h4 {
+      margin: $vr auto;
+    }
+
+    .committee {
+      margin-bottom: 1.5 * $vr;
+
+      li {
+        padding: 0 10px;
+        float: left;
+        width: 50%;
+        margin: 0 auto 20px;
+        @include box-sizing(border-box);
+
+        h5 {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  #contact {
+
+    .stay-updated {
+      width: 200px;
+      margin: $vr auto;
+    }
+  }
+}
+
+
+/* IE8 bug fixes */
+
+.lt-ie9 {
+
+  .section {
+    padding: 60px 10px;
+  }
+
+  .back_top {
+    padding-right: 5px;
+  }
+
+  #introduction {
+    filter: none;
+    background: #ebebeb;
+
+    &:after {
+      border: none;
+    }
+  }
+
+  h1 {
+    display: block;
+    overflow: hidden;
+    width: 275px;
+    height: 94px;
+    margin: 250px auto 15px;
+    background: transparent image-url("sprite.png") 0px 0px no-repeat;
+    text-indent: -9999px;
+    position: relative;
+    z-index: 9;
+  }
+
+  h2 {
+    width: 275px;
+    height: 67px;
+    margin: 0px auto 3*$hr auto;
+    text-indent: -9999px;
+    position: relative;
+    z-index: 8;
+    background: transparent image-url("sprite.png") 0px -120px no-repeat;
+    text-indent: -9999px
+  }
+
+  h2 + p {
+    display: none;
+  }
+
+  #venue {
+    background: image-url("venue/venue_bg.jpg") center 0px no-repeat #282828;
+
+    p {
+
+      img {
+        width: 220px;
+        height: 220px;
+      }
+
+      img + img {
+        margin-left: 20px;
+      }
+    }
+  }
+}
