@@ -44,7 +44,7 @@ h3 {
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-  hgroup { 
+  hgroup {
     overflow: hidden;
     width: 275px;
     height: 94px;
@@ -83,7 +83,11 @@ h3 {
 
   .centered {
     min-height: 600px;
-    background: transparent image-url("bubbles.png") 110px 20px no-repeat; 
+    background-image: image-url("parallax/back.png"),
+                      image-url("parallax/middle.png"),
+                      image-url("parallax/front_middle.png"),
+                      image-url("parallax/front.png");
+    background-repeat: no-repeat;
     text-align: center;
   }
 
@@ -95,9 +99,9 @@ h3 {
     display: block;
     width: 24px;
     height: 24px;
-    margin-left: -30px; 
+    margin-left: -30px;
     padding: 17px;
-    border: 1px solid #b2b2b2; 
+    border: 1px solid #b2b2b2;
     -webkit-border-radius: 50px;
     border-radius: 50px;
     background: image-url("sprite.png") 17px -358px no-repeat;
@@ -268,7 +272,7 @@ h3 {
       left: -19px;
       background: image-url("antikythera/sprite.png") 0px -239px no-repeat;
       width: 91px;
-      height: 106px;    
+      height: 106px;
     }
   }
 
@@ -291,7 +295,7 @@ h3 {
       left: 148px;
       background: image-url("antikythera/sprite.png") 0px -361px no-repeat;
       width: 74px;
-      height: 76px;    
+      height: 76px;
     }
   }
 }
@@ -454,7 +458,7 @@ h3 {
     a {
       width: 300px;
       @include bullet-left(#989898, 18px, rgba(152,152,152,.4));
-    } 
+    }
   }
 }
 
@@ -522,7 +526,7 @@ h3 {
   }
 
   .contact {
-    color: $light_grey;    
+    color: $light_grey;
   }
 }
 
@@ -699,7 +703,7 @@ h3 {
 
     p {
       margin: 20px 0;
-      padding: 0 10px; 
+      padding: 0 10px;
 
       a {
         width: 240px;
