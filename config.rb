@@ -47,6 +47,12 @@
 #   end
 # end
 
+helpers do
+  def link_to_top
+    '<a class="back_top" href="#">to the top ^</a>'
+  end
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
