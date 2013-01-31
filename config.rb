@@ -41,15 +41,9 @@
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
 helpers do
   def link_to_top
-    '<a class="back_top" href="#">to the top ^</a>'
+    link_to 'to the top ^', '#', class: 'back_top'
   end
 end
 
