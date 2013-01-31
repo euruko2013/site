@@ -455,9 +455,16 @@ h3 {
     color: $light_grey;
     text-align: center;
 
-    a {
+    a.brochure {
       width: 300px;
       @include bullet-left(#989898, 18px, rgba(152,152,152,.4));
+
+      &:hover, &:active {
+        background: #99352d;
+        border: 1px solid #f2f2f2;
+        color: #f2f2f2;
+        @include bullet-left(#f2f2f2, 18px, rgba(242,242,242,.4));
+      }
     }
   }
 }
