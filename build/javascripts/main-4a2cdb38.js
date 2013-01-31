@@ -1,0 +1,2 @@
+// Smooth scrolling
+$(function(){$("#nav a, #news a").bind("click",function(e){var t=$(this);return $("html, body").stop().animate({scrollTop:$(t.attr("href")).offset().top},"normal"),!1}),$(".back_top").bind("click",function(e){return $("html, body").animate({scrollTop:0},"normal"),!1})}),$(function(){$("#sponsors a.brochure").bind("click",function(e){_gaq.push(["_trackEvent","Sponsors","Brochure Download"])})});

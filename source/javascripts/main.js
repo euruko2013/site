@@ -15,3 +15,10 @@ $(function() {
     return false;
   });
 });
+
+// Sponsors brochure tracking
+$(function() {
+  $('#sponsors a.brochure').bind('click', function(event) {
+    _gaq.push(['_trackEvent', 'Sponsors', 'Brochure Download']);
+  });
+});
