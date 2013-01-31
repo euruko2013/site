@@ -20,6 +20,6 @@ $(document).ready(function(){
       newPositionY.push(myPageY * height[i] * (-1));
     };
     var newRule = newPositionX[0] + "px " + newPositionY[0] + "px, "+ newPositionX[1] +"px "+newPositionY[1]+"px, "+newPositionX[2]+"px "+newPositionY[2]+"px, "+newPositionX[3]+"px "+newPositionY[3]+"px";
-    $(".centered").css("background-position", newRule);
+    $("#introduction .centered").css("background-position", newRule);
   });
 });
