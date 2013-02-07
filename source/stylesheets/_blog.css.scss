@@ -1,0 +1,16 @@
+h2 {
+  padding: $vr 0;
+  font: bold 22px $ubuntu;
+  color: #b5b5b5;
+  text-align: center;
+  text-shadow: 1px 1px 0px white;
+}
+
+.section {
+  padding: 60px 0;
+
+  .post {
+    margin: 0 100px;
+    width: 800px;
+  }
+}
