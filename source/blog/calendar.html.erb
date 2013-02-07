@@ -1,6 +1,7 @@
 ---
 pageable: true
 ---
+<section class="section">
 <h1>Archive for
   <% case page_type
      when 'day' %>
@@ -11,6 +12,7 @@ pageable: true
     <%= year %>
   <% end %>
 </h1>
+</section>
 
 <% if paginate %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
