@@ -40,6 +40,9 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Directory indexes
+activate :directory_indexes
+
 # Methods defined in the helpers block are available in templates
 helpers do
   def link_to_top
