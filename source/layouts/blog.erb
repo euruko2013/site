@@ -4,14 +4,15 @@ description: EuRuKo 2013 - The European Ruby Conference 2013 Blog
 ---
 <% wrap_layout :layout do %>
   <section class="section" id="article">
-    <article>
+    <article class="post" itemscope itemscope="http://schema.org/Article">
       <header>
-        <h2><%= current_page.title %></h2>
+        <h2 itemprop="headline"><%= current_page.title %></h2>
       </header>
-      <section>
+      <section class="body" itemprop="text">
         <%= yield %>
       </section>
       <footer>
+        <%= partial 'blog/author', locals: { author: current_page.data.author, date: Date.parse(current_page.data.date) } %>
       </footer>
     </article>
   </section>

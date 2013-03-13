@@ -6,11 +6,54 @@ h2 {
   text-shadow: 1px 1px 0px white;
 }
 
-.section {
-  padding: 60px 0;
+article.post {
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 700px;
+  padding-bottom: 30px;
+  border-bottom: 1px #aaa solid;
 
-  .post {
-    margin: 0 100px;
-    width: 800px;
+  header {
+    h2 {
+      font-size: 36px;
+      text-align: left;
+      color: #3e3e3e;
+    }
+  }
+
+  section.body {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 550px;
+    text-align: justify;
+    color: #3e3e3e;
+
+    p + p {
+      margin: 24px 0;
+    }
+  }
+
+  footer {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 30px;
+
+    div {
+      margin-top: 8px;
+    }
+
+    p {
+      font-size: 12px;
+      color: #bbb;
+
+      span {
+        color: #999;
+      }
+
+      &.date {
+        color: #666;
+      }
+    }
   }
 }

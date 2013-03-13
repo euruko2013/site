@@ -12,12 +12,15 @@ per_page: 10
 
 <section class="section" id="articles">
   <% page_articles.each_with_index do |article, i| %>
-    <article class="post">
+    <article class="post" itemscope itemscope="http://schema.org/Article">
       <header>
-        <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+        <h2 itemprop="headline"><%= link_to article.title, article %></h2>
       </header>
-      <section><%= article.summary %></section>
+      <section class="body" itemprop="description">
+        <%= article.summary %>
+      </section>
       <footer>
+        <%= partial 'blog/author', locals: { author: article.data.author, date: article.date } %>
       </footer>
     </article>
   <% end %>
