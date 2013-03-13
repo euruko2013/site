@@ -55,7 +55,7 @@ activate :blog do |blog|
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
 
-  # blog.paginate = true
+  blog.paginate = true
   # blog.per_page = 10
   # blog.page_link = "page/:num"
 end

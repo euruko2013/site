@@ -1,0 +1,46 @@
+div#pagination {
+  margin: 10px auto 0;
+  max-width: 700px;
+  text-align: center;
+
+  ul {
+    li {
+      font-size: 11px;
+      list-style: none;
+      display: inline-block;
+    }
+
+    a {
+      border: solid 1px $light_grey;
+    }
+
+    .previous.disabled, .next.disabled {
+      border: solid 1px $lightest_grey;
+      color: #888888;
+      font-weight: bold;
+      padding: 2px 4px;
+    }
+
+    .next a, .previous a {
+      font-weight: bold;
+    } 
+
+    .active {
+      background: $light_grey;
+      color: #FFFFFF;
+      font-weight: bold;
+      padding: 3px 6px;
+    }
+
+    a:link, a:visited {
+      color: $light_grey;
+      padding: 3px 6px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $dark_grey;
+      border: solid 1px $dark_grey;
+    }
+  }
+}
