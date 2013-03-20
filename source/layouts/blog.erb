@@ -15,6 +15,8 @@ description: EuRuKo 2013 - The European Ruby Conference 2013 Blog
         <%= partial 'blog/author', locals: { author: current_page.data.author, date: Date.parse(current_page.data.date) } %>
       </footer>
     </article>
+
+    <%= partial 'blog/disqus' %>
   </section>
 
   <aside>
