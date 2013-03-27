@@ -32,6 +32,15 @@ article.post {
     p + p {
       margin: 24px 0;
     }
+
+    ul {
+      list-style: disc;
+      list-style-position: inside;
+    }
+
+    ul + p {
+      margin: 24px 0;
+    }
   }
 
   footer {
