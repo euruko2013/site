@@ -1,0 +1,30 @@
+<% window = 2 %>
+<% down = page_number - window %>
+<% up = page_number + window %>
+
+<div id="pagination">
+  <ul>
+  <% if prev_page %>
+    <li class="previous"><%= link_to "&laquo; Previous", prev_page.url %></li>
+  <% else %>
+    <li class="previous disabled">&laquo; Previous</li>
+  <% end %>
+
+  <% (down..up).select { |i| i > 0 && i <= num_pages }.each do |i| %>
+    <% if i == page_number %>
+      <li class="active"><%= page_number %></li>
+    <% else %>
+      <% page = nil %>
+      <% (i...page_number).each { page = page ? page.metadata[:locals]['prev_page'] : prev_page } %>
+      <% (page_number...i).each { page = page ? page.metadata[:locals]['next_page'] : next_page } %>
+      <li><%= link_to i, page && page.url %></li>
+    <% end %>
+  <% end %>
+
+  <% if next_page %>
+    <li class="next"><%= link_to "Next &raquo;", next_page.url %></li>
+  <% else %>
+    <li class="next disabled">Next &raquo;</li>
+  <% end %>
+  </ul>
+</div>

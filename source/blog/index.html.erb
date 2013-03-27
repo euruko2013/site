@@ -1,0 +1,26 @@
+---
+pageable: true
+per_page: 5
+---
+<section class="section" id="articles">
+  <% page_articles.each_with_index do |article, i| %>
+    <article class="post" itemscope itemscope="http://schema.org/Article">
+      <header>
+        <h2 itemprop="headline"><%= link_to article.title, article %></h2>
+      </header>
+      <section class="body" itemprop="description">
+        <%= article.summary %>
+      </section>
+      <footer>
+        <%= partial 'blog/author', locals: { author: article.data.author, date: article.date } %>
+      </footer>
+    </article>
+  <% end %>
+
+  <% if paginate %>
+    <%= partial 'blog/pagination', locals: { page_number: page_number,
+                                             num_pages: num_pages,
+                                             prev_page: prev_page,
+                                             next_page: next_page } %>
+  <% end %>
+</section>
