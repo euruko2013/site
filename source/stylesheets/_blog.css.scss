@@ -56,4 +56,19 @@ article.post {
       }
     }
   }
+
+  a {
+    color: #3e3e3e;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-bottom: 3px;
+    border-bottom: 1px dotted #3e3e3e;
+
+    &:hover,
+    &:active {
+      padding-bottom: 2px;
+      border-bottom: 1px solid #3e3e3e;
+    }
+  }
 }
