@@ -12,3 +12,7 @@
 
 # Ignore Sass' cache
 /.sass-cache
+
+source/images/committee/.DS_Store
+
+.DS_Store
