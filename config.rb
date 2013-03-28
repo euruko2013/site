@@ -61,7 +61,7 @@ activate :blog do |blog|
 end
 
 # Blog feed
-page "/feed.xml", :layout => false
+page "/blog/feed.xml", :layout => false
 
 ###
 # Helpers
