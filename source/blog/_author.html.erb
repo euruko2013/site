@@ -1,5 +1,5 @@
 <%= image_tag "committee/#{author}.png", alt: author, itemprop: "image" %>
-<div>
+<div class="author">
   <p class="date" itemprop="dateCreated" content="<%= date.strftime('%F') %>"><%= date.strftime('%b %e, %Y') %></p>
   <p itemscope itemprop="author" itemtype="http://schema.org/Author">
     by <span itemprop="name"><%= author %></span>
