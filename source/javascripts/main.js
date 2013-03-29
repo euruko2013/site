@@ -1,10 +1,19 @@
 // Smooth scrolling
 $(function() {
+  $(window).scroll(function() {
+    if($(window).scrollTop() != 0) {
+      $("#nav").css("background-color", "rgba(245,245,245,1)");
+    }
+    else {
+      $("#nav").css("background-color", "rgba(255,255,255,0.4)");
+    }
+  });
+
   $('#nav a, #news a').bind('click', function(event) {
       var $anchor = $(this);
 
       $('html, body').stop().animate({
-          scrollTop: $($anchor.attr('href')).offset().top
+          scrollTop: $($anchor.attr('href')).offset().top - $('#nav').height() - 24
       }, "normal");
 
       return false;
