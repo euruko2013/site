@@ -75,10 +75,6 @@ activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def link_to_top
-    link_to 'to the top ^', '#', class: 'back_top'
-  end
-
   def link_to_section(section, link)
     if current_page.url == '/'
       link_to section, link
