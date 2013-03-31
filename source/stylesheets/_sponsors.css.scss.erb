@@ -22,8 +22,14 @@
     }
   }
 
+  li {
+    display: inline-block;
+    vertical-align: top;
+  }
+
   p {
     text-align: justify;
+    margin-top: 10px;
   }
 
   #gaia {
@@ -31,22 +37,45 @@
       float: left;
     }
 
+    p {
+      margin-top: 0;
+    }
+
     height: 400px;
+
+    li {
+      vertical-align:top;
+    }
   }
 
   #helios {
-    .sponsor {
-      margin: 50px 20px 50px 0;
-      display: inline-block;
-      width: 200px;
-      vertical-align: top;
-
+    li {
+      width: 250px;
+      margin-right: 68px;
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 
   #selene {
+    li {
+      width: 100px;
+      margin-right: 54px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 
   #aphrodite {
+    li {
+      width: 80px;
+      margin-right: 16.5px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
