@@ -3,50 +3,52 @@ title: EuRuKo 2013 Blog - Athens
 description: EuRuKo 2013 - The European Ruby Conference 2013 Blog
 ---
 <% wrap_layout :layout do %>
-  <section class="section" id="article">
-    <article class="post" itemscope itemscope="http://schema.org/Article">
-      <header>
-        <h2 itemprop="headline"><%= current_page.title %></h2>
-      </header>
-      <section class="body" itemprop="text">
-        <%= yield %>
-      </section>
-      <footer>
-        <%= partial 'blog/author', locals: { author: current_page.data.author, date: Date.parse(current_page.data.date) } %>
-      </footer>
-    </article>
+  <div class="main-wrapper">
+    <section class="section" id="article">
+      <article class="post" itemscope itemscope="http://schema.org/Article">
+        <header>
+          <h2 itemprop="headline"><%= current_page.title %></h2>
+        </header>
+        <section class="body" itemprop="text">
+          <%= yield %>
+        </section>
+        <footer>
+          <%= partial 'blog/author', locals: { author: current_page.data.author, date: Date.parse(current_page.data.date) } %>
+        </footer>
+      </article>
 
-    <%= partial 'blog/disqus' %>
-  </section>
+      <%= partial 'blog/disqus' %>
+    </section>
 
-  <aside>
-    <h2>Recent Articles</h2>
-    <ol>
-      <% blog.articles[0...10].each do |article| %>
-        <li><%= link_to article.title, article.url %> <span><%= article.date.strftime('%b %e') %></span></li>
-      <% end %>
-    </ol>
-
-    <h2>Tags</h2>
-    <ol>
-      <% blog.tags.each do |tag, articles| %>
-      <li>
-        <% link_to tag_path(tag) do %>
-          <%= tag %> (<%= articles.size %>)
+    <aside>
+      <h2>Recent Articles</h2>
+      <ol>
+        <% blog.articles[0...10].each do |article| %>
+          <li><%= link_to article.title, article.url %> <span><%= article.date.strftime('%b %e') %></span></li>
         <% end %>
-      </li>
-      <% end %>
-    </ol>
+      </ol>
 
-    <h2>By Year</h2>
-    <ol>
-      <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+      <h2>Tags</h2>
+      <ol>
+        <% blog.tags.each do |tag, articles| %>
         <li>
-        <% link_to blog_year_path(year) do %>
-          <%= year %> (<%= articles.size %>)
-        <% end %>
+          <% link_to tag_path(tag) do %>
+            <%= tag %> (<%= articles.size %>)
+          <% end %>
         </li>
-      <% end %>
-    </ol>
-  </aside>
+        <% end %>
+      </ol>
+
+      <h2>By Year</h2>
+      <ol>
+        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+          <li>
+          <% link_to blog_year_path(year) do %>
+            <%= year %> (<%= articles.size %>)
+          <% end %>
+          </li>
+        <% end %>
+      </ol>
+    </aside>
+  </div>
 <% end %>

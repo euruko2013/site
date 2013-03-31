@@ -6,10 +6,19 @@ h2 {
   text-shadow: 1px 1px 0px white;
 }
 
+.main-wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+section#article {
+  width: 700px;
+  float: left;
+}
+
 article.post {
   margin: 0 auto;
   padding: 15px 0;
-  width: 700px;
   padding-bottom: 30px;
   border-bottom: 1px #aaa solid;
 
@@ -28,7 +37,6 @@ article.post {
     width: 550px;
     text-align: justify;
     color: #3e3e3e;
-
 
     ul {
       list-style: disc;
@@ -80,12 +88,36 @@ article.post {
 }
 
 aside {
+  width: 220px;
+  padding: 140px 10px 10px;
+  float: right;
+
+  li {
+    border-bottom: 1px dashed $lightest_grey;
+    padding-left: 10px;
+
+    a {
+      color:$light_grey;
+      display: block;
+      font-weight: normal;
+      line-height: 32px;
+      text-decoration: none;
+
+      &:hover,
+      &:active {
+        color:$dark_grey;
+      }
+    }
+  }
+}
+
+#article article footer {
+
 }
 
 #disqus_thread {
   margin: 0 auto;
   padding: 15px 0;
-  width: 700px;
 }
 
 /* ==========================================================================
@@ -96,8 +128,9 @@ aside {
     padding-top:90px;
   }
 
-  article.post,  
-  #disqus_thread {
+  .main-wrapper,
+  section#article,
+  aside {
     width: 600px;
   }
 
@@ -119,10 +152,16 @@ aside {
     }
 
   }
+
+  aside {
+    padding: 10px;
+  }
+
 }
 @media only screen and (max-width:640px) {
-  #disqus_thread,
-  article.post {
+  .main-wrapper,
+  section#article,
+  aside {
     width: 100%;
   }
 
@@ -137,5 +176,8 @@ aside {
         margin: 10px 10px;
       }
     }
+  }
+  aside {
+    padding: 10px;
   }
 }
