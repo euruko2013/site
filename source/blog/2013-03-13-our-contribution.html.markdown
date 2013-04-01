@@ -2,7 +2,7 @@
 title: Our contribution...
 date: 2013-03-13 23:15 +02:00
 tags: euruko, contribution, organisation, transparency
-author: pagojo
+authors: pagojo
 ---
 From the very first [EuRuKo 2013](http://euruko2013.org) organisers’ meetup we decided that whatever we were about to do should positively impact the Ruby community. Aside from agreeing that we wanted EuRuKo 2013 to be an amazing conference, we also promised ourselves that even if it didn’t turn out to match our lofty expectations, the community should at least gain something significant.
 

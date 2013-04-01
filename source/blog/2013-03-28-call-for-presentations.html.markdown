@@ -2,7 +2,7 @@
 title: Call for Presentations
 date: 2013-03-28 01:30 EET
 tags: euruko, announcements, speakers
-author: nikosd
+authors: nikosd
 ---
 We are very excited to announce that Call for Presentations for EuRuKo 2013 [is now open](http://cfp.euruko2013.org/proposals)
 and you can send your proposals until **April 23rd**! We have put a lot of effort in order to create a selection process
