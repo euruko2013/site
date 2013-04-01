@@ -9,7 +9,7 @@ As you can see from the images below the venue of this year's EuRuKo,
 Badminton Theatre, is being renovated. To be honest, we knew such works were
 planned, yet we chose to book this amazing [venue](/#venue) because it was impressive,
 and with the recently planned renovation it would be really awesome. It was a
-bold and risky move move due to the recent economic difficulties Greece is facing
+bold and risky move due to the recent economic difficulties Greece is facing
 right now (including workers' strikes). What we wanted, was to have the greatest and
 biggest venue [EuRuKo](http://euruko2013.org) had ever seen.
 
