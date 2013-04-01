@@ -3,9 +3,11 @@ $(function() {
   $(window).scroll(function() {
     if($(window).scrollTop() != 0) {
       $("#nav").css("background-color", "rgba(245,245,245,1)");
+      $("#nav").css("border-bottom", "1px solid #ccc");
     }
     else {
-      $("#nav").css("background-color", "rgba(255,255,255,0.4)");
+      $("#nav").css("background-color", "rgba(255,255,255,0.5)");
+      $("#nav").css("border-bottom", "none");
     }
   });
 
