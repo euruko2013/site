@@ -2,6 +2,10 @@
   .section {
     margin: 0 auto;
     max-width: 900px;
+
+    div {
+      margin-top: 65px;
+    }
   }
 
   h1 {
@@ -13,7 +17,7 @@
 
   h2 {
     text-align: left;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 
   .sponsor {
@@ -22,31 +26,59 @@
     }
   }
 
+  li {
+    display: inline-block;
+    vertical-align: top;
+  }
+
   p {
     text-align: justify;
+    margin-top: 10px;
   }
 
   #gaia {
     img {
       float: left;
+      margin-right: 10px;
     }
 
-    height: 400px;
+    p {
+      margin-top: 0;
+    }
+
+    li {
+      vertical-align:top;
+    }
   }
 
   #helios {
-    .sponsor {
-      margin: 50px 20px 50px 0;
-      display: inline-block;
-      width: 200px;
-      vertical-align: top;
-
+    li {
+      width: 250px;
+      margin-right: 68px;
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 
   #selene {
+    li {
+      width: 100px;
+      margin-right: 54px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 
   #aphrodite {
+    li {
+      width: 80px;
+      margin-right: 16.5px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
