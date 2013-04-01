@@ -3,7 +3,6 @@ title: We are working hard, but...
 date: 2013-04-01 14:30 EEST
 tags: venue
 authors: gfotos, pagojo
-published: false
 ---
 
 As you can see from the images below the venue of this year's EuRuKo,
