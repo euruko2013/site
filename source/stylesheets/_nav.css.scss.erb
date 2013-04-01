@@ -9,11 +9,10 @@
   padding:$hr 0;
 
   ul {
-
    li {
       float:right;
       margin:0 $hr/2;
-      padding:0 $hr;
+      padding:0 $hr/2;
       text-transform: uppercase;
 
       a {
@@ -54,6 +53,13 @@
 @media only screen and (max-width:960px) {
   #nav {
     position: absolute;
+
+    ul {
+      li {
+        margin: 0 $hr/2;
+        padding: 0;
+      }
+    }
   }
 
   #nav .centered {
@@ -70,7 +76,6 @@
   }
 
   #nav ul {
-
     li {
       margin: 0;
       padding: 0 4px 0 0;
@@ -78,10 +83,6 @@
 
       &:after {
         padding-left: 10px;
-      }
-
-      a {
-        // font-size: 13px;
       }
     }
 
