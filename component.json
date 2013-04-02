@@ -1,0 +1,8 @@
+{
+  "name": "euruko-site",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap-sass": "~2.3.0",
+	"jquery-easing": "~1.3.0"
+  }
+}
