@@ -1,19 +1,6 @@
-/* Global Variables */
-$arial: Arial,"Helvetica Neue", Helvetica, Geneva, sans-serif;
-$ubuntu: 'Ubuntu', $arial;
-$georgia: Georgia, "Times New Roman", Times, serif;
-$tahoma: Tahoma,Arial,sans-serif;
-$verdana: Verdana,Arial,sans-serif;
-
-$dark_white:#fefefe;
-$dark_grey: #231f20;
-$light_grey: #616161;
-$lighter_grey:#848484;
-$lightest_grey:#a8a8a8;
-$vr: 20px;
-$hr: 18px;
-
-body, button, input, select, textarea { 
+/* Common elements */
+body, 
+button, input, select, textarea { 
   font:normal 1em/1.4 $verdana;
   color: $dark_grey;
 }
@@ -28,7 +15,7 @@ strong {
   max-width:1180px;
   margin:0 auto;
   width: 98%;
-  @include box-sizing(border-box);
+
 }
 
 .external-link {
@@ -56,36 +43,5 @@ strong {
 
   &:before {
     opacity: .6;
-  }
-}
-
-
-/* Media Queries: Tablet devices overwrite 641px...960px */
-
-@media only screen and (max-width:960px) {
-
-  .centered {
-    min-width: 0;
-  }
-}
-
-
-/* Media Queries: Mobile devices overwrite 320px...640px */
-
-@media only screen and (max-width:640px) {
-
-  .external-link {
-    font-size: 14px;
-    margin-top: 1.5 * $vr;
-  }
-}
-
-
-/* IE8 bug fixes */
-
-.lt-ie9 {
-
-  .centered {
-    min-width: 800px;
   }
 }
