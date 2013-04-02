@@ -12,7 +12,7 @@ us in Athens. Everything is going as planned.
 We still have lots of work to do before we're ready to welcome you to Athens
 this June for EuRuKo 2013, however we are getting there.
 Our [CFP is open](/blog/2013-03-28-call-for-presentations/)
-and [a lot of proposal have been submitted](http://cfp.euruko2013.org/proposals) already.
+and [a lot of proposals have been submitted](http://cfp.euruko2013.org/proposals) already.
 We suggest you get a look at them and vote for those you like and make
 suggestions to improve the ones you feel need a more thorough description.
 And why not read the process and [submit your own proposal](http://cfp.euruko2013.org/about)?
