@@ -335,7 +335,26 @@ h3 {
 
     li {
       position: relative;
+    }
+
+    li.left {
       padding: 25px 0px 100px 255px;
+
+      h4 {
+        span {
+          left: 60px;
+        }
+      }
+    }
+
+    li.right {
+      padding: 25px 255px 100px 100px;
+
+      h4 {
+        span {
+          right: 60px;
+        }
+      }
     }
   }
 
@@ -348,7 +367,6 @@ h3 {
       @include box-shadow(0px,0px,1px,0px,black);
       position: absolute;
       top: 5px;
-      left: 60px;
       display: block;
       width: 150px;
       height: 150px;
@@ -612,18 +630,25 @@ h3 {
   }
 
   #speakers {
+    ul {
+      li {
+        padding: 25px 0 50px 190px;
 
-    ul li {
-      padding: 25px 0 50px 190px;
-
-      h4 {
-
-        span {
-          left: 20px;
-          width: 125px;
-          height: 125px;
-          top: 10px;
+        h4 {
+          span {
+            width: 125px;
+            height: 125px;
+            top: 10px;
+          }
         }
+      }
+
+      li.left {
+        left: 20px;
+      }
+
+      li.right {
+        right: 20px;
       }
     }
   }
