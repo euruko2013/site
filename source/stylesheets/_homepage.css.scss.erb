@@ -335,7 +335,7 @@ h3 {
 
     li {
       position: relative;
-      padding: 25px 0px 85px 255px;
+      padding: 25px 0px 100px 255px;
     }
   }
 
@@ -353,17 +353,24 @@ h3 {
       width: 150px;
       height: 150px;
       border: 8px solid white;
-      border-radius: 83px;
-      background: transparent image-url("speakers/matz.jpg") center center no-repeat;
+      background: transparent center center no-repeat;
       background-size: cover;
+      border-radius: 83px;
       text-indent: -999px;
     }
   }
 
   h5 {
     margin-bottom: $hr;
-    font: normal 15px $ubuntu;
+    font: normal 20px $ubuntu;
     color: $lighter_grey;
+  }
+
+  span.subline {
+    margin-bottom: $hr;
+    font: normal 13px $ubuntu;
+    color: #bbb;
+    padding-left: 5px;
   }
 
   p {
@@ -375,6 +382,30 @@ h3 {
       font-style: italic;
       color: $lighter_grey;
       text-align: center;
+    }
+  }
+
+  #matz { 
+    h4 {
+      span {
+        background-image: image-url("speakers/matz.jpg");
+      }
+    }
+  }
+
+  #koichi {
+    h4  {
+      span { 
+        background-image: image-url("speakers/koichi.jpg");
+      }
+    }
+  }
+
+  #klabnick {
+    h4 {
+      span {
+        background-image: image-url("speakers/klabnick.jpg");
+      }
     }
   }
 }
