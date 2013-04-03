@@ -335,7 +335,26 @@ h3 {
 
     li {
       position: relative;
-      padding: 25px 0px 85px 255px;
+    }
+
+    li.left {
+      padding: 25px 0px 100px 255px;
+
+      h4 {
+        span {
+          left: 60px;
+        }
+      }
+    }
+
+    li.right {
+      padding: 25px 255px 100px 100px;
+
+      h4 {
+        span {
+          right: 60px;
+        }
+      }
     }
   }
 
@@ -348,22 +367,28 @@ h3 {
       @include box-shadow(0px,0px,1px,0px,black);
       position: absolute;
       top: 5px;
-      left: 60px;
       display: block;
       width: 150px;
       height: 150px;
       border: 8px solid white;
-      border-radius: 83px;
-      background: transparent image-url("speakers/matz.jpg") center center no-repeat;
+      background: transparent center center no-repeat;
       background-size: cover;
-      text-indent: -999px;
+      border-radius: 83px;
+      text-indent: -9999px;
     }
   }
 
   h5 {
     margin-bottom: $hr;
-    font: normal 15px $ubuntu;
+    font: normal 20px $ubuntu;
     color: $lighter_grey;
+  }
+
+  span.subtitle {
+    margin-bottom: $hr;
+    font: normal 13px $ubuntu;
+    color: #bbb;
+    padding-left: 5px;
   }
 
   p {
@@ -375,6 +400,30 @@ h3 {
       font-style: italic;
       color: $lighter_grey;
       text-align: center;
+    }
+  }
+
+  #matz { 
+    h4 {
+      span.name {
+        background-image: image-url("speakers/matz.jpg");
+      }
+    }
+  }
+
+  #koichi {
+    h4  {
+      span.name {
+        background-image: image-url("speakers/koichi.jpg");
+      }
+    }
+  }
+
+  #klabnik {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/klabnik.jpg");
+      }
     }
   }
 }
@@ -581,17 +630,35 @@ h3 {
   }
 
   #speakers {
+    ul {
+      li {
 
-    ul li {
-      padding: 25px 0 50px 190px;
+        h4 {
+          span {
+            width: 125px;
+            height: 125px;
+            top: 10px;
+          }
+        }
+      }
 
-      h4 {
+      li.left {
+        padding: 25px 0 50px 190px;
 
-        span {
-          left: 20px;
-          width: 125px;
-          height: 125px;
-          top: 10px;
+        h4 {
+          span {
+            left: 20px;
+          }
+        }
+      }
+
+      li.right {
+        padding: 25px 190px 50px 50px;
+
+        h4 {
+          span {
+            right: 20px;
+          }
         }
       }
     }
@@ -668,6 +735,16 @@ h3 {
 
     h3 {
       margin-top: 0;
+    }
+
+    ul {
+      li {
+        h4 {
+          span {
+            top: 60px;
+          }
+        }
+      }
     }
 
     h3 + .centered {
