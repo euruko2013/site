@@ -2,11 +2,9 @@
   margin-bottom: 0;
   
   .navbar-inner {
-    padding: 0;
+    padding: 10px;
     background-image: none;
     background-color:rgb(255,255,255);
-    background-color:rgba(255,255,255,0.4);
-    @include box-shadow(0px,5px,10px,0px,rgba(0,0,0,0.1));
   }
 }
 
@@ -16,4 +14,8 @@
   text-indent: -9999px;
   background-image: image-url("sprite.png");
   background-position: -305px -70px;
+}
+
+.navbar a {
+  border-bottom: none;
 }
