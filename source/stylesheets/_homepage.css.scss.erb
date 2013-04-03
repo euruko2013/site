@@ -632,7 +632,6 @@ h3 {
   #speakers {
     ul {
       li {
-        padding: 25px 0 50px 190px;
 
         h4 {
           span {
@@ -644,11 +643,23 @@ h3 {
       }
 
       li.left {
-        left: 20px;
+        padding: 25px 0 50px 190px;
+
+        h4 {
+          span {
+            left: 20px;
+          }
+        }
       }
 
       li.right {
-        right: 20px;
+        padding: 25px 190px 50px 50px;
+
+        h4 {
+          span {
+            right: 20px;
+          }
+        }
       }
     }
   }
@@ -724,6 +735,16 @@ h3 {
 
     h3 {
       margin-top: 0;
+    }
+
+    ul {
+      li {
+        h4 {
+          span {
+            top: 60px;
+          }
+        }
+      }
     }
 
     h3 + .centered {
