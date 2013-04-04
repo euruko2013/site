@@ -1,0 +1,14 @@
+/* Responsive overrides */
+
+@media (max-width: 979px) {
+	.navbar-fixed-top {
+		margin: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.homepage-body {
+    	padding-left: 0;
+    	padding-right: 0;
+	}
+}
