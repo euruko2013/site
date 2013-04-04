@@ -14,7 +14,9 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
-
+page "/" do
+  @body_class = 'homepage-body'
+end
 # Per-page layout changes:
 #
 # With no layout
