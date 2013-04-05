@@ -12,7 +12,9 @@ description: EuRuKo 2013 - The European Ruby Conference 2013 Blog
         <%= yield %>
       </section>
       <footer>
-        <%= partial 'blog/author', locals: { author: current_page.data.author, date: Date.parse(current_page.data.date) } %>
+        <p class="date" itemprop="dateCreated" content="<%= Date.parse(current_page.data.date).strftime('%F') %>"><%= Date.parse(current_page.data.date).strftime('%b %e, %Y') %></p>
+
+        <%= partial 'blog/authors', locals: { authors: current_page.data.authors.split(",") } %>
       </footer>
     </article>
 

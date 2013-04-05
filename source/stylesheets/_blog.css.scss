@@ -41,27 +41,49 @@ article.post {
     ul + p {
       margin: 24px 0;
     }
+
+    img {
+      max-width: 550px;
+    }
   }
 
   footer {
     vertical-align: top;
     display: inline-block;
-    margin-left: 30px;
-
-    div {
-      margin-top: 8px;
-    }
+    margin-left: 15px;
 
     p {
       font-size: 12px;
       color: #bbb;
 
-      span {
-        color: #999;
+      &.date {
+        font-size: 16px;
+        color: #666;
+        text-shadow: 2px 2px #ddd;
+      }
+    }
+
+    ul.authors {
+      p {
+        text-align: center;
+
+	&.separator {
+          font-size: 24px;
+	  color: #666;
+          text-shadow: 2px 2px #ddd;
+	}
+      }
+    }
+
+    li.author {
+      margin: 20px 0;
+
+      p {
+        margin-top: 5px;
       }
 
-      &.date {
-        color: #666;
+      span {
+       color: #999;
       }
     }
   }

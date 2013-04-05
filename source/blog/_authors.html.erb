@@ -1,0 +1,13 @@
+<ul class="authors">
+  <% authors.each_with_index do |author, i| %>
+    <% if i > 0 %>
+      <p class="separator"><%= '&amp;' if i > 0 %></p>
+    <% end %>
+    <li class="author">
+      <%= image_tag "committee/#{author}.png", alt: author, itemprop: "image" %>
+      <p itemscope itemprop="author" itemtype="http://schema.org/Author">
+        by <span itemprop="name"><%= author %></span>
+      </p>
+    </li>
+  <% end %>
+</ul>

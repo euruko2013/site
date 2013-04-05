@@ -12,7 +12,9 @@ per_page: 5
         <%= article.summary %>
       </section>
       <footer>
-        <%= partial 'blog/author', locals: { author: article.data.author, date: article.date } %>
+        <p class="date" itemprop="dateCreated" content="<%= article.date.strftime('%F') %>"><%= article.date.strftime('%b %e, %Y') %></p>
+
+        <%= partial 'blog/authors', locals: { authors: article.data.authors.split(",").take(1) } %>
       </footer>
     </article>
   <% end %>
