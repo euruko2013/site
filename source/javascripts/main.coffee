@@ -32,3 +32,16 @@ $ ->
   $('#sponsors a.brochure').on 'click', (event) ->
     _gaq.push(['_trackEvent', 'Sponsors', 'Brochure Download']);
     return
+
+  countdown_container = $('.countdown')
+  if countdown_container.length > 0
+    counter = countdown_container.find('.counter')
+    countdown_end = new Date(counter.data('countdown-end'))
+    if countdown_end > new Date()
+      countdown(countdown_end, (ts) ->
+        counter.html(ts.toHTML("strong"));
+        return
+      countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS)
+    else
+      counter.html('Begone!')
+      countdown_container.find('.date').hide();
