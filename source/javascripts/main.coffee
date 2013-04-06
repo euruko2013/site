@@ -32,3 +32,8 @@ $ ->
   $('#sponsors a.brochure').on 'click', (event) ->
     _gaq.push(['_trackEvent', 'Sponsors', 'Brochure Download']);
     return
+
+  # Newsletter signup tracking
+  $('#mc_embed_signup form').on 'submit', (event) ->
+    _gaq.push(['_trackEvent', 'Newsletter', 'Signup']);
+    return
