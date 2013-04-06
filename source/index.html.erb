@@ -30,11 +30,11 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <!-- News Placeholder list items -->
         <li>
           <span>07/04</span>
-          <%= link_to 'Our Gaia sponsor is Skroutz.gr!', '/sponsors' %>
+          <%= link_to 'Our Gaia sponsor is Skroutz.gr!', '#gaia' %>
         </li>
         <li>
           <span>07/04</span>
-          <%= link_to 'Wooga is an Aphrodite sponsor', '/sponsors#aphrodite' %>
+          <%= link_to 'Wooga is an Aphrodite sponsor', '#aphrodite' %>
         </li>
         <li>
           <span>04/04</span>
@@ -138,10 +138,179 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     <h3 class="centered">Sponsors
       <%= link_to_top %>
     </h3>
+
+    <div class="section">
     <p class="centered">
-      Boldly show your Ruby love - be a sponsor
-      <%= link_to 'download sponsorships brochure', 'sponsors/euruko2013-sponsorship-packages.pdf', class: 'external-link brochure' %>
+      This conference wouldn't be held without the support of our amazing sponsors.
+      They have been with us since the beginning and showcasing them and their
+      products is the least we can do for their support toward the Ruby community.
+
+      We love them for supporting Ruby and making this conference possible.
     </p>
+
+    <div id="gaia">
+      <h2>Gaia</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon">
+            <span>Gaia</span>
+          </div>
+
+          <% link_to 'http://www.skroutz.gr', :target => '_blank' do %>
+            <img src="sponsors/skroutz.400.300.jpg" alt="Skroutz S.A" width="400" height="300">
+          <% end %>
+
+          <h4>Skroutz S.A.</h4>
+          <br>
+
+          <p>
+              Founded in 2005, Skroutz S.A. is committed to modern software development actively creating bleeding edge
+              ecommerce offerings and high performance web pages. Based in Athens, Greece, it is the dominant
+              digital brand which operates the leading price comparison engine in Greece.
+              The company currently employs a 40+ workforce and records €2M revenues annually,
+              while offering a wide range of user-oriented software solutions involving a multitude of environments
+              and innovational platforms. Today <a href="http://www.skroutz.gr">www.skroutz.gr</a>, developed on Ruby,
+              utilizes cutting-edge technology to make <a href="http://www.skroutz.gr">product comparison deadly simple</a>
+              and serves more than 2.5 million unique users on a monthly basis.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="helios">
+      <h2>Helios</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon">
+	    <span>Helios</span>
+	  </div>
+
+          <img src="<%= lorem.image('250x125') %>" />
+          <p><%= lorem.words 30 %></p>
+        </li>
+
+        <li>
+          <div class="ribbon">
+	    <span>Helios</span>
+	  </div>
+
+          <img src="<%= lorem.image('250x125') %>" />
+          <p><%= lorem.words 30 %></p>
+        </li>
+
+        <li>
+          <div class="ribbon">
+	    <span>Helios</span>
+	  </div>
+
+          <img src="<%= lorem.image('250x125') %>" />
+          <p><%= lorem.words 30 %></p>
+        </li>
+      </ul>
+    </div>
+
+        <div id="selene">
+      <h2>Selene</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon">
+	    <span>Selene</span>
+	  </div>
+
+          <img src="<%= lorem.image('200x100') %>" />
+        </li>
+
+        <li>
+          <div class="ribbon">
+	    <span>Selene</span>
+	  </div>
+
+          <img src="<%= lorem.image('200x100') %>" />
+        </li>
+
+        <li>
+          <div class="ribbon">
+	    <span>Selene</span>
+	  </div>
+
+          <img src="<%= lorem.image('200x100') %>" />
+        </li>
+
+        <li>
+          <div class="ribbon">
+	    <span>Selene</span>
+	  </div>
+
+          <img src="<%= lorem.image('200x100') %>" />
+        </li>
+      </ul>
+    </div>
+
+    <div id="aphrodite">
+      <h2>Aphrodite</h2>
+
+      <ul class="sponsors">
+        <li>
+          <% link_to 'http://www.wooga.com', :target => '_blank' do %>
+            <img src="sponsors/wooga.150.75.png" alt="Wooga" width="150" height="75" />
+          <% end %>
+        </li>
+
+        <li>
+          <img src="<%= lorem.image('150x75') %>" />
+        </li>
+
+        <li>
+          <img src="<%= lorem.image('150x75') %>" />
+        </li>
+
+        <li>
+          <img src="<%= lorem.image('150x75') %>" />
+        </li>
+
+        <li>
+          <img src="<%= lorem.image('150x75') %>" />
+        </li>
+      </ul>
+    </div>
+
+    <div id="additional">
+      <h2>Addtional Sponsors</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon party">
+	    <span>Party</span>
+	  </div>
+
+          <img src="<%= lorem.image('200x100') %>" />
+        </li>
+
+        <li>
+          <div class="ribbon wifi">
+	    <span>WiFi</span>
+	  </div>
+
+          <img src="<%= lorem.image('200x100') %>" />
+        </li>
+
+        <li>
+          <div class="ribbon network">
+	    <span>Network</span>
+	  </div>
+
+          <img src="<%= lorem.image('200x100') %>" />
+        </li>
+      </ul>
+    </div>
+
+    <p class="centered">
+      <%= link_to 'Interested in becoming a sponsor?', 'sponsors/euruko2013-sponsorship-packages.pdf', class: 'external-link brochure' %>
+    </p>
+  </div>
   </div>
 
   <div class="section" id="contributors">
