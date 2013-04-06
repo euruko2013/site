@@ -11,6 +11,7 @@ h3 {
 }
 
 .back_top {
+  visibility: hidden;
   position: absolute;
   right: 0px;
   width: 140px;
@@ -617,6 +618,9 @@ h3 {
 /* Media Queries: Tablet devices overwrite 641px...960px */
 
 @media only screen and (max-width:960px) {
+  .back_top {
+    visibility: visible;
+  }
 
   .section {
     padding: 45px 0;
@@ -703,7 +707,6 @@ h3 {
 /* Media Queries: Mobile devices overwrite 320px...640px */
 
 @media only screen and (max-width:640px) {
-
   h3 {
     padding: 10px 0;
   }
@@ -713,6 +716,7 @@ h3 {
   }
 
   .back_top {
+    visibility: visible;
     width: 70px;
     padding-bottom: 10px;
   }
