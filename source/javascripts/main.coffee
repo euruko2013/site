@@ -45,3 +45,8 @@ $ ->
     else
       counter.html('Begone!')
       countdown_container.find('.date').hide();
+
+  # Link to eventora for tickets tracking
+  $('#tickets a.eventora-page').on 'click', (event) ->
+    _gaq.push(['_trackEvent', 'Tickets', 'Clicked on eventora link']);
+    return
