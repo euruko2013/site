@@ -37,3 +37,22 @@ $ ->
   $('#mc_embed_signup form').on 'submit', (event) ->
     _gaq.push(['_trackEvent', 'Newsletter', 'Signup']);
     return
+
+  # Countdown for first ticket batch
+  countdown_container = $('.countdown')
+  if countdown_container.length > 0
+    counter = countdown_container.find('.counter')
+    countdown_end = new Date(counter.data('countdown-end'))
+    if countdown_end > new Date()
+      countdown(countdown_end, (ts) ->
+        counter.html(ts.toHTML("strong"));
+        return
+      countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS)
+    else
+      counter.html('Begone!')
+      countdown_container.find('.date').hide();
+
+  # Link to eventora for tickets tracking
+  $('#tickets a.eventora-page').on 'click', (event) ->
+    _gaq.push(['_trackEvent', 'Tickets', 'Clicked on eventora link']);
+    return

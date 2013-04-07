@@ -30,6 +30,10 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <!-- News Placeholder list items -->
         <li>
           <span>08/04</span>
+          <%= link_to '1st batch of tickets is coming!', '#tickets' %>
+        </li>
+        <li>
+          <span>08/04</span>
           <%= link_to 'Our Gaia sponsor is Skroutz.gr!', '#gaia' %>
         </li>
         <li>
@@ -108,9 +112,15 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     </h3>
     <div class="centered">
       <div class="ticket"></div>
+      <div class="countdown">
+          Tickets are 60 € and the first batch will be available through
+          <%= link_to 'eventora', 'https://www.eventora.com/en/Events/euruko-2013-athens', :class => 'eventora-page', :target => '_blank' %> in:
+          <span class="counter" data-countdown-end="1365775200000"></span>
+          <span class="date">That's Friday, April 12th at <%= link_to '14:00 UTC', 'http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+1st+ticket+batch%21&iso=20130412T14', :target => '_blank' %>.</span>
+      </div>
+
       <p>
-        <%= link_to '1st batch coming soon...', 'https://www.eventora.com/en/Events/euruko-2013-athens', class: 'more' %>
-        <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org', class: 'contact' %>
+        <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org', class: 'more' %>
       </p>
     </div>
   </div>
