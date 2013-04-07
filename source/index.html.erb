@@ -29,6 +29,14 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <ul>
         <!-- News Placeholder list items -->
         <li>
+          <span>08/04</span>
+          <%= link_to 'Our Gaia sponsor is Skroutz.gr!', '#gaia' %>
+        </li>
+        <li>
+          <span>08/04</span>
+          <%= link_to 'Wooga is an Aphrodite sponsor', '#aphrodite' %>
+        </li>
+        <li>
           <span>04/04</span>
           <%= link_to 'Koichi will speak at EuRuKo!', '#speakers' %>
         </li>
@@ -130,10 +138,134 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     <h3 class="centered">Sponsors
       <%= link_to_top %>
     </h3>
+
+    <div class="section">
     <p class="centered">
-      Boldly show your Ruby love - be a sponsor
-      <%= link_to 'download sponsorships brochure', 'sponsors/euruko2013-sponsorship-packages.pdf', class: 'external-link brochure' %>
+      This conference wouldn't be held without the support of our amazing sponsors.
+      They have been with us since the beginning and showcasing them and their
+      products is the least we can do for their support toward the Ruby community.
+
+      We love them for supporting Ruby and making this conference possible.
     </p>
+
+    <div id="gaia">
+      <h2>Gaia</h2>
+
+      <ul class="sponsors">
+        <li>
+          <!-- <div class="ribbon">
+            <span>Gaia</span>
+          </div> -->
+
+          <% link_to 'http://www.skroutz.gr', :target => '_blank' do %>
+            <img src="sponsors/skroutz_logo_400x300.png" alt="Skroutz S.A" width="400" height="300">
+          <% end %>
+
+          <h4>Skroutz S.A.</h4>
+          <br>
+
+          <p>
+              Founded in 2005, Skroutz S.A. is committed to modern software development actively creating bleeding edge
+              ecommerce offerings and high performance web pages. Based in Athens, Greece, it is the dominant
+              digital brand which operates the leading price comparison engine in Greece.
+              The company currently employs a 40+ workforce and records €2M revenues annually,
+              while offering a wide range of user-oriented software solutions involving a multitude of environments
+              and innovational platforms. Today <a href="http://www.skroutz.gr">www.skroutz.gr</a>, developed on Ruby,
+              utilizes cutting-edge technology to make <a href="http://www.skroutz.gr">product comparison deadly simple</a>
+              and serves more than 2.5 million unique users on a monthly basis.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="helios">
+      <h2>Helios</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon">
+	         <span>Helios</span>
+	        </div>
+
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <img src="sponsors/place_holder_250x125.png" />
+          <% end %>
+        </li>
+      </ul>
+    </div>
+
+        <div id="selene">
+      <h2>Selene</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon">
+	        <span>Selene</span>
+	      </div>
+
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <img src="sponsors/place_holder_200x100.png" />
+          <% end %>
+        </li>
+      </ul>
+    </div>
+
+    <div id="aphrodite">
+      <h2>Aphrodite</h2>
+
+      <ul class="sponsors">
+        <li>
+          <% link_to 'http://www.wooga.com', :target => '_blank' do %>
+            <img src="sponsors/wooga.150.75.png" alt="Wooga" width="150" height="75" />
+          <% end %>
+        </li>
+
+        <li>
+          <div class="ribbon">
+            <span>Aphrodite</span>
+          </div>
+
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <img src="sponsors/place_holder_150x75.png" />
+          <% end %>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <div id="additional">
+      <h2>Additional Sponsors</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon party">
+	    <span>Party</span>
+	  </div>
+
+          <img src="sponsors/place_holder_200x100.png" />
+        </li>
+
+        <li>
+          <div class="ribbon wifi">
+	    <span>WiFi</span>
+	  </div>
+
+          <img src="sponsors/place_holder_200x100.png" />
+        </li>
+
+        <li>
+          <div class="ribbon network">
+	    <span>Network</span>
+	  </div>
+
+          <img src="sponsors/place_holder_200x100.png" />
+        </li>
+      </ul>
+    </div> -->
+
+    <p class="centered">
+      <%= link_to 'Interested in becoming a sponsor?', 'sponsors/euruko2013-sponsorship-packages.pdf', class: 'external-link brochure' %>
+    </p>
+  </div>
   </div>
 
   <div class="section" id="contributors">
