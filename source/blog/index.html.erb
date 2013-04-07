@@ -2,11 +2,15 @@
 pageable: true
 per_page: 5
 ---
+
 <section class="section" id="articles">
   <% page_articles.each_with_index do |article, i| %>
     <article class="post" itemscope itemscope="http://schema.org/Article">
       <header>
-        <h2 itemprop="headline"><%= link_to article.title, article %></h2>
+        <h2 itemprop="headline">
+          <%= link_to article.title, article %>
+          <%= link_to 'comments', article, anchor: 'disqus_thread', class: 'comment-count' %>
+        </h2>
       </header>
       <section class="body" itemprop="description">
         <%= article.summary %>
@@ -26,3 +30,5 @@ per_page: 5
                                              next_page: next_page } %>
   <% end %>
 </section>
+
+<%= partial 'blog/disqus' %>

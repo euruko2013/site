@@ -13,6 +13,13 @@ article.post {
   padding-bottom: 30px;
   border-bottom: 1px #aaa solid;
 
+  a.comment-count {
+    font-size: 12px;
+    margin-left: 15px;
+    vertical-align: bottom;
+    color: #999;
+  }
+
   header {
     h2 {
       font-size: 36px;
