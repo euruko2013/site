@@ -187,7 +187,9 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
 	         <span>Helios</span>
 	        </div>
 
-          <%= link_to('<img src="sponsors/place_holder_250x125.png" />', 'sponsors/euruko2013-sponsorship-packages.pdf') %>
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <img src="sponsors/place_holder_250x125.png" />
+          <% end %>
         </li>
       </ul>
     </div>
@@ -198,10 +200,12 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <ul class="sponsors">
         <li>
           <div class="ribbon">
-	    <span>Selene</span>
-	  </div>
+	        <span>Selene</span>
+	      </div>
 
-          <%= link_to('<img src="sponsors/place_holder_200x100.png" />', 'sponsors/euruko2013-sponsorship-packages.pdf') %>
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <img src="sponsors/place_holder_200x100.png" />
+          <% end %>
         </li>
       </ul>
     </div>
@@ -220,29 +224,11 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           <div class="ribbon">
             <span>Aphrodite</span>
           </div>
-          <%= link_to('<img src="sponsors/place_holder_150x75.png" />', 'sponsors/euruko2013-sponsorship-packages.pdf') %>
-        </li>
 
-        <!-- <li>
-          <div class="ribbon">
-            <span>Aphrodite</span>
-          </div>
-          <img src="sponsors/place_holder_150x75.png" />
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <img src="sponsors/place_holder_150x75.png" />
+          <% end %>
         </li>
-
-        <li>
-          <div class="ribbon">
-            <span>Aphrodite</span>
-          </div>
-          <img src="sponsors/place_holder_150x75.png" />
-        </li>
-
-        <li>
-          <div class="ribbon">
-            <span>Aphrodite</span>
-          </div>
-          <img src="sponsors/place_holder_150x75.png" />
-        </li> -->
       </ul>
     </div>
 
