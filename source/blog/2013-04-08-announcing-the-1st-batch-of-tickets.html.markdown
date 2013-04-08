@@ -15,7 +15,7 @@ After so many months of preparation, finally the wait is over! So mark the date:
 
 The ticket price is going to be **60&euro;**. As you may know, EuRuKo has traditionally been a conference with a very reasonable ticket price. The reason is simple: it's an event organized by the community for the community.
 
-Of course, this wouldn't have been possible without the love of our [sponsors](http://euruko2013.org/#sponsors)!
+Of course, this wouldn't have been possible without the love of our [sponsors](/#sponsors)!
 
 ### How many tickets?
 
@@ -23,6 +23,6 @@ The tickets will be released in batches and the first batch is going to be **100
 
 ### So what do I get with a ticket?
 
-Firstly you get to come to a conference where [you can decide who is going to speak](http://cfp.euruko2013.org/proposals)! In case you haven’t noticed our call for proposals has opened and we already have many awesome presentations. On top of that, you can meet [Yukihiro “Matz” Matsumoto](http://euruko2013.org/#speakers), [Koichi Sasada](http://euruko2013.org/#speakers) and [Steve Klabnik](http://euruko2013.org/#speakers) who have already confirmed they are going to speak at this year’s EuRuKo. One last thing: you know that you cannot come to Athens and not have a party! That’s all been taken care of by our [sponsors](http://euruko2013.org/#sponsors) :-)
+Firstly you get to come to a conference where [you can decide who is going to speak](http://cfp.euruko2013.org/proposals)! In case you haven’t noticed our call for proposals has opened and we already have many awesome presentations. On top of that, you can meet [Yukihiro “Matz” Matsumoto](/#speakers), [Koichi Sasada](/#speakers) and [Steve Klabnik](/#speakers) who have already confirmed they are going to speak at this year’s EuRuKo. One last thing: you know that you cannot come to Athens and not have a party! That’s all been taken care of by our [sponsors](/#sponsors) :-)
 
 See you in Athens!
