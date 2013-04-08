@@ -9,11 +9,14 @@ per_page: 5
       <header>
         <h2 itemprop="headline">
           <%= link_to article.title, article %>
-          <%# link_to 'comments', article, anchor: 'disqus_thread', class: 'comment-count' %>
         </h2>
       </header>
       <section class="body" itemprop="description">
         <%= article.summary %>
+
+        <div class="comment">
+          <%= link_to 'comments', article, anchor: 'disqus_thread', class: 'comment-count' %>
+        </div>
       </section>
       <footer>
         <p class="date" itemprop="dateCreated" content="<%= article.date.strftime('%F') %>"><%= article.date.strftime('%b %e, %Y') %></p>
@@ -31,4 +34,14 @@ per_page: 5
   <% end %>
 </section>
 
-<%= partial 'blog/disqus' %>
+<script type="text/javascript">
+var disqus_shortname = 'euruko2013';
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
