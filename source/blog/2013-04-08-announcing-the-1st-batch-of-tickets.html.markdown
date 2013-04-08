@@ -7,7 +7,7 @@ authors: nolamesa
 
 Hi Rubyists!
 
-After so many months of preparation, finally the wait is over! So mark the date: tickets go on sale on **Friday 12th of April, [14:00 UTC](http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+1st+ticket+batch%21&iso=20130412T14)**.
+After so many months of preparation, finally the wait is over! So mark the date: tickets go on sale on **Friday 12th of April, [14:00 UTC](http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+1st+ticket+batch%21&iso=20130412T14)** through [eventora](https://www.eventora.com/en/Events/euruko-2013-athens).
 
 ![Soon](/images/blog/soon.jpg "Soon...")
 
