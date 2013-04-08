@@ -25,4 +25,4 @@ The tickets will be released in batches and the first batch is going to be **100
 
 Firstly you get to come to a conference where [you can decide who is going to speak](http://cfp.euruko2013.org/proposals)! In case you haven’t noticed our call for proposals has opened and we already have many awesome presentations. On top of that, you can meet [Yukihiro “Matz” Matsumoto](/#speakers), [Koichi Sasada](/#speakers) and [Steve Klabnik](/#speakers) who have already confirmed they are going to speak at this year’s EuRuKo. One last thing: you know that you cannot come to Athens and not have a party! That’s all been taken care of by our [sponsors](/#sponsors) :-)
 
-See you in Athens!
+Can't wait to see you in Athens! Until then, you can [watch the countdown](/#tickets) :)
