@@ -608,6 +608,16 @@ h3 {
     background-image: image-url("sprite.png");
     background-position:  16px -420px;
     background-repeat: no-repeat;
+
+     &:hover, &:active {
+        background: #99352d;
+        background-image: image-url("sprite.png");
+
+        background-position:  16px -420px;
+        background-repeat: no-repeat;
+        border: 1px solid #f2f2f2;
+        color: #f2f2f2;
+     }
   }
 
   .contact {
@@ -619,13 +629,13 @@ h3 {
     margin-top: 30px;
     font-size: 12px;
 
-    a {
+     a {
       color: $light_grey;
       margin: 0 5px;
     }
   }
 
-  #mc_embed_signup {
+   #mc_embed_signup {
       width: 85%;
       margin: $vr auto;
       font: 300 16px $ubuntu;
@@ -635,11 +645,11 @@ h3 {
       form {
       }
 
-      h2 {
-          font-weight: bold;
-          padding: 0;
-          margin: 15px 0;
-          font-size: 1.4em;
+     h2 {
+        font-weight: bold;
+        padding: 0;
+        margin: 15px 0;
+        font-size: 1.4em;
       }
 
       input {
@@ -657,13 +667,11 @@ h3 {
       }
       .button {
           clear: both;
-          background-color: #aaa;
+         background: rgb(215,215,215);
           border: 0 none;
-          color: #FFFFFF;
+          color: $light_grey;
           cursor: pointer;
           display: inline-block;
-          font-size: 15px;
-          font-weight: bold;
           height: 32px;
           line-height: 32px;
           margin: 0 5px 10px 0;
@@ -673,6 +681,7 @@ h3 {
           vertical-align: top;
           white-space: nowrap;
           width: auto;
+         border: 1px solid rgb(206,206,206);
 
           &:hover {
             background: #99352d;
