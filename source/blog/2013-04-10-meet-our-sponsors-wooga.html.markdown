@@ -12,3 +12,4 @@ Wooga was founded to create computer games for everyone. They develop games with
 
 As they say, they develop social games with love in Berlin. They certainly showed EuRuKo their love again this year and we should all thank them for that!
 
+Also, take a look [here](http://www.wooga.com/jobs/offers/woogas-future-of-engineering/) to see what it takes to join their Engineering team.
