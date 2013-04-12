@@ -34,12 +34,11 @@
     <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="blog/feed.xml" />
 
     <!-- Stylesheets -->
-    <link href="../../stylesheets/reset-f40330e2.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../stylesheets/main-6b48917a.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../stylesheets/main-09fe9461.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- JavaScript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
-    <script src="../../javascripts/main-417e92b4.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../../javascripts/main-a3b84321.js" type="text/javascript"></script>
 <script src="../../javascripts/parallax-2552782b.js" type="text/javascript"></script>
 <script src="../../javascripts/vendor/easing-9211a327.js" type="text/javascript"></script>
 <script src="../../javascripts/vendor/countdown-d392ee44.js" type="text/javascript"></script>
@@ -53,32 +52,38 @@
     </script>
   </head>
 
-  <body>
+  <body class="">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
-
-    <nav id="nav">
-      <ul class="centered clearfix">
-        <li><a class="ir" href="/">EuRuKo 2013</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/#contact">Contact</a></li>
-        <li><a href="http://cfp.euruko2013.org/proposals">Proposals</a></li>
-        <li><a href="/#sponsors">Sponsors</a></li>
-        <li><a href="/#venue">Venue</a></li>
-        <li><a href="/#tickets">Tickets</a></li>
-        <li><a href="/#speakers">Speakers</a></li>
-        <li><a href="/#about">About</a></li>
-       </ul>
-    </nav>
-
-      <section class="section" id="article">
-    <article class="post" itemscope itemscope="http://schema.org/Article">
-      <header>
-        <h2 itemprop="headline">Our contribution...</h2>
-      </header>
-      <section class="body" itemprop="text">
-        <p>From the very first <a href='http://euruko2013.org'>EuRuKo 2013</a> organisers’ meetup we decided that whatever we were about to do should positively impact the Ruby community. Aside from agreeing that we wanted EuRuKo 2013 to be an amazing conference, we also promised ourselves that even if it didn’t turn out to match our lofty expectations, the community should at least gain something significant.</p>
+    <div id="navbar-main" class="navbar navbar-fixed-top navbar-main">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">
+            <div class="navbar-logo"></div>
+          </a>
+          <ul class="nav pull-right">
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#speakers">Speakers</a></li>
+            <li><a href="/#tickets">Tickets</a></li>
+            <li><a href="/#venue">Venue</a></li>
+            <li><a href="/#sponsors">Sponsors</a></li>
+            <li><a href="http://cfp.euruko2013.org/proposals">Proposals</a></li>
+            <li><a href="/#contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <section class="container section" id="article">
+    <div class="row">
+      <div class="span8 offset2">
+        <article class="row blog-post" itemscope itemscope="http://schema.org/Article">
+          <header class="span8">
+            <h2 itemprop="headline">Our contribution...</h2>
+          </header>
+          <section class="span6 body" itemprop="text">
+            <p>From the very first <a href='http://euruko2013.org'>EuRuKo 2013</a> organisers’ meetup we decided that whatever we were about to do should positively impact the Ruby community. Aside from agreeing that we wanted EuRuKo 2013 to be an amazing conference, we also promised ourselves that even if it didn’t turn out to match our lofty expectations, the community should at least gain something significant.</p>
 
 <p>As it happens, sometimes such decisions become a tall order when you try to make everything perfect.</p>
 
@@ -95,11 +100,10 @@
 <p>In the hope that subsequent EuRuKos build on our effort and improve on our mistakes and successes we will release, upon the completion of the conference on the 29th of June 2013, all of our documentation, private discussions, decisions, spreadsheets, meeting minutes, supplier contracts, budgets and everything else conference-related that we can think of. This will be our contribution to the community.</p>
 
 <p>We love learning, experimenting and sharing knowledge because above all we believe we can improve our world. We hope that the honour, which the Ruby community has bestowed upon this unfairly tarnished part of our globe, can be turned into tangible benefits for everyone inside and outside of the Ruby community! So, thank you for your trust and please accept our contribution, it is coming soon&#8230;</p>
-      </section>
-      <footer>
-        <p class="date" itemprop="dateCreated" content="2013-03-13">Mar 13, 2013</p>
-
-        <ul class="authors">
+          </section>
+          <footer class="span2 text-center">
+  <p class="date" itemprop="dateCreated" content="2013-03-13">Mar 13, 2013</p>
+<ul class="authors unstyled">
   
     
     <li class="author">
@@ -110,11 +114,10 @@
     </li>
   
 </ul>
+</footer>
 
-      </footer>
-    </article>
-
-    <div id="disqus_thread"></div>
+        </article>
+        <div id="disqus_thread"></div>
 
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -131,11 +134,15 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
+      </div>
+    </div>
   </section>
 
-  <aside>
+  <aside class="hidden">
     <h2>Recent Articles</h2>
     <ol>
+      
+        <li><a href="/blog/2013-04-12-more-tickets-more-timezones-more-fun/">More tickets, more timezones, more fun...</a> <span>Apr 12</span></li>
       
         <li><a href="/blog/2013-04-12-above-and-beyond/">Above and beyond...</a> <span>Apr 12</span></li>
       
@@ -160,7 +167,7 @@
       
       <li>
         <a href="/blog/tags/euruko/">
-          euruko (6)
+          euruko (7)
         </a>
       </li>
       
@@ -208,7 +215,7 @@
       
       <li>
         <a href="/blog/tags/tickets/">
-          tickets (2)
+          tickets (3)
         </a>
       </li>
       
@@ -230,6 +237,12 @@
         </a>
       </li>
       
+      <li>
+        <a href="/blog/tags/announcement/">
+          announcement (1)
+        </a>
+      </li>
+      
     </ol>
 
     <h2>By Year</h2>
@@ -237,13 +250,12 @@
       
         <li>
         <a href="/blog/2013/">
-          2013 (8)
+          2013 (9)
         </a>
         </li>
       
     </ol>
   </aside>
-
 
   </body>
 </html>

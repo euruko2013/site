@@ -34,12 +34,11 @@
     <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="blog/feed.xml" />
 
     <!-- Stylesheets -->
-    <link href="../../stylesheets/reset-f40330e2.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../stylesheets/main-6b48917a.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../stylesheets/main-09fe9461.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- JavaScript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
-    <script src="../../javascripts/main-417e92b4.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../../javascripts/main-a3b84321.js" type="text/javascript"></script>
 <script src="../../javascripts/parallax-2552782b.js" type="text/javascript"></script>
 <script src="../../javascripts/vendor/easing-9211a327.js" type="text/javascript"></script>
 <script src="../../javascripts/vendor/countdown-d392ee44.js" type="text/javascript"></script>
@@ -53,32 +52,38 @@
     </script>
   </head>
 
-  <body>
+  <body class="">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
-
-    <nav id="nav">
-      <ul class="centered clearfix">
-        <li><a class="ir" href="/">EuRuKo 2013</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/#contact">Contact</a></li>
-        <li><a href="http://cfp.euruko2013.org/proposals">Proposals</a></li>
-        <li><a href="/#sponsors">Sponsors</a></li>
-        <li><a href="/#venue">Venue</a></li>
-        <li><a href="/#tickets">Tickets</a></li>
-        <li><a href="/#speakers">Speakers</a></li>
-        <li><a href="/#about">About</a></li>
-       </ul>
-    </nav>
-
-      <section class="section" id="article">
-    <article class="post" itemscope itemscope="http://schema.org/Article">
-      <header>
-        <h2 itemprop="headline">Above and beyond...</h2>
-      </header>
-      <section class="body" itemprop="text">
-        <p>The first ticket batch is <a href='/#tickets'>only some hours away</a>, the anticipation rises and even though this year I don&#8217;t actually have to worry about getting a ticket I still feel excited.</p>
+    <div id="navbar-main" class="navbar navbar-fixed-top navbar-main">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">
+            <div class="navbar-logo"></div>
+          </a>
+          <ul class="nav pull-right">
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#speakers">Speakers</a></li>
+            <li><a href="/#tickets">Tickets</a></li>
+            <li><a href="/#venue">Venue</a></li>
+            <li><a href="/#sponsors">Sponsors</a></li>
+            <li><a href="http://cfp.euruko2013.org/proposals">Proposals</a></li>
+            <li><a href="/#contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <section class="container section" id="article">
+    <div class="row">
+      <div class="span8 offset2">
+        <article class="row blog-post" itemscope itemscope="http://schema.org/Article">
+          <header class="span8">
+            <h2 itemprop="headline">Above and beyond...</h2>
+          </header>
+          <section class="span6 body" itemprop="text">
+            <p>The first ticket batch is <a href='/#tickets'>only some hours away</a>, the anticipation rises and even though this year I don&#8217;t actually have to worry about getting a ticket I still feel excited.</p>
 
 <p>Community participation has so far been very strong with a lot of very interesting topics covered in our <a href='http://cfp.euruko2013.org'>CfP</a>. We are right on track for one more awesome EuRuKo!</p>
 
@@ -87,11 +92,10 @@
 <p>So this year we will offer up to 20 Supporter tickets for <strong>250 €</strong> each for those of you who want to go above and beyond. We know you will not do it to get your name on the &#8220;honor roll&#8221; but we would be ungrateful if we didn&#8217;t do just that. We&#8217;ll even add your fancy company name, along your name, if you want!</p>
 
 <p>The tickets will go on sale together with the <a href='/blog/2013-04-08-announcing-the-1st-batch-of-tickets/'>first ticket batch</a> and we will add the Supporters&#8217; names to the <a href='/#contributors'>EuRuKo 2013</a> website as soon as possible.</p>
-      </section>
-      <footer>
-        <p class="date" itemprop="dateCreated" content="2013-04-12">Apr 12, 2013</p>
-
-        <ul class="authors">
+          </section>
+          <footer class="span2 text-center">
+  <p class="date" itemprop="dateCreated" content="2013-04-12">Apr 12, 2013</p>
+<ul class="authors unstyled">
   
     
     <li class="author">
@@ -102,11 +106,10 @@
     </li>
   
 </ul>
+</footer>
 
-      </footer>
-    </article>
-
-    <div id="disqus_thread"></div>
+        </article>
+        <div id="disqus_thread"></div>
 
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -123,11 +126,15 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
+      </div>
+    </div>
   </section>
 
-  <aside>
+  <aside class="hidden">
     <h2>Recent Articles</h2>
     <ol>
+      
+        <li><a href="/blog/2013-04-12-more-tickets-more-timezones-more-fun/">More tickets, more timezones, more fun...</a> <span>Apr 12</span></li>
       
         <li><a href="/blog/2013-04-12-above-and-beyond/">Above and beyond...</a> <span>Apr 12</span></li>
       
@@ -152,7 +159,7 @@
       
       <li>
         <a href="/blog/tags/euruko/">
-          euruko (6)
+          euruko (7)
         </a>
       </li>
       
@@ -200,7 +207,7 @@
       
       <li>
         <a href="/blog/tags/tickets/">
-          tickets (2)
+          tickets (3)
         </a>
       </li>
       
@@ -222,6 +229,12 @@
         </a>
       </li>
       
+      <li>
+        <a href="/blog/tags/announcement/">
+          announcement (1)
+        </a>
+      </li>
+      
     </ol>
 
     <h2>By Year</h2>
@@ -229,13 +242,12 @@
       
         <li>
         <a href="/blog/2013/">
-          2013 (8)
+          2013 (9)
         </a>
         </li>
       
     </ol>
   </aside>
-
 
   </body>
 </html>
