@@ -2,17 +2,17 @@
 <% down = page_number - window %>
 <% up = page_number + window %>
 
-<div id="pagination">
+<div class="pagination pagination-centered">
   <ul>
   <% if prev_page %>
-    <li class="previous"><%= link_to "&laquo; Previous", prev_page.url %></li>
+    <li><%= link_to "&laquo; Previous", prev_page.url %></li>
   <% else %>
-    <li class="previous disabled">&laquo; Previous</li>
+    <li class="disabled"><span>&laquo; Previous</span></li>
   <% end %>
 
   <% (down..up).select { |i| i > 0 && i <= num_pages }.each do |i| %>
     <% if i == page_number %>
-      <li class="active"><%= page_number %></li>
+      <li class="active"><span><%= page_number %></span></li>
     <% else %>
       <% page = nil %>
       <% (i...page_number).each { page = page ? page.metadata[:locals]['prev_page'] : prev_page } %>
@@ -22,9 +22,9 @@
   <% end %>
 
   <% if next_page %>
-    <li class="next"><%= link_to "Next &raquo;", next_page.url %></li>
+    <li><%= link_to "Next &raquo;", next_page.url %></li>
   <% else %>
-    <li class="next disabled">Next &raquo;</li>
+    <li class="next disabled"><span>Next &raquo;</span></li>
   <% end %>
   </ul>
 </div>
