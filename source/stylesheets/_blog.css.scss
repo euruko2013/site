@@ -134,6 +134,26 @@ aside {
 .blog-post {
   border-bottom: 1px solid #AAA;
   padding: 15px 0 30px 0;
+
+
+  aside {
+    ul {
+      list-style-type: none;
+    }
+
+    h3 {
+      font-size: 0.8em;
+      padding: 10px 0;
+
+      &:first-child {
+        padding-top: 20px;
+      }
+    }
+
+    a {
+      font-size: 0.7em;
+    }
+  }
 }
 
 footer {
