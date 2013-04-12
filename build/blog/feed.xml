@@ -5,10 +5,32 @@
   <id>http://euruko2013.org/blog</id>
   <link href="http://euruko2013.org/blog"/>
   <link href="http://euruko2013.org/blog/feed.xml" rel="self"/>
-  <updated>2013-04-09T21:00:00Z</updated>
+  <updated>2013-04-12T03:00:00Z</updated>
   <author>
     <name>EuRuKo 2013</name>
   </author>
+  <entry>
+    <title>Above and beyond...</title>
+    <link rel="alternate" href="/blog/2013-04-12-above-and-beyond/"/>
+    <id>http://euruko2013.org/blog/2013-04-12-above-and-beyond/</id>
+    <published>2013-04-12T03:00:00Z</published>
+    <updated>2013-04-12T03:00:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;The first ticket batch is &lt;a href="/#tickets"&gt;only some hours away&lt;/a&gt;, the anticipation rises and even though this year I don’t actually have to worry about getting a ticket I still feel excited.&lt;/p&gt;
+
+&lt;p&gt;Community participation has so far been very strong with a lot of very interesting...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;The first ticket batch is &lt;a href='/#tickets'&gt;only some hours away&lt;/a&gt;, the anticipation rises and even though this year I don&amp;#8217;t actually have to worry about getting a ticket I still feel excited.&lt;/p&gt;
+
+&lt;p&gt;Community participation has so far been very strong with a lot of very interesting topics covered in our &lt;a href='http://cfp.euruko2013.org'&gt;CfP&lt;/a&gt;. We are right on track for one more awesome Euruko!&lt;/p&gt;
+
+&lt;p&gt;We have been committed from the beginning to keeping the ticket cost as low as possible and this would certainly have not been possible without our brilliant &lt;a href='http://euruko2013.org/#sponsors'&gt;sponsors&lt;/a&gt;. We also hear from individuals from the community that they would like to contribute as well so we will continue the tradition of offering a limited number of tickets for a higher price.&lt;/p&gt;
+
+&lt;p&gt;So this year we will offer up to 20 Supporter tickets for &lt;strong&gt;250€&lt;/strong&gt; each for those of you who want to go above and beyond. We know you will not do it to get your name on the &amp;#8220;honor roll&amp;#8221; but we would be ungrateful if we didn&amp;#8217;t do just that. We&amp;#8217;ll even add your fancy company name if you want!&lt;/p&gt;
+
+&lt;p&gt;The tickets will go on sale together with the &lt;a href='/blog/2013-04-08-announcing-the-1st-batch-of-tickets/'&gt;first ticket batch&lt;/a&gt; and we will add the Supporter names to the Euruko2013 website as soon as possible.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Meet our sponsors: Wooga</title>
     <link rel="alternate" href="/blog/2013-04-10-meet-our-sponsors-wooga/"/>
@@ -144,31 +166,5 @@
 &lt;p&gt;The committee promises to pull its sleeves up and dive into hard work with the shovel in order to organize EuRuKo 2013 on time.&lt;/p&gt;
 
 &lt;p&gt;Thank you for your support.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Call for Presentations</title>
-    <link rel="alternate" href="/blog/2013-03-28-call-for-presentations/"/>
-    <id>http://euruko2013.org/blog/2013-03-28-call-for-presentations/</id>
-    <published>2013-03-27T23:30:00Z</published>
-    <updated>2013-03-27T23:30:00Z</updated>
-    <author>
-      <name>EuRuKo 2013 Team</name>
-    </author>
-    <summary type="html">&lt;p&gt;We are very excited to announce that Call for Presentations for EuRuKo 2013 &lt;a href="http://cfp.euruko2013.org/proposals"&gt;is now open&lt;/a&gt; and you can send your proposals until &lt;strong&gt;April 23rd&lt;/strong&gt;! We have put a lot of effort in order to create a selection process that will encourage submissions by everyone...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We are very excited to announce that Call for Presentations for EuRuKo 2013 &lt;a href='http://cfp.euruko2013.org/proposals'&gt;is now open&lt;/a&gt; and you can send your proposals until &lt;strong&gt;April 23rd&lt;/strong&gt;! We have put a lot of effort in order to create a selection process that will encourage submissions by everyone irrespective of publicity, gender, race, domain, etc, guarantee a high quality conference and at the same time be fun for all participants. The process has been refined with feedback from the community and all the details can be found &lt;a href='http://cfp.euruko2013.org/about'&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So mark the dates and get engaged:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Submit your proposal! We are pretty sure that almost everyone has something interesting to share!&lt;/li&gt;
-
-&lt;li&gt;Help refine the proposals: comment, suggest, criticise and show your love :)&lt;/li&gt;
-
-&lt;li&gt;Spread the news to the proper channels: your local ruby user groups, your blog, your circles!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;#8230;and one last thing: you know how hard it is to find a ticket for EuRuKo usually, right? They tend to sell out in seconds. Well, this year, we are reserving a priority line for active participants in the CfP process along some other goodies that may come later.&lt;/p&gt;
-
-&lt;p&gt;So, what are you waiting for? &lt;a href='http://cfp.euruko2013.org'&gt;Join the party&lt;/a&gt;!&lt;/p&gt;</content>
   </entry>
 </feed>
