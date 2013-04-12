@@ -1,3 +1,4 @@
+/* Removed to use as much bootstrap as possible
 h2 {
   padding: $vr 0;
   font: bold 22px $ubuntu;
@@ -126,4 +127,45 @@ aside {
   margin: 0 auto;
   padding: 15px 0;
   width: 700px;
+}
+
+*/
+
+.blog-post {
+  border-bottom: 1px solid #AAA;
+  padding: 15px 0 30px 0;
+}
+
+footer {
+  p {
+    font-size: $fontSizeSmall;
+    color: #bbb;
+
+    &.date {
+      font-size: $fontSizeLarge;
+      color: #666;
+      text-shadow: 2px 2px #ddd;
+    }
+  }
+
+  .authors {
+
+      &.separator {
+        font-size: 24px;
+        color: #666;
+        text-shadow: 2px 2px #ddd;
+      }
+    
+  }
+}
+
+.text-separator {
+  display: block;
+  font-size: $baseFontSize * 1.5;
+  color: #666;
+  text-shadow: 2px 2px #ddd;
+}
+
+#disqus_thread {
+  margin-top: $vr;
 }
