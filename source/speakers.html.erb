@@ -4,11 +4,7 @@ title: EuRuKo 2013 - Athens | Speakers
 <section id="speakers">
   <ul class="centered" itemprop="performer" itemtype="http://schema.org/Person">
     <% data.speakers.speakers.each_with_index do |speaker, i| %>
-      <% if (i+1) % 2 == 0 %>
-        <li class="left" id="<%= speaker.short_name %>">
-      <% else %>
-        <li class="right" id="<%= speaker.short_name %>">
-      <% end %>
+        <li class="<%= i.even? ? "left" : "right" %>" id="<%= speaker.short_name %>">
           <h4><span class="name" itemprop="name"><%= speaker.name %></span></h4>
           <h5><%= speaker.name %><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
         <p><%= speaker.short_bio %></p>
