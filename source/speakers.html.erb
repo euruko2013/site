@@ -1,0 +1,11 @@
+<ul class="speakers">
+  <% data.speakers.speakers.each_with_index do |speaker, i| %>
+    <% if i > 0 %>
+      <p class="separator"><%= '&amp;' if i > 0 %></p>
+    <% end %>
+    <li class="speaker">
+      <%= image_tag "speakers/#{speaker}.png", alt: speaker, itemprop: "image", class: "left" %>
+      <p><%= speaker.short_bio %></p>
+    </li>
+  <% end %>
+</ul>
