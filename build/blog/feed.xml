@@ -5,10 +5,66 @@
   <id>http://euruko2013.org/blog</id>
   <link href="http://euruko2013.org/blog"/>
   <link href="http://euruko2013.org/blog/feed.xml" rel="self"/>
-  <updated>2013-04-12T20:30:00Z</updated>
+  <updated>2013-04-13T19:25:00Z</updated>
   <author>
     <name>EuRuKo 2013</name>
   </author>
+  <entry>
+    <title>Ten days before the CFP closes and...</title>
+    <link rel="alternate" href="/blog/2013-04-13-ten-days-before-the-cfp-closes-and/"/>
+    <id>http://euruko2013.org/blog/2013-04-13-ten-days-before-the-cfp-closes-and/</id>
+    <published>2013-04-13T19:25:00Z</published>
+    <updated>2013-04-13T19:25:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;There are &lt;em&gt;less than 10 days left&lt;/em&gt; before the end of &lt;a href="http://cfp.euruko2013.org/about#dates"&gt;the presentations&amp;#8217; submission period&lt;/a&gt; and we thought it would be nice to share some numbers and some feedback of the process so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spoiler:&lt;/strong&gt; &lt;em&gt;it&amp;#8217;s going great and we&amp;#8217;re not even halfway there!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here...&lt;/strong&gt;&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;There are &lt;em&gt;less than 10 days left&lt;/em&gt; before the end of &lt;a href='http://cfp.euruko2013.org/about#dates'&gt;the presentations&amp;#8217; submission period&lt;/a&gt; and we thought it would be nice to share some numbers and some feedback of the process so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spoiler:&lt;/strong&gt; &lt;em&gt;it&amp;#8217;s going great and we&amp;#8217;re not even halfway there!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here are some rough, rounded numbers about the process:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://cfp.euruko2013.org/proposals'&gt;49 proposals&lt;/a&gt; &lt;em&gt;(3 withdrawn)&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;Close to &lt;a href='http://cfp.euruko2013.org/motivation'&gt;200 users&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;150 suggestions&lt;/li&gt;
+
+&lt;li&gt;600 votes&lt;/li&gt;
+
+&lt;li&gt;10000 impressions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Here are some comments regarding the process:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Intrigued and impressed by @euruko&amp;#8217;s open and social CFP process (&lt;a href='https://twitter.com/pat_shaughnessy/status/317244488877752320'&gt;@pat_shaughnessy&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;EuRuKo CfP! This time 10 talks are choosen by the community. Hosting conferences was never easier :-P (&lt;a href='https://twitter.com/bovensiepen/status/317293688948658176'&gt;@bovensiepen&lt;/a&gt;) &lt;em&gt;(*)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;(*)&lt;/em&gt; No, &lt;strong&gt;it&amp;#8217;s not&lt;/strong&gt;!!! See the section below&amp;#8230; :P&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;And here are some number for the application itself:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='https://github.com/euruko2013/vestibule/commits/euruko2013'&gt;500+ commits&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/euruko2013/vestibule/graphs/contributors'&gt;12 contributors&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;At least 5 &lt;em&gt;&amp;#8220;fremium&amp;#8221;&lt;/em&gt; services used to make it be live &lt;em&gt;(more on this on another blog post)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, what are you waiting for? &lt;strong&gt;&lt;a href='http://cfp.euruko2013.org/proposals'&gt;Send your proposal now!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>More tickets, more timezones, more fun...</title>
     <link rel="alternate" href="/blog/2013-04-12-more-tickets-more-timezones-more-fun/"/>
@@ -134,39 +190,5 @@
 &lt;p&gt;Can&amp;#8217;t wait to see you in Athens! Until then, you can &lt;a href='/#tickets'&gt;watch the countdown&lt;/a&gt; :)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; We decided to sell 150 tickets due to high demand.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Happy April Fools' Day</title>
-    <link rel="alternate" href="/blog/2013-04-01-happy-april-fools-day/"/>
-    <id>http://euruko2013.org/blog/2013-04-01-happy-april-fools-day/</id>
-    <published>2013-04-01T20:40:00Z</published>
-    <updated>2013-04-01T20:40:00Z</updated>
-    <author>
-      <name>EuRuKo 2013 Team</name>
-    </author>
-    <summary type="html">&lt;p&gt;Well, obviously nothing of this ever happened. :)&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href="/#venue"&gt;Venue&lt;/a&gt; is magnificent as you &amp;#8216;ll witness yourself firsthand when you join us in Athens. Everything is going as planned.&lt;/p&gt;
-
-&lt;p&gt;We still have lots of work to do before we&amp;#8217;re ready to welcome you to Athens...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Well, obviously nothing of this ever happened. :)&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href='/#venue'&gt;Venue&lt;/a&gt; is magnificent as you &amp;#8216;ll witness yourself firsthand when you join us in Athens. Everything is going as planned.&lt;/p&gt;
-
-&lt;p&gt;We still have lots of work to do before we&amp;#8217;re ready to welcome you to Athens this June for EuRuKo 2013, however we are getting there. Our &lt;a href='/blog/2013-03-28-call-for-presentations/'&gt;CFP is open&lt;/a&gt; and &lt;a href='http://cfp.euruko2013.org/proposals'&gt;a lot of proposals have been submitted&lt;/a&gt; already. We suggest you get a look at them and vote for those you like and make suggestions to improve the ones you feel need a more thorough description. And why not read the process and &lt;a href='http://cfp.euruko2013.org/about'&gt;submit your own proposal&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;Really soon, we will announce the &lt;a href='/#tickets'&gt;first batch of tickets&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned and follow us closely on &lt;a href='http://twitter.com/euruko'&gt;Twitter&lt;/a&gt;, our &lt;a href='/blog/feed.xml'&gt;blog feed&lt;/a&gt; and our &lt;a href='http://eepurl.com/w3D21'&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Just to reassure you here are a couple more images from the &lt;a href='/'&gt;EuRuKo 2013&lt;/a&gt; awesome Venue:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Central Scene' src='/images/blog/badminton_center.jpg' /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Foyer' src='/images/blog/badminton_foyer.jpg' /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Lower Foyer' src='/images/blog/badminton_lower_foyer.jpg' /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Console' src='/images/blog/badminton_console.jpg' /&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
