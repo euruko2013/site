@@ -30,7 +30,7 @@
 &lt;p&gt;&lt;strong&gt;Here are some rough, rounded numbers about the process:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://cfp.euruko2013.org/proposals'&gt;49 proposals&lt;/a&gt; &lt;em&gt;(3 withdrawn)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='http://cfp.euruko2013.org/proposals'&gt;52 proposals&lt;/a&gt; &lt;em&gt;(3 withdrawn)&lt;/em&gt;&lt;/li&gt;
 
 &lt;li&gt;Close to &lt;a href='http://cfp.euruko2013.org/motivation'&gt;200 users&lt;/a&gt;&lt;/li&gt;
 
@@ -48,6 +48,10 @@
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
+&lt;p&gt;I really liked the anonymous approach Euruko was going for (&lt;a href='http://cfp.euruko2013.org/proposals/14#suggestion_20'&gt;Bamboo&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
 &lt;p&gt;EuRuKo CfP! This time 10 talks are choosen by the community. Hosting conferences was never easier :-P (&lt;a href='https://twitter.com/bovensiepen/status/317293688948658176'&gt;@bovensiepen&lt;/a&gt;) &lt;em&gt;(*)&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -59,6 +63,8 @@
 &lt;li&gt;&lt;a href='https://github.com/euruko2013/vestibule/commits/euruko2013'&gt;500+ commits&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href='https://github.com/euruko2013/vestibule/graphs/contributors'&gt;12 contributors&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/rubymanor/vestibule/network'&gt;19 forks&lt;/a&gt; of the original &lt;a href='https://github.com/rubymanor/vestibule'&gt;&lt;em&gt;Vestibule&lt;/em&gt; app&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;At least 5 &lt;em&gt;&amp;#8220;fremium&amp;#8221;&lt;/em&gt; services used to make it be live &lt;em&gt;(more on this on another blog post)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
