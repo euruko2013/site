@@ -67,9 +67,11 @@
             <li><%= link_to_section 'Sponsors', '#sponsors' %></li>
             <li><%= link_to 'Proposals', 'http://cfp.euruko2013.org/proposals' %></li>
             <li><%= link_to_section 'Contact', '#contact' %></li>
-			<li class="blog-item">
+            <li class="blog-item">
               <%= link_to 'Blog', '/blog' %>
-              <%= link_to '<i class="icon-rss"></i>', '/blog/feed.xml' %>
+              <% link_to '/blog/feed.xml' do %>
+                <i class="icon-rss"></i>
+              <% end %>
             </li>
           </ul>
         </div>
