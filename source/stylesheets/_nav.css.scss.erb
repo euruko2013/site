@@ -17,13 +17,21 @@
   background-position: -305px -70px;
 }
 
-.navbar a {
-  border-bottom: none;
-  text-transform: uppercase;
-}
+.navbar {
+  .nav > li > a {
+    text-shadow: none;
+    color: #616161;
+    font: 400 14px $ubuntu;
+	border-bottom: none;
+	text-transform: uppercase;
+  }
 
-.navbar .nav > li > a {
-  text-shadow: none;
-  color: #616161;
-  font: 400 14px $ubuntu;
+  .nav > li.blog-item > a {
+    display: inline-block;
+  
+    &:last-child {
+      color: $linkColor;
+      padding-left: 0;
+    }
+  }
 }
