@@ -149,20 +149,10 @@ aside {
     h3 {
       font-size: 0.8em;
       padding: 10px 0;
-
-      &:first-child {
-        padding-top: 20px;
-      }
     }
 
     a {
       font-size: 0.7em;
-    }
-
-    @media (min-width: 768px) {
-      position: absolute;
-      top: 300px;
-      right: 0;
     }
   }
 }

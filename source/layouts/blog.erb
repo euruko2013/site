@@ -11,16 +11,16 @@ description: EuRuKo 2013 - The European Ruby Conference 2013 Blog
             <h2 itemprop="headline"><%= current_page.title %></h2>
           </header>
 
-          <section class="body span6" itemprop="text">
-            <%= yield %>
-          </section>
-
-          <%= partial 'blog/authors', locals: { authors: current_page.data.authors.split(","),
-                                              article_date: current_page.date } %>
-          
-          <%= partial 'blog/disqus' %>
+          <section class="span6" itemprop="text">
+            <div class="body">
+              <%= yield %>
+            </div>
+            <%= partial 'blog/disqus' %>
+          </section>         
 
           <aside class="span2">
+            <%= partial 'blog/authors', locals: { authors: current_page.data.authors.split(","),
+                                              article_date: current_page.date } %> 
             <h3>Recent Articles</h3>
             <ul>
               <% blog.articles.reject{|a| a.title == current_page.title}[0...5].each do |article| %>
