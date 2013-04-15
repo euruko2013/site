@@ -17,6 +17,8 @@ For Euruko 2013 there will be 80 reserved tickets for Ruby user groups. If you a
 
 Give us the name of the user group along the number of tickets you would like and any information that will help us verify your claim .
 The deadline for submissions is the 14th of May.
-We cannot guarantee that you will get all the tickets you ask for and if there are more requests than the 80 tickets we have reserved we will distrbute them evenly.
+We cannot guarantee that you will get all the tickets you ask for and we do recommend to try and get your ticket from the last batch to go on sale [Friday, April 19th at 17:00UTC](http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+3rd+ticket+batch%21&iso=20130419T17)
+
+If there are requests for more tickets then the 80 we have reserved we will distrbute them evenly.
 
 User groups are the heart of every local communitty and Euruko is the best venue for the local communities to connect, communicate and cooperate. Join us in making Euruko 2013 one of the best Ruby conferences!
