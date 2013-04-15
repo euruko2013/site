@@ -16,7 +16,7 @@ Interesting fact: Almost half of this year's organizing committee got tickets fo
 For EuRuKo 2013 there will be 80 reserved tickets for Ruby user groups. If you are a member of a Ruby user group and would like tickets then please fill in the [form](https://docs.google.com/a/euruko2013.org/spreadsheet/viewform?formkey=dFhXcDQtQlQ5SGZJTDNzaEZCZEx5R1E6MQ).
 
 Give us the name of the user group along the number of tickets you would like and any information that will help us verify your claim .
-The deadline for submissions is the 14th of May.
+The deadline for submissions is the 26th April.
 We cannot guarantee that you will get all the tickets you ask for and we do recommend to try and get your ticket from the last batch to go on sale [Friday, April 19th at 17:00UTC](http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+3rd+ticket+batch%21&iso=20130419T17)
 
 If there are requests for more tickets then the 80 we have reserved we will distrbute them evenly.
