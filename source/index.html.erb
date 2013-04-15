@@ -167,16 +167,13 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
 
       <ul class="sponsors">
         <li>
-          <!-- <div class="ribbon">
-            <span>Gaia</span>
-          </div> -->
-
           <% link_to 'http://www.skroutz.gr', :target => '_blank' do %>
-            <img src="sponsors/skroutz_logo_400x300.png" alt="Skroutz S.A" width="400" height="300">
+            <%= image_tag "sponsors/skroutz_logo_400x300.png", alt: "Skroutz S.A. Logo", title: "Skroutz S.A.", itemprop: "image", width: "400", height: "300" %>
           <% end %>
 
-          <h4>Skroutz S.A.</h4>
-          <br>
+          <h4 id="skroutz">Skroutz S.A.</h4>
+
+          <br />
 
           <p>
               Founded in 2005, Skroutz S.A. is committed to modern software development actively creating bleeding edge
@@ -198,46 +195,47 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <ul class="sponsors">
         <li>
           <div class="ribbon">
-	         <span>Helios</span>
-	        </div>
+            <span>Helios</span>
+          </div>
 
           <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
-            <img src="sponsors/place_holder_250x125.png" />
+            <%= image_tag "sponsors/place_holder_250x125.png", alt: "Helios sponsor logo", title: "Your logo here!", itemprop: "image", width: "250", height: "125" %>
           <% end %>
         </li>
       </ul>
     </div>
 
-        <div id="selene">
+    <div id="selene">
       <h2>Selene</h2>
 
       <ul class="sponsors">
-
-        <li>
-          <% link_to 'http://www.avarteq.de/', :target => '_blank' do %>
-            <img src="sponsors/avarteq.200.100.png" alt="Avarteq" width="200" height="100" />
+        <li id="avarteq">
+          <% link_to 'http://www.avarteq.de', :target => '_blank' do %>
+            <%= image_tag "sponsors/avarteq_200x100.png", alt: "Avarteq Logo", title: "Avarteq", itemprop: "image", width: "200", height: "100" %>
           <% end %>
         </li>
 
-        <li>
-          <% link_to 'https://soundcloud.com/', :target => '_blank' do %>
-            <img src="sponsors/soundcloud.200.100.png" alt="SoundCloud" width="200" height="100" />
+        <li id="soundcloud">
+          <% link_to 'https://soundcloud.com', :target => '_blank' do %>
+            <%= image_tag "sponsors/soundcloud_200x100.png", alt: "SoundCloud Logo", title: "SouldCloud", itemprop: "image", width: "200", height: "100" %>
           <% end %>
         </li>
 
-        <!-- <li>
-          <% link_to 'http://www.heroku.com/', :target => '_blank' do %>
-            <img src="sponsors/heroku.200.100.png" alt="Heroku" width="200" height="100" />
+        <!--
+        <li id="heroku">
+          <% link_to 'http://www.heroku.com', :target => '_blank' do %>
+            <%= image_tag "sponsors/heroku_200x100.png", alt: "Heroku Logo", title: "Heroku", itemprop: "image", width: "200", height: "100" %>
           <% end %>
-        </li> -->
+        </li>
+        -->
 
         <li>
           <div class="ribbon">
-	        <span>Selene</span>
-	      </div>
+            <span>Selene</span>
+          </div>
 
           <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
-            <img src="sponsors/place_holder_200x100.png" />
+            <%= image_tag "sponsors/place_holder_200x100.png", alt: "Selene sponsor Logo", title: "Your logo here!", itemprop: "image", width: "200", height: "100" %>
           <% end %>
         </li>
       </ul>
@@ -247,9 +245,9 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <h2>Aphrodite</h2>
 
       <ul class="sponsors">
-        <li>
+        <li id="wooga">
           <% link_to 'http://www.wooga.com', :target => '_blank' do %>
-            <img src="sponsors/wooga.150.75.png" alt="Wooga" width="150" height="75" />
+            <%= image_tag "sponsors/wooga_150x75.png", alt: "Wooga sponsor Logo", title: "Wooga", itemprop: "image", width: "150", height: "75" %>
           <% end %>
         </li>
 
@@ -259,7 +257,7 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           </div>
 
           <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
-            <img src="sponsors/place_holder_150x75.png" />
+            <%= image_tag "sponsors/place_holder_150x75.png", alt: "Aphrodite sponsor Logo", title: "Your logo here!", itemprop: "image", width: "150", height: "75" %>
           <% end %>
         </li>
       </ul>
@@ -271,24 +269,24 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <ul class="sponsors">
         <li>
           <div class="ribbon party">
-	    <span>Party</span>
-	  </div>
+            <span>Party</span>
+          </div>
 
           <img src="sponsors/place_holder_200x100.png" />
         </li>
 
         <li>
           <div class="ribbon wifi">
-	    <span>WiFi</span>
-	  </div>
+            <span>WiFi</span>
+          </div>
 
           <img src="sponsors/place_holder_200x100.png" />
         </li>
 
         <li>
           <div class="ribbon network">
-	    <span>Network</span>
-	  </div>
+            <span>Network</span>
+          </div>
 
           <img src="sponsors/place_holder_200x100.png" />
         </li>
