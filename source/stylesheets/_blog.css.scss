@@ -136,6 +136,14 @@ aside {
   padding: 15px 0 30px 0;
 }
 
+section.body {
+    img[alt~=Logo] {
+      float: left;
+      margin: 0 15px 10px 0;
+      border: 1px solid #3e3e3e;
+    }
+}
+
 footer {
   p {
     font-size: $fontSizeSmall;
