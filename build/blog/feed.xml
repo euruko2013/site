@@ -5,10 +5,38 @@
   <id>http://euruko2013.org/blog</id>
   <link href="http://euruko2013.org/blog"/>
   <link href="http://euruko2013.org/blog/feed.xml" rel="self"/>
-  <updated>2013-04-13T19:25:00Z</updated>
+  <updated>2013-04-16T10:49:00Z</updated>
   <author>
     <name>EuRuKo 2013</name>
   </author>
+  <entry>
+    <title>Meet our sponsors: Avarteq</title>
+    <link rel="alternate" href="/blog/2013-04-16-meet-our-sponsors-avarteq/"/>
+    <id>http://euruko2013.org/blog/2013-04-16-meet-our-sponsors-avarteq/</id>
+    <published>2013-04-16T10:49:00Z</published>
+    <updated>2013-04-16T10:49:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img alt="Avarteq Logo" src="/images/sponsors/avarteq_200x100.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;Anynines is an upcoming Heroku-like PaaS written in Ruby. A hosting that grows with your apps!&lt;/p&gt;
+
+&lt;p&gt;Folks from anynines see their job as terribly important - many developers put pet apps to PaaS providers, yet introducing larger installations is often...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;img alt='Avarteq Logo' src='/images/sponsors/avarteq_200x100.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anynines is an upcoming Heroku-like PaaS written in Ruby. A hosting that grows with your apps!&lt;/p&gt;
+
+&lt;p&gt;Folks from anynines see their job as terribly important - many developers put pet apps to PaaS providers, yet introducing larger installations is often way too expensive and complicated. That’s why it’s going to start as non-freemium, pay-as-you-go service. Additionaly, one of anynines’ goals is to make PaaS both affordable and compliant to European privacy laws.&lt;/p&gt;
+
+&lt;p&gt;As you see, it’s more than just business. Anynines supports selected non-profit open source and charity projects with free hosting, being itself based on the CloudFoundry software! This will allow a fair cost-by-cause-based pricing while still returning something to the community. A sort of Fair Trade hosting.&lt;/p&gt;
+
+&lt;p&gt;Anynines is operated by enterprise-rails.com, a Rails-focused hosting service and a division of Avarteq. Enterprise-rails.com manages and runs your app in any environment - most customers simply leave the job up to to Enterprise Rails, including hardware and/or OpenStack virtualization, Chef installation automation, monitoring and backups. Just leave it to them and enjoy your apps running like a clockwork.&lt;/p&gt;
+
+&lt;p&gt;The engine behind anynines and enterprise-rails.com is &lt;a href='http://www.avarteq.de/?utm_source=euruko&amp;amp;utm_medium=banner&amp;amp;utm_campaign=selene'&gt;Avarteq&lt;/a&gt;, a German Ruby shop founded in late 2008. It’s been many projects since then and Avarteq has grown from 3 to over 30 people, becoming a rock solid organization with profound Ruby and Ruby on Rails knowledge for both development and operations.&lt;/p&gt;
+
+&lt;p&gt;Avarteq loves EuRuKo and would do all their best to keep this magical event alive.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Ten days before the CFP closes and...</title>
     <link rel="alternate" href="/blog/2013-04-13-ten-days-before-the-cfp-closes-and/"/>
@@ -156,47 +184,5 @@
 &lt;p&gt;The “force” between Skroutz.gr and Ruby is strong. Skroutz.gr is built on RoR and takes full advantage of all the magical features which the Ruby programming language offers. As already mentioned, several members of the Greek Ruby community “live” and enhance their experience within Skroutz by undertaking and creating really amazing projects.&lt;/p&gt;
 
 &lt;p&gt;Apart from Skroutz.gr many ambitious projects were built during the course of the last 8 years, including &lt;a href='http://www.skroutzstore.gr/home'&gt;Skroutzstore&lt;/a&gt; (a user-friendly platform for the creation of a fully operational e-shop in just 10 minutes), &lt;a href='http://mybill.skroutz.gr/'&gt;Skroutz MyBill&lt;/a&gt; (a spin off which extends comparison portfolio to telecommunication services), &lt;a href='http://www.soby.gr/'&gt;Soby&lt;/a&gt; (the first deal aggregator in Greece) and recently &lt;a href='http://www.alve.com/'&gt;Alve.com&lt;/a&gt; (a price comparison engine adjusted to the needs of the Turkish market).&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Announcing the 1st batch of tickets!</title>
-    <link rel="alternate" href="/blog/2013-04-08-announcing-the-1st-batch-of-tickets/"/>
-    <id>http://euruko2013.org/blog/2013-04-08-announcing-the-1st-batch-of-tickets/</id>
-    <published>2013-04-07T21:42:00Z</published>
-    <updated>2013-04-07T21:42:00Z</updated>
-    <author>
-      <name>EuRuKo 2013 Team</name>
-    </author>
-    <summary type="html">&lt;p&gt;Hi Rubyists!&lt;/p&gt;
-
-&lt;p&gt;After so many months of preparation, finally the wait is over! So mark the date: tickets go on sale on &lt;strong&gt;Friday 12th of April, &lt;a href="http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+1st+ticket+batch%21&amp;amp;iso=20130412T14"&gt;14:00 UTC&lt;/a&gt;&lt;/strong&gt; through &lt;a href="https://www.eventora.com/en/Events/euruko-2013-athens"&gt;Eventora&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Soon" src="/images/blog/soon.jpg"&gt;&lt;/p&gt;
-
-&lt;h3 id="how_much"&gt;How much?&lt;/h3&gt;
-
-&lt;p&gt;The ticket price is going to be &lt;strong&gt;60 €&lt;/strong&gt;. As you may know, EuRuKo has traditionally...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Hi Rubyists!&lt;/p&gt;
-
-&lt;p&gt;After so many months of preparation, finally the wait is over! So mark the date: tickets go on sale on &lt;strong&gt;Friday 12th of April, &lt;a href='http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+1st+ticket+batch%21&amp;amp;iso=20130412T14'&gt;14:00 UTC&lt;/a&gt;&lt;/strong&gt; through &lt;a href='https://www.eventora.com/en/Events/euruko-2013-athens'&gt;Eventora&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Soon' src='/images/blog/soon.jpg' /&gt;&lt;/p&gt;
-
-&lt;h3 id='how_much'&gt;How much?&lt;/h3&gt;
-
-&lt;p&gt;The ticket price is going to be &lt;strong&gt;60 &amp;#8364;&lt;/strong&gt;. As you may know, EuRuKo has traditionally been a conference with a very reasonable ticket price. The reason is simple: it&amp;#8217;s an event organized by the community for the community.&lt;/p&gt;
-
-&lt;p&gt;Of course, this wouldn&amp;#8217;t have been possible without the love of our &lt;a href='/#sponsors'&gt;sponsors&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h3 id='how_many_tickets'&gt;How many tickets?&lt;/h3&gt;
-
-&lt;p&gt;The tickets will be released in batches and the first batch is going to be &lt;strong&gt;&lt;strike&gt;100&lt;/strike&gt; 150 tickets&lt;/strong&gt;. More will follow of course :-)&lt;/p&gt;
-
-&lt;h3 id='so_what_do_i_get_with_a_ticket'&gt;So what do I get with a ticket?&lt;/h3&gt;
-
-&lt;p&gt;Firstly you get to come to a conference where &lt;a href='http://cfp.euruko2013.org/proposals'&gt;you can decide who is going to speak&lt;/a&gt;! In case you haven’t noticed our call for proposals has opened and we already have many awesome presentations. On top of that, you can meet &lt;a href='/#speakers'&gt;Yukihiro “Matz” Matsumoto&lt;/a&gt;, &lt;a href='/#speakers'&gt;Koichi Sasada&lt;/a&gt; and &lt;a href='/#speakers'&gt;Steve Klabnik&lt;/a&gt; who have already confirmed they are going to speak at this year’s EuRuKo. One last thing: you know that you cannot come to Athens and not have a party! That’s all been taken care of by our &lt;a href='/#sponsors'&gt;sponsors&lt;/a&gt; :-)&lt;/p&gt;
-
-&lt;p&gt;Can&amp;#8217;t wait to see you in Athens! Until then, you can &lt;a href='/#tickets'&gt;watch the countdown&lt;/a&gt; :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; We decided to sell 150 tickets due to high demand.&lt;/p&gt;</content>
   </entry>
 </feed>
