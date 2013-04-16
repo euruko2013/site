@@ -33,6 +33,10 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
         </li> -->
         <li>
+          <span>17/04</span>
+          <%= link_to 'Persado is our first Helios sponsor!', '#helios' %>
+        </li>
+         <li>
           <span>16/04</span>
           <%= link_to 'Metaquark is an Aphrodite sponsor', '#aphrodite' %>
         </li>
@@ -51,10 +55,6 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li>
           <span>09/04</span>
           <%= link_to 'Avarteq is a Selene sponsor', '#selene' %>
-        </li>
-        <li>
-          <span>08/04</span>
-          <%= link_to '1st batch of tickets is coming!', '#tickets' %>
         </li>
         <li>
           <span>08/04</span>
@@ -193,6 +193,20 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <h2>Helios</h2>
 
       <ul class="sponsors">
+        <li id="persado">
+          <% link_to 'http://www.persado.com?utm_source=euruko&utm_medium=banner&utm_campaign=helios', :target => '_blank' do %>
+            <%= image_tag "sponsors/persado_250x125.png", alt: "Persado Logo", title: "Persado", itemprop: "image", width: "250", height: "150" %>
+          <% end %>
+
+          <p>
+            <%= link_to 'Persado', 'http://www.persado.com?utm_source=euruko&utm_medium=description&utm_campaign=helios', target: "_blank" %>,
+            a spinoff of digital marketing firm Upstream, uses semantical &amp;
+            statistical algorithms to help its customers generate the digital
+            marketing messages that work best, resulting in an average of 30%
+            to 150% improvement in performance.
+          </p>
+        </li>
+
         <li>
           <div class="ribbon">
             <span>Helios</span>
