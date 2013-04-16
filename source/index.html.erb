@@ -33,6 +33,10 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
         </li> -->
         <li>
+          <span>16/04</span>
+          <%= link_to 'Metaquark is an Aphrodite sponsor', '#aphrodite' %>
+        </li>
+        <li>
           <span>13/04</span>
           <%= link_to 'Countdown for 2nd ticket batch started!', '/blog/2013-04-12-more-tickets-more-timezones-more-fun/' %>
         </li>
@@ -55,10 +59,6 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li>
           <span>08/04</span>
           <%= link_to 'Our Gaia sponsor is Skroutz!', '#gaia' %>
-        </li>
-        <li>
-          <span>08/04</span>
-          <%= link_to 'Wooga is an Aphrodite sponsor', '#aphrodite' %>
         </li>
       </ul>
     </div>
@@ -248,6 +248,11 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li id="wooga">
           <% link_to 'http://www.wooga.com?utm_source=euruko&utm_medium=banner&utm_campaign=aphrodite', :target => '_blank' do %>
             <%= image_tag "sponsors/wooga_150x75.png", alt: "Wooga sponsor Logo", title: "Wooga", itemprop: "image", width: "150", height: "75" %>
+          <% end %>
+        </li>
+        <li id="metaquark">
+          <% link_to 'http://metaquark.de?utm_source=euruko&utm_medium=banner&utm_campaign=aphrodite', :target => '_blank' do %>
+            <%= image_tag "sponsors/metaquark_150x75.png", alt: "Metaquark sponsor Logo", title: "Metaquark", itemprop: "image", width: "150", height: "75" %>
           <% end %>
         </li>
 
