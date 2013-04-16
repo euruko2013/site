@@ -463,6 +463,15 @@ h3 {
     a {
       color: $light_grey;
     }
+
+    .eventora-page {
+      margin: 2*$vr auto;
+
+      &:hover,
+      &:active {
+        color: #f2f2f2;
+      }
+    }
   }
 
   p {
@@ -533,13 +542,9 @@ h3 {
     text-align: center;
 
     a.brochure {
-      width: 300px;
       @include bullet-left(#989898, 18px, rgba(152,152,152,.4));
 
       &:hover, &:active {
-        background: #99352d;
-        border: 1px solid #f2f2f2;
-        color: #f2f2f2;
         @include bullet-left(#f2f2f2, 18px, rgba(242,242,242,.4));
       }
     }
@@ -609,13 +614,10 @@ h3 {
     background-repeat: no-repeat;
 
      &:hover, &:active {
-        background: #99352d;
         background-image: image-url("sprite.png");
 
         background-position:  16px -420px;
         background-repeat: no-repeat;
-        border: 1px solid #f2f2f2;
-        color: #f2f2f2;
      }
   }
 
