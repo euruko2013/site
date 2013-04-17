@@ -5,10 +5,36 @@
   <id>http://euruko2013.org/blog</id>
   <link href="http://euruko2013.org/blog"/>
   <link href="http://euruko2013.org/blog/feed.xml" rel="self"/>
-  <updated>2013-04-17T05:39:00Z</updated>
+  <updated>2013-04-17T09:55:00Z</updated>
   <author>
     <name>EuRuKo 2013</name>
   </author>
+  <entry>
+    <title>Meet our sponsors: Metaquark</title>
+    <link rel="alternate" href="/blog/2013-04-17-meet-our-sponsors-metaquark/"/>
+    <id>http://euruko2013.org/blog/2013-04-17-meet-our-sponsors-metaquark/</id>
+    <published>2013-04-17T09:55:00Z</published>
+    <updated>2013-04-17T09:55:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img alt="Metaquark Logo" src="/images/sponsors/metaquark_150x75.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;For a long time, the team at &lt;a href="http://metaquark.de/"&gt;Metaquark&lt;/a&gt; shared every mobile developer’s experience. This of the difficulty of designing, building, releasing and maintaining mobile apps. In this experience, many manual steps had to be followed repeatedly in order...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;img alt='Metaquark Logo' src='/images/sponsors/metaquark_150x75.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;For a long time, the team at &lt;a href='http://metaquark.de/'&gt;Metaquark&lt;/a&gt; shared every mobile developer&amp;#8217;s experience. This of the difficulty of designing, building, releasing and maintaining mobile apps. In this experience, many manual steps had to be followed repeatedly in order to test, publish and then collect application usage information.&lt;/p&gt;
+
+&lt;p&gt;It got more complicated every time they added support for a new mobile operating system, because none of them are alike as we all know. It got even worse when they tried to do all of that in a distributed team, with very few tools that were built to support such team structure.&lt;/p&gt;
+
+&lt;p&gt;Then it was when when they set out to make developing mobile apps a lot easier. Metaquark&amp;#8217;s mobile enterprise application platform called ‘AppFresh Mobile’ is a central service for large and small companies which helps manage the life-cycle of mobile applications. AppFresh Mobile includes distributed cloud builds for all mobile platforms, application security policies, distribution of applications to handsets using a custom enterprise applications store and extensive monitoring to help improve the quality of applications delivered to employees and customers.&lt;/p&gt;
+
+&lt;p&gt;Metaquark work with a great variety of technologies to implement their mobile cross-platform and cloud strategy. Not surprisingly, their core platform is powered by Ruby and Rails. Their platform can either be deployed in a highly scalable Metaquark cloud setup, or directly at the customer site. Metaquark are small but fast growing. Their team and their vision are backed by their strategic investor and strong partner Software AG. Together they deliver mobile technologies and projects for some of the biggest enterprises all around the world.&lt;/p&gt;
+
+&lt;p&gt;Not only that, but Metaquark are &lt;a href='http://metaquark.de/jobs/'&gt;hiring!&lt;/a&gt; They suggest that if you&amp;#8217;re looking for a challenge, they are the right place for you! The place to work on technology, concepts and strategies, think in new ways, be creative and take over great challenges. You may join them in one of their offices in Berlin and Leipzig (Germany) and make cross-platform mobile application life-cycle management available to all enterprises which develop mobile applications. From managing, building and signing mobile applications in the cloud to full featured application and device management on the mobile client, you name it, they are working on it.&lt;/p&gt;
+
+&lt;p&gt;Help development teams all over the world develop better apps and save time by using AppFresh Mobile!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Calling All Ruby Brigades</title>
     <link rel="alternate" href="/blog/2013-04-17-calling-all-ruby-brigades/"/>
@@ -170,27 +196,5 @@
 &lt;p&gt;So this year we will offer up to 20 Supporter tickets for &lt;strong&gt;250 €&lt;/strong&gt; each for those of you who want to go above and beyond. We know you will not do it to get your name on the &amp;#8220;honor roll&amp;#8221; but we would be ungrateful if we didn&amp;#8217;t do just that. We&amp;#8217;ll even add your fancy company name, along your name, if you want!&lt;/p&gt;
 
 &lt;p&gt;The tickets will go on sale together with the &lt;a href='/blog/2013-04-08-announcing-the-1st-batch-of-tickets/'&gt;first ticket batch&lt;/a&gt; and we will add the Supporters&amp;#8217; names to the &lt;a href='/#contributors'&gt;EuRuKo 2013&lt;/a&gt; website as soon as possible.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Meet our sponsors: Wooga</title>
-    <link rel="alternate" href="/blog/2013-04-10-meet-our-sponsors-wooga/"/>
-    <id>http://euruko2013.org/blog/2013-04-10-meet-our-sponsors-wooga/</id>
-    <published>2013-04-09T21:00:00Z</published>
-    <updated>2013-04-09T21:00:00Z</updated>
-    <author>
-      <name>EuRuKo 2013 Team</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Wooga Logo" src="/images/sponsors/wooga_150x75.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;Once again, &lt;a href="http://www.wooga.com/?utm_source=euruko&amp;amp;utm_medium=banner&amp;amp;utm_campaign=aphrodite"&gt;Wooga&lt;/a&gt; supports EuRuKo and we are extremely happy about it! Immediately after last year’s Athens nomination, Wooga contacted us and told us they wanted to support this year’s effort. In doing so, Wooga, took a (heavy) chip off of our shoulders...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;img alt='Wooga Logo' src='/images/sponsors/wooga_150x75.png' /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once again, &lt;a href='http://www.wooga.com/?utm_source=euruko&amp;amp;utm_medium=banner&amp;amp;utm_campaign=aphrodite'&gt;Wooga&lt;/a&gt; supports EuRuKo and we are extremely happy about it! Immediately after last year’s Athens nomination, Wooga contacted us and told us they wanted to support this year’s effort. In doing so, Wooga, took a (heavy) chip off of our shoulders. They did so perhaps because members of the Wooga family had organised EuRuKo 2011, perhaps because they are too cool&amp;#8230; we don’t know. But we thank them :-)&lt;/p&gt;
-
-&lt;p&gt;Wooga was founded to create computer games for everyone. They develop games with a special focus on emotional characters, good usability and superb localisation in seven languages. No consoles or high-end computers are needed to enjoy Wooga games, making it easy for every player to connect with their friends.&lt;/p&gt;
-
-&lt;p&gt;As they say, they develop social games with love in Berlin. They certainly showed EuRuKo their love again this year and we should all thank them for that!&lt;/p&gt;
-
-&lt;p&gt;Also, take a look &lt;a href='http://www.wooga.com/jobs/offers/woogas-future-of-engineering/?utm_source=euruko&amp;amp;utm_medium=banner&amp;amp;utm_campaign=aphrodite'&gt;here&lt;/a&gt; to see what it takes to join their Engineering team.&lt;/p&gt;</content>
   </entry>
 </feed>
