@@ -33,6 +33,10 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
         </li> -->
         <li>
+          <span>19/04</span>
+          <%= link_to 'Pamediakopes.gr is a Selene sponsor', '#selene' %>
+        </li>
+         <li>
           <span>18/04</span>
           <%= link_to 'Engine Yard is a Helios sponsor', '#helios' %>
         </li>
@@ -243,6 +247,12 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li id="soundcloud">
           <% link_to 'https://soundcloud.com?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
             <%= image_tag "sponsors/soundcloud_200x100.png", alt: "SoundCloud Logo", title: "SouldCloud", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+
+        <li id="pamediakopes">
+          <% link_to 'https://pamediakopes.gr?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/pamediakopes_200x100.png", alt: "Pamediakopes.gr Logo", title: "Pamediakopes.gr", itemprop: "image", width: "200", height: "100" %>
           <% end %>
         </li>
 
