@@ -108,17 +108,21 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     <div class="centered">
       <div class="ticket"></div>
       <div class="countdown">
-        <%= link_to "The ticket's price is 60 &euro;", '/blog/2013-04-12-more-tickets-more-timezones-more-fun/' %> and the 3rd batch will be available through
-        <%= link_to 'Eventora', 'https://www.eventora.com/en/Events/euruko-2013-athens', :class => 'eventora-page', :target => '_blank' %>.
-        <p>The 3rd and last ticket batch is available until <strong>Monday, May 13th!</strong></p>
-        <p class="centered">
-          <%= link_to 'GET YOUR TICKET NOW!', 'https://www.eventora.com/en/Events/euruko-2013-athens', class: 'external-link eventora-page active', target: '_blank' %>
+        <p>The ticket's price is 60 &euro;.</p>
+        <p>Unfortunately no more ticket batches are planned. &#9785;</p>
+
+       <p>
+          Need an invoice for your ticket? It's really easy to request an invoice!
         </p>
+
+         <%= link_to 'Get an invoice for your ticket', '/invoices', class: 'external-link eventora-page' %>
       </div>
 
-      <p>
-        Need an invoice for your ticket? It's really easy to <%= link_to 'request an invoice', '/invoices' %>!
-      </p>
+      <ul>
+        If you want a ticket you can:
+        <li>emails us at <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org' %> and we might be able to squeeze you in or&hellip;</li>
+        <li>ask for a ticket on Twitter by using the <%= link_to '#euruko', 'https://twitter.com/search?q=%23euruko' %> hashtag and mentioning <%= link_to '@euruko', 'https://twitter.com/euruko' %>!</li>
+      </ul>
 
       <p>
         Having an issue with your ticket? Email us at <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org' %>
