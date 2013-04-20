@@ -14,7 +14,9 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
-
+page "/" do
+  @body_class = 'homepage-body'
+end
 # Per-page layout changes:
 #
 # With no layout
@@ -93,6 +95,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :js_assets_paths, ["#{root}/vendor/assets/"]
 
 # Build-specific configuration
 configure :build do

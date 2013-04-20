@@ -1,21 +1,26 @@
 ---
+title: EuRuKo 2013 Blog - Athens
 pageable: true
 per_page: 5
 ---
-<section class="section" id="articles">
-  <% page_articles.each_with_index do |article, i| %>
-    <article class="post" itemscope itemscope="http://schema.org/Article">
-      <header>
-        <h2 itemprop="headline"><%= link_to article.title, article %></h2>
-      </header>
-      <section class="body" itemprop="description">
-        <%= article.summary %>
-      </section>
-      <footer>
-        <p class="date" itemprop="dateCreated" content="<%= article.date.strftime('%F') %>"><%= article.date.strftime('%b %e, %Y') %></p>
 
-        <%= partial 'blog/authors', locals: { authors: article.data.authors.split(",").take(1) } %>
-      </footer>
+<section class="container" id="blog-articles">
+  <div class="row">
+    <div class="span8 offset2">
+    <% page_articles.each_with_index do |article, i| %>
+      <article class="row blog-post" itemscope itemscope="http://schema.org/Article">
+        <header class="span8">
+          <h2 itemprop="headline"><%= link_to article.title, article %></h2>
+        </header>
+        <section class="span6 body" itemprop="description">
+            <%= article.summary %>
+                    <div class="comment">
+          <%= link_to 'comments', article, anchor: 'disqus_thread', class: 'comment-count' %>
+        </div>
+        </section>
+
+        <%= partial 'blog/authors', locals: { authors: article.data.authors.split(",").take(1), 
+                                              article_date: article.date } %>
     </article>
   <% end %>
 
@@ -25,4 +30,18 @@ per_page: 5
                                              prev_page: prev_page,
                                              next_page: next_page } %>
   <% end %>
+   </div>
+  </div>
 </section>
+
+<script type="text/javascript">
+var disqus_shortname = 'euruko2013';
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>

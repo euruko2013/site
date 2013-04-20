@@ -26,23 +26,43 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
 
     <div id="news" class="news">
       <h3>News</h3>
-      <ul>
+      <ul class="unstyled">
         <!-- News Placeholder list items -->
+        <!-- <li>
+          <span>10/04</span>
+          <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
+        </li> -->
         <li>
-          <span>04/04</span>
-          <%= link_to 'Koichi will speak at EuRuKo!', '#speakers' %>
+          <span>19/04</span>
+          <%= link_to 'Pamediakopes.gr is a Selene sponsor', '#selene' %>
+        </li>
+         <li>
+          <span>18/04</span>
+          <%= link_to 'Engine Yard is a Helios sponsor', '#helios' %>
         </li>
         <li>
-          <span>04/04</span>
-          <%= link_to 'Steve Klabnik will rock the stage!', '#speakers' %>
+          <span>17/04</span>
+          <%= link_to 'Persado is our first Helios sponsor!', '#helios' %>
+        </li>
+         <li>
+          <span>16/04</span>
+          <%= link_to 'Metaquark is an Aphrodite sponsor', '#aphrodite' %>
         </li>
         <li>
-          <span>28/03</span>
-          <%= link_to 'Call for Presentations is now open!', '/blog/2013-03-28-call-for-presentations/' %>
+          <span>13/04</span>
+          <%= link_to 'Countdown for 2nd ticket batch started!', '/blog/2013-04-12-more-tickets-more-timezones-more-fun/' %>
         </li>
         <li>
-          <span>30/01</span>
-          <%= link_to 'Sponsorship packages online!', '#sponsors' %>
+          <span>12/04</span>
+          <%= link_to '20 supporter tickets will be available', '/blog/2013-04-12-above-and-beyond/' %>
+        </li>
+        <li>
+          <span>10/04</span>
+          <%= link_to 'SoundCloud is a Selene sponsor', '#selene' %>
+        </li>
+        <li>
+          <span>09/04</span>
+          <%= link_to 'Avarteq is a Selene sponsor', '#selene' %>
         </li>
       </ul>
     </div>
@@ -66,7 +86,7 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <%= link_to_top %>
     </h3>
     <p class="intro">
-      <span>We consider the most important aspects of EuRuKo to be the delegates engagement and the conference programme. This is why we have put so much effort to organize the <a href="/blog/2013-03-28-call-for-presentations/">most exciting speaker selection process to day!</a></span>
+      <span>We consider the most important aspects of EuRuKo to be the delegates engagement and the conference programme. This is why we have put so much effort to organize the <a href="/blog/2013-03-28-call-for-presentations/">most exciting speaker selection process to date!</a></span>
     </p>
     <ul class="centered" itemscope itemprop="performer" itemtype="http://schema.org/Person">
       <li class="left" id="matz">
@@ -100,9 +120,17 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     </h3>
     <div class="centered">
       <div class="ticket"></div>
+      <div class="countdown">
+        <%= link_to "The ticket's price is 60 &euro;", '/blog/2013-04-12-more-tickets-more-timezones-more-fun/' %> and the 3rd batch will be available through
+        <%= link_to 'Eventora', 'https://www.eventora.com/en/Events/euruko-2013-athens', :class => 'eventora-page', :target => '_blank' %>.
+        <p>The 3rd ticket batch is available!</p>
+        <p class="centered">
+          <%= link_to 'GET YOUR TICKET NOW!', 'https://www.eventora.com/en/Events/euruko-2013-athens', class: 'external-link eventora-page', target: '_blank' %>
+        </p>
+      </div>
+
       <p>
-        <%= link_to '1st batch coming soon...', 'https://www.eventora.com/en/Events/euruko-2013-athens', class: 'more' %>
-        <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org', class: 'contact' %>
+        <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org', class: 'more' %>
       </p>
     </div>
   </div>
@@ -130,17 +158,195 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     <h3 class="centered">Sponsors
       <%= link_to_top %>
     </h3>
+
+    <div class="section">
     <p class="centered">
-      Boldly show your Ruby love - be a sponsor
-      <%= link_to 'download sponsorships brochure', 'sponsors/euruko2013-sponsorship-packages.pdf', class: 'external-link brochure' %>
+      This conference wouldn't be held without the support of our amazing sponsors.
+      They have been with us since the beginning and showcasing them and their
+      products is the least we can do for their support toward the Ruby community.
+
+      We love them for supporting Ruby and making this conference possible.
     </p>
+
+    <div id="gaia">
+      <h2>Gaia</h2>
+
+      <ul class="sponsors">
+        <li>
+          <% link_to 'http://www.skroutz.gr?utm_source=euruko&utm_medium=banner&utm_campaign=gaia', target: "_blank" do %>
+            <%= image_tag "sponsors/skroutz_400x300.png", alt: "Skroutz S.A. Logo", title: "Skroutz S.A.", itemprop: "image", width: "400", height: "300" %>
+          <% end %>
+
+          <h4 id="skroutz">Skroutz S.A.</h4>
+
+          <br />
+
+          <p>
+              Founded in 2005, Skroutz S.A. is committed to modern software development actively creating bleeding edge
+              ecommerce offerings and high performance web pages. Based in Athens, Greece, it is the dominant
+              digital brand which operates the leading price comparison engine in Greece.
+              The company currently employs a 40+ workforce and records €2M revenues annually,
+              while offering a wide range of user-oriented software solutions involving a multitude of environments
+              and innovational platforms. Today <%= link_to "www.skroutz.gr", "http://www.skroutz.gr?utm_source=euruko&utm_medium=description&utm_campaign=gaia", target: "_blank" %>, developed on Ruby,
+              utilizes cutting-edge technology to make <%= link_to "product comparison deadly simple", "http://www.skroutz.gr?utm_source=euruko&utm_medium=description&utm_campaign=gaia", target: "_blank" %>
+              and serves more than 2.5 million unique users on a monthly basis.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="helios">
+      <h2>Helios</h2>
+
+      <ul class="sponsors">
+        <li id="persado">
+          <% link_to 'http://www.persado.com?utm_source=euruko&utm_medium=banner&utm_campaign=helios', :target => '_blank' do %>
+            <%= image_tag "sponsors/persado_250x125.png", alt: "Persado Logo", title: "Persado", itemprop: "image", width: "250", height: "150" %>
+          <% end %>
+
+          <p>
+            <%= link_to 'Persado', 'http://www.persado.com?utm_source=euruko&utm_medium=description&utm_campaign=helios', target: "_blank" %>,
+            a spinoff of digital marketing firm Upstream, uses semantical &amp;
+            statistical algorithms to help its customers generate the digital
+            marketing messages that work best, resulting in an average of 30%
+            to 150% improvement in performance.
+          </p>
+        </li>
+
+        <li id="engineyard">
+          <% link_to 'http://www.engineyard.com/?utm_source=euruko&utm_medium=banner&utm_campaign=helios', :target => '_blank' do %>
+            <%= image_tag "sponsors/engineyard_250x125.png", alt: "Engine Yard Logo", title: "Engine Yard", itemprop: "image", width: "250", height: "150" %>
+          <% end %>
+
+          <p>
+            <%= link_to 'Engine Yard', 'http://www.engineyard.com/?utm_source=euruko&utm_medium=description&utm_campaign=helios', target: "_blank" %>
+            is the leading Platform as a Service (PaaS) empowering developers to plan, build, deploy and manage applications in the cloud.
+          </p>
+        </li>
+
+        <li>
+          <div class="ribbon">
+            <span>Helios</span>
+          </div>
+
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <%= image_tag "sponsors/place_holder_250x125.png", alt: "Helios sponsor logo", title: "Your logo here!", itemprop: "image", width: "250", height: "125" %>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+
+    <div id="selene">
+      <h2>Selene</h2>
+
+      <ul class="sponsors">
+        <li id="avarteq">
+          <% link_to 'http://www.avarteq.de?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/avarteq_200x100.png", alt: "Avarteq Logo", title: "Avarteq", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+
+        <li id="soundcloud">
+          <% link_to 'https://soundcloud.com?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/soundcloud_200x100.png", alt: "SoundCloud Logo", title: "SouldCloud", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+
+        <li id="pamediakopes">
+          <% link_to 'http://www.pamediakopes.gr?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/pamediakopes_200x100.png", alt: "Pamediakopes.gr Logo", title: "Pamediakopes.gr", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+
+        <!--
+        <li id="heroku">
+          <% link_to 'http://www.heroku.com?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/heroku_200x100.png", alt: "Heroku Logo", title: "Heroku", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+        -->
+
+        <li>
+          <div class="ribbon">
+            <span>Selene</span>
+          </div>
+
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <%= image_tag "sponsors/place_holder_200x100.png", alt: "Selene sponsor Logo", title: "Your logo here!", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+
+    <div id="aphrodite">
+      <h2>Aphrodite</h2>
+
+      <ul class="sponsors">
+        <li id="wooga">
+          <% link_to 'http://www.wooga.com?utm_source=euruko&utm_medium=banner&utm_campaign=aphrodite', :target => '_blank' do %>
+            <%= image_tag "sponsors/wooga_150x75.png", alt: "Wooga sponsor Logo", title: "Wooga", itemprop: "image", width: "150", height: "75" %>
+          <% end %>
+        </li>
+        <li id="metaquark">
+          <% link_to 'http://metaquark.de?utm_source=euruko&utm_medium=banner&utm_campaign=aphrodite', :target => '_blank' do %>
+            <%= image_tag "sponsors/metaquark_150x75.png", alt: "Metaquark sponsor Logo", title: "Metaquark", itemprop: "image", width: "150", height: "75" %>
+          <% end %>
+        </li>
+
+        <li>
+          <div class="ribbon">
+            <span>Aphrodite</span>
+          </div>
+
+          <% link_to 'sponsors/euruko2013-sponsorship-packages.pdf', :class => 'brochure' do %>
+            <%= image_tag "sponsors/place_holder_150x75.png", alt: "Aphrodite sponsor Logo", title: "Your logo here!", itemprop: "image", width: "150", height: "75" %>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <div id="additional">
+      <h2>Additional Sponsors</h2>
+
+      <ul class="sponsors">
+        <li>
+          <div class="ribbon party">
+            <span>Party</span>
+          </div>
+
+          <img src="sponsors/place_holder_200x100.png" />
+        </li>
+
+        <li>
+          <div class="ribbon wifi">
+            <span>WiFi</span>
+          </div>
+
+          <img src="sponsors/place_holder_200x100.png" />
+        </li>
+
+        <li>
+          <div class="ribbon network">
+            <span>Network</span>
+          </div>
+
+          <img src="sponsors/place_holder_200x100.png" />
+        </li>
+      </ul>
+    </div> -->
+
+    <p class="centered">
+      <%= link_to 'Interested in becoming a sponsor?', 'sponsors/euruko2013-sponsorship-packages.pdf', class: 'external-link brochure' %>
+    </p>
+  </div>
   </div>
 
   <div class="section" id="contributors">
     <h3 class="centered">Contributors
       <%= link_to_top %>
     </h3>
-    <h4>Organisers</h4>
+
+    <h4 id="organisers">Organisers</h4>
     <ul class="centered committee">
       <li>
         <%= image_tag "committee/gfotos.png", class: 'organisers-avatar', alt: "@gfotos avatar", title: "@gfotos" %>
@@ -167,26 +373,45 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <h5>Giorgos Tsiftsis</h5>
       </li>
       <li>
-        <%= image_tag "committee/diamanto.png", class: 'organisers-avatar', alt: "@nolamesa avatar", title: "<h3>Nikos Diamantopoulos</h3><p class='twitter'> <a href='http://twitter.com/nolamesa'>@nolamesa</a></p><p>Obsessed with Ruby Web developer. Loves experimenting with new technologies and cool ideas. He has been striving to travel all over the world, but there is still a lot to cover... Unfortunately travelling does not scale, Ruby does ;-)</p>" %>
-        <h5>Nikos Diamantopoulos</h5>
+        <%= image_tag "committee/nolamesa.png", class: 'organisers-avatar', alt: "@nolamesa avatar", title: "<h3>Nikos Diamantopoulos</h3><p class='twitter'> <a href='http://twitter.com/nolamesa'>@nolamesa</a></p><p>Obsessed with Ruby Web developer. Loves experimenting with new technologies and cool ideas. He has been striving to travel all over the world, but there is still a lot to cover... Unfortunately travelling does not scale, Ruby does ;-)</p>" %>
       </li>
       <li>
         <%= image_tag "committee/arcandros.png", class: 'organisers-avatar', alt: "@arcandros avatar", title: "<h3>Vassilis Rizopoulos</h3><p class='website'><a href='http://www.ampelofilosofies.gr'>http://www.ampelofilosofies.gr</a></p><p class='twitter'> <a href='http://twitter.com/arcandros'>@arcandros</a></p><p>Remote worker, testing hardliner, automation geek and founding member of the thessaloniki.rb user group. Actively developing in Ruby since 2001 he claims the title of oldest active Ruby developer that has never actually created a production Rails application - which is probably not true.</p>" %>
         <h5>Vassilis Rizopoulos</h5>
       </li>
     </ul>
-    <h4>Community</h4>
+
+    <h4 id="community">Community</h4>
     <ul class="centered community">
-      <li>Panos Xinos</li>
-      <li>Eric Cohen</li>
-      <li>Vasilis Dimos</li>
-      <li>Giorgos Katsiampas</li>
-      <li>Vasilis Tanos</li>
-      <li>Alexia Konstantelia</li>
-      <li>Christos Trochalakis</li>
-      <li>Michael Zamparas</li>
       <li>Agis Anastasopoulos</li>
+      <li>Alexia Konstantelia</li>
+      <li>Antonela Bare</li>
+      <li>Christos Trochalakis</li>
+      <li>Dimitrios Spanos</li>
+      <li>Dimitris Zorbas</li>
+      <li>Eleni Hourouzidou</li>
+      <li>Eric Cohen</li>
+      <li>George Batistatos</li>
+      <li>George Paloukis</li>
+      <li>Giorgos Katsiampas</li>
+      <li>Ioannis Gakos</li>
+      <li>Javier Gonel</li>
+      <li>Martha Chumo</li>
+      <li>Michael Zamparas</li>
+      <li>Nick Maroulis</li>
+      <li>Nikos Gereoudakis</li>
+      <li>Panos Xinos</li>
+      <li>Vasilis Dimos</li>
+      <li>Vasilis Tanos</li>
+      <li>Yiannis Deliyiannis</li>
+      <li>Yiota Kontzopoulou</li>
     </ul>
+
+    <h4 id="supporters">Supporters</h4>
+    <ul class="centered community">
+      <li><%= link_to 'Stephan Kämper', 'https://twitter.com/S_2K', :target => '_blank' %></li>
+    </ul>
+
     <%= link_to 'help organize the event... contact us! ›', '#contact', class: 'more' %>
   </div>
 
@@ -199,7 +424,7 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     </p>
     <p>
       <% link_to 'https://twitter.com/euruko', class: 'external-link stay-updated', target: '_blank' do %>
-        follow us on Twitter
+        Follow us on Twitter
       <% end %>
 
       <!-- Begin MailChimp Signup Form -->
@@ -215,6 +440,7 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <%= mail_to 'info@euruko2013.org', 'info@euruko2013.org', class: 'contact' %>
     </p>
     <p class="termsofuse privacypolicy">
+      <%= link_to 'Code of Conduct', '/codeofconduct' %>
       <%= link_to 'Terms of Use', '/termsofuse' %>
       <%= link_to 'Privacy Policy', '/privacypolicy' %>
     </p>

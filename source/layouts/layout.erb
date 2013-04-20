@@ -31,7 +31,7 @@
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300italic' rel='stylesheet' type='text/css'>
 
     <!-- Blog feed -->
-    <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="blog/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="/blog/feed.xml" />
 
     <!-- Stylesheets -->
     <%= stylesheet_link_tag "reset", "main", "jquery.powertip" %>
@@ -49,26 +49,34 @@
     </script>
   </head>
 
-  <body>
+  <body class="<%= @body_class %>">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
-
-    <nav id="nav">
-      <ul class="centered clearfix">
-        <li><%= link_to 'EuRuKo 2013', '/', class: 'ir' %></li>
-        <li><%= link_to 'Blog', '/blog' %></li>
-        <li><%= link_to_section 'Contact', '#contact' %></li>
-        <li><%= link_to 'Proposals', 'http://cfp.euruko2013.org' %></li>
-        <li><%= link_to_section 'Sponsors', '#sponsors' %></li>
-        <li><%= link_to_section 'Venue', '#venue' %></li>
-        <li><%= link_to_section 'Tickets', '#tickets' %></li>
-        <li><%= link_to_section 'Speakers', '#speakers' %></li>
-        <li><%= link_to_section 'About', '#about' %></li>
-       </ul>
-    </nav>
-
+    <div id="navbar-main" class="navbar navbar-fixed-top navbar-main">
+      <div class="navbar-inner">
+        <div class="container">
+          <% link_to '/', class: 'brand' do %>
+            <div class="navbar-logo"></div>
+          <% end %>
+          <ul class="nav pull-right">
+            <li><%= link_to_section 'About', '#about' %></li>
+            <li><%= link_to_section 'Speakers', '#speakers' %></li>
+            <li><%= link_to_section 'Tickets', '#tickets' %></li>
+            <li><%= link_to_section 'Venue', '#venue' %></li>
+            <li><%= link_to_section 'Sponsors', '#sponsors' %></li>
+            <li><%= link_to 'Proposals', 'http://cfp.euruko2013.org/proposals' %></li>
+            <li><%= link_to_section 'Contact', '#contact' %></li>
+            <li class="blog-item">
+              <%= link_to 'Blog', '/blog' %>
+              <% link_to '/blog/feed.xml' do %>
+                <i class="icon-rss"></i>
+              <% end %>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <%= yield %>
-
   </body>
 </html>

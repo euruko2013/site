@@ -1,0 +1,23 @@
+/* Global Variables */
+$ubuntu: 'Ubuntu', Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+$georgia: Georgia, "Times New Roman", Times, serif;
+$tahoma: Tahoma,Arial,sans-serif;
+$verdana: Verdana,Arial,sans-serif;
+
+$dark_white: #fefefe;
+$dark_grey: #231f20;
+$light_grey: #616161;
+$lighter_grey:#848484;
+$lightest_grey:#a8a8a8;
+$vr: 20px;
+$hr: 12px;
+
+$vendor_assets_path: "../..//vendor/assets/";
+
+@function vendor_asset($path) {
+  @return $vendor_assets_path + $path;
+}
+
+/* Bootstrap overrides */
+$linkColor: #A32522 !default;
+$baseFontFamily: $ubuntu;

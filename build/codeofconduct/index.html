@@ -31,17 +31,17 @@
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300italic' rel='stylesheet' type='text/css'>
 
     <!-- Blog feed -->
-    <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="blog/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="/blog/feed.xml" />
 
     <!-- Stylesheets -->
-    <link href="../stylesheets/reset-f40330e2.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../stylesheets/main-bd96d402.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../stylesheets/main-ef77c7bd.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- JavaScript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
-    <script src="../javascripts/main-173ee95e.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../javascripts/main-a3b84321.js" type="text/javascript"></script>
 <script src="../javascripts/parallax-2552782b.js" type="text/javascript"></script>
 <script src="../javascripts/vendor/easing-9211a327.js" type="text/javascript"></script>
+<script src="../javascripts/vendor/countdown-d392ee44.js" type="text/javascript"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -52,25 +52,34 @@
     </script>
   </head>
 
-  <body>
+  <body class="">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
-
-    <nav id="nav">
-      <ul class="centered clearfix">
-        <li><a class="ir" href="/">EuRuKo 2013</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/#contact">Contact</a></li>
-        <li><a href="http://cfp.euruko2013.org">Proposals</a></li>
-        <li><a href="/#sponsors">Sponsors</a></li>
-        <li><a href="/#venue">Venue</a></li>
-        <li><a href="/#tickets">Tickets</a></li>
-        <li><a href="/#speakers">Speakers</a></li>
-        <li><a href="/#about">About</a></li>
-       </ul>
-    </nav>
-
+    <div id="navbar-main" class="navbar navbar-fixed-top navbar-main">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">
+            <div class="navbar-logo"></div>
+          </a>
+          <ul class="nav pull-right">
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#speakers">Speakers</a></li>
+            <li><a href="/#tickets">Tickets</a></li>
+            <li><a href="/#venue">Venue</a></li>
+            <li><a href="/#sponsors">Sponsors</a></li>
+            <li><a href="http://cfp.euruko2013.org/proposals">Proposals</a></li>
+            <li><a href="/#contact">Contact</a></li>
+            <li class="blog-item">
+              <a href="/blog">Blog</a>
+              <a href="/blog/feed.xml">
+                <i class="icon-rss"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div id="codeofconduct" itemscope itemtype="http://schema.org/Article">
   <div class="section" itemprop="articleBody">
 
@@ -80,7 +89,7 @@
 
     <p><em>tl;dr: Don’t be a Jerk</em></p>
 
-    <h2>Need Help?</h2>
+    <h2 id="help">Need Help?</h2>
 
     <ul>
       <li>
@@ -94,11 +103,11 @@
       </li>
     </ul>
 
-    <h2>The Quick Version</h2>
+    <h2 id="quick">The Quick Version</h2>
 
     <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference <em>without a refund</em> at the discretion of the conference organisers.</p>
 
-    <h2>The Less Quick Version</h2>
+    <h2 id="less-quick">The Less Quick Version</h2>
 
     <p>Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
 
@@ -118,7 +127,7 @@
 
   <footer>
     <p>
-      Last update: <span itemprop="dateModified">2013-04-05</span>
+      Last update: <span itemprop="dateModified">2013-03-12</span>
     </p>
 
     <p>
@@ -134,7 +143,6 @@
     </p>
   </footer>
 </div>
-
 
   </body>
 </html>

@@ -30,3 +30,5 @@ Writing a new blog post
 08. Commit the article (under `source`) and the `build/blog` changes
 09. Create a new pull request or push to origin/master if you have access
 10. Deploy it live (those who can, know how to do it)
+
+Note: You have to manually put quotes to the blog title IN the markdown file, in order to build.

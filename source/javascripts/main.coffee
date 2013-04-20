@@ -2,11 +2,11 @@ $ ->
 
   navbar_opacity = () ->
     if $(window).scrollTop() != 0
-      $("#nav").css("background-color", "rgba(245,245,245,1)")
-      $("#nav").css("border-bottom", "1px solid #ccc")
+      $("#navbar-main .navbar-inner").css("background-color", "rgba(245,245,245,1)")
+      $("#navbar-main .navbar-inner").css("border-bottom", "1px solid #ccc")
     else
-      $("#nav").css("background-color", "rgba(255,255,255,0.5)")
-      $("#nav").css("border-bottom", "none")
+      $("#navbar-main .navbar-inner").css("background-color", "rgba(255,255,255,0.5)")
+      $("#navbar-main .navbar-inner").css("border-bottom", "none")
     return
 
   navbar_opacity()
@@ -44,3 +44,22 @@ $ ->
     placement: 'n',
     smartPlacement: true
     mouseOnToPopup: true
+
+  # Countdown for first ticket batch
+  countdown_container = $('.countdown')
+  if countdown_container.length > 0
+    counter = countdown_container.find('.counter')
+    countdown_end = new Date(counter.data('countdown-end'))
+    if countdown_end > new Date()
+      countdown(countdown_end, (ts) ->
+        counter.html(ts.toHTML("strong"));
+        return
+      countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS)
+    else
+      counter.html('Begone!')
+      countdown_container.find('.date').hide();
+
+  # Link to eventora for tickets tracking
+  $('#tickets a.eventora-page').on 'click', (event) ->
+    _gaq.push(['_trackEvent', 'Tickets', 'Clicked on eventora link']);
+    return

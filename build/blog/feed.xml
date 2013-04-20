@@ -5,120 +5,196 @@
   <id>http://euruko2013.org/blog</id>
   <link href="http://euruko2013.org/blog"/>
   <link href="http://euruko2013.org/blog/feed.xml" rel="self"/>
-  <updated>2013-04-01T20:40:00Z</updated>
+  <updated>2013-04-17T09:55:00Z</updated>
   <author>
     <name>EuRuKo 2013</name>
   </author>
   <entry>
-    <title>Happy April Fools' Day</title>
-    <link rel="alternate" href="/blog/2013-04-01-happy-april-fools-day/"/>
-    <id>http://euruko2013.org/blog/2013-04-01-happy-april-fools-day/</id>
-    <published>2013-04-01T20:40:00Z</published>
-    <updated>2013-04-01T20:40:00Z</updated>
+    <title>Meet our sponsors: Metaquark</title>
+    <link rel="alternate" href="/blog/2013-04-17-meet-our-sponsors-metaquark/"/>
+    <id>http://euruko2013.org/blog/2013-04-17-meet-our-sponsors-metaquark/</id>
+    <published>2013-04-17T09:55:00Z</published>
+    <updated>2013-04-17T09:55:00Z</updated>
     <author>
       <name>EuRuKo 2013 Team</name>
     </author>
-    <summary type="html">&lt;p&gt;Well, obviously nothing of this ever happened. :)&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img alt="Metaquark Logo" src="/images/sponsors/metaquark_150x75.png"&gt;&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href="/#venue"&gt;Venue&lt;/a&gt; is magnificent as you &amp;#8216;ll witness yourself firsthand when you join us in Athens. Everything is going as planned.&lt;/p&gt;
+&lt;p&gt;For a long time, the team at &lt;a href="http://metaquark.de/"&gt;Metaquark&lt;/a&gt; shared every mobile developer’s experience. This of the difficulty of designing, building, releasing and maintaining mobile apps. In this experience, many manual steps had to be followed repeatedly in order...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;img alt='Metaquark Logo' src='/images/sponsors/metaquark_150x75.png' /&gt;&lt;/p&gt;
 
-&lt;p&gt;We still have lots of work to do before we&amp;#8217;re ready to welcome you to Athens...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Well, obviously nothing of this ever happened. :)&lt;/p&gt;
+&lt;p&gt;For a long time, the team at &lt;a href='http://metaquark.de/'&gt;Metaquark&lt;/a&gt; shared every mobile developer&amp;#8217;s experience. This of the difficulty of designing, building, releasing and maintaining mobile apps. In this experience, many manual steps had to be followed repeatedly in order to test, publish and then collect application usage information.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href='/#venue'&gt;Venue&lt;/a&gt; is magnificent as you &amp;#8216;ll witness yourself firsthand when you join us in Athens. Everything is going as planned.&lt;/p&gt;
+&lt;p&gt;It got more complicated every time they added support for a new mobile operating system, because none of them are alike as we all know. It got even worse when they tried to do all of that in a distributed team, with very few tools that were built to support such team structure.&lt;/p&gt;
 
-&lt;p&gt;We still have lots of work to do before we&amp;#8217;re ready to welcome you to Athens this June for EuRuKo 2013, however we are getting there. Our &lt;a href='/blog/2013-03-28-call-for-presentations/'&gt;CFP is open&lt;/a&gt; and &lt;a href='http://cfp.euruko2013.org/proposals'&gt;a lot of proposals have been submitted&lt;/a&gt; already. We suggest you get a look at them and vote for those you like and make suggestions to improve the ones you feel need a more thorough description. And why not read the process and &lt;a href='http://cfp.euruko2013.org/about'&gt;submit your own proposal&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Then it was when when they set out to make developing mobile apps a lot easier. Metaquark&amp;#8217;s mobile enterprise application platform called ‘AppFresh Mobile’ is a central service for large and small companies which helps manage the life-cycle of mobile applications. AppFresh Mobile includes distributed cloud builds for all mobile platforms, application security policies, distribution of applications to handsets using a custom enterprise applications store and extensive monitoring to help improve the quality of applications delivered to employees and customers.&lt;/p&gt;
 
-&lt;p&gt;Really soon, we will announce the &lt;a href='/#tickets'&gt;first batch of tickets&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Metaquark work with a great variety of technologies to implement their mobile cross-platform and cloud strategy. Not surprisingly, their core platform is powered by Ruby and Rails. Their platform can either be deployed in a highly scalable Metaquark cloud setup, or directly at the customer site. Metaquark are small but fast growing. Their team and their vision are backed by their strategic investor and strong partner Software AG. Together they deliver mobile technologies and projects for some of the biggest enterprises all around the world.&lt;/p&gt;
 
-&lt;p&gt;Stay tuned and follow us closely on &lt;a href='http://twitter.com/euruko'&gt;Twitter&lt;/a&gt;, our &lt;a href='/blog/feed.xml'&gt;blog feed&lt;/a&gt; and our &lt;a href='http://eepurl.com/w3D21'&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Not only that, but Metaquark are &lt;a href='http://metaquark.de/jobs/'&gt;hiring!&lt;/a&gt; They suggest that if you&amp;#8217;re looking for a challenge, they are the right place for you! The place to work on technology, concepts and strategies, think in new ways, be creative and take over great challenges. You may join them in one of their offices in Berlin and Leipzig (Germany) and make cross-platform mobile application life-cycle management available to all enterprises which develop mobile applications. From managing, building and signing mobile applications in the cloud to full featured application and device management on the mobile client, you name it, they are working on it.&lt;/p&gt;
 
-&lt;p&gt;Just to reassure you here are a couple more images from the &lt;a href='/'&gt;EuRuKo 2013&lt;/a&gt; awesome Venue:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Central Scene' src='/images/blog/badminton_center.jpg' /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Foyer' src='/images/blog/badminton_foyer.jpg' /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Lower Foyer' src='/images/blog/badminton_lower_foyer.jpg' /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Badminton Console' src='/images/blog/badminton_console.jpg' /&gt;&lt;/p&gt;</content>
+&lt;p&gt;Help development teams all over the world develop better apps and save time by using AppFresh Mobile!&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>We are working hard, but...</title>
-    <link rel="alternate" href="/blog/2013-04-01-we-are-working-hard-but/"/>
-    <id>http://euruko2013.org/blog/2013-04-01-we-are-working-hard-but/</id>
-    <published>2013-04-01T11:30:00Z</published>
-    <updated>2013-04-01T11:30:00Z</updated>
+    <title>Calling All Ruby Brigades</title>
+    <link rel="alternate" href="/blog/2013-04-17-calling-all-ruby-brigades/"/>
+    <id>http://euruko2013.org/blog/2013-04-17-calling-all-ruby-brigades/</id>
+    <published>2013-04-17T05:39:00Z</published>
+    <updated>2013-04-17T05:39:00Z</updated>
     <author>
       <name>EuRuKo 2013 Team</name>
     </author>
-    <summary type="html">&lt;p&gt;As you can see from the images below the venue of this year&amp;#8217;s EuRuKo, Badminton Theatre, is being renovated. To be honest, we knew such works were planned, yet we chose to book this amazing &lt;a href="/#venue"&gt;venue&lt;/a&gt; because it was impressive, and with the recently planned...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;As you can see from the images below the venue of this year&amp;#8217;s EuRuKo, Badminton Theatre, is being renovated. To be honest, we knew such works were planned, yet we chose to book this amazing &lt;a href='/#venue'&gt;venue&lt;/a&gt; because it was impressive, and with the recently planned renovation it would be really awesome. It was a bold and risky move due to the recent economic difficulties Greece is facing right now (including workers&amp;#8217; strikes). What we wanted, was to have the greatest and biggest venue &lt;a href='http://euruko2013.org'&gt;EuRuKo&lt;/a&gt; had ever seen.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;The first time I attended EuRuKo was 2008. I managed to get a talk accepted so I didn&amp;#8217;t have to worry about a ticket. Every year after that I fell victim to what I have recently seen called the &amp;#8220;EuRuKo ticket fight&amp;#8221;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Badminton Scene Renovation' src='/images/blog/badminton_scene_renovation.jpg' /&gt;&lt;/p&gt;
+&lt;p&gt;The conference is popular and...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;The first time I attended EuRuKo was 2008. I managed to get a talk accepted so I didn&amp;#8217;t have to worry about a ticket. Every year after that I fell victim to what I have recently seen called the &amp;#8220;EuRuKo ticket fight&amp;#8221;.&lt;/p&gt;
 
-&lt;p&gt;We were promised that the venue would be ready by April, yet when we went there earlier today to inspect the premises we where dumbfounded to discover that the works are midway, with an estimate of late August finish at best!&lt;/p&gt;
+&lt;p&gt;The conference is popular and tickets sell out in record speeds. It&amp;#8217;s a pleasant problem for a conference organizer, but we are not professional conference organizers! We are part of the community and have ourselves been subjected to the same frustration of not being able to secure a ticket for the conference we love. So we will introduce a couple of different ways to distribute tickets.&lt;/p&gt;
 
-&lt;p&gt;The organising committee, along with all of our the amazing volunteers and venue construction crews are working hard to help with construction works. However, we can&amp;#8217;t make any promises yet. We will inform you of our progress as we approach the June deadline. In the mean time &lt;a href='http://twitter.com/euruko'&gt;follow us on twitter&lt;/a&gt; and &lt;a href='http://eepurl.com/w3D21'&gt;sign up for our newsletter&lt;/a&gt; in order to stay informed.&lt;/p&gt;
+&lt;p&gt;One of these is something our Dutch friends established last year for EuRuKo 2012: Tickets reserved for Ruby user groups. Interesting fact: Almost half of this year&amp;#8217;s organizing committee got tickets for the Amsterdam conference this way.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Badminton Floor Renovation' src='/images/blog/badminton_floor_renovation.jpg' /&gt;&lt;/p&gt;
+&lt;p&gt;For EuRuKo 2013 there will be reserved tickets for Ruby user groups. If you are a member of a Ruby user group and would like tickets then please fill in the &lt;a href='https://docs.google.com/a/euruko2013.org/spreadsheet/viewform?formkey=dFhXcDQtQlQ5SGZJTDNzaEZCZEx5R1E6MQ'&gt;form&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;The committee promises to pull its sleeves up and dive into hard work with the shovel in order to organize EuRuKo 2013 on time.&lt;/p&gt;
+&lt;p&gt;Give us the name of the user group along the number of tickets you would like and any information that will help us verify your claim . The deadline for submissions is the 26th April. We cannot guarantee that you will get all the tickets you ask for and we do recommend to try and get your ticket from the last batch to go on sale &lt;a href='http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+3rd+ticket+batch%21&amp;amp;iso=20130419T17'&gt;Friday, April 19th at 17:00UTC&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Thank you for your support.&lt;/p&gt;</content>
+&lt;p&gt;If there are requests for more tickets then the number we have reserved we will distrbute them evenly.&lt;/p&gt;
+
+&lt;p&gt;User groups are the heart of every local communitty and EuRuKo is the best venue for the local communities to connect, communicate and cooperate. Join us in making EuRuKo 2013 one of the best Ruby conferences!&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Call for Presentations</title>
-    <link rel="alternate" href="/blog/2013-03-28-call-for-presentations/"/>
-    <id>http://euruko2013.org/blog/2013-03-28-call-for-presentations/</id>
-    <published>2013-03-27T23:30:00Z</published>
-    <updated>2013-03-27T23:30:00Z</updated>
+    <title>Meet our sponsors: Avarteq</title>
+    <link rel="alternate" href="/blog/2013-04-16-meet-our-sponsors-avarteq/"/>
+    <id>http://euruko2013.org/blog/2013-04-16-meet-our-sponsors-avarteq/</id>
+    <published>2013-04-16T10:49:00Z</published>
+    <updated>2013-04-16T10:49:00Z</updated>
     <author>
       <name>EuRuKo 2013 Team</name>
     </author>
-    <summary type="html">&lt;p&gt;We are very excited to announce that Call for Presentations for EuRuKo 2013 &lt;a href="http://cfp.euruko2013.org/proposals"&gt;is now open&lt;/a&gt; and you can send your proposals until &lt;strong&gt;April 23rd&lt;/strong&gt;! We have put a lot of effort in order to create a selection process that will encourage submissions by everyone...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We are very excited to announce that Call for Presentations for EuRuKo 2013 &lt;a href='http://cfp.euruko2013.org/proposals'&gt;is now open&lt;/a&gt; and you can send your proposals until &lt;strong&gt;April 23rd&lt;/strong&gt;! We have put a lot of effort in order to create a selection process that will encourage submissions by everyone irrespective of publicity, gender, race, domain, etc, guarantee a high quality conference and at the same time be fun for all participants. The process has been refined with feedback from the community and all the details can be found &lt;a href='http://cfp.euruko2013.org/about'&gt;here&lt;/a&gt;.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img alt="Avarteq Logo" src="/images/sponsors/avarteq_200x100.png"&gt;&lt;/p&gt;
 
-&lt;p&gt;So mark the dates and get engaged:&lt;/p&gt;
+&lt;p&gt;Anynines is an upcoming Heroku-like PaaS written in Ruby. A hosting that grows with your apps!&lt;/p&gt;
+
+&lt;p&gt;Folks from anynines see their job as terribly important - many developers put pet apps to PaaS providers, yet introducing larger installations is often...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;img alt='Avarteq Logo' src='/images/sponsors/avarteq_200x100.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anynines is an upcoming Heroku-like PaaS written in Ruby. A hosting that grows with your apps!&lt;/p&gt;
+
+&lt;p&gt;Folks from anynines see their job as terribly important - many developers put pet apps to PaaS providers, yet introducing larger installations is often way too expensive and complicated. That’s why it’s going to start as non-freemium, pay-as-you-go service. Additionaly, one of anynines’ goals is to make PaaS both affordable and compliant to European privacy laws.&lt;/p&gt;
+
+&lt;p&gt;As you see, it’s more than just business. Anynines supports selected non-profit open source and charity projects with free hosting, being itself based on the CloudFoundry software! This will allow a fair cost-by-cause-based pricing while still returning something to the community. A sort of Fair Trade hosting.&lt;/p&gt;
+
+&lt;p&gt;Anynines is operated by enterprise-rails.com, a Rails-focused hosting service and a division of Avarteq. Enterprise-rails.com manages and runs your app in any environment - most customers simply leave the job up to to Enterprise Rails, including hardware and/or OpenStack virtualization, Chef installation automation, monitoring and backups. Just leave it to them and enjoy your apps running like a clockwork.&lt;/p&gt;
+
+&lt;p&gt;The engine behind anynines and enterprise-rails.com is &lt;a href='http://www.avarteq.de/?utm_source=euruko&amp;amp;utm_medium=banner&amp;amp;utm_campaign=selene'&gt;Avarteq&lt;/a&gt;, a German Ruby shop founded in late 2008. It’s been many projects since then and Avarteq has grown from 3 to over 30 people, becoming a rock solid organization with profound Ruby and Ruby on Rails knowledge for both development and operations.&lt;/p&gt;
+
+&lt;p&gt;Avarteq loves EuRuKo and would do all their best to keep this magical event alive.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ten days before the CFP closes and...</title>
+    <link rel="alternate" href="/blog/2013-04-13-ten-days-before-the-cfp-closes-and/"/>
+    <id>http://euruko2013.org/blog/2013-04-13-ten-days-before-the-cfp-closes-and/</id>
+    <published>2013-04-13T19:25:00Z</published>
+    <updated>2013-04-13T19:25:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;There are &lt;em&gt;less than 10 days left&lt;/em&gt; before the end of &lt;a href="http://cfp.euruko2013.org/about#dates"&gt;the presentations&amp;#8217; submission period&lt;/a&gt; and we thought it would be nice to share some numbers and some feedback of the process so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spoiler:&lt;/strong&gt; &lt;em&gt;it&amp;#8217;s going great and we&amp;#8217;re not even halfway there!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here...&lt;/strong&gt;&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;There are &lt;em&gt;less than 10 days left&lt;/em&gt; before the end of &lt;a href='http://cfp.euruko2013.org/about#dates'&gt;the presentations&amp;#8217; submission period&lt;/a&gt; and we thought it would be nice to share some numbers and some feedback of the process so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spoiler:&lt;/strong&gt; &lt;em&gt;it&amp;#8217;s going great and we&amp;#8217;re not even halfway there!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here are some rough, rounded numbers about the process:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Submit your proposal! We are pretty sure that almost everyone has something interesting to share!&lt;/li&gt;
+&lt;li&gt;&lt;a href='http://cfp.euruko2013.org/proposals'&gt;52 proposals&lt;/a&gt; &lt;em&gt;(3 withdrawn)&lt;/em&gt;&lt;/li&gt;
 
-&lt;li&gt;Help refine the proposals: comment, suggest, criticise and show your love :)&lt;/li&gt;
+&lt;li&gt;Close to &lt;a href='http://cfp.euruko2013.org/motivation'&gt;200 users&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;Spread the news to the proper channels: your local ruby user groups, your blog, your circles!&lt;/li&gt;
+&lt;li&gt;150 suggestions&lt;/li&gt;
+
+&lt;li&gt;600 votes&lt;/li&gt;
+
+&lt;li&gt;10000 impressions&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&amp;#8230;and one last thing: you know how hard it is to find a ticket for EuRuKo usually, right? They tend to sell out in seconds. Well, this year, we are reserving a priority line for active participants in the CfP process along some other goodies that may come later.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Here are some comments regarding the process:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;So, what are you waiting for? &lt;a href='http://cfp.euruko2013.org'&gt;Join the party&lt;/a&gt;!&lt;/p&gt;</content>
+&lt;blockquote&gt;
+&lt;p&gt;Intrigued and impressed by @euruko&amp;#8217;s open and social CFP process (&lt;a href='https://twitter.com/pat_shaughnessy/status/317244488877752320'&gt;@pat_shaughnessy&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I really liked the anonymous approach Euruko was going for (&lt;a href='http://cfp.euruko2013.org/proposals/14#suggestion_20'&gt;Bamboo&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;EuRuKo CfP! This time 10 talks are choosen by the community. Hosting conferences was never easier :-P (&lt;a href='https://twitter.com/bovensiepen/status/317293688948658176'&gt;@bovensiepen&lt;/a&gt;) &lt;em&gt;(*)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;(*)&lt;/em&gt; No, &lt;strong&gt;it&amp;#8217;s not&lt;/strong&gt;!!! See the section below&amp;#8230; :P&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;And here are some number for the application itself:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='https://github.com/euruko2013/vestibule/commits/euruko2013'&gt;500+ commits&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/euruko2013/vestibule/graphs/contributors'&gt;12 contributors&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/rubymanor/vestibule/network'&gt;19 forks&lt;/a&gt; of the original &lt;a href='https://github.com/rubymanor/vestibule'&gt;&lt;em&gt;Vestibule&lt;/em&gt; app&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;At least 5 &lt;em&gt;&amp;#8220;fremium&amp;#8221;&lt;/em&gt; services used to make it be live &lt;em&gt;(more on this on another blog post)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, what are you waiting for? &lt;strong&gt;&lt;a href='http://cfp.euruko2013.org/proposals'&gt;Send your proposal now!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Our contribution...</title>
-    <link rel="alternate" href="/blog/2013-03-13-our-contribution/"/>
-    <id>http://euruko2013.org/blog/2013-03-13-our-contribution/</id>
-    <published>2013-03-13T21:15:00Z</published>
-    <updated>2013-03-13T21:15:00Z</updated>
+    <title>More tickets, more timezones, more fun...</title>
+    <link rel="alternate" href="/blog/2013-04-12-more-tickets-more-timezones-more-fun/"/>
+    <id>http://euruko2013.org/blog/2013-04-12-more-tickets-more-timezones-more-fun/</id>
+    <published>2013-04-12T20:30:00Z</published>
+    <updated>2013-04-12T20:30:00Z</updated>
     <author>
       <name>EuRuKo 2013 Team</name>
     </author>
-    <summary type="html">&lt;p&gt;From the very first &lt;a href="http://euruko2013.org"&gt;EuRuKo 2013&lt;/a&gt; organisers’ meetup we decided that whatever we were about to do should positively impact the Ruby community. Aside from agreeing that we wanted EuRuKo 2013 to be an amazing conference, we also promised ourselves that...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;From the very first &lt;a href='http://euruko2013.org'&gt;EuRuKo 2013&lt;/a&gt; organisers’ meetup we decided that whatever we were about to do should positively impact the Ruby community. Aside from agreeing that we wanted EuRuKo 2013 to be an amazing conference, we also promised ourselves that even if it didn’t turn out to match our lofty expectations, the community should at least gain something significant.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Well, our first ticket batch sale went…pretty darn fast. But fear not, many more tickets are available for your dereliction and the next ticket sale is coming. Actually two more batches are coming next week!&lt;/p&gt;
 
-&lt;p&gt;As it happens, sometimes such decisions become a tall order when you try to make everything perfect.&lt;/p&gt;
+&lt;p&gt;We will be releasing tickets in two batches...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Well, our first ticket batch sale went&amp;#8230;pretty darn fast. But fear not, many more tickets are available for your dereliction and the next ticket sale is coming. Actually two more batches are coming next week!&lt;/p&gt;
 
-&lt;p&gt;Each of us, in the EuRuKo 2013 committee, spends many hours and even man-days every week in order to analyse and execute our weekly tasks. We are nine people on this committee whose input amounts for many man-days of effort every month. None of us has ever done something like EuRuKo before (not even remotely close), hence we are figuring it out as we go along. We have hired event management professionals to assist us, yet we are involved in every little detail of this conference &amp;#8211;even to the point of exhaustion sometimes.&lt;/p&gt;
+&lt;p&gt;We will be releasing tickets in two batches. Why two? Well, because we want to cater for different timezones! Our web traffic and sales analytics have shown that we have demand reaching from the US West coast down to Australia.&lt;/p&gt;
 
-&lt;p&gt;We started working on EuRuko 2013 immediately after Athens won the nomination for EuRuKo 2013 in the summer of 2012. Starting from last September, we meet every Wednesday and sometimes Fridays and weekends in order to review, design, allocate and decide on tasks. Since the summer of 2012, team members engage daily in various activities so that progress is made week after week. For example, during the weekends of October and November we were surveying all the top venues in Athens. At other times, members of the team had to skip work to deal with governmental bureaucracy in order found our non-profit company (which we needed in order to deal with suppliers, sponsors etc).&lt;/p&gt;
+&lt;p&gt;So here is how it is going to work. We will have a batch of tickets released on &lt;strong&gt;Wednesday, April 17th at &lt;a href='http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+2nd+ticket+batch%21&amp;amp;iso=20130417T05'&gt;05:00 UTC&lt;/a&gt;&lt;/strong&gt; targeting mostly Japan, Australia and US West Coast and another on &lt;strong&gt;Friday, April 19th at &lt;a href='http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+3rd+ticket+batch%21&amp;amp;iso=20130419T17'&gt;17:00 UTC&lt;/a&gt;&lt;/strong&gt; targeting again mostly Europe, Africa and US East Coast. Both batches will be available through &lt;a href='https://www.eventora.com/en/Events/euruko-2013-athens'&gt;Eventora&lt;/a&gt;. Hopefully this will cover the whole world :)&lt;/p&gt;
 
-&lt;p&gt;It sounds scary, but at the beginning we didn’t even know how to approach our weekly task allocation, never mind completing them. Alas, we made many mistakes, even to the point of break-up sometimes. However, we persisted and have now discovered our rhythm and every day we are more confident that we are on the right track.&lt;/p&gt;
+&lt;p&gt;Once again the ticket price is &lt;strong&gt;60 &amp;#8364;&lt;/strong&gt;. Remember, that you can also buy a &lt;a href='/blog/2013-04-12-above-and-beyond/'&gt;limited supporter ticket&lt;/a&gt; at anytime for &lt;strong&gt;250 &amp;#8364;&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Naturally, in numerous occasions, we have asked ourselves what others did before us in order to make EuRuko happen and how problems similar to ours were dealt with. Unfortunately, so many times we have not found adequate answers. This situation made us decide that our hard work should be (re-)used to educate others.&lt;/p&gt;
+&lt;p&gt;If you have any better ideas, please tell us so on Twitter or with a comment below.&lt;/p&gt;
 
-&lt;p&gt;Consequently, we decided it was not only a good idea, but also our duty to publicly release all EuRuKo conference “execution material”.&lt;/p&gt;
+&lt;p&gt;We’re soooo excited and soooo doing our best to cater for everybody (or as much as possible)!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Above and beyond...</title>
+    <link rel="alternate" href="/blog/2013-04-12-above-and-beyond/"/>
+    <id>http://euruko2013.org/blog/2013-04-12-above-and-beyond/</id>
+    <published>2013-04-12T03:00:00Z</published>
+    <updated>2013-04-12T03:00:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;The first ticket batch is &lt;a href="/#tickets"&gt;only some hours away&lt;/a&gt;, the anticipation rises and even though this year I don’t actually have to worry about getting a ticket I still feel excited.&lt;/p&gt;
 
-&lt;p&gt;In the hope that subsequent EuRuKos build on our effort and improve on our mistakes and successes we will release, upon the completion of the conference on the 29th of June 2013, all of our documentation, private discussions, decisions, spreadsheets, meeting minutes, supplier contracts, budgets and everything else conference-related that we can think of. This will be our contribution to the community.&lt;/p&gt;
+&lt;p&gt;Community participation has so far been very strong with a lot of very interesting...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;The first ticket batch is &lt;a href='/#tickets'&gt;only some hours away&lt;/a&gt;, the anticipation rises and even though this year I don&amp;#8217;t actually have to worry about getting a ticket I still feel excited.&lt;/p&gt;
 
-&lt;p&gt;We love learning, experimenting and sharing knowledge because above all we believe we can improve our world. We hope that the honour, which the Ruby community has bestowed upon this unfairly tarnished part of our globe, can be turned into tangible benefits for everyone inside and outside of the Ruby community! So, thank you for your trust and please accept our contribution, it is coming soon&amp;#8230;&lt;/p&gt;</content>
+&lt;p&gt;Community participation has so far been very strong with a lot of very interesting topics covered in our &lt;a href='http://cfp.euruko2013.org'&gt;CfP&lt;/a&gt;. We are right on track for one more awesome EuRuKo!&lt;/p&gt;
+
+&lt;p&gt;We committed from the beginning to keep the ticket cost as low as possible and this would certainly have not been possible without our brilliant &lt;a href='/#sponsors'&gt;sponsors&lt;/a&gt;. We also hear from individuals in the community that they would like to contribute as well so we will continue the tradition of offering a limited number of tickets for a higher price.&lt;/p&gt;
+
+&lt;p&gt;So this year we will offer up to 20 Supporter tickets for &lt;strong&gt;250 €&lt;/strong&gt; each for those of you who want to go above and beyond. We know you will not do it to get your name on the &amp;#8220;honor roll&amp;#8221; but we would be ungrateful if we didn&amp;#8217;t do just that. We&amp;#8217;ll even add your fancy company name, along your name, if you want!&lt;/p&gt;
+
+&lt;p&gt;The tickets will go on sale together with the &lt;a href='/blog/2013-04-08-announcing-the-1st-batch-of-tickets/'&gt;first ticket batch&lt;/a&gt; and we will add the Supporters&amp;#8217; names to the &lt;a href='/#contributors'&gt;EuRuKo 2013&lt;/a&gt; website as soon as possible.&lt;/p&gt;</content>
   </entry>
 </feed>

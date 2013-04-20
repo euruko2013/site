@@ -31,17 +31,17 @@
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300italic' rel='stylesheet' type='text/css'>
 
     <!-- Blog feed -->
-    <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="blog/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="/blog/feed.xml" />
 
     <!-- Stylesheets -->
-    <link href="../../stylesheets/reset-f40330e2.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../stylesheets/main-bd96d402.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../stylesheets/main-ef77c7bd.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- JavaScript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
-    <script src="../../javascripts/main-173ee95e.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../../javascripts/main-a3b84321.js" type="text/javascript"></script>
 <script src="../../javascripts/parallax-2552782b.js" type="text/javascript"></script>
 <script src="../../javascripts/vendor/easing-9211a327.js" type="text/javascript"></script>
+<script src="../../javascripts/vendor/countdown-d392ee44.js" type="text/javascript"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -52,32 +52,43 @@
     </script>
   </head>
 
-  <body>
+  <body class="">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
-
-    <nav id="nav">
-      <ul class="centered clearfix">
-        <li><a class="ir" href="/">EuRuKo 2013</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/#contact">Contact</a></li>
-        <li><a href="http://cfp.euruko2013.org">Proposals</a></li>
-        <li><a href="/#sponsors">Sponsors</a></li>
-        <li><a href="/#venue">Venue</a></li>
-        <li><a href="/#tickets">Tickets</a></li>
-        <li><a href="/#speakers">Speakers</a></li>
-        <li><a href="/#about">About</a></li>
-       </ul>
-    </nav>
-
-      <section class="section" id="article">
-    <article class="post" itemscope itemscope="http://schema.org/Article">
-      <header>
-        <h2 itemprop="headline">We are working hard, but...</h2>
-      </header>
-      <section class="body" itemprop="text">
-        <p>As you can see from the images below the venue of this year&#8217;s EuRuKo, Badminton Theatre, is being renovated. To be honest, we knew such works were planned, yet we chose to book this amazing <a href='/#venue'>venue</a> because it was impressive, and with the recently planned renovation it would be really awesome. It was a bold and risky move due to the recent economic difficulties Greece is facing right now (including workers&#8217; strikes). What we wanted, was to have the greatest and biggest venue <a href='http://euruko2013.org'>EuRuKo</a> had ever seen.</p>
+    <div id="navbar-main" class="navbar navbar-fixed-top navbar-main">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">
+            <div class="navbar-logo"></div>
+          </a>
+          <ul class="nav pull-right">
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#speakers">Speakers</a></li>
+            <li><a href="/#tickets">Tickets</a></li>
+            <li><a href="/#venue">Venue</a></li>
+            <li><a href="/#sponsors">Sponsors</a></li>
+            <li><a href="http://cfp.euruko2013.org/proposals">Proposals</a></li>
+            <li><a href="/#contact">Contact</a></li>
+            <li class="blog-item">
+              <a href="/blog">Blog</a>
+              <a href="/blog/feed.xml">
+                <i class="icon-rss"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <section class="container section" id="article">
+    <div class="row">
+      <div class="span8 offset2">
+        <article class="row blog-post" itemscope itemscope="http://schema.org/Article">
+          <header class="span8">
+            <h2 itemprop="headline">We are working hard, but...</h2>
+          </header>
+          <section class="span6 body" itemprop="text">
+            <p>As you can see from the images below the venue of this year&#8217;s EuRuKo, Badminton Theatre, is being renovated. To be honest, we knew such works were planned, yet we chose to book this amazing <a href='/#venue'>venue</a> because it was impressive, and with the recently planned renovation it would be really awesome. It was a bold and risky move due to the recent economic difficulties Greece is facing right now (including workers&#8217; strikes). What we wanted, was to have the greatest and biggest venue <a href='http://euruko2013.org'>EuRuKo</a> had ever seen.</p>
 
 <p><img alt='Badminton Scene Renovation' src='/images/blog/badminton_scene_renovation-15beee26.jpg' /></p>
 
@@ -90,11 +101,10 @@
 <p>The committee promises to pull its sleeves up and dive into hard work with the shovel in order to organize EuRuKo 2013 on time.</p>
 
 <p>Thank you for your support.</p>
-      </section>
-      <footer>
-        <p class="date" itemprop="dateCreated" content="2013-04-01">Apr  1, 2013</p>
-
-        <ul class="authors">
+          </section>
+          <footer class="span2 text-center">
+  <p class="date" itemprop="dateCreated" content="2013-04-01">Apr  1, 2013</p>
+<ul class="authors unstyled">
   
     
     <li class="author">
@@ -105,7 +115,7 @@
     </li>
   
     
-      <p class="separator">&amp;</p>
+      <p class="text-separator">&amp;</p>
     
     <li class="author">
       <img alt=" pagojo" itemprop="image" src="../../images/committee/pagojo-554f0743.png" />
@@ -115,11 +125,10 @@
     </li>
   
 </ul>
+</footer>
 
-      </footer>
-    </article>
-
-    <div id="disqus_thread"></div>
+        </article>
+        <div id="disqus_thread"></div>
 
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -136,19 +145,33 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
+      </div>
+    </div>
   </section>
 
-  <aside>
+  <aside class="hidden">
     <h2>Recent Articles</h2>
     <ol>
       
+        <li><a href="/blog/2013-04-17-meet-our-sponsors-metaquark/">Meet our sponsors: Metaquark</a> <span>Apr 17</span></li>
+      
+        <li><a href="/blog/2013-04-17-calling-all-ruby-brigades/">Calling All Ruby Brigades</a> <span>Apr 17</span></li>
+      
+        <li><a href="/blog/2013-04-16-meet-our-sponsors-avarteq/">Meet our sponsors: Avarteq</a> <span>Apr 16</span></li>
+      
+        <li><a href="/blog/2013-04-13-ten-days-before-the-cfp-closes-and/">Ten days before the CFP closes and...</a> <span>Apr 13</span></li>
+      
+        <li><a href="/blog/2013-04-12-more-tickets-more-timezones-more-fun/">More tickets, more timezones, more fun...</a> <span>Apr 12</span></li>
+      
+        <li><a href="/blog/2013-04-12-above-and-beyond/">Above and beyond...</a> <span>Apr 12</span></li>
+      
+        <li><a href="/blog/2013-04-10-meet-our-sponsors-wooga/">Meet our sponsors: Wooga</a> <span>Apr 10</span></li>
+      
+        <li><a href="/blog/2013-04-09-meet-our-sponsors-skroutz/">Meet our sponsors: Skroutz</a> <span>Apr  9</span></li>
+      
+        <li><a href="/blog/2013-04-08-announcing-the-1st-batch-of-tickets/">Announcing the 1st batch of tickets!</a> <span>Apr  8</span></li>
+      
         <li><a href="/blog/2013-04-01-happy-april-fools-day/">Happy April Fools' Day</a> <span>Apr  1</span></li>
-      
-        <li><a href="/blog/2013-04-01-we-are-working-hard-but/">We are working hard, but...</a> <span>Apr  1</span></li>
-      
-        <li><a href="/blog/2013-03-28-call-for-presentations/">Call for Presentations</a> <span>Mar 28</span></li>
-      
-        <li><a href="/blog/2013-03-13-our-contribution/">Our contribution...</a> <span>Mar 13</span></li>
       
     </ol>
 
@@ -156,8 +179,50 @@
     <ol>
       
       <li>
+        <a href="/blog/tags/venue/">
+          venue (2)
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/april-fools/">
+          april fools (1)
+        </a>
+      </li>
+      
+      <li>
         <a href="/blog/tags/euruko/">
-          euruko (2)
+          euruko (11)
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/tickets/">
+          tickets (4)
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/announcement/">
+          announcement (1)
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/sponsors/">
+          sponsors (4)
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/announcements/">
+          announcements (3)
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/speakers/">
+          speakers (2)
         </a>
       </li>
       
@@ -180,26 +245,14 @@
       </li>
       
       <li>
-        <a href="/blog/tags/announcements/">
-          announcements (1)
+        <a href="/blog/tags/support/">
+          support (1)
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/speakers/">
-          speakers (1)
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/venue/">
-          venue (2)
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/april-fools/">
-          april fools (1)
+        <a href="/blog/tags/community/">
+          community (1)
         </a>
       </li>
       
@@ -210,13 +263,12 @@
       
         <li>
         <a href="/blog/2013/">
-          2013 (4)
+          2013 (13)
         </a>
         </li>
       
     </ol>
   </aside>
-
 
   </body>
 </html>

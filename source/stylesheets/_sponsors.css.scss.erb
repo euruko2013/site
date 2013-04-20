@@ -1,0 +1,279 @@
+#sponsors {
+  .section {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 10px;
+
+    div {
+      margin-top: 40px;
+    }
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  h1 {
+    margin-top: 50px;
+    font-size: 20px;
+    font: 300 32px/42px $ubuntu;
+    text-align: right;
+  }
+
+  h2 {
+    text-align: left;
+    padding: 10px 0 5px 0;
+    font-size: 25px;
+    color: #848484;
+    text-shadow: 1px 1px 0 white;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  img {
+    margin-right: 20px;
+    border: 1px solid $lightest_grey;
+  }
+
+  li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+
+    .ribbon {
+      left: -25px;
+      top: -28px;
+      position: absolute;
+      overflow: hidden;
+      -moz-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+
+      span {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #000;
+      }
+    }
+  }
+
+  p {
+    margin: 30px 0 0 0;
+    text-align: justify;
+
+      &.centered {
+          margin: 40px auto;
+          text-align: center;
+      }
+  }
+
+  .sponsors {
+    p {
+      margin: 10px 0 0 0;
+
+      &:first-letter {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  #gaia {
+    .ribbon {
+      background-color: #a00;
+
+      span {
+        border: 1px solid #faa;
+        padding: 5px 35px;
+      }
+    }
+
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    li {
+      vertical-align: top;
+    }
+  }
+
+  #helios {
+    .ribbon {
+      background-color: #f9d051;
+
+      span {
+        border: 1px solid #fadb7b;
+        padding: 5px 28px;
+      }
+    }
+
+    li {
+      width: 252px;
+      margin-right: 64px;
+
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+
+      &:nth-child(n+4) {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  #selene {
+    .ribbon {
+      background-color: #3ba6c5;
+
+      span {
+        border: 1px solid #70c7e0;
+        padding: 5px 26px;
+      }
+    }
+
+    li {
+      width: 202px;
+      margin-right: 24px;
+
+      &:nth-child(4n+4) {
+        margin-right: 0;
+      }
+
+      &:nth-child(n+5) {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  #aphrodite {
+    .ribbon {
+      background-color: #D6336B;
+
+      span {
+        border: 1px solid #D68E9C;
+        padding: 5px 26px;
+      }
+    }
+    li {
+      width: 152px;
+      margin-right: 28px;
+
+      &:nth-child(5n+5) {
+        margin-right: 0;
+      }
+
+      &:nth-child(n+6) {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  #additional {
+    .ribbon {
+      background-color: $lighter_grey;
+
+      span {
+        border: 1px solid $lightest_grey;
+      }
+
+      &.party span {
+        padding: 5px 32px;
+      }
+
+      &.wifi span {
+        padding: 5px 34px;
+      }
+
+      &.network span {
+        padding: 5px 20px;
+      }
+    }
+
+    ul {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    li {
+      width: 202px;
+      margin-right: 50px;
+
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+
+      &:nth-child(n+4) {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+/* Media Queries: Tablet devices overwrite 641px...960px */
+
+@media only screen and (max-width:960px) {
+  #sponsors {
+    .section {
+      max-width: 700px;
+    }
+
+    #gaia {
+    }
+
+    #helios  {
+      ul {
+        margin: 0 auto;
+      }
+
+      li {
+        margin-right: 32px;
+
+        &:nth-child(3n+3) {
+          margin-right: 32px;
+        }
+
+        &:nth-child(n+4) {
+          margin-top: 0;
+        }
+
+        &:nth-child(2n+2) {
+          margin-right: 0;
+        }
+
+        &:nth-child(n+3) {
+          margin-top: 40px;
+        }
+
+      }
+    }
+  }
+}
+
+/* Media Queries: Mobile devices overwrite 320px...640px */
+
+@media only screen and (max-width:640px) {
+  #sponsors {
+    #gaia {
+      img {
+        float: none;
+      }
+    }
+
+    #helios  {
+      li {
+        margin-right: 32px;
+      }
+    }
+  }
+}

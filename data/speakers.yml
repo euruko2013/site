@@ -1,0 +1,18 @@
+speakers:
+  - matz:
+    name: 'Yukihiro "Matz" Matsumoto'
+    short_name: 'matz'
+    title: 'Ruby chief architect'
+    short_bio: "Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby."
+
+  - koichi:
+    name: 'Koichi Sasada'
+    short_name: 'koichi'
+    title: 'Ruby core commiter (CRuby VM, YARV)'
+    short_bio: 'Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.'
+
+  - klabnik:
+    name: 'Steve Klabnik'
+    short_name: 'klabnik'
+    title: 'Instructor and Open Source lead'
+    short_bio: 'Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We should not expect anything less for EuRuKo.'

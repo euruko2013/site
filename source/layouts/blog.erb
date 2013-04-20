@@ -3,25 +3,25 @@ title: EuRuKo 2013 Blog - Athens
 description: EuRuKo 2013 - The European Ruby Conference 2013 Blog
 ---
 <% wrap_layout :layout do %>
-  <section class="section" id="article">
-    <article class="post" itemscope itemscope="http://schema.org/Article">
-      <header>
-        <h2 itemprop="headline"><%= current_page.title %></h2>
-      </header>
-      <section class="body" itemprop="text">
-        <%= yield %>
-      </section>
-      <footer>
-        <p class="date" itemprop="dateCreated" content="<%= Date.parse(current_page.data.date).strftime('%F') %>"><%= Date.parse(current_page.data.date).strftime('%b %e, %Y') %></p>
-
-        <%= partial 'blog/authors', locals: { authors: current_page.data.authors.split(",") } %>
-      </footer>
-    </article>
-
-    <%= partial 'blog/disqus' %>
+  <section class="container section" id="article">
+    <div class="row">
+      <div class="span8 offset2">
+        <article class="row blog-post" itemscope itemscope="http://schema.org/Article">
+          <header class="span8">
+            <h2 itemprop="headline"><%= current_page.title %></h2>
+          </header>
+          <section class="span6 body" itemprop="text">
+            <%= yield %>
+          </section>
+          <%= partial 'blog/authors', locals: { authors: current_page.data.authors.split(","),
+                                                article_date: current_page.date } %>
+        </article>
+        <%= partial 'blog/disqus' %>
+      </div>
+    </div>
   </section>
 
-  <aside>
+  <aside class="hidden">
     <h2>Recent Articles</h2>
     <ol>
       <% blog.articles[0...10].each do |article| %>

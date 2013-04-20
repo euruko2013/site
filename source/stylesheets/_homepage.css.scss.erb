@@ -1,3 +1,7 @@
+.homepage-body {
+    padding-top: 0;
+}
+
 h3 {
   padding: $vr 0;
   font: bold 22px $ubuntu;
@@ -124,6 +128,7 @@ h3 {
       font-weight: 100;
       text-align: left;
       padding: 0 0 $vr/2;
+      margin-top: 0;
       margin-bottom: $vr/2;
       border-bottom: 1px solid #848484;
     }
@@ -131,6 +136,7 @@ h3 {
     ul {
       font-size: 12px;
       color: #fff;
+
 
       li {
         margin-bottom: $vr/4;
@@ -150,13 +156,6 @@ h3 {
         text-overflow: ellipsis;
         white-space: nowrap;
         vertical-align: top;
-        padding-bottom: 3px;
-
-        &:hover,
-        &:active {
-          padding-bottom: 2px;
-          border-bottom: 1px dotted #fff;
-        }
       }
     }
   }
@@ -448,18 +447,39 @@ h3 {
     background: transparent image-url("sprite.png") 0px -180px no-repeat;
   }
 
+  a {
+    color: $light_grey;
+  }
+
+  .countdown {
+    width: 85%;
+    margin: $vr auto;
+    font: 300 16px $ubuntu;
+    color: $light_grey;
+    text-align: center;
+
+    .counter {
+      display: block;
+      margin: 25px auto 5px auto;
+      font-size: 28px;
+    }
+
+    .external-link.eventora-page {
+      margin: $vr auto;
+
+      &:hover,
+      &:active {
+        color: #f2f2f2;
+      }
+    }
+  }
+
   p {
     width: 85%;
     margin: $vr auto;
     font: 300 16px $ubuntu;
     color: $lighter_grey;
     text-align: center;
-
-    .contact {
-      display: block;
-      margin: 20px auto;
-      color: $light_grey;
-    }
   }
 }
 
@@ -522,13 +542,9 @@ h3 {
     text-align: center;
 
     a.brochure {
-      width: 300px;
       @include bullet-left(#989898, 18px, rgba(152,152,152,.4));
 
       &:hover, &:active {
-        background: #99352d;
-        border: 1px solid #f2f2f2;
-        color: #f2f2f2;
         @include bullet-left(#f2f2f2, 18px, rgba(242,242,242,.4));
       }
     }
@@ -607,6 +623,13 @@ h3 {
     background-image: image-url("sprite.png");
     background-position:  16px -420px;
     background-repeat: no-repeat;
+
+     &:hover, &:active {
+        background-image: image-url("sprite.png");
+
+        background-position:  16px -420px;
+        background-repeat: no-repeat;
+     }
   }
 
   .contact {
@@ -618,27 +641,31 @@ h3 {
     margin-top: 30px;
     font-size: 12px;
 
-    a {
+     a {
       color: $light_grey;
       margin: 0 5px;
     }
   }
 
-  #mc_embed_signup {
+   #mc_embed_signup {
       width: 85%;
       margin: $vr auto;
       font: 300 16px $ubuntu;
       color: $light_grey;
       text-align: center;
 
+      label {
+        font-size: 16px;
+      }
+
       form {
       }
 
-      h2 {
-          font-weight: bold;
-          padding: 0;
-          margin: 15px 0;
-          font-size: 1.4em;
+     h2 {
+        font-weight: bold;
+        padding: 0;
+        margin: 15px 0;
+        font-size: 1.4em;
       }
 
       input {
@@ -656,14 +683,11 @@ h3 {
       }
       .button {
           clear: both;
-          background-color: #aaa;
+         background: rgb(215,215,215);
           border: 0 none;
-          border-radius: 4px;
-          color: #FFFFFF;
+          color: $light_grey;
           cursor: pointer;
           display: inline-block;
-          font-size: 15px;
-          font-weight: bold;
           height: 32px;
           line-height: 32px;
           margin: 0 5px 10px 0;
@@ -673,9 +697,12 @@ h3 {
           vertical-align: top;
           white-space: nowrap;
           width: auto;
-      }
-      .button:hover {
-          background-color: #777;
+         border: 1px solid rgb(206,206,206);
+
+          &:hover {
+            background: #99352d;
+            color: #f2f2f2;
+          }
       }
       .small-meta {
           font-size: 11px;

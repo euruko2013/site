@@ -1,21 +1,16 @@
-/* Global Variables */
-$arial: Arial,"Helvetica Neue", Helvetica, Geneva, sans-serif;
-$ubuntu: 'Ubuntu', $arial;
-$georgia: Georgia, "Times New Roman", Times, serif;
-$tahoma: Tahoma,Arial,sans-serif;
-$verdana: Verdana,Arial,sans-serif;
-
-$dark_white:#fefefe;
-$dark_grey: #231f20;
-$light_grey: #616161;
-$lighter_grey:#848484;
-$lightest_grey:#a8a8a8;
-$vr: 20px;
-$hr: 18px;
-
-body, button, input, select, textarea { 
+/* Common elements */
+body, 
+button, input, select, textarea { 
   font:normal 1em/1.4 $verdana;
   color: $dark_grey;
+}
+
+body {
+    padding-top: 60px;
+}
+
+a {
+  text-decoration: underline;
 }
 
 strong {
@@ -28,12 +23,13 @@ strong {
   max-width:1180px;
   margin:0 auto;
   width: 98%;
-  @include box-sizing(border-box);
+
 }
 
 .external-link {
   display: block;
-  margin: 3*$vr auto 0;
+  width: 300px;
+  margin: $vr auto 0;
   padding: 10px 10px;
   border: 1px solid #cecece;
   background: #d7d7d7;
@@ -44,9 +40,9 @@ strong {
 
 .external-link:hover,
 .external-link:active, {
-  border: 1px solid #b6b6b6;
-  background: #cacaca;
-  color: #6d6e71;
+  border: 1px solid #f2f2f2;
+  background: #99352d;
+  color: #f2f2f2;
 }
 
 .external-link.disabled {
@@ -56,36 +52,5 @@ strong {
 
   &:before {
     opacity: .6;
-  }
-}
-
-
-/* Media Queries: Tablet devices overwrite 641px...960px */
-
-@media only screen and (max-width:960px) {
-
-  .centered {
-    min-width: 0;
-  }
-}
-
-
-/* Media Queries: Mobile devices overwrite 320px...640px */
-
-@media only screen and (max-width:640px) {
-
-  .external-link {
-    font-size: 14px;
-    margin-top: 1.5 * $vr;
-  }
-}
-
-
-/* IE8 bug fixes */
-
-.lt-ie9 {
-
-  .centered {
-    min-width: 800px;
   }
 }
