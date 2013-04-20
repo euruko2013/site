@@ -37,3 +37,10 @@ $ ->
   $('#mc_embed_signup form').on 'submit', (event) ->
     _gaq.push(['_trackEvent', 'Newsletter', 'Signup']);
     return
+
+  # Organisers tooltip on mouserOver
+
+  $('.organisers-avatar').powerTip
+    placement: 'n',
+    smartPlacement: true
+    mouseOnToPopup: true
