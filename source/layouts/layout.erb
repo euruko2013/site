@@ -34,11 +34,11 @@
     <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="blog/feed.xml" />
 
     <!-- Stylesheets -->
-    <%= stylesheet_link_tag "reset", "main" %>
+    <%= stylesheet_link_tag "reset", "main", "jquery.powertip" %>
 
     <!-- JavaScript -->
     <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js' %>
-    <%= javascript_include_tag 'main', 'parallax', 'vendor/easing', 'vendor/powertip' %>
+    <%= javascript_include_tag 'vendor/powertip', 'main', 'parallax', 'vendor/easing' %>
 
     <!-- Google Analytics -->
     <script>
