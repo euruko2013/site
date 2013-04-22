@@ -33,10 +33,14 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
           <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
         </li> -->
         <li>
+          <span>22/04</span>
+          <%= link_to 'DNSSimple is a Selene sponsor', '#selene' %>
+        </li>
+        <li>
           <span>19/04</span>
           <%= link_to 'Pamediakopes.gr is a Selene sponsor', '#selene' %>
         </li>
-         <li>
+        <li>
           <span>18/04</span>
           <%= link_to 'Engine Yard is a Helios sponsor', '#helios' %>
         </li>
@@ -59,10 +63,6 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li>
           <span>10/04</span>
           <%= link_to 'SoundCloud is a Selene sponsor', '#selene' %>
-        </li>
-        <li>
-          <span>09/04</span>
-          <%= link_to 'Avarteq is a Selene sponsor', '#selene' %>
         </li>
       </ul>
     </div>
@@ -255,6 +255,12 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li id="pamediakopes">
           <% link_to 'http://www.pamediakopes.gr?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
             <%= image_tag "sponsors/pamediakopes_200x100.png", alt: "Pamediakopes.gr Logo", title: "Pamediakopes.gr", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+
+        <li id="dnssimple">
+          <% link_to 'http://dnsimple.com?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/dnssimple_200x100.png", alt: "DNSSimple Logo", title: "DNSSimple", itemprop: "image", width: "200", height: "100" %>
           <% end %>
         </li>
 
