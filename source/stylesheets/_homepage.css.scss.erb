@@ -53,7 +53,7 @@ h3 {
     overflow: hidden;
     width: 275px;
     height: 94px;
-    margin: 250px auto 15px;
+    margin: 165px auto 15px;
     background: transparent image-url("sprite.png") 0px 0px no-repeat;
     text-indent: -9999px;
     position: relative;
@@ -86,7 +86,7 @@ h3 {
     font: 300 22px/32px $ubuntu;
   }
 
-  .centered {
+  div.centered {
     min-height: 600px;
     background-image: image-url("parallax/back.png"),
                       image-url("parallax/middle.png"),
@@ -114,7 +114,7 @@ h3 {
 
   .news {
     position: absolute;
-    top: 280px;
+    top: 200px;
     padding: 20px 20px 20px 30px;
     text-align: left;
     right: 0;
@@ -397,7 +397,7 @@ h3 {
   }
 
   p {
-    font: 300 15px $ubuntu;
+    font: 300 15px/25px $ubuntu;
     color: $lighter_grey;
 
    &.more {
@@ -468,7 +468,8 @@ h3 {
       margin: $vr auto;
 
       &:hover,
-      &:active {
+      &:active,
+      &.active {
         color: #f2f2f2;
       }
     }
@@ -537,7 +538,7 @@ h3 {
 
   p {
     margin: 2*$vr auto;
-    font: 300 16px $ubuntu;
+    font: 300 15px/22px $ubuntu;
     color: $light_grey;
     text-align: center;
 
@@ -579,6 +580,9 @@ h3 {
   .committee li {
     width: 24%;
     margin-bottom: $vr;
+    h5 {
+      font-weight:normal;
+    }
   }
 
   .community li {
@@ -834,7 +838,7 @@ h3 {
       display: none;
     }
 
-    .centered {
+    div.centered {
       min-height: 0;
     }
 
