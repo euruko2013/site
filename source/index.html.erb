@@ -32,6 +32,10 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <ul class="unstyled">
         <!-- News Placeholder list items -->
         <li>
+          <span>23/04</span>
+          <%= link_to 'Xing is a Selene sponsor', '#selene' %>
+        </li>
+        <li>
           <span>22/04</span>
           <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
         </li>
@@ -58,10 +62,6 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li>
           <span>13/04</span>
           <%= link_to 'Countdown for 2nd ticket batch started!', '/blog/2013-04-12-more-tickets-more-timezones-more-fun/' %>
-        </li>
-        <li>
-          <span>12/04</span>
-          <%= link_to '20 supporter tickets will be available', '/blog/2013-04-12-above-and-beyond/' %>
         </li>
       </ul>
     </div>
@@ -266,6 +266,12 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li id="heroku">
           <% link_to 'http://www.heroku.com?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
             <%= image_tag "sponsors/heroku_200x100.png", alt: "Heroku Logo", title: "Heroku", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+
+        <li id="xing">
+          <% link_to 'http://www.xing.com?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/xing_200x100.png", alt: "Xing Logo", title: "Xing", itemprop: "image", width: "200", height: "100" %>
           <% end %>
         </li>
 
