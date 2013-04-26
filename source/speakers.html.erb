@@ -6,7 +6,7 @@ title: EuRuKo 2013 - Athens | Speakers
     <% data.speakers.speakers.each_with_index do |speaker, i| %>
         <li class="<%= i.even? ? "left" : "right" %>" id="<%= speaker.short_name %>">
           <h4><span class="name" itemprop="name"><%= speaker.name %></span></h4>
-          <h5><%= speaker.name %><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
+          <h5><a href="/speakers/<%= speaker.short_name %>"><%= speaker.name %></a><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
         <p><%= speaker.short_bio %></p>
         </li>
     <% end %>
