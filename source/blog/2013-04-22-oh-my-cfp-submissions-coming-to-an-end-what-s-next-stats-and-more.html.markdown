@@ -21,14 +21,12 @@ This is the time to rally behind your favourite proposals and, who knows, perhap
 
 _P.S.: For the number lovers, here are some fresh ones:_
 
-* [300+ users](http://cfp.euruko.org/motivations)
-* [72 proposals](http://cfp.euruko.org/motivations) (4 withdrawn)
+* [300+ users](http://cfp.euruko2013.org/motivation)
+* [72 proposals](http://cfp.euruko2013.org/proposals) (4 withdrawn)
 * Almost 200 suggestions
 * 17000+ impressions
 * 1200+ votes
 
-
-<br>
 _And last but not least: **you do have tickets don’t you?**_
 
 If not, **[go grab’em now!](https://www.eventora.com/en/Events/euruko-2013-athens)**
