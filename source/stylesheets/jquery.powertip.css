@@ -12,7 +12,6 @@
   position: absolute;
   /*white-space: nowrap; NOT USED */
   z-index: 2147483647;
-  width: 300px; /*this is used for tooltip to have a static width*/
 }
 #powerTip:before {
   content: "";
