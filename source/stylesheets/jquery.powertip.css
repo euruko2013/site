@@ -14,11 +14,6 @@
   z-index: 2147483647;
   width: 300px; /*this is used for tooltip to have a static width*/
 }
-.website {
-  text-align: center;
-  text-decoration: underline;
-  color: #fff;
-}
 #powerTip:before {
   content: "";
   position: absolute;
@@ -38,7 +33,7 @@
 #powerTip.n:before {
   border-top: 10px solid #333;
   border-top: 10px solid rgba(0, 0, 0, 0.8);
-  bottom: -10px;
+  bottom: -9px;
 }
 #powerTip.e:before {
   border-right: 10px solid #333;
@@ -48,7 +43,7 @@
 #powerTip.s:before {
   border-bottom: 10px solid #333;
   border-bottom: 10px solid rgba(0, 0, 0, 0.8);
-  top: -10px;
+  top: -9px;
 }
 #powerTip.w:before {
   border-left: 10px solid #333;
