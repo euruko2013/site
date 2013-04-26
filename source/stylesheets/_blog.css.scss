@@ -132,8 +132,29 @@ aside {
 */
 
 .blog-post {
-  border-bottom: 1px solid #AAA;
+  
   padding: 15px 0 30px 0;
+  position: relative;
+
+  .body {
+    border-bottom: 1px solid #AAA;
+    padding-bottom: 40px;
+  }
+
+  aside {
+    ul {
+      list-style-type: none;
+    }
+
+    h3 {
+      font-size: 0.8em;
+      padding: 10px 0;
+    }
+
+    a {
+      font-size: 0.7em;
+    }
+  }
 }
 
 section.body {
