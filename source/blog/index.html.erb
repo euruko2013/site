@@ -5,23 +5,20 @@ per_page: 5
 ---
 
 <section class="container" id="blog-articles">
-  <div class="row">
-    <div class="span8 offset2">
-    <% page_articles.each_with_index do |article, i| %>
-      <article class="row blog-post" itemscope itemscope="http://schema.org/Article">
-        <header class="span8">
+  <% page_articles.each_with_index do |article, i| %>
+      <article class="blog-post" itemscope itemscope="http://schema.org/Article">
+        <header>
           <h2 itemprop="headline"><%= link_to article.title, article %></h2>
         </header>
-        <section class="span6 body" itemprop="description">
-            <%= article.summary %>
-                    <div class="comment">
-          <%= link_to 'comments', article, anchor: 'disqus_thread', class: 'comment-count' %>
-        </div>
-        </section>
-
-        <%= partial 'blog/authors', locals: { authors: article.data.authors.split(",").take(1), 
+        <section class="body" itemprop="description">
+            <%= partial 'blog/authors', locals: { authors: article.data.authors.split(",").take(1), 
                                               article_date: article.date } %>
-    </article>
+            <%= article.summary %>
+            <div class="comment">
+              <%= link_to 'comments', article, anchor: 'disqus_thread', class: 'comment-count' %>
+            </div>
+        </section>
+      </article>
   <% end %>
 
   <% if paginate %>
