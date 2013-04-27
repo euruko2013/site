@@ -3,44 +3,43 @@ title: EuRuKo 2013 Blog - Athens
 description: EuRuKo 2013 - The European Ruby Conference 2013 Blog
 ---
 <% wrap_layout :layout do %>
-  <section class="container section" id="article">
-    <div class="row">
-      <div class="span8 offset2">
-        <article class="row blog-post" itemscope itemscope="http://schema.org/Article">
-          <header class="span8">
-            <h2 itemprop="headline"><%= current_page.title %></h2>
-          </header>
-
-          <section class="span6" itemprop="text">
-            <div class="body">
-              <%= yield %>
-            </div>
-            <%= partial 'blog/disqus' %>
-          </section>         
-
-          <aside class="span2">
+  <section class="container" id="article">
+    <article class="blog-post" itemscope itemscope="http://schema.org/Article">
+      <header>
+        <h2 itemprop="headline"><%= current_page.title %></h2>
+      </header>
+      <div class="row-fluid">
+        <section class="span8" itemprop="text">
+          <div class="body">
             <%= partial 'blog/authors', locals: { authors: current_page.data.authors.split(","),
                                               article_date: current_page.date } %> 
-            <h3>Recent Articles</h3>
-            <ul>
-              <% blog.articles.reject{|a| a.title == current_page.title}[0...5].each do |article| %>
-                <li><%= link_to article.title, article.url %></li>
-              <% end %>
-            </ul>
+            <%= yield %>
+          </div>    
+        </section>         
 
-            <h3>Tags</h3>
-            <ul>
-              <% blog.tags.each do |tag, articles| %>
+        <aside class="span4 recent-articles">
+          <h3>Recent Articles</h3>
+          <ul>
+            <% blog.articles.reject{|a| a.title == current_page.title}[0...5].each do |article| %>
+              <li><%= link_to article.title, article.url %></li>
+            <% end %>
+          </ul>
+        </aside>
+        <aside class="span4 blog-tags">
+          <h3>Tags</h3>
+          <ul>
+            <% blog.tags.each do |tag, articles| %>
               <li>
                 <% link_to tag_path(tag) do %>
-                  <%= tag %> (<%= articles.size %>)
+                <%= tag %> (<%= articles.size %>)
                 <% end %>
               </li>
-              <% end %>
-            </ul>
-          </aside>                                                
-        </article>
+            <% end %>
+          </ul>
+        </aside>
       </div>
-    </div>
+      <hr />
+      <%= partial 'blog/disqus' %>                                             
+    </article>
   </section>
 <% end %>
