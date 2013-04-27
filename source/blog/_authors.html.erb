@@ -1,4 +1,4 @@
-<footer class="text-center">
+<div class="blog-authors">
   <p class="date" itemprop="dateCreated" content="<%= article_date.strftime('%F') %>"><%= article_date.strftime('%b %e, %Y') %></p>
 <ul class="authors unstyled">
   <% authors.each_with_index do |author, i| %>
@@ -6,11 +6,11 @@
       <p class="text-separator">&amp;</p>
     <% end %>
     <li class="author">
-      <%= image_tag "committee/#{author}.png", alt: author, itemprop: "image" %>
+      <%= image_tag "committee/#{author}.png", alt: author, itemprop: "image", class: "hidden-phone" %>
       <p itemscope itemprop="author" itemtype="http://schema.org/Author">
         by <span itemprop="name"><%= author %></span>
       </p>
     </li>
   <% end %>
 </ul>
-</footer>
+</div>
