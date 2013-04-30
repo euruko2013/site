@@ -17,7 +17,8 @@ and we all agreed on the following:
 Everything else follows and is of lower priority.
 
 We handled the second early in the process by putting a lot of effort in trying to find the best possible venue without exceeding the budget.
-And we believe we really nailed it! Then it was time to find the best possible solution to the most important aspect of the conference: the presentations.
+And we believe [we really nailed it](http://euruko2013.org/#venue)!
+Then it was time to find the best possible solution to the most important aspect of the conference: the presentations.
 
 Before continuing, we should mention that EuRuKo is a special kind of event: it’s non-profit and organized by the community for the community.
 This means it carries some special opportunities but also many special challenges.
