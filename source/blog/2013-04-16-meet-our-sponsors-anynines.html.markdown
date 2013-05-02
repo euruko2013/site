@@ -7,7 +7,8 @@ authors: apantsiop
 
 ![Anynines Logo](/images/sponsors/anynines_200x100.png "Anynines")
 
-Anynines is an upcoming Heroku-like PaaS written in Ruby. A hosting that grows with your
+[Anynines](http://www.anynines.com/?utm_source=euruko&utm_medium=blog&utm_campaign=selene)
+is an upcoming Heroku-like PaaS written in Ruby. A hosting that grows with your
 apps!
 
 Folks from Anynines see their job as terribly important - many developers put pet apps
