@@ -92,6 +92,10 @@ helpers do
   def twitter_button(username)
     link_to "Follow @#{username}", "https://twitter.com/#{username}", class: "twitter-follow-button", :'data-show-count' => 'false', :'data-dnt' => 'true'
   end
+
+  def github_button(username)
+    link_to "@#{username}", "https://github.com/#{username}"
+  end
 end
 
 set :css_dir, 'stylesheets'
