@@ -38,7 +38,7 @@
   id: 'bussink'
   name: 'Dirkjan Bussink'
   title: ''
-  bio: ''
+  bio: 'Dirkjan is the founder of CriticalCodes, a development company specialized in performance and security. He is also an active open source contributor, having contributed to Ruby, Rails and DataMapper. These days EngineYard is sponsoring his company to work on Rubinius.'
   keynote: false
 
 - smith:
