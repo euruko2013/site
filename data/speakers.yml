@@ -16,3 +16,9 @@ speakers:
     short_name: 'klabnik'
     title: 'Instructor and Open Source lead'
     bio: 'Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We should not expect anything less for EuRuKo.'
+
+  - xavier:
+    name: 'Xavier Noria'
+    short_name: 'fxn'
+    title: 'Ruby on Rails consultant'
+    bio: 'Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised <a href="asd">EuRuKo 2009</a> in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.'
