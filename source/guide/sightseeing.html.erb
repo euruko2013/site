@@ -6,7 +6,7 @@ menu_item: sightseeing
     <div class="container">
         <div class="row">
             <div class="span4">
-                <%= partial 'guide/menu', locals: { active: 'sightseeing'} %>
+                <%= partial 'guide/menu' %>
             </div>
 
             <div class="span8">
@@ -59,10 +59,18 @@ menu_item: sightseeing
                 <ul class="row thumbnails">
                     <li class="span2">
                         <span class="thumbnail">
-                            <p class="title">Lycabettus hill</p>
-                            <%= image_tag 'guide/Athens_-_Mount_Lycabettus_-_20080729a.jpg' %>
-                            <p class="attribution">photo by Barcex<br />CC BY-SA-2.5</p>
-                        </span>
+                            <p class="title">Monastiraki</span>
+                        <%= image_tag 'guide/Athens_-_Monastiraki_square_and_station_-_20060508.jpg' %>
+                        <span class="attribution">photo by Barcex CC BY SA 2.5</span>
+                        </p>
+                    </li>
+
+                    <li class="span2">
+                        <a href="http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2392" target="_blank" class="thumbnail">
+                            <p class="title">Kerameikos</p>
+                            <%= image_tag 'guide/flickr-3175992479-original.jpg' %>
+                            <p class="attribution">photo by Shadowgate<br />CC BY 2.0</p>
+                        </a>
                     </li>
 
                     <li class="span2">
@@ -80,6 +88,16 @@ menu_item: sightseeing
                             <p class="attribution">photo by Dimboukas</p>
                         </span>
                     </li>
+                </ul>
+
+                <ul class="row thumbnails">
+                    <li class="span2">
+                        <span class="thumbnail">
+                            <p class="title">Lycabettus hill</p>
+                            <%= image_tag 'guide/Athens_-_Mount_Lycabettus_-_20080729a.jpg' %>
+                            <p class="attribution">photo by Barcex<br />CC BY-SA-2.5</p>
+                        </span>
+                    </li>
 
                     <li class="span2">
                         <span class="thumbnail">
@@ -88,46 +106,12 @@ menu_item: sightseeing
                             <p class="attribution">photo by Ank@<br />CC BY 2.0</p>
                         </span>
                     </li>
-                </ul>
-
-                <ul class="row thumbnails">
-                    <li class="span2">
-                        <span class="thumbnail">
-                            <p class="title">Phillopapou and the hill of the Pnyx</p>
-                        </span>
-                    </li>
-
-                    <li class="span2">
-                        <a href="http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2392" target="_blank" class="thumbnail">
-                            <p class="title">Kerameikos</p>
-                            <%= image_tag 'guide/flickr-3175992479-original.jpg' %>
-                            <p class="attribution">photo by Shadowgate<br />CC BY 2.0</p>
-                        </a>
-                    </li>
-
-                    <li class="span2">
-                        <span class="thumbnail">
-                            <p class="title">Plaka</p>
-                        </span>
-                    </li>
 
                     <li class="span2">
                         <span class="thumbnail">
                             <p class="title">National Gardens</p>
-                        </span>
-                    </li>
-                </ul>
-
-                <ul class="row thumbnails">
-                    <li class="span2">
-                        <span class="thumbnail">
-                            <p class="title">First Cemetery of Athens</p>
-                        </span>
-                    </li>
-
-                    <li class="span2">
-                        <span class="thumbnail">
-                            <p class="title">Monastiraki</p>
+                            <%= image_tag 'guide/National_Gardens.jpg' %>
+                            <span class="attribution">photo by Argos'Dad</span>
                         </span>
                     </li>
                 </ul>
