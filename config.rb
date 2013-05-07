@@ -88,6 +88,10 @@ helpers do
       link_to section, '/' + link
     end
   end
+
+  def twitter_button(username)
+    link_to "Follow @#{username}", "https://twitter.com/#{username}", class: "twitter-follow-button", :'data-show-count' => 'false', :'data-dnt' => 'true'
+  end
 end
 
 set :css_dir, 'stylesheets'

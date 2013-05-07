@@ -4,6 +4,7 @@
   additional_name: 'Matz'
   title: 'Ruby chief architect'
   bio: 'Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.'
+  twitter: 'yukihiro_matz'
   keynote: true
 
 - koichi:
@@ -11,6 +12,7 @@
   name: 'Koichi Sasada'
   title: 'Ruby core commiter (CRuby VM, YARV)'
   bio: 'Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.'
+  twitter: '_ko1'
   keynote: true
 
 - klabnik:
@@ -18,6 +20,7 @@
   name: 'Steve Klabnik'
   title: 'Instructor and Open Source lead'
   bio: 'Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We should not expect anything less for EuRuKo.'
+  twitter: 'steveklabnik'
   keynote: true
 
 - xavier:
@@ -25,6 +28,7 @@
   name: 'Xavier Noria'
   title: 'Ruby on Rails consultant'
   bio: 'Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised <a href="asd">EuRuKo 2009</a> in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.'
+  twitter: 'fxn'
   keynote: true
 
 - witek:
@@ -32,6 +36,7 @@
   name: 'Grzegorz Witek'
   title: ''
   bio: 'Grzegorz loves talking to people and computers. He speaks 4 (human) languages, a couple of computer ones, constantly mastering new ones (for both humans and computers) and likes to travel a lot.'
+  twitter: 'arnvald'
   keynote: false
 
 - bussink:
@@ -39,6 +44,7 @@
   name: 'Dirkjan Bussink'
   title: ''
   bio: 'Dirkjan is the founder of CriticalCodes, a development company specialized in performance and security. He is also an active open source contributor, having contributed to Ruby, Rails and DataMapper. These days EngineYard is sponsoring his company to work on Rubinius.'
+  twitter: 'dbussink'
   keynote: false
 
 - smith:
@@ -46,6 +52,7 @@
   name: 'Benjamin Smith'
   title: ''
   bio: 'Benjamin is a developer at Pivotal Labs. He has a strong passion for TDD, pairing, Agile and using technologies that get out of the programmer’s way (or the programmer out of the way). When not writing code, he follows his other passions into the outdoors to rock climb, back country snowboard, kayak and surf.'
+  twitter: 'benjamin_smith'
   keynote: false
 
 - tennhard:
@@ -53,6 +60,7 @@
   name: 'Konstantin Tennhard'
   title: ''
   bio: 'Konstantin is a computer scientist who specializes in developing large scale internet applications. He is passionate about software design, test driven development and all sorts of modern web-technology. His main scientific interest is natural language processing.'
+  twitter: 't6d'
   keynote: false
 
 - shaughnessy:
@@ -60,6 +68,7 @@
   name: 'Pat Shaughnessy'
   title: ''
   bio: 'Pat loves diving into the details of a technology, learning how it works, and then explaining it in simple terms that everyone can understand. Author of “Ruby under a Microscope” explaining the nitty gritty details of Ruby.'
+  twitter: 'pat_shaughnessy'
   keynote: false
 
 - lovell:
@@ -67,6 +76,7 @@
   name: 'Ben Lovell'
   title: ''
   bio: 'Ben is an agile developer living in Reading, UK. He is an open source junkie and has been hacking code for around 8 years now – primarily with Microsoft technologies from ASP/VB to C# and the .NET framework.'
+  twitter: 'benlovell'
   keynote: false
 
 - kalderimis:
@@ -74,6 +84,7 @@
   name: 'Josh Kalderimis'
   title: ''
   bio: 'Josh is a core Travis CI team member, a Rails contributor, gem developer, and an enthusiastic ice cream lover who ships technical debt daily! Part of the team that organised EuRuKo 2012 in Amsterdam.'
+  twitter: 'j2h'
   keynote: false
 
 - oliveira:
@@ -81,6 +92,7 @@
   name: 'Alexandre de Oliveira'
   title: ''
   bio: 'Alexandre is a Ruby developer at Stack Builders and a freedoms evangelist in the free time.'
+  twitter: 'kurko'
   keynote: false
 
 - ramirez:
@@ -88,6 +100,7 @@
   name: 'Javier Ramírez'
   title: ''
   bio: 'Javier is a web developer, daydreamer and all around happy person. He is in Ruby on Rails projects since 2006. He is also the author of the book “Aptana RadRails: An IDE for Rails Development” and an active member of the Spanish Ruby scene.'
+  twitter: 'supercoco9'
   keynote: false
 
 - kelly:
@@ -95,4 +108,5 @@
   name: 'Chris Kelly'
   title: ''
   bio: "Chris is a Developer and Evangelist at New Relic. He is a self-identified happiness engineer, writing code that makes someone else's day better."
+  twitter: 'amateurhuman'
   keynote: false
