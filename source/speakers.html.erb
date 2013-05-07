@@ -2,7 +2,7 @@
 title: EuRuKo 2013 - Athens | Speakers
 ---
 <section id="speakers">
-  <ul class="centered" itemprop="performer" itemtype="http://schema.org/Person">
+  <ul class="centered" itemscope itemprop="performer" itemtype="http://schema.org/Person">
     <% data.speakers.speakers.each_with_index do |speaker, i| %>
         <li class="<%= i.even? ? "left" : "right" %>" id="<%= speaker.short_name %>">
           <h4><span class="name" itemprop="name"><%= speaker.name %></span></h4>
