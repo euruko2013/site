@@ -34,7 +34,7 @@
     <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="/blog/feed.xml" />
 
     <!-- Stylesheets -->
-    <link href="../stylesheets/main-68fec937.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../stylesheets/main-be7de64c.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
@@ -50,6 +50,11 @@
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+
+    <!-- Twitter follow widget -->
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
   </head>
 
   <body class="">
@@ -64,7 +69,7 @@
           </a>
           <ul class="nav pull-right">
             <li><a href="/#about">About</a></li>
-            <li><a href="/#speakers">Speakers</a></li>
+            <li><a href="/speakers">Speakers</a></li>
             <li><a href="/#tickets">Tickets</a></li>
             <li><a href="/#venue">Venue</a></li>
             <li><a href="/#sponsors">Sponsors</a></li>
@@ -80,28 +85,389 @@
         </div>
       </div>
     </div>
-    <section id="speakers">
-  <ul class="centered" itemprop="performer" itemtype="http://schema.org/Person">
+    <div id="speakers" class="section">
+  <div class="intro">
+    <h3>Amazing Speakers</h3>
+    EuRuKo 2013 has an amazing speaker line up chosen by the community throught the open for all <a href="http://cfp.euruko2013.org/proposals">CfP</a>.
+  </div>
+  <ul class="centered">
     
-        <li class="left" id="matz">
-          <h4><span class="name" itemprop="name">Yukihiro "Matz" Matsumoto</span></h4>
-          <h5><a href="/speakers/matz">Yukihiro "Matz" Matsumoto</a><span class="subtitle" itemprop="jobTitle">Ruby chief architect</span></h5>
-        <p>Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.</p>
-        </li>
+      <li id="matz" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
     
-        <li class="right" id="koichi">
-          <h4><span class="name" itemprop="name">Koichi Sasada</span></h4>
-          <h5><a href="/speakers/koichi">Koichi Sasada</a><span class="subtitle" itemprop="jobTitle">Ruby core commiter (CRuby VM, YARV)</span></h5>
-        <p>Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.</p>
-        </li>
+    <span itemprop="additionalName">Matz</span>
     
-        <li class="left" id="klabnik">
-          <h4><span class="name" itemprop="name">Steve Klabnik</span></h4>
-          <h5><a href="/speakers/klabnik">Steve Klabnik</a><span class="subtitle" itemprop="jobTitle">Instructor and Open Source lead</span></h5>
-        <p>Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We should not expect anything less for EuRuKo.</p>
-        </li>
+    <span class="name" itemprop="name">Yukihiro Matsumoto</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#matz">Yukihiro Matsumoto</a>
+    <span class="subtitle" itemprop="jobTitle">Ruby chief architect</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/yukihiro_matz">Follow @yukihiro_matz</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/matz">@matz</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="koichi" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Koichi Sasada</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#koichi">Koichi Sasada</a>
+    <span class="subtitle" itemprop="jobTitle">Ruby core commiter (CRuby VM, YARV)</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/_ko1">Follow @_ko1</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/ko1">@ko1</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="klabnik" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Steve Klabnik</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#klabnik">Steve Klabnik</a>
+    <span class="subtitle" itemprop="jobTitle">Instructor and Open Source lead</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We should not expect anything less for EuRuKo.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/steveklabnik">Follow @steveklabnik</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/steveklabnik">@steveklabnik</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="noria" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Xavier Noria</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#noria">Xavier Noria</a>
+    <span class="subtitle" itemprop="jobTitle">Ruby on Rails consultant</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised <a href="asd">EuRuKo 2009</a> in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/fxn">Follow @fxn</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/fxn">@fxn</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="witek" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Grzegorz Witek</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#witek">Grzegorz Witek</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Grzegorz loves talking to people and computers. He speaks 4 (human) languages, a couple of computer ones, constantly mastering new ones (for both humans and computers) and likes to travel a lot.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/arnvald">Follow @arnvald</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/arnvald">@arnvald</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="bussink" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Dirkjan Bussink</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#bussink">Dirkjan Bussink</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Dirkjan is the founder of CriticalCodes, a development company specialized in performance and security. He is also an active open source contributor, having contributed to Ruby, Rails and DataMapper. These days EngineYard is sponsoring his company to work on Rubinius.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/dbussink">Follow @dbussink</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/dbussink">@dbussink</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="smith" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Benjamin Smith</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#smith">Benjamin Smith</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Benjamin is a developer at Pivotal Labs. He has a strong passion for TDD, pairing, Agile and using technologies that get out of the programmer’s way (or the programmer out of the way). When not writing code, he follows his other passions into the outdoors to rock climb, back country snowboard, kayak and surf.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/benjamin_smith">Follow @benjamin_smith</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/benjaminleesmith">@benjaminleesmith</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="tennhard" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Konstantin Tennhard</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#tennhard">Konstantin Tennhard</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Konstantin is a computer scientist who specializes in developing large scale internet applications. He is passionate about software design, test driven development and all sorts of modern web-technology. His main scientific interest is natural language processing.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/t6d">Follow @t6d</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/t6d">@t6d</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="shaughnessy" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Pat Shaughnessy</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#shaughnessy">Pat Shaughnessy</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Pat loves diving into the details of a technology, learning how it works, and then explaining it in simple terms that everyone can understand. Author of “Ruby under a Microscope” explaining the nitty gritty details of Ruby.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/pat_shaughnessy">Follow @pat_shaughnessy</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/patshaughnessy">@patshaughnessy</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="lovell" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Ben Lovell</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#lovell">Ben Lovell</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Ben is an agile developer living in Reading, UK. He is an open source junkie and has been hacking code for around 8 years now – primarily with Microsoft technologies from ASP/VB to C# and the .NET framework.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/benlovell">Follow @benlovell</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/benlovell">@benlovell</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="kalderimis" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Josh Kalderimis</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#kalderimis">Josh Kalderimis</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Josh is a core Travis CI team member, a Rails contributor, gem developer, and an enthusiastic ice cream lover who ships technical debt daily! Part of the team that organised EuRuKo 2012 in Amsterdam.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/j2h">Follow @j2h</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/joshk">@joshk</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="oliveira" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Alexandre de Oliveira</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#oliveira">Alexandre de Oliveira</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Alexandre is a Ruby developer at Stack Builders and a freedoms evangelist in the free time.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/kurko">Follow @kurko</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/kurko">@kurko</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="ramirez" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Javier Ramírez</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#ramirez">Javier Ramírez</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Javier is a web developer, daydreamer and all around happy person. He is in Ruby on Rails projects since 2006. He is also the author of the book “Aptana RadRails: An IDE for Rails Development” and an active member of the Spanish Ruby scene.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/supercoco9">Follow @supercoco9</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/javier">@javier</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+    
+      <li id="kelly" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Chris Kelly</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#kelly">Chris Kelly</a>
+    <span class="subtitle" itemprop="jobTitle"></span>
+    
+  </h5>
+  <p itemprop="description">Chris is a Developer and Evangelist at New Relic. He is a self-identified happiness engineer, writing code that makes someone else's day better.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/amateurhuman">Follow @amateurhuman</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/amateurhuman">@amateurhuman</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
     
   </ul>
-</section>
+</div>
+
   </body>
 </html>

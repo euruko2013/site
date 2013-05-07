@@ -34,7 +34,7 @@
     <link rel="alternate" type="application/atom+xml" title="EuRuKo 2013 Blog feed" href="/blog/feed.xml" />
 
     <!-- Stylesheets -->
-    <link href="stylesheets/main-68fec937.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/main-be7de64c.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
@@ -50,6 +50,11 @@
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+
+    <!-- Twitter follow widget -->
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
   </head>
 
   <body class="homepage-body">
@@ -64,7 +69,7 @@
           </a>
           <ul class="nav pull-right">
             <li><a href="#about">About</a></li>
-            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="/speakers">Speakers</a></li>
             <li><a href="#tickets">Tickets</a></li>
             <li><a href="#venue">Venue</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
@@ -162,36 +167,144 @@
   </div>
 
   <div class="section" id="speakers">
-    <h3 class="centered">Speakers
+    <h3 class="centered">Amazing Speakers
       <a class="back_top" href="#">to the top ^</a>
     </h3>
     <p class="intro">
-      <span>We consider the most important aspects of EuRuKo to be the delegates engagement and the conference programme. This is why we have put so much effort to organize the <a href="/blog/2013-03-28-call-for-presentations/">most exciting speaker selection process to date!</a></span>
+      <span>EuRuKo 2013 has an amazing speaker line up chosen by the community throught the open for all <a href="http://cfp.euruko2013.org/proposals">CfP</a>.</span>
     </p>
-    <ul class="centered" itemscope itemprop="performer" itemtype="http://schema.org/Person">
-      <li class="left" id="matz">
-        <h4><span itemprop="additionalName">Matz</span><span class="name" itemprop="name">Yukihiro Matsumoto</span></h4>
-        <h5>Yukihiro “Matz” Matsumoto <span class="subtitle" itemprop="jobTitle">Ruby chief architect</span></h5>
-        <p itemprop="description">
-          Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.
-        </p>
-      </li>
-      <li class="right" id="koichi">
-        <h4><span class="name" itemprop="name">Koichi Sasada</span></h4>
-        <h5>Koichi Sasada <span class="subtitle" itemprop="jobTitle">Ruby core commiter (CRuby's VM, YARV)</span></h5>
-        <p itemprop="description">
-          Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.
-        </p>
-      </li>
-      <li class="left" id="klabnik">
-        <h4><span class="name" itemprop="name">Steve Klabnik</span></h4>
-        <h5>Steve Klabnik <span class="subtitle" itemprop="jobTitle">Instructor & Open Source lead</span></h5>
-        <p itemprop="description">
-          Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We shouldn't expect anything less for EuRuKo.
-        </p>
-      </li>
+    <ul class="centered">
+      
+        
+        <li id="matz" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span itemprop="additionalName">Matz</span>
+    
+    <span class="name" itemprop="name">Yukihiro Matsumoto</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#matz">Yukihiro Matsumoto</a>
+    <span class="subtitle" itemprop="jobTitle">Ruby chief architect</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/yukihiro_matz">Follow @yukihiro_matz</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/matz">@matz</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+      
+        
+        <li id="koichi" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Koichi Sasada</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#koichi">Koichi Sasada</a>
+    <span class="subtitle" itemprop="jobTitle">Ruby core commiter (CRuby VM, YARV)</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/_ko1">Follow @_ko1</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/ko1">@ko1</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+      
+        
+        <li id="klabnik" class="left" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Steve Klabnik</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#klabnik">Steve Klabnik</a>
+    <span class="subtitle" itemprop="jobTitle">Instructor and Open Source lead</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We should not expect anything less for EuRuKo.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/steveklabnik">Follow @steveklabnik</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/steveklabnik">@steveklabnik</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+      
+        
+        <li id="noria" class="right" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    
+    <span class="name" itemprop="name">Xavier Noria</span>
+  </h4>
+  <h5>
+    <a href="/speakers/#noria">Xavier Noria</a>
+    <span class="subtitle" itemprop="jobTitle">Ruby on Rails consultant</span>
+    
+      <span class="label label-info">keynote</span>
+    
+  </h5>
+  <p itemprop="description">Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised <a href="asd">EuRuKo 2009</a> in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.</p>
+  <div class="social">
+    <a class="twitter-follow-button" data-show-count="false" data-dnt="true" href="https://twitter.com/fxn">Follow @fxn</a>
+
+    
+    <button class="btn btn-mini">
+      <i class="icon-github"></i>
+      <b>
+      <a href="https://github.com/fxn">@fxn</a>
+      </b>
+    </button>
+    
+  </div>
+</li>
+
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ul>
-    <p class="more">Shape this year's speaker lineup&hellip; <a class="more" href="http://cfp.euruko2013.org/proposals">Vote for your favorite proposals now! ›</a></p>
+    <p class="more"><a class="more" href="/speakers">View the complete speaker lineup ›</a></p>
   </div>
 
   <div class="section" id="tickets">
@@ -489,6 +602,7 @@
     <ul class="centered community">
       <li>Agis Anastasopoulos</li>
       <li>Alexia Konstantelia</li>
+      <li>Angel Avgerinos</li>
       <li>Antonela Bare</li>
       <li>Christos Trochalakis</li>
       <li>Dimitrios Spanos</li>
