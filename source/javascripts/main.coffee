@@ -56,3 +56,9 @@ $ ->
   $('#tickets a.eventora-page').on 'click', (event) ->
     _gaq.push(['_trackEvent', 'Tickets', 'Clicked on eventora link']);
     return
+
+  $("#invoice_form").submit (e) ->
+    e.preventDefault()
+    if $("#ticket_id").val() != ""
+      window.open "http://euruko2013.easy-things.com/invoices/" + $("#ticket_id").val() + ".pdf"
+
