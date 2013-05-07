@@ -1,16 +1,12 @@
 ---
 title: EuRuKo 2013 - Athens | Sightseeing
+menu_item: sightseeing
 ---
 <section>
     <div class="container">
         <div class="row">
             <div class="span4">
-                <ul class="side-nav">
-                    <li><%= link_to 'The city', '/guide/city-of-athens' %></li>
-                    <li><%= link_to 'Travel & Accommodation', '/guide/travel-information' %></li>
-                    <li><%= link_to 'Transportation', '/guide/transportation' %></li>
-                    <li class="active">Sightseeing</li>
-                </ul>
+                <%= partial 'guide/menu', locals: { active: 'sightseeing'} %>
             </div>
 
             <div class="span8">
