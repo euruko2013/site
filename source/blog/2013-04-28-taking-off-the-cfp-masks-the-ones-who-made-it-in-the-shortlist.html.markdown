@@ -7,7 +7,7 @@ authors: pagojo, gfotos
 
 If you are like us then you just can’t wait to find out who was behind each proposal and which ones got shortlisted for your final vote! Even ourselves, the organisers, refrained from peeking at the database (yes, it wasn’t easy), so even we don’t know who is behind each proposal... until now that is! :-)
 
-We had [91 outstanding proposals] and we wish we could have many, many more of them presented than the 14 (plus a few lightning ones) we scheduled for the 2 days of the event. There are so many truly intriguing talks proposed that we wish we could do something about it. But, we can’t.
+We had [91 outstanding proposals](http://cfp.euruko2013.org/proposals) and we wish we could have many, many more of them presented than the 14 (plus a few lightning ones) we scheduled for the 2 days of the event. There are so many truly intriguing talks proposed that we wish we could do something about it. But, we can’t.
 
 What should happen now is that everyone should carefully review the shortlist and vote for the ones that will make it for this summer’s event. Author names will be shown, voter names will also be shown, votes will be counted (and recounted if necessary), withdrawn proposal authors will be named and in general a lot of light will be shed on what is a fine assortment of Ruby themes and trends.
 
