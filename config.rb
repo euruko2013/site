@@ -66,14 +66,6 @@ end
 page "/blog/feed.xml", :layout => false
 
 ###
-# Speakers
-###
-
-data.speakers.speakers.each do |speaker|
-  proxy "/speakers/#{speaker.short_name}.html", "/speakers/speaker.html", locals: { speaker: speaker }, ignore: true
-end
-
-###
 # Helpers
 ###
 
