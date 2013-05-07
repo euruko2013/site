@@ -66,14 +66,6 @@ end
 page "/blog/feed.xml", :layout => false
 
 ###
-# Spakers
-###
-
-data.speakers.speakers.each do |speaker|
-  proxy "/speakers/#{speaker.short_name}.html", "/speakers/speaker.html", locals: { speaker: speaker }, ignore: true
-end
-
-###
 # Helpers
 ###
 
@@ -95,6 +87,14 @@ helpers do
     else
       link_to section, '/' + link
     end
+  end
+
+  def twitter_button(username)
+    link_to "Follow @#{username}", "https://twitter.com/#{username}", class: "twitter-follow-button", :'data-show-count' => 'false', :'data-dnt' => 'true'
+  end
+
+  def github_button(username)
+    link_to "@#{username}", "https://github.com/#{username}"
   end
 end
 
