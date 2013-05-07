@@ -66,7 +66,7 @@ end
 page "/blog/feed.xml", :layout => false
 
 ###
-# Spakers
+# Speakers
 ###
 
 data.speakers.speakers.each do |speaker|
