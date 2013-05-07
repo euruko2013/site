@@ -59,7 +59,7 @@
   id: 'shaughnessy'
   name: 'Pat Shaughnessy'
   title: ''
-  bio: ''
+  bio: 'Pat loves diving into the details of a technology, learning how it works, and then explaining it in simple terms that everyone can understand. Author of “Ruby under a Microscope” explaining the nitty gritty details of Ruby.'
   keynote: false
 
 - lovell:
