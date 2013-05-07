@@ -2,13 +2,9 @@
 title: EuRuKo 2013 - Athens | Speakers
 ---
 <section id="speakers">
-  <ul class="centered" itemscope itemprop="performer" itemtype="http://schema.org/Person">
-    <% data.speakers.speakers.each_with_index do |speaker, i| %>
-      <li class="<%= i.even? ? "left" : "right" %>" id="<%= speaker.short_name %>">
-        <h4><span class="name" itemprop="name"><%= speaker.name %></span></h4>
-        <h5><%= link_to speaker.name, "/speakers/##{speaker.short_name}" %><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
-        <p><%= speaker.bio %></p>
-      </li>
+  <ul class="centered">
+    <% data.speakers.each_with_index do |speaker, i| %>
+      <%= partial 'speakers/speaker', locals: { speaker: speaker, position: (i.even? ? "left" : "right") } %>
     <% end %>
   </ul>
 </section>

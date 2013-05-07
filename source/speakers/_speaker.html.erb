@@ -1,12 +1,10 @@
----
-title: EuRuKo 2013 - Athens | Speakers
----
-<section id="speakers">
-  <ul class="centered" itemprop="performer" itemtype="http://schema.org/Person">
-    <li class="left" id="<%= speaker.short_name %>">
-      <h4><span class="name" itemprop="name"><%= speaker.name %></span></h4>
-      <h5><%= speaker.name %><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
-      <p><%= speaker.bio %></p>
-    </li>
-  </ul>
-</section>
+<li id="<%= speaker.id %>" class="<%= position %>" itemscope itemprop="performer" itemtype="http://schema.org/Person">
+  <h4>
+    <% if speaker.additional_name %>
+    <span itemprop="additionalName"><%= speaker.additional_name %></span>
+    <% end %>
+    <span class="name" itemprop="name"><%= speaker.name %></span>
+  </h4>
+  <h5><%= link_to speaker.name, "/speakers/##{speaker.id}" %><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
+  <p itemprop="description"><%= speaker.bio %></p>
+</li>

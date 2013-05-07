@@ -91,35 +91,11 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
     <p class="intro">
       <span>We consider the most important aspects of EuRuKo to be the delegates engagement and the conference programme. This is why we have put so much effort to organize the <a href="/blog/2013-03-28-call-for-presentations/">most exciting speaker selection process to date!</a></span>
     </p>
-    <ul class="centered" itemscope itemprop="performer" itemtype="http://schema.org/Person">
-      <li class="left" id="matz">
-        <h4><span itemprop="additionalName">Matz</span><span class="name" itemprop="name">Yukihiro Matsumoto</span></h4>
-        <h5>Yukihiro “Matz” Matsumoto <span class="subtitle" itemprop="jobTitle">Ruby chief architect</span></h5>
-        <p itemprop="description">
-          Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.
-        </p>
-      </li>
-      <li class="right" id="koichi">
-        <h4><span class="name" itemprop="name">Koichi Sasada</span></h4>
-        <h5>Koichi Sasada <span class="subtitle" itemprop="jobTitle">Ruby core commiter (CRuby's VM, YARV)</span></h5>
-        <p itemprop="description">
-          Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.
-        </p>
-      </li>
-      <li class="left" id="klabnik">
-        <h4><span class="name" itemprop="name">Steve Klabnik</span></h4>
-        <h5>Steve Klabnik <span class="subtitle" itemprop="jobTitle">Instructor & Open Source lead</span></h5>
-        <p itemprop="description">
-          Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We shouldn't expect anything less for EuRuKo.
-        </p>
-      </li>
-      <li class="right" id="noria">
-        <h4><span class="name" itemprop="name">Xavier Noria</span></h4>
-        <h5>Xavier Noria <span class="subtitle" itemprop="jobTitle">Ruby on Rails consultant</span></h5>
-        <p itemprop="description">
-          Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised EuRuKo 2009 in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.
-        </p>
-      </li>
+    <ul class="centered">
+      <% data.speakers.each_with_index do |speaker, i| %>
+        <% next unless speaker.keynote %>
+        <%= partial 'speakers/speaker', locals: { speaker: speaker, position: (i.even? ? "left" : "right") } %>
+      <% end %>
     </ul>
     <p class="more"><%= link_to 'View the complete speaker lineup ›', '/speakers', class: 'more' %></p>
   </div>
