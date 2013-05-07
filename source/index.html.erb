@@ -85,36 +85,19 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
   </div>
 
   <div class="section" id="speakers">
-    <h3 class="centered">Speakers
+    <h3 class="centered">Amazing Speakers
       <%= link_to_top %>
     </h3>
     <p class="intro">
-      <span>We consider the most important aspects of EuRuKo to be the delegates engagement and the conference programme. This is why we have put so much effort to organize the <a href="/blog/2013-03-28-call-for-presentations/">most exciting speaker selection process to date!</a></span>
+      <span>EuRuKo 2013 has an amazing speaker line up chosen by the community throught the open for all <%= link_to 'CfP', 'http://cfp.euruko2013.org/proposals' %>.</span>
     </p>
-    <ul class="centered" itemscope itemprop="performer" itemtype="http://schema.org/Person">
-      <li class="left" id="matz">
-        <h4><span itemprop="additionalName">Matz</span><span class="name" itemprop="name">Yukihiro Matsumoto</span></h4>
-        <h5>Yukihiro “Matz” Matsumoto <span class="subtitle" itemprop="jobTitle">Ruby chief architect</span></h5>
-        <p itemprop="description">
-          Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.
-        </p>
-      </li>
-      <li class="right" id="koichi">
-        <h4><span class="name" itemprop="name">Koichi Sasada</span></h4>
-        <h5>Koichi Sasada <span class="subtitle" itemprop="jobTitle">Ruby core commiter (CRuby's VM, YARV)</span></h5>
-        <p itemprop="description">
-          Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.
-        </p>
-      </li>
-      <li class="left" id="klabnik">
-        <h4><span class="name" itemprop="name">Steve Klabnik</span></h4>
-        <h5>Steve Klabnik <span class="subtitle" itemprop="jobTitle">Instructor & Open Source lead</span></h5>
-        <p itemprop="description">
-          Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We shouldn't expect anything less for EuRuKo.
-        </p>
-      </li>
+    <ul class="centered">
+      <% data.speakers.each_with_index do |speaker, i| %>
+        <% next unless speaker.keynote %>
+        <%= partial 'speakers/speaker', locals: { speaker: speaker, position: (i.even? ? "left" : "right") } %>
+      <% end %>
     </ul>
-    <p class="more">Shape this year's speaker lineup&hellip; <%= link_to 'Vote for your favorite proposals now! ›', 'http://cfp.euruko2013.org/proposals', class: 'more' %></p>
+    <p class="more"><%= link_to 'View the complete speaker lineup ›', '/speakers', class: 'more' %></p>
   </div>
 
   <div class="section" id="tickets">

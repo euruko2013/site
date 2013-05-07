@@ -1,14 +1,14 @@
 ---
 title: EuRuKo 2013 - Athens | Speakers
 ---
-<section id="speakers">
-  <ul class="centered" itemprop="performer" itemtype="http://schema.org/Person">
-    <% data.speakers.speakers.each_with_index do |speaker, i| %>
-        <li class="<%= i.even? ? "left" : "right" %>" id="<%= speaker.short_name %>">
-          <h4><span class="name" itemprop="name"><%= speaker.name %></span></h4>
-          <h5><a href="/speakers/<%= speaker.short_name %>"><%= speaker.name %></a><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
-        <p><%= speaker.bio %></p>
-        </li>
+<div id="speakers" class="section">
+  <div class="intro">
+    <h3>Amazing Speakers</h3>
+    EuRuKo 2013 has an amazing speaker line up chosen by the community throught the open for all <%= link_to 'CfP', 'http://cfp.euruko2013.org/proposals' %>.
+  </div>
+  <ul class="centered">
+    <% data.speakers.each_with_index do |speaker, i| %>
+      <%= partial 'speakers/speaker', locals: { speaker: speaker, position: (i.even? ? "left" : "right") } %>
     <% end %>
   </ul>
-</section>
+</div>

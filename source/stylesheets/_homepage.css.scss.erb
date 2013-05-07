@@ -321,17 +321,27 @@ h3 {
 #speakers {
   background-color: #fafafa;
 
+  h1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font: 300 32px/42px $ubuntu;
+  }
+
   a {
     color: $light_grey;
   }
 
-  p.intro {
+  .intro {
     width: 90%;
     max-width: 860px;
     margin: $vr auto;
     font: 300 16px/24px $ubuntu;
     color: $lighter_grey;
     text-align: center;
+
+    h1 {
+      color: $dark_grey;
+    }
   }
 
   ul {
@@ -343,7 +353,7 @@ h3 {
     }
 
     li.left {
-      padding: 25px 0px 60px 255px;
+      padding: 5px 0px 60px 255px;
 
       h4 {
         span {
@@ -353,7 +363,7 @@ h3 {
     }
 
     li.right {
-      padding: 25px 255px 60px 100px;
+      padding: 5px 255px 60px 100px;
 
       h4 {
         span {
@@ -371,7 +381,7 @@ h3 {
     span {
       @include box-shadow(0px,0px,1px,0px,black);
       position: absolute;
-      top: 5px;
+      top: 10px;
       display: block;
       width: 150px;
       height: 150px;
@@ -400,16 +410,29 @@ h3 {
     font: 300 15px/25px $ubuntu;
     color: $lighter_grey;
 
-   &.more {
+    &.more {
       font: 300 20px $ubuntu;
       font-style: italic;
       color: $lighter_grey;
       text-align: center;
     }
 
-   a.more {
+    a.more {
       font: 300 20px $ubuntu;
-   }
+    }
+  }
+
+  .social {
+    button {
+      vertical-align: top;
+      height: 20px;
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #333;
+      }
+    }
   }
 
   #matz {
@@ -432,6 +455,94 @@ h3 {
     h4 {
       span.name {
         background-image: image-url("speakers/klabnik.jpg");
+      }
+    }
+  }
+
+  #noria {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/noria.jpg");
+      }
+    }
+  }
+
+  #witek {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/witek.jpg");
+      }
+    }
+  }
+
+  #bussink {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/bussink.jpg");
+      }
+    }
+  }
+
+  #smith {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/smith.jpg");
+      }
+    }
+  }
+
+  #tennhard {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/tennhard.jpg");
+      }
+    }
+  }
+
+  #shaughnessy {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/shaughnessy.jpg");
+      }
+    }
+  }
+
+  #lovell {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/lovell.jpg");
+      }
+    }
+  }
+
+  #kalderimis {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/kalderimis.jpg");
+      }
+    }
+  }
+
+  #oliveira {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/oliveira.jpg");
+      }
+    }
+  }
+
+  #ramirez {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/ramirez.jpg");
+      }
+    }
+  }
+
+  #kelly {
+    h4 {
+      span.name {
+        background-image: image-url("speakers/kelly.jpg");
       }
     }
   }
@@ -761,13 +872,13 @@ h3 {
           span {
             width: 125px;
             height: 125px;
-            top: 10px;
+            top: 15px;
           }
         }
       }
 
       li.left {
-        padding: 25px 0 50px 190px;
+        padding: 5px 0 50px 190px;
 
         h4 {
           span {
@@ -777,7 +888,7 @@ h3 {
       }
 
       li.right {
-        padding: 25px 190px 50px 50px;
+        padding: 5px 190px 50px 50px;
 
         h4 {
           span {
@@ -864,11 +975,6 @@ h3 {
     ul {
       li {
         width: auto;
-        h4 {
-          span {
-            top: 60px;
-          }
-        }
       }
     }
 
