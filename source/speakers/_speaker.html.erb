@@ -5,7 +5,13 @@
     <% end %>
     <span class="name" itemprop="name"><%= speaker.name %></span>
   </h4>
-  <h5><%= link_to speaker.name, "/speakers/##{speaker.id}" %><span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span></h5>
+  <h5>
+    <%= link_to speaker.name, "/speakers/##{speaker.id}" %>
+    <span class="subtitle" itemprop="jobTitle"><%= speaker.title %></span>
+    <% if speaker.keynote %>
+      <span class="label label-info">keynote</span>
+    <% end %>
+  </h5>
   <p itemprop="description"><%= speaker.bio %></p>
   <div class="social">
     <%= twitter_button speaker.twitter if speaker.twitter %>
