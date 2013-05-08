@@ -1,0 +1,31 @@
+.side-nav {
+  position: fixed;
+  margin-top: 20px;
+
+  & > li > a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-decoration: none;
+  }
+}
+
+/* These have to be in sync with the span4 width of Bootstrap */
+
+@media only screen and (min-width: 1200px) {
+  .side-nav {
+    width: 370px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+  .side-nav {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .side-nav{
+    width: 228px;
+  }
+}
