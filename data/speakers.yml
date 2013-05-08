@@ -84,7 +84,7 @@
   id: 'lovell'
   name: 'Ben Lovell'
   title: ''
-  bio: 'Ben is an agile developer living in Reading, UK. He is an open source junkie and has been hacking code for around 8 years now – primarily with Microsoft technologies from ASP/VB to C# and the .NET framework.'
+  bio: 'Ben is an engineer at Global Personals. A regular contributor to open source, agile proponent and harbours an almost unhealthy obsession for all things concurrent and distributed. Ruby and Scala are his first loves.'
   twitter: 'benlovell'
   github: 'benlovell'
   keynote: false
