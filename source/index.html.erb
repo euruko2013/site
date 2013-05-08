@@ -116,7 +116,11 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       </div>
 
       <p>
-        <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org', class: 'more' %>
+        Need an invoice for your ticket? It's really easy to <%= link_to 'request an invoice', '/invoices' %>!
+      </p>
+
+      <p>
+        Having an issue with your ticket? Email us at <%= mail_to 'registration@euruko2013.org', 'registration@euruko2013.org' %>
       </p>
     </div>
   </div>
