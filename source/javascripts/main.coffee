@@ -57,8 +57,11 @@ $ ->
     _gaq.push(['_trackEvent', 'Tickets', 'Clicked on eventora link']);
     return
 
-  $("#invoice_form").submit (e) ->
+  $("#invoices form").submit (e) ->
     e.preventDefault()
-    if $("#ticket_id").val() != ""
-      window.open "http://euruko2013.easy-things.com/invoices/" + $("#ticket_id").val() + ".pdf"
-
+    ticket = $("#ticket_id")
+    ticket_id = ticket.val(ticket.val().toUpperCase()).val()
+    if ticket_id
+      window.open "http://euruko2013.easy-things.com/invoices/" + ticket_id + ".pdf"
+    else
+      $(".control-group").addClass("error")

@@ -1,0 +1,38 @@
+---
+title: Invoices - EuRuKo 2013 - Athens
+description: EuRuKo 2013 - Invoices
+---
+<div id="invoices" class="section">
+  <div class="container">
+    <h3>Invoices</h3>
+
+    <div class="offset1 span9">
+      <p>
+        Got your ticket and need an invoice? It's easy as pie to get one!
+      </p>
+
+      <ol>
+        <li>
+          Fill out the <%= link_to 'questionnaire', 'https://docs.google.com/a/euruko2013.org/spreadsheet/viewform?formkey=dHRlTUFHdmhJejIxLTl5NnNnY2FQTUE6MQ#gid=0', target: "_blank" %><br />
+          <small>(the invoice details are in the last page)</small>
+        </li>
+
+        <li>
+          Wait one day while our unicorn creates a magical invoice just for you<br />
+          <small>(yeah it's kinda lazy, we know)</small>
+        </li>
+
+        <li>
+          Grab your invoice by filling your ticket number (ID) in the following form:
+
+          <% form_tag 'http://euruko2013.easy-things.com/invoices/', method: :get, class: 'form-inline' do %>
+            <div class="control-group">
+              <%= input_tag :text, placeholder: "Ticket Number (ID)", class: "input-medium", id: "ticket_id", name: "ticket_id" %>
+              <%= button_tag "Download the invoice", type: "submit", class: "btn" %>
+            </div>
+          <% end %>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
