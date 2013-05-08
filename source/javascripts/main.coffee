@@ -38,6 +38,13 @@ $ ->
     _gaq.push(['_trackEvent', 'Newsletter', 'Signup']);
     return
 
+  # Organisers tooltip on mouserOver
+
+  $('.organisers-avatar').powerTip
+    placement: 'n',
+    smartPlacement: true
+    mouseOnToPopup: true
+
   # Countdown for first ticket batch
   countdown_container = $('.countdown')
   if countdown_container.length > 0
