@@ -1,3 +1,4 @@
+
 ###
 # Compass
 ###
@@ -64,6 +65,7 @@ end
 
 # Blog feed
 page "/blog/feed.xml", :layout => false
+page "/schedule.ics", :layout => false
 
 ###
 # Helpers
@@ -96,6 +98,11 @@ helpers do
   def github_button(username)
     link_to "@#{username}", "https://github.com/#{username}"
   end
+
+  def speaker(id)
+    data.speakers.find{|s| s.id == id}
+  end
+
 end
 
 set :css_dir, 'stylesheets'

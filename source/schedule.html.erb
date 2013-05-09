@@ -1,0 +1,45 @@
+---
+title: Schedule - EuRuKo 2013 - Athens
+description: EuRuKo 2013 - Schedule
+---
+<div class="section" id="schedule">
+  <h3 class="centered">Schedule</h3>
+  <div class="centered">
+    <div id="schedule-clock"></div>
+    <% data.schedule.each do |day, events| %>
+      <div class="table-wrapper">
+        <table class="table table-hover">
+          <caption id="schedule-caption-<%= day %>"><%= day %> June</caption>
+          <tbody>
+            <% events.each do |event| %>
+              <tr itemscope itemtype="<%= "http://schema.org/#{'Education' if event.speaker_id}Event"%>" class="<%= 'no-talk' unless event.speaker_id %>">
+                <td>
+                  <span>
+                    <time itemprop="startDate" datetime="<%= event.starts_at.iso8601 %>"><%= event.starts_at.strftime('%H:%M') %></time>
+                    -
+                    <time itemprop="endDate" datetime="<%= event.ends_at.iso8601 %>"><%= event.ends_at.strftime('%H:%M') %></time>
+                  </span>
+                </td>
+                
+                <% if event.speaker_id %>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name"><%= speaker(event.speaker_id).name %></span>
+                  </td>
+                  <td>
+                  	<span itemprop="name"><%= speaker(event.speaker_id).talk.title %></span>
+                  	<% if speaker(event.speaker_id).talk.description %>
+	                  	<a class="schedule-talk-more">...</a>
+	                  	<p itemprop="description" class="schedule-talk-description hide"><%= speaker(event.speaker_id).talk.description %></p>
+                  	<% end %>
+                  </td>
+                <% else %>
+                  <td colspan="2" itemprop="name"><%= event.title %></td>
+                <% end %>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    <% end %>
+  </div>
+</div>

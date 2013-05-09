@@ -66,4 +66,10 @@ $ ->
     else
       $(".control-group").addClass("error")
 
+
   $('[data-toggle="tooltip"]').tooltip()
+
+  # schedule. expand talk's description
+  $('a.schedule-talk-more').on 'click', (e) ->
+    e.preventDefault()
+    $(e.target).next().toggle()
