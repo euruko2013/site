@@ -1,8 +1,24 @@
 <% active = data.page.menu_item %>
 
 <ul class="side-nav nav nav-pills nav-stacked">
-    <li class="<%= 'active' if active == 'city-of-athens' %>"><%= link_to 'The city', '/guide/city-of-athens' %></li>
-    <li class="<%= 'active' if active == 'travel-information' %>"><%= link_to 'Travel & Accommodation', '/guide/travel-information' %></li>
-    <li class="<%= 'active' if active == 'transportation' %>"><%= link_to 'Transportation', '/guide/transportation' %></li>
-    <li class="<%= 'active' if active == 'sightseeing' %>"><%= link_to 'Sightseeing', '/guide/sightseeing' %></li>
+    <li class="<%= 'active' if active == 'city-of-athens' %>">
+        <% link_to '/guide/city-of-athens' do %>
+            <i class="icon-star"></i> The city
+        <% end %>
+    </li>
+    <li class="<%= 'active' if active == 'travel-information' %>">
+        <% link_to '/guide/travel-information' do %>
+            <i class="icon-suitcase"></i> Travel & Accommodation
+        <% end %>
+    </li>
+    <li class="<%= 'active' if active == 'transportation' %>">
+        <% link_to '/guide/transportation' do %>
+            <i class="icon-exchange"></i> Transportation
+        <% end %>
+    </li>
+    <li class="<%= 'active' if active == 'sightseeing' %>">
+        <% link_to '/guide/sightseeing' do %>
+            <i class="icon-camera-retro"></i> Sightseeing
+        <% end %>
+    </li>
 </ul>
