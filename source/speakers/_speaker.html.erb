@@ -14,7 +14,16 @@
   </h5>
   <p itemprop="description"><%= speaker.bio %></p>
   <div class="social">
-    <%= twitter_button speaker.twitter if speaker.twitter %>
+    <% if speaker.twitter %>
+      <%= twitter_button speaker.twitter %>
+
+      <button class="btn btn-mini">
+        <i class="icon-twitter"></i>
+        <b>
+          <%= link_to("@#{speaker.twitter}", "https://twitter.com/#{speaker.twitter}") %>
+        </b>
+      </button>
+    <% end %>
 
     <% if speaker.github %>
       <button class="btn btn-mini">
