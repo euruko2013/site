@@ -17,12 +17,12 @@
     <%= twitter_button speaker.twitter if speaker.twitter %>
 
     <% if speaker.github %>
-    <button class="btn btn-mini">
-      <i class="icon-github"></i>
-      <b>
-      <%= link_to("@#{speaker.github}", "https://github.com/#{speaker.github}") %>
-      </b>
-    </button>
+      <button class="btn btn-mini">
+        <i class="icon-github"></i>
+        <b>
+          <%= link_to("@#{speaker.github}", "https://github.com/#{speaker.github}") %>
+        </b>
+      </button>
     <% end %>
   </div>
 </li>
