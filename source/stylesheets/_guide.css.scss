@@ -1,22 +1,23 @@
 .guide {
   background-color: #fafafa;
-}
 
-.thumbnail {
-  text-decoration: none;
+  .thumbnail {
+    text-decoration: none;
 
-  .title {
-    text-align: center;
+    .title {
+      text-align: center;
+    }
+
+    .attribution {
+      display: inline-block;
+      font-size: 10px;
+      line-height: 14px;
+      text-align: right;
+      width: 100%;
+    }
   }
-  .attribution {
-    display: inline-block;
-    font-size: 10px;
-    line-height: 14px;
-    text-align: right;
-    width: 100%;
-  }
-}
 
-p {
-  text-align: justify;
+  p {
+    text-align: justify;
+  }
 }
