@@ -1,6 +1,6 @@
 ---
 title: 'Meet our sponsors: DNSimple'
-date: 2013-05-11 21:57 EEST
+date: 2013-05-11 11:00 EEST
 tags: euruko, sponsors
 authors: apantsiop
 ---
