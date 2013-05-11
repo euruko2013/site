@@ -8,7 +8,12 @@
     </li>
     <li class="<%= 'active' if active == 'travel-information' %>">
         <% link_to '/guide/travel-information' do %>
-            <i class="icon-suitcase"></i> Travel & Accommodation
+            <i class="icon-plane"></i> Travel information
+        <% end %>
+    </li>
+    <li class="<%= 'active' if active == 'accommodation' %>">
+        <% link_to '/guide/accommodation' do %>
+            <i class="icon-suitcase"></i> Accommodation
         <% end %>
     </li>
     <li class="<%= 'active' if active == 'transportation' %>">
