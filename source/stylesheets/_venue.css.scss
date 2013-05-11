@@ -1,0 +1,67 @@
+#venue-page {
+  width: 100%;
+  background-color: #f2f2f2;
+  font-family: "Ubuntu",Arial,"Helvetica Neue",Helvetica,Geneva,sans-serif;
+  .intro {
+    height: 600px;
+    background: transparent image-url("venue/badminton-big.jpg") 0px 0px no-repeat fixed;
+    background-size: cover;
+    background-size: cover;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    h1 {
+      padding: 105px 0 90px 0;
+      color: #fff;
+      font-size: 46px;
+    }
+    p {
+      margin: 20px auto;
+      max-width: 800px;
+      width: 85%;
+      color: #fefefe;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  > h2 {
+    padding: 20px 0;
+    color: #b5b5b5;
+    text-align: center;
+    text-shadow: 1px 1px 0px white;
+    font-size: 25px;
+  }
+  .venue {
+    li {
+      position: relative;
+      img {
+        position: absolute;
+        display: block;
+        width: 200px;
+      }
+      h5 {
+        padding-top: 20px;
+        color: #616161;
+        font-size: 18px;
+      }
+      p {
+        color: #848484;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      &.left {
+        padding: 0px 0px 60px 280px;
+        img {
+          left: 60px;
+        }
+      }
+      &.right {
+        padding: 0px 280px 60px 100px;
+        img {
+          right: 60px;
+        }
+      }
+    }
+  }
+}
