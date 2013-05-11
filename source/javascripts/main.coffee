@@ -65,3 +65,5 @@ $ ->
       window.open "http://euruko2013.easy-things.com/invoices/" + ticket_id + ".pdf"
     else
       $(".control-group").addClass("error")
+
+  $('[data-toggle="tooltip"]').tooltip()
