@@ -32,6 +32,22 @@
     text-shadow: 1px 1px 0px white;
     font-size: 25px;
   }
+  > ul {
+    list-style: none;
+    > li {
+      clear: both;
+      padding: 0 25px;
+    }
+  }
+  h5 {
+    color: #616161;
+    font-size: 18px;
+  }
+  p {
+    color: #848484;
+    font-size: 16px;
+    line-height: 1.5;
+  }
   .venue {
     li {
       position: relative;
@@ -42,13 +58,6 @@
       }
       h5 {
         padding-top: 20px;
-        color: #616161;
-        font-size: 18px;
-      }
-      p {
-        color: #848484;
-        font-size: 16px;
-        line-height: 1.5;
       }
       &.left {
         padding: 0px 0px 60px 280px;
@@ -61,6 +70,34 @@
         img {
           right: 60px;
         }
+      }
+    }
+  }
+  .transportation {
+    .by-metro {
+      #map {
+        float: left;
+        margin: 0 20px 0 0;
+        width: 380px;
+        height: 300px;
+        border: 1px solid #616161;
+      }
+    }
+    .by-car {
+      padding-top: 50px;
+      h5 {
+        margin: 0 0 10px 0;
+      }
+      li {
+        color: #848484;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      img {
+        float: right;
+        margin-top: 35px;
+        margin-left: 20px;
+        width: 350px;
       }
     }
   }
