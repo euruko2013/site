@@ -5,10 +5,32 @@
   <id>http://euruko2013.org/blog</id>
   <link href="http://euruko2013.org/blog"/>
   <link href="http://euruko2013.org/blog/feed.xml" rel="self"/>
-  <updated>2013-05-11T08:00:00Z</updated>
+  <updated>2013-05-12T06:00:00Z</updated>
   <author>
     <name>EuRuKo 2013</name>
   </author>
+  <entry>
+    <title>Meet our sponsors: XING</title>
+    <link rel="alternate" href="/blog/2013-05-12-meet-our-sponsors-xing/"/>
+    <id>http://euruko2013.org/blog/2013-05-12-meet-our-sponsors-xing/</id>
+    <published>2013-05-12T06:00:00Z</published>
+    <updated>2013-05-12T06:00:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img alt="XING Logo" src="/images/sponsors/xing_200x100.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.xing.com/?utm_source=euruko&amp;amp;utm_medium=blog&amp;amp;utm_campaign=selene"&gt;XING&lt;/a&gt; is a social network with over 13 million members. They are the leading network for business professionals in Europe, based in Hamburg, Munich and Barcelona.&lt;/p&gt;
+
+&lt;p&gt;In XING they are really into teamwork and are using agile techniques. Independent,...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;img alt='XING Logo' src='/images/sponsors/xing_200x100.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='https://www.xing.com/?utm_source=euruko&amp;amp;utm_medium=blog&amp;amp;utm_campaign=selene'&gt;XING&lt;/a&gt; is a social network with over 13 million members. They are the leading network for business professionals in Europe, based in Hamburg, Munich and Barcelona.&lt;/p&gt;
+
+&lt;p&gt;In XING they are really into teamwork and are using agile techniques. Independent, focused teams build their platform&amp;#8217;s products. They have been coding Rails since 2006.&lt;/p&gt;
+
+&lt;p&gt;XING &lt;a href='https://github.com/xing'&gt;contributes&lt;/a&gt; to open source and hosts meetups, user groups, after-work events and workshops. They are &lt;a href='http://devblog.xing.com/we-are-hiring/'&gt;looking for talented people&lt;/a&gt; to build their social network of the future in Ruby on Rails, iOS, Android &amp;amp; Perl. Get in contact with them!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Meet our sponsors: DNSimple</title>
     <link rel="alternate" href="/blog/2013-05-11-meet-our-sponsors-dnsimple/"/>
@@ -282,31 +304,5 @@
 &lt;p&gt;Not only that, but Metaquark are &lt;a href='http://metaquark.de/jobs/'&gt;hiring!&lt;/a&gt; They suggest that if you&amp;#8217;re looking for a challenge, they are the right place for you! The place to work on technology, concepts and strategies, think in new ways, be creative and take over great challenges. You may join them in one of their offices in Berlin and Leipzig (Germany) and make cross-platform mobile application life-cycle management available to all enterprises which develop mobile applications. From managing, building and signing mobile applications in the cloud to full featured application and device management on the mobile client, you name it, they are working on it.&lt;/p&gt;
 
 &lt;p&gt;Help development teams all over the world develop better apps and save time by using AppFresh Mobile!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Calling All Ruby Brigades</title>
-    <link rel="alternate" href="/blog/2013-04-17-calling-all-ruby-brigades/"/>
-    <id>http://euruko2013.org/blog/2013-04-17-calling-all-ruby-brigades/</id>
-    <published>2013-04-17T05:39:00Z</published>
-    <updated>2013-04-17T05:39:00Z</updated>
-    <author>
-      <name>EuRuKo 2013 Team</name>
-    </author>
-    <summary type="html">&lt;p&gt;The first time I attended EuRuKo was 2008. I managed to get a talk accepted so I didn&amp;#8217;t have to worry about a ticket. Every year after that I fell victim to what I have recently seen called the &amp;#8220;EuRuKo ticket fight&amp;#8221;.&lt;/p&gt;
-
-&lt;p&gt;The conference is popular and...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;The first time I attended EuRuKo was 2008. I managed to get a talk accepted so I didn&amp;#8217;t have to worry about a ticket. Every year after that I fell victim to what I have recently seen called the &amp;#8220;EuRuKo ticket fight&amp;#8221;.&lt;/p&gt;
-
-&lt;p&gt;The conference is popular and tickets sell out in record speeds. It&amp;#8217;s a pleasant problem for a conference organizer, but we are not professional conference organizers! We are part of the community and have ourselves been subjected to the same frustration of not being able to secure a ticket for the conference we love. So we will introduce a couple of different ways to distribute tickets.&lt;/p&gt;
-
-&lt;p&gt;One of these is something our Dutch friends established last year for EuRuKo 2012: Tickets reserved for Ruby user groups. Interesting fact: Almost half of this year&amp;#8217;s organizing committee got tickets for the Amsterdam conference this way.&lt;/p&gt;
-
-&lt;p&gt;For EuRuKo 2013 there will be reserved tickets for Ruby user groups. If you are a member of a Ruby user group and would like tickets then please fill in the &lt;a href='https://docs.google.com/a/euruko2013.org/spreadsheet/viewform?formkey=dFhXcDQtQlQ5SGZJTDNzaEZCZEx5R1E6MQ'&gt;form&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Give us the name of the user group along the number of tickets you would like and any information that will help us verify your claim . The deadline for submissions is the 26th April. We cannot guarantee that you will get all the tickets you ask for and we do recommend to try and get your ticket from the last batch to go on sale &lt;a href='http://www.timeanddate.com/worldclock/fixedtime.html?msg=EuRuKo+2013+3rd+ticket+batch%21&amp;amp;iso=20130419T17'&gt;Friday, April 19th at 17:00UTC&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If there are requests for more tickets then the number we have reserved we will distrbute them evenly.&lt;/p&gt;
-
-&lt;p&gt;User groups are the heart of every local communitty and EuRuKo is the best venue for the local communities to connect, communicate and cooperate. Join us in making EuRuKo 2013 one of the best Ruby conferences!&lt;/p&gt;</content>
   </entry>
 </feed>
