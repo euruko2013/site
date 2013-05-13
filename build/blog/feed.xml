@@ -5,10 +5,30 @@
   <id>http://euruko2013.org/blog</id>
   <link href="http://euruko2013.org/blog"/>
   <link href="http://euruko2013.org/blog/feed.xml" rel="self"/>
-  <updated>2013-05-12T06:00:00Z</updated>
+  <updated>2013-05-13T08:11:00Z</updated>
   <author>
     <name>EuRuKo 2013</name>
   </author>
+  <entry>
+    <title>Meet our sponsors: Workable</title>
+    <link rel="alternate" href="/blog/2013-05-13-meet-our-sponsors-workable/"/>
+    <id>http://euruko2013.org/blog/2013-05-13-meet-our-sponsors-workable/</id>
+    <published>2013-05-13T08:11:00Z</published>
+    <updated>2013-05-13T08:11:00Z</updated>
+    <author>
+      <name>EuRuKo 2013 Team</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img alt="Workable Logo" src="/images/sponsors/workable_250x125.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://workable.com/?utm_source=euruko&amp;amp;utm_medium=blog&amp;amp;utm_campaign=helios"&gt;Workable&lt;/a&gt; is a cloud-based recruiting software that helps startups and SMEs manage all aspects of their hiring: posting to job boards, maintaining a careers page, screening candidates and collecting feedback from their hiring team.&lt;/p&gt;
+
+&lt;p&gt;The software,...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;img alt='Workable Logo' src='/images/sponsors/workable_250x125.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://workable.com/?utm_source=euruko&amp;amp;utm_medium=blog&amp;amp;utm_campaign=helios'&gt;Workable&lt;/a&gt; is a cloud-based recruiting software that helps startups and SMEs manage all aspects of their hiring: posting to job boards, maintaining a careers page, screening candidates and collecting feedback from their hiring team.&lt;/p&gt;
+
+&lt;p&gt;The software, already trusted by hundreds of companies in Europe and North America, is built with Rails by one of the best teams of Ruby developers in Greece. Founded in 2012, the company is fast-expanding its development team on the heels of a $950k seed round by the Openfund and private investors and is actively looking to contribute to the growth of the local Ruby community.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Meet our sponsors: XING</title>
     <link rel="alternate" href="/blog/2013-05-12-meet-our-sponsors-xing/"/>
@@ -278,31 +298,5 @@
 &lt;p&gt;&lt;em&gt;And last but not least: &lt;strong&gt;you do have tickets don’t you?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;If not, &lt;strong&gt;&lt;a href='https://www.eventora.com/en/Events/euruko-2013-athens'&gt;go grab’em now!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Meet our sponsors: Metaquark</title>
-    <link rel="alternate" href="/blog/2013-04-17-meet-our-sponsors-metaquark/"/>
-    <id>http://euruko2013.org/blog/2013-04-17-meet-our-sponsors-metaquark/</id>
-    <published>2013-04-17T09:55:00Z</published>
-    <updated>2013-04-17T09:55:00Z</updated>
-    <author>
-      <name>EuRuKo 2013 Team</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Metaquark Logo" src="/images/sponsors/metaquark_150x75.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;For a long time, the team at &lt;a href="http://metaquark.de/"&gt;Metaquark&lt;/a&gt; shared every mobile developer’s experience. This of the difficulty of designing, building, releasing and maintaining mobile apps. In this experience, many manual steps had to be followed repeatedly in order...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;img alt='Metaquark Logo' src='/images/sponsors/metaquark_150x75.png' /&gt;&lt;/p&gt;
-
-&lt;p&gt;For a long time, the team at &lt;a href='http://metaquark.de/'&gt;Metaquark&lt;/a&gt; shared every mobile developer&amp;#8217;s experience. This of the difficulty of designing, building, releasing and maintaining mobile apps. In this experience, many manual steps had to be followed repeatedly in order to test, publish and then collect application usage information.&lt;/p&gt;
-
-&lt;p&gt;It got more complicated every time they added support for a new mobile operating system, because none of them are alike as we all know. It got even worse when they tried to do all of that in a distributed team, with very few tools that were built to support such team structure.&lt;/p&gt;
-
-&lt;p&gt;Then it was when when they set out to make developing mobile apps a lot easier. Metaquark&amp;#8217;s mobile enterprise application platform called ‘AppFresh Mobile’ is a central service for large and small companies which helps manage the life-cycle of mobile applications. AppFresh Mobile includes distributed cloud builds for all mobile platforms, application security policies, distribution of applications to handsets using a custom enterprise applications store and extensive monitoring to help improve the quality of applications delivered to employees and customers.&lt;/p&gt;
-
-&lt;p&gt;Metaquark work with a great variety of technologies to implement their mobile cross-platform and cloud strategy. Not surprisingly, their core platform is powered by Ruby and Rails. Their platform can either be deployed in a highly scalable Metaquark cloud setup, or directly at the customer site. Metaquark are small but fast growing. Their team and their vision are backed by their strategic investor and strong partner Software AG. Together they deliver mobile technologies and projects for some of the biggest enterprises all around the world.&lt;/p&gt;
-
-&lt;p&gt;Not only that, but Metaquark are &lt;a href='http://metaquark.de/jobs/'&gt;hiring!&lt;/a&gt; They suggest that if you&amp;#8217;re looking for a challenge, they are the right place for you! The place to work on technology, concepts and strategies, think in new ways, be creative and take over great challenges. You may join them in one of their offices in Berlin and Leipzig (Germany) and make cross-platform mobile application life-cycle management available to all enterprises which develop mobile applications. From managing, building and signing mobile applications in the cloud to full featured application and device management on the mobile client, you name it, they are working on it.&lt;/p&gt;
-
-&lt;p&gt;Help development teams all over the world develop better apps and save time by using AppFresh Mobile!&lt;/p&gt;</content>
   </entry>
 </feed>
