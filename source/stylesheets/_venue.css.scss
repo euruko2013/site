@@ -1,30 +1,8 @@
 #venue-page {
   width: 100%;
+  padding-bottom: 20px;
   background-color: #f2f2f2;
   font-family: "Ubuntu",Arial,"Helvetica Neue",Helvetica,Geneva,sans-serif;
-  .intro {
-    height: 600px;
-    background: transparent image-url("venue/badminton-big.jpg") 0px 0px no-repeat fixed;
-    background-size: cover;
-    background-size: cover;
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    h1 {
-      padding: 105px 0 90px 0;
-      color: #fff;
-      font-size: 46px;
-    }
-    p {
-      margin: 20px auto;
-      max-width: 800px;
-      width: 85%;
-      color: #fefefe;
-      text-align: center;
-      font-size: 16px;
-    }
-  }
   > h2 {
     padding: 20px 0;
     color: #b5b5b5;
@@ -47,6 +25,29 @@
     color: #848484;
     font-size: 16px;
     line-height: 1.5;
+  }
+  .intro {
+    height: 600px;
+    background: transparent image-url("venue/badminton-big.jpg") 0px 0px no-repeat fixed;
+    background-size: cover;
+    background-size: cover;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    h1 {
+      padding: 105px 0 90px 0;
+      color: #fff;
+      font-size: 46px;
+    }
+    p {
+      margin: 20px auto;
+      max-width: 800px;
+      width: 85%;
+      color: #fefefe;
+      text-align: center;
+      font-size: 16px;
+    }
   }
   .venue {
     li {
@@ -81,6 +82,14 @@
         width: 380px;
         height: 300px;
         border: 1px solid #616161;
+      }
+    }
+    .by-bus {
+      padding-top: 20px;
+      strong {
+        display: block;
+        padding: 10px 0;
+        color: rgb(122, 122, 122);
       }
     }
     .by-car {
