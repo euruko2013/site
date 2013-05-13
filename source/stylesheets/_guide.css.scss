@@ -5,17 +5,23 @@
     .title {
       text-align: center;
     }
-
-    .attribution {
-      display: inline-block;
-      font-size: 10px;
-      line-height: 14px;
-      text-align: right;
-      width: 100%;
-    }
   }
 
   p {
     text-align: justify;
+  }
+
+  .list-thumbnail {
+    display: inline-block;
+    list-style: none;
+    width: 230px;
+  }
+
+  .attribution {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: right;
+    width: 100%;
   }
 }
