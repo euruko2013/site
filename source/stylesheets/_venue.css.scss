@@ -2,10 +2,10 @@
   width: 100%;
   padding-bottom: 20px;
   background-color: #f2f2f2;
-  font-family: "Ubuntu",Arial,"Helvetica Neue",Helvetica,Geneva,sans-serif;
+  font-family: $ubuntu;
   > h2 {
     padding: 20px 0;
-    color: #b5b5b5;
+    color: $lighter_grey;
     text-align: center;
     text-shadow: 1px 1px 0px white;
     font-size: 25px;
@@ -18,13 +18,16 @@
     }
   }
   h5 {
-    color: #616161;
+    color: $light_grey;
     font-size: 18px;
   }
   p {
-    color: #848484;
+    color: $lightest_grey;
     font-size: 16px;
     line-height: 1.5;
+  }
+  strong {
+    color: $light_grey;
   }
   .intro {
     height: 600px;
@@ -89,7 +92,6 @@
       strong {
         display: block;
         padding: 10px 0;
-        color: rgb(122, 122, 122);
       }
     }
     .by-car {
@@ -98,7 +100,7 @@
         margin: 0 0 10px 0;
       }
       li {
-        color: #848484;
+        color: $lightest_grey;
         font-size: 16px;
         line-height: 1.5;
       }
