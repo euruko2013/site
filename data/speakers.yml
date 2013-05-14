@@ -44,6 +44,15 @@
   github: 'arnvald'
   keynote: false
 
+- kroger:
+  id: 'kroger'
+  name: 'Simon Kröger'
+  title: ''
+  bio: 'Simon took his experience from 12 years of freelancing for various companies around the globe and working with a very diverse set of technologies to build his dream team at SponsorPay and work with the language he loves - Ruby. Today he is most interested in database performance, application architecture and any hard problem that comes his way.'
+  twitter: 'kroegerberlin'
+  github: 'simonkro'
+  keynote: false
+
 - bussink:
   id: 'bussink'
   name: 'Dirkjan Bussink'
