@@ -1,0 +1,127 @@
+#schedule {
+  // background: white;
+  background-color: #f2f2f2;
+  font-family: $ubuntu;
+  color: #848484;
+
+  #schedule-clock {
+    background: transparent image-url("schedule.png") 0px 0px no-repeat;
+    width: 220px;
+    height: 169px;
+    margin: $vr*2 auto $vr*4;
+  }
+
+  .table-wrapper {
+    @include box-shadow(0, 0, 8px, 0, rgba(0, 0, 0, 0.4));
+    padding: 40px 10px;
+    width: 960px;
+    margin: 0 auto 50px auto;
+    background-color: white;
+
+    table {
+      width: 900px;
+      margin: 0 auto;
+      
+      caption {
+        width: 150px;
+        height: 35px;
+        background: transparent image-url("schedule.png") 0px 0px no-repeat;
+        text-indent: -9000px;
+        margin: 0 auto 40px auto;
+
+        &#schedule-caption-28 {
+          background-position: -35px -176px;
+        }
+
+        &#schedule-caption-29 {
+          background-position: -35px -220px;
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            a.schedule-talk-more {
+              text-decoration: none;
+              cursor: pointer;
+            }
+
+            p.schedule-talk-description {
+              margin-top: 10px;
+              padding-top: 10px;
+              border-top: 1px solid #dddddd;
+            }
+          }
+
+          &.no-talk {
+            background-color: #e1e1e1;
+            text-transform: uppercase;
+          }
+
+          &:first-child, &:last-child {
+            background-color: #99352e;
+            color: white;
+
+            &:hover > td {
+              background-color: lighten(#99352e, 10%);
+              color: white;
+            }
+          }
+
+          td:first-child {
+            width: 113px;
+            padding: 0 30px 0 30px;
+
+            span {
+              margin-top: 8px;
+              display: inline-block;
+            }
+          }
+
+          td:nth-child(2) {
+            padding-right: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Media Queries: Mobile/Tablet ...960px */
+@media only screen and (max-width:960px) {
+  #schedule {
+    .table-wrapper {
+      padding: 0;
+      width: 100%;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+
+      table {
+        width: 100%;
+
+        caption {
+          margin: 40px auto 40px auto;
+        }
+
+        tbody {
+          tr {
+            td:first-child {
+              width: auto;
+              padding: 0 20px 0 0;
+
+              span {
+                margin-top: 0;
+                display: auto;
+              }
+            }
+
+            td:nth-child(2) {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

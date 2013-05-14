@@ -1,0 +1,83 @@
+28:
+  - starts_at: 2013-06-28 08:30:00
+    ends_at: 2013-06-28 09:30:00
+    title: 'Registration'
+  - starts_at: 2013-06-28 09:30:00
+    ends_at: 2013-06-28 10:00:00
+    title: 'Welcome, info, plan'
+  - starts_at: 2013-06-28 10:00:00
+    ends_at: 2013-06-28 11:00:00
+    speaker_id: matz
+  - starts_at: 2013-06-28 11:00:00
+    ends_at: 2013-06-28 11:45:00
+    speaker_id: koichi
+  - starts_at: 2013-06-28 11:45:00
+    ends_at: 2013-06-28 12:00:00
+    title: 'Break'
+  - starts_at: 2013-06-28 12:00:00
+    ends_at: 2013-06-28 12:45:00
+    speaker_id: klabnik
+  - starts_at: 2013-06-28 12:45:00
+    ends_at: 2013-06-28 13:30:00
+    speaker_id: kelly
+  - starts_at: 2013-06-28 13:30:00
+    ends_at: 2013-06-28 14:30:00
+    title: 'Lunch'
+  - starts_at: 2013-06-28 14:30:00
+    ends_at: 2013-06-28 15:30:00
+    speaker_id: witek
+  - starts_at: 2013-06-28 15:30:00
+    ends_at: 2013-06-28 16:15:00
+    speaker_id: ramirez
+  - starts_at: 2013-06-28 16:15:00
+    ends_at: 2013-06-28 16:30:00
+    title: 'break'
+  - starts_at: 2013-06-28 16:30:00
+    ends_at: 2013-06-28 17:15:00
+    speaker_id: lovell
+  - starts_at: 2013-06-28 17:15:00
+    ends_at: 2013-06-28 18:00:00
+    title: 'Lighting Talks'
+  - starts_at: 2013-06-28 18:00:00
+    ends_at: 2013-06-28 18:30:00
+    title: 'Lighting Talks'
+29:
+  - starts_at: 2013-06-29 08:30:00
+    ends_at: 2013-06-29 09:30:00
+    title: 'Registration'
+  - starts_at: 2013-06-29 09:30:00
+    ends_at: 2013-06-29 10:00:00
+    title: 'Welcome, info, plan'
+  - starts_at: 2013-06-29 10:00:00
+    ends_at: 2013-06-29 11:00:00
+    speaker_id: shaughnessy
+  - starts_at: 2013-06-29 11:00:00
+    ends_at: 2013-06-29 11:45:00
+    speaker_id: kalderimis
+  - starts_at: 2013-06-29 11:45:00
+    ends_at: 2013-06-29 12:00:00
+    title: 'Break'
+  - starts_at: 2013-06-29 12:00:00
+    ends_at: 2013-06-29 12:45:00
+    speaker_id: noria
+  - starts_at: 2013-06-29 12:45:00
+    ends_at: 2013-06-29 13:30:00
+    speaker_id: tennhard
+  - starts_at: 2013-06-29 13:30:00
+    ends_at: 2013-06-29 14:30:00
+    title: 'Lunch'
+  - starts_at: 2013-06-29 14:30:00
+    ends_at: 2013-06-29 15:30:00
+    speaker_id: witek
+  - starts_at: 2013-06-29 15:30:00
+    ends_at: 2013-06-29 16:15:00
+    speaker_id: smith
+  - starts_at: 2013-06-29 16:15:00
+    ends_at: 2013-06-29 16:30:00
+    title: 'break'
+  - starts_at: 2013-06-29 16:30:00
+    ends_at: 2013-06-29 17:15:00
+    speaker_id: bussink
+  - starts_at: 2013-06-29 17:15:00
+    ends_at: 2013-06-29 18:00:00
+    title: 'Lighting Talks'
