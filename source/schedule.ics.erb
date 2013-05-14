@@ -1,0 +1,21 @@
+<%	
+
+	@cal = Icalendar::Calendar.new
+	
+	data.schedule.values.flatten.each do |e|
+		if e.speaker_id
+			title = speaker(e.speaker_id).talk.title
+			description = speaker(e.speaker_id).talk.description or ''
+		else
+			title = e.title
+			description = ''
+		end
+
+	  @cal.event do |event|
+	    event.summary     = title
+	    event.description = description
+	    event.start 			= e.starts_at.to_datetime
+	    event.end   	  = e.ends_at.to_datetime
+	  end
+	end
+%><%= @cal.to_ical %>
