@@ -100,7 +100,7 @@ helpers do
   end
 
   def speaker(id)
-    data.speakers.find{|s| s.id == id}
+    data.speakers.find { |s| s.id == id }
   end
 
 end

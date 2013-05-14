@@ -8,7 +8,7 @@
   github: 'matz'
   keynote: true
   talk:
-    title: 'Keynote'
+    title: "Keynote"
 
 - koichi:
   id: 'koichi'
@@ -19,7 +19,7 @@
   github: 'ko1'
   keynote: true
   talk:
-    title: 'Keynote'
+    title: "Keynote"
 
 - klabnik:
   id: 'klabnik'
@@ -30,18 +30,18 @@
   github: 'steveklabnik'
   keynote: true
   talk:
-    title: 'Keynote'
+    title: "Keynote"
 
 - xavier:
   id: 'noria'
   name: 'Xavier Noria'
   title: 'Ruby on Rails consultant'
-  bio: 'Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised <a href="asd">EuRuKo 2009</a> in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.'
+  bio: 'Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised EuRuKo 2009 in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.'
   twitter: 'fxn'
   github: 'fxn'
   keynote: true
   talk:
-    title: 'Keynote'
+    title: "Keynote"
 
 - witek:
   id: 'witek'
@@ -52,7 +52,7 @@
   github: 'arnvald'
   keynote: false
   talk:
-    title: '... but we had to kill Unicorns'
+    title: "... but we had to kill Unicorns"
     description: "How often do you have to leave your comfort zone? How often does it happen that you need to change the fundamentals of your application? Well… it has happened to my team recently. We had to abandon our way of thinking about Ruby on Rails applications. Single-threaded servers were not a choice anymore, neither was JRuby nor Event Machine. And we had to handle up to 200k requests per minute. This talk is a case study about how, step by step, we got to multi threaded RoR application with MRI 1.9, MySQL, DataMapper. I want to present how we came to the solution, what did we have to do to make our application thread safe, how did we manage to use threads in MRI and what we learned while working on the big feature, that made us change the fundamentals of our application. Although the application in this case was built with Ruby on Rails, the talk won't be specific to this framework. I want to talk about threading and parallelism in Ruby and its open source libraries, as well as the process of making deep changes in the application that handles pretty big traffic."
 
 - kroger:
@@ -73,7 +73,7 @@
   github: 'dbussink'
   keynote: false
   talk:
-    title: 'The future of Ruby is faster'
+    title: "The future of Ruby is faster"
     description: "You care about your code. You write nicely factored and clean code, with nice and small methods that each do just what they are supposed to do. Maybe you worry sometimes that these additional methods and small objects can be problematic? This talk hopefully makes you stop worrying about this. So with all this care that you do, what can a Ruby implementation do to make sure your code actually runs fast? In this talk I will discuss the techniques used that allow your Ruby code to execute faster. How do we make sure calling a method is cheap or even free? How can we let you mostly get away with allocating a lot of objects? How do we make iterating with .each as fast as a while loop? Different techniques will be discussed, such as inline caches, just in time compilation, method / block inlining and better garbage collection. As a Rubinius contributor I've worked on all these subjects so I know a few things about these topics, but these will explained such that any Ruby developer can understand how these optimizations work. The quest for a faster Ruby is happening in a lot of places and you can learn how this is done!"
 
 - smith:
@@ -85,7 +85,7 @@
   github: 'benjaminleesmith'
   keynote: false
   talk:
-    title: 'Architecting your Rails app for success!'
+    title: "Architecting your Rails app for success!"
     description: "Rails is a great framework for creating web apps... for awhile. What do you do when your codebase grows large? How do you handle large teams of developers? When performance becomes an issue, how do you scale? Most importantly, how do you write code which can easily be refactored later? This is a story of a real life project built from day 1 with all these questions in mind. Learn about the problems we solved and lessons we learned: how to partition your Rails app into distinct modular engines, how to speed up your test suite by only running code effected by your changes, how to add a layer on top of ActiveRecord to enforce loose coupling, and many other patterns that can be applied to your own Rails apps!"
 
 - tennhard:
@@ -97,7 +97,7 @@
   github: 't6d'
   keynote: false
   talk:
-    title: 'Natural Language Processing with Ruby'
+    title: "Natural Language Processing with Ruby"
     description: "Natural Language Processing (NLP) is the art and science of making sense of user-generated data. It is a combination of state-of-the-art computer science techniques and linguistics. Being able to analyze plain text data allows us to gain a lot of insights. Popular NLP tasks are text summarization, keyword extraction or automatic extraction of the author's opinion from a text. In the age of social media, only NLP provides solutions to analyze what users are really care about. Companies such as Google or Facebook invest millions in NLP solutions to harvest information from all the data they have been gathering over the years. In this talk, I will present you a real-world NLP problem. We will discuss this problem from both, the linguistic and the computer science perspective. Throughout the talk, we will develop a processing pipeline to efficiently solve this problem in an automated fashion. An NLP pipeline usually consists of multiple components, each solving one aspect of the problem and presenting its own challenges. Among other things, you will learn how to tackle the following essential NLP problems using JRuby and OpenNLP."
 
 - shaughnessy:
@@ -109,7 +109,7 @@
   github: 'patshaughnessy'
   keynote: false
   talk:
-    title: 'Functional Programming and Ruby'
+    title: "Functional Programming and Ruby"
     description: "While Ruby is object oriented and imperative, it does have some features that allow for functional programming. In this talk we’ll compare Haskell, a functional programming language, with Ruby while exploring these common functional patterns: higher order functions, lazy evaluation, and memoization. Along the way we’ll explore how Ruby works internally, find out whether it’s a true functional language, and zoom in to take a close look at Ruby 2.0’s implementation of the new “Enumerator::Lazy” feature."
 
 - lovell:
@@ -121,7 +121,7 @@
   github: 'benlovell'
   keynote: false
   talk:
-    title: 'Achieving zomgscale with Celluloid and JRuby!'
+    title: "Achieving zomgscale with Celluloid and JRuby!"
     description: "Light up your cores! Learn how to achieve levels of scale hitherto unknown to mere mortals. This talk will cover concurrency and parallelisation for the discerning rubyist. We'll cover why MRI is keeping your CPUs way cooler than they find comfortable and how you can unlock unfound levels of roflscale by spending a little time with celluloid and JRuby."
 
 - kalderimis:
@@ -133,7 +133,7 @@
   github: 'joshk'
   keynote: false
   talk:
-    title: 'No one plans for complexity, and neither should you!'
+    title: "No one plans for complexity, and neither should you!"
     description: "Great ideas start small, hell, just look at all the great services we use today, all of them small ideas which grew, and grew, and grew. Do you think they planned for this level of scale from the outset? God no! And why would they? Planning too early can be the death of such a great idea! The mantra is simple, start small, growth will come naturally. That might sound stupid, but the idea is solid. As your product grows you will learn where the bottlenecks are, where the pain points in code and processing exist, and what needs to scale and what needs to be thrown out the door. Travis CI was no different, started as a simple Rails app, it has now grown into a platform built upon over 9 different apps, using everything from Postgres, Redis, RabbitMQ, Memcached, S3, BlueBox, MRI, JRuby, Websockets, and a huge array of services helping with email, metrics, and alerts. We never designed or planned for this, this came about from natural growth, and we have only just started. This talk is a story of architecture, complexity, and growth, as well as a candid look on what we did wrong and could have done better. And most importantly, this is a talk about how sometimes not building something is more important than building it in the first place."
 
 - oliveira:
@@ -145,7 +145,7 @@
   github: 'kurko'
   keynote: false
   talk:
-    title: 'Forget about classes, welcome objects'
+    title: "Forget about classes, welcome objects"
     description: "This talk is a tale about a time when Object-Oriented Programming was about objects and messages, not about classes and methods, when it was about behavior, not schemas. You will understand how OO was intended to be used and what it means to say that OO is about messages. We'll talk about the past and then go back to the future to look at our Class-Oriented Programming culture and how we can fix it by doing real OO in Ruby. By doing that, we'll start to understand why principles like SOLID and Demeter are here to help us stop losing time and money. This talk is about making you reevaluate the way you approach OO."
 
 - ramirez:
@@ -157,7 +157,7 @@
   github: 'javier'
   keynote: false
   talk:
-    title: 'Fun with Ruby and Redis'
+    title: "Fun with Ruby and Redis"
     description: "All the cool cats are using Redis, and with a reason: It's fast, it's robust, it's easy and it's web scale. Put it together with Ruby and it's fun too! In this session I will talk about what is redis, what you can do with it, how you can use it from Ruby, why you should be using it already and some common patterns when dealing with it." 
 
 - kelly:
