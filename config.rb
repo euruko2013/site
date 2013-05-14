@@ -99,7 +99,7 @@ helpers do
     link_to "@#{username}", "https://github.com/#{username}"
   end
 
-  def speaker(id)
+  def find_speaker(id)
     data.speakers.find { |s| s.id == id }
   end
 
