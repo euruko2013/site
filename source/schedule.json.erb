@@ -6,8 +6,8 @@
         "name" : "<%= speaker.name %>",
         "title" : "<%= speaker.title %>",
         "bio" : "<%= speaker.bio %>",
-        "avatar" : "http://<%= data.settings.domain %><%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>",
-        "avatar_ring" : "http://<%= data.settings.domain %><%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>"
+        "avatar" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>",
+        "avatar_ring" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>"
       }<%= ',' unless data.speakers.last == speaker %>
     <% end %>
   ],
