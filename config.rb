@@ -69,6 +69,9 @@ page "/blog/feed.xml", :layout => false
 # Schedule calendar
 page "/schedule.ics", :layout => false
 
+# Schedule JSON
+page "/schedule.json", :layout => false
+
 ###
 # Helpers
 ###

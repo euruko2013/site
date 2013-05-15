@@ -1,0 +1,35 @@
+{
+  "speakers" : [
+    <% data.speakers.each do |speaker| %>
+      {
+        "id" : "<%= speaker.id %>",
+        "name" : "<%= speaker.name %>",
+        "title" : "<%= speaker.title %>",
+        "bio" : "<%= speaker.bio %>",
+        "avatar" : "http://<%= data.settings.domain %><%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>",
+        "avatar_ring" : "http://<%= data.settings.domain %><%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>"
+      }<%= ',' unless data.speakers.last == speaker %>
+    <% end %>
+  ],
+
+  "agenda" : [
+    <% events = data.schedule.values.flatten %>
+    <% events.each do |event|  %>
+      <% speaker = find_speaker(event.speaker_id) %>
+      {
+        "start" : <%= event.starts_at.to_i %>,
+        <% if event.ends_at %>
+        "end" : <%= event.ends_at.to_i %>,
+        <% end %>
+        <% if speaker %>
+        "speaker" : "<%= speaker.name %>",
+        "title" : "<%= speaker.talk.title %>",
+        "descr" : "<%= speaker.talk.description %>"
+        <% else %>
+        "title" : "<%= event.title %>",
+        "descr" : ""
+        <% end %>
+      }<%= ',' unless events.last == event %>
+    <% end %>
+  ]
+}
