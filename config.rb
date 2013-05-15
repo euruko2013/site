@@ -65,6 +65,8 @@ end
 
 # Blog feed
 page "/blog/feed.xml", :layout => false
+
+# Schedule calendar
 page "/schedule.ics", :layout => false
 
 ###
