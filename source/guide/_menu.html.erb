@@ -26,4 +26,9 @@
             <i class="icon-camera-retro"></i> Sightseeing
         <% end %>
     </li>
+    <li class="<%= 'active' if active == 'vacations' %>">
+        <% link_to '/guide/vacations' do %>
+            <i class="icon-asterisk"></i> Vacations
+        <% end %>
+    </li>
 </ul>
