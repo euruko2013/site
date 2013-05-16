@@ -28,42 +28,16 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <h3><i class="icon-bullhorn"></i>&nbsp;&nbsp;&nbsp;News</h3>
       <ul class="unstyled">
         <!-- News Placeholder list items -->
+        <% data.news.take(10).each do |newsitem| %>
         <li>
-          <span>16/05</span>
-          <%= link_to 'Generation-Y has the Selene sponsor gene', '#selene' %>
-        </li>
-        <li>
-          <span>14/05</span>
-          <%= link_to 'Flinc looks beautiful as an Aphrodite sponsor', '#aphrodite' %>
-        </li>
-        <li>
-          <span>13/05</span>
-	  Tickets sold out. We hope you got one!
-        </li>
-         <li>
-          <span>12/05</span>
-          <% link_to '#tickets' do %>
-            Tickets sales end tomorrow!
+          <span><%= I18n.l(newsitem.time.to_date, format: :short) %></span>
+          <% if newsitem.link %>
+            <%= link_to newsitem.title, newsitem.link %>
+          <% else %>
+            <%= newsitem.title %>
           <% end %>
         </li>
-        <li>
-          <span>11/05</span>
-          <% link_to '/guide' do %>
-            EuRuKo 2013 city & travel guide is now available
-          <% end %>
-        </li>
-        <li>
-          <span>07/05</span>
-          <%= link_to 'Final speaker lineup announced!', '/speakers' %>
-        </li>
-         <li>
-          <span>29/04</span>
-          <%= link_to 'Vote for the final speaker lineup!', 'http://cfp.euruko2013.org/proposals' %>
-        </li>
-        <li>
-          <span>24/04</span>
-          <%= link_to 'Workable shines as a Helios sponsor', '#helios' %>
-        </li>
+        <% end %>
       </ul>
     </div>
 
