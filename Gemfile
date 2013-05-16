@@ -10,5 +10,8 @@ gem "builder", "~> 3.0.0"
 # For blog post summaries
 gem "nokogiri", "~> 1.5.8"
 
+# Use Erubis
+gem "erubis", "~> 2.7.0"
+
 # ics
 gem 'icalendar'
