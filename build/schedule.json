@@ -264,32 +264,32 @@
         "descr" : ""
       },
       {
-        "start" : 1372423500,
-        "end" : 1372424400,
+        "start" : 1372509900,
+        "end" : 1372510800,
         "title" : "Coffee break",
         "descr" : ""
       },
       {
-        "start" : 1372424400,
-        "end" : 1372427100,
+        "start" : 1372510800,
+        "end" : 1372513500,
         "title" : "Talk IX",
         "descr" : ""
       },
       {
-        "start" : 1372427100,
-        "end" : 1372429800,
+        "start" : 1372513500,
+        "end" : 1372516200,
         "title" : "Talk X",
         "descr" : ""
       },
       {
-        "start" : 1372429800,
-        "end" : 1372431600,
+        "start" : 1372516200,
+        "end" : 1372518000,
         "title" : "Lighting Talks",
         "descr" : ""
       },
       {
-        "start" : 1372431600,
-        "end" : 1372433400,
+        "start" : 1372518000,
+        "end" : 1372519800,
         "title" : "Closing & Voting",
         "descr" : ""
       }
