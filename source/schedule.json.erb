@@ -22,7 +22,7 @@
         "end" : <%= event.ends_at.to_i %>,
         <% end %>
         <% if speaker %>
-        "speaker" : "<%= speaker.name %>",
+        "speaker_id" : "<%= speaker.id %>",
         "title" : "<%= speaker.talk.title %>",
         "descr" : "<%= speaker.talk.description %>"
         <% else %>
