@@ -29,6 +29,10 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <ul class="unstyled">
         <!-- News Placeholder list items -->
         <li>
+          <span>16/05</span>
+          <%= link_to 'Generation-Y is a next generation Selene sponsor', '#selene' %>
+        </li>
+        <li>
           <span>14/05</span>
           <%= link_to 'Flinc looks beautiful as an Aphrodite sponsor', '#aphrodite' %>
         </li>
@@ -59,14 +63,6 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li>
           <span>24/04</span>
           <%= link_to 'Workable shines as a Helios sponsor', '#helios' %>
-        </li>
-        <li>
-          <span>23/04</span>
-          <%= link_to 'Xing is a Selene sponsor', '#selene' %>
-        </li>
-        <li>
-          <span>22/04</span>
-          <%= link_to 'Heroku is a Selene sponsor', '#selene' %>
         </li>
       </ul>
     </div>
@@ -281,6 +277,12 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li id="xing">
           <% link_to 'http://www.xing.com?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
             <%= image_tag "sponsors/xing_200x100.png", alt: "Xing Logo", title: "Xing", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+        </li>
+
+        <li id="generation-y">
+          <% link_to 'http://www.generation-y.gr?utm_source=euruko&utm_medium=banner&utm_campaign=selene', :target => '_blank' do %>
+            <%= image_tag "sponsors/generation_y_200x100.png", alt: "Generation-Y Logo", title: "Generation-Y", itemprop: "image", width: "200", height: "100" %>
           <% end %>
         </li>
 
