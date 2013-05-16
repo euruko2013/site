@@ -72,6 +72,9 @@ page "/schedule.ics", :layout => false
 # Schedule JSON
 page "/schedule.json", :layout => false
 
+# News JSON
+page "/news.json", :layout => false
+
 ###
 # Helpers
 ###

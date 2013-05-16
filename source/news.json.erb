@@ -1,0 +1,13 @@
+{
+  "news" : [
+    <% data.news.each do |newsitem| %>
+      {
+        "time" : <%= newsitem.time.to_i %>,
+        "title" : "<%= newsitem.title %>"<%= ',' if newsitem.link %>
+        <% if newsitem.link %>
+        "link" : "<%= newsitem.link %>"
+        <% end %>
+      }<%= ',' unless data.news.last == newsitem %>
+    <% end %>
+  ]
+}
