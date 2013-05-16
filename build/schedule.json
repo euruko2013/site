@@ -1,481 +1,297 @@
 {
   "speakers" : [
-    
       {
         "id" : "matz",
         "name" : "Yukihiro Matsumoto",
         "title" : "Ruby chief architect",
         "bio" : "Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its latest 2.0 version. Meanwhile he has been working on mruby, a lightweight Ruby implementation. This summer, he will be celebrating with us the 20th anniversary of Ruby.",
         "avatar" : "http://euruko2013.org/images/speakers/matz-3b26dad7.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/matz-3b26dad7.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/matz-ring-a4b65ed5.png"
       },
-    
       {
         "id" : "koichi",
         "name" : "Koichi Sasada",
         "title" : "Ruby core commiter (CRuby VM, YARV)",
         "bio" : "Koichi knows the inside outs of the Ruby VM. He has developed YARV (Yet another Ruby VM) which became the official Ruby VM when Ruby 1.9 was released. We believe he will give lots of insights in the Ruby VM, the new performance improments in Ruby 2.0 and will hint at the future of the Ruby VM.",
         "avatar" : "http://euruko2013.org/images/speakers/koichi-da3436da.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/koichi-da3436da.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/koichi-ring-d0d8dfe6.png"
       },
-    
       {
         "id" : "klabnik",
         "name" : "Steve Klabnik",
         "title" : "Instructor and Open Source lead",
         "bio" : "Steve enjoys turning coffee into code, writing, philosophy, and physical activity. He is a contributor to many high visibility open source projects such as Sinatra, Resque, Rubinius and of course the venerable Ruby on Rails web framework. His talks are always insightful and inspiring. We should not expect anything less for EuRuKo.",
         "avatar" : "http://euruko2013.org/images/speakers/klabnik-597c646a.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/klabnik-597c646a.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/klabnik-ring-c4010527.png"
       },
-    
       {
         "id" : "noria",
         "name" : "Xavier Noria",
         "title" : "Ruby on Rails consultant",
         "bio" : "Xavier is a Ruby on Rails core team member having worked with Ruby since 2005. He is also featured as #5 in the Rails contributors lists, a list he also created. A real Ruby hero presented with a Ruby Hero Award in RailsConf 2010 and also part of the team that organised EuRuKo 2009 in Barcelona. We are really excited to have him with us at EuRuKo 2013 and are eager to watch him present a rational tale.",
         "avatar" : "http://euruko2013.org/images/speakers/noria-d056c833.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/noria-d056c833.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/noria-ring-013a8435.png"
       },
-    
       {
         "id" : "witek",
         "name" : "Grzegorz Witek",
         "title" : "",
         "bio" : "Grzegorz loves talking to people and computers. He speaks 4 (human) languages, a couple of computer ones, and he still wants to learn more. On daily basis he shares his life between Poznań and Berlin, where he works as a software developer dealing with Ruby on Rails applications, complex queries and performance issues.",
         "avatar" : "http://euruko2013.org/images/speakers/witek-a7c95fd6.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/witek-a7c95fd6.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/witek-ring-96a702f1.png"
       },
-    
       {
         "id" : "kroger",
         "name" : "Simon Kröger",
         "title" : "",
         "bio" : "Simon took his experience from 12 years of freelancing for various companies around the globe and working with a very diverse set of technologies to build his dream team at SponsorPay and work with the language he loves - Ruby. Today he is most interested in database performance, application architecture and any hard problem that comes his way.",
         "avatar" : "http://euruko2013.org/images/speakers/kroger-a95cd09a.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/kroger-a95cd09a.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/kroger-ring-f3e09e8e.png"
       },
-    
       {
         "id" : "bussink",
         "name" : "Dirkjan Bussink",
         "title" : "",
         "bio" : "Dirkjan is the founder of CriticalCodes, a development company specialized in performance and security. He is also an active open source contributor, having contributed to Ruby, Rails and DataMapper. These days EngineYard is sponsoring his company to work on Rubinius.",
         "avatar" : "http://euruko2013.org/images/speakers/bussink-e8e697ea.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/bussink-e8e697ea.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/bussink-ring-91880f29.png"
       },
-    
       {
         "id" : "smith",
         "name" : "Benjamin Smith",
         "title" : "",
         "bio" : "Benjamin is a developer at Pivotal Labs. He has a strong passion for TDD, pairing, Agile and using technologies that get out of the programmer’s way (or the programmer out of the way). When not writing code, he follows his other passions into the outdoors to rock climb, back country snowboard, kayak and surf.",
         "avatar" : "http://euruko2013.org/images/speakers/smith-7c96b3d7.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/smith-7c96b3d7.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/smith-ring-023f242f.png"
       },
-    
       {
         "id" : "tennhard",
         "name" : "Konstantin Tennhard",
         "title" : "",
         "bio" : "Konstantin is a computer scientist who specializes in developing large scale internet applications. He is passionate about software design, test driven development and all sorts of modern web-technology. His main scientific interest is natural language processing.",
         "avatar" : "http://euruko2013.org/images/speakers/tennhard-bd51e376.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/tennhard-bd51e376.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/tennhard-ring-ba2a2a78.png"
       },
-    
       {
         "id" : "shaughnessy",
         "name" : "Pat Shaughnessy",
         "title" : "",
         "bio" : "Pat loves diving into the details of a technology, learning how it works, and then explaining it in simple terms that everyone can understand. Author of “Ruby under a Microscope” explaining the nitty gritty details of Ruby.",
         "avatar" : "http://euruko2013.org/images/speakers/shaughnessy-8b014413.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/shaughnessy-8b014413.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/shaughnessy-ring-dff9af38.png"
       },
-    
       {
         "id" : "lovell",
         "name" : "Ben Lovell",
         "title" : "",
         "bio" : "Ben is an engineer at Global Personals. A regular contributor to open source, agile proponent and harbours an almost unhealthy obsession for all things concurrent and distributed. Ruby and Scala are his first loves.",
         "avatar" : "http://euruko2013.org/images/speakers/lovell-3518c248.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/lovell-3518c248.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/lovell-ring-aba4f7cf.png"
       },
-    
       {
         "id" : "kalderimis",
         "name" : "Josh Kalderimis",
         "title" : "",
         "bio" : "Josh is a core Travis CI team member, a Rails contributor, gem developer, and an enthusiastic ice cream lover who ships technical debt daily! Part of the team that organised EuRuKo 2012 in Amsterdam.",
         "avatar" : "http://euruko2013.org/images/speakers/kalderimis-bb784351.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/kalderimis-bb784351.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/kalderimis-ring-57891272.png"
       },
-    
       {
         "id" : "oliveira",
         "name" : "Alexandre de Oliveira",
         "title" : "",
         "bio" : "Alexandre is a Ruby developer at Stack Builders and a freedoms evangelist in the free time.",
         "avatar" : "http://euruko2013.org/images/speakers/oliveira-0d5e1d10.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/oliveira-0d5e1d10.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/oliveira-ring-510afb77.png"
       },
-    
       {
         "id" : "ramirez",
         "name" : "Javier Ramírez",
         "title" : "",
         "bio" : "Javier is a web developer, daydreamer and all around happy person. He is in Ruby on Rails projects since 2006. He is also the author of the book “Aptana RadRails: An IDE for Rails Development” and an active member of the Spanish Ruby scene.",
         "avatar" : "http://euruko2013.org/images/speakers/ramirez-757074e0.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/ramirez-757074e0.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/ramirez-ring-195ebf5f.png"
       },
-    
       {
         "id" : "kelly",
         "name" : "Chris Kelly",
         "title" : "",
         "bio" : "Chris is a Developer and Evangelist at New Relic. He is a self-identified happiness engineer, writing code that makes someone else's day better.",
         "avatar" : "http://euruko2013.org/images/speakers/kelly-e8e383d9.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/kelly-e8e383d9.jpg"
+        "avatar_ring" : "http://euruko2013.org/images/speakers/kelly-ring-b37282d0.png"
       }
-    
   ],
 
   "agenda" : [
-    
-    
-      
       {
         "start" : 1372397400,
-        
-        
         "title" : "Doors Open",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372399200,
-        
         "end" : 1372401900,
-        
-        
         "title" : "Registration",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372401900,
-        
         "end" : 1372402800,
-        
-        
         "title" : "Welcome",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372402800,
-        
         "end" : 1372406400,
-        
-        
-        "speaker" : "Yukihiro Matsumoto",
+        "speaker_id" : "matz",
         "title" : "Keynote",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372406400,
-        
         "end" : 1372407300,
-        
-        
         "title" : "Coffee break",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372407300,
-        
         "end" : 1372410000,
-        
-        
         "title" : "Talk I",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372410000,
-        
         "end" : 1372412700,
-        
-        
         "title" : "Talk II",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372412700,
-        
         "end" : 1372417200,
-        
-        
         "title" : "Lunch",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372417200,
-        
         "end" : 1372420800,
-        
-        
-        "speaker" : "Steve Klabnik",
+        "speaker_id" : "klabnik",
         "title" : "Keynote",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372420800,
-        
         "end" : 1372423500,
-        
-        
         "title" : "Talk III",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372423500,
-        
         "end" : 1372424400,
-        
-        
         "title" : "Coffee break",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372424400,
-        
         "end" : 1372427100,
-        
-        
         "title" : "Talk IV",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372427100,
-        
         "end" : 1372429800,
-        
-        
         "title" : "Talk V",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372429800,
-        
         "end" : 1372431600,
-        
-        
         "title" : "Lighting Talks",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372483800,
-        
-        
         "title" : "Doors Open",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372488300,
-        
         "end" : 1372489200,
-        
-        
         "title" : "Welcome",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372489200,
-        
         "end" : 1372492800,
-        
-        
-        "speaker" : "Koichi Sasada",
+        "speaker_id" : "koichi",
         "title" : "Keynote",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372492800,
-        
         "end" : 1372493700,
-        
-        
         "title" : "Coffee break",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372493700,
-        
         "end" : 1372496400,
-        
-        
         "title" : "Talk VI",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372496400,
-        
         "end" : 1372499100,
-        
-        
         "title" : "Talk VII",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372499100,
-        
         "end" : 1372503600,
-        
-        
         "title" : "Lunch",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372503600,
-        
         "end" : 1372507200,
-        
-        
-        "speaker" : "Xavier Noria",
+        "speaker_id" : "noria",
         "title" : "Keynote",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372507200,
-        
         "end" : 1372509900,
-        
-        
         "title" : "Talk VIII",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372423500,
-        
         "end" : 1372424400,
-        
-        
         "title" : "Coffee break",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372424400,
-        
         "end" : 1372427100,
-        
-        
         "title" : "Talk IX",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372427100,
-        
         "end" : 1372429800,
-        
-        
         "title" : "Talk X",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372429800,
-        
         "end" : 1372431600,
-        
-        
         "title" : "Lighting Talks",
         "descr" : ""
-        
       },
-    
-      
       {
         "start" : 1372431600,
-        
         "end" : 1372433400,
-        
-        
         "title" : "Closing & Voting",
         "descr" : ""
-        
       }
-    
   ]
 }
