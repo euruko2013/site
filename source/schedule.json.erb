@@ -7,7 +7,7 @@
         "title" : "<%= speaker.title %>",
         "bio" : "<%= speaker.bio %>",
         "avatar" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>",
-        "avatar_ring" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>"
+        "avatar_ring" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}-ring.png") %>"
       }<%= ',' unless data.speakers.last == speaker %>
     <% end %>
   ],
