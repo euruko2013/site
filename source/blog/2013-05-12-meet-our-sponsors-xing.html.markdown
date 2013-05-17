@@ -12,4 +12,4 @@ is a social network with over 13 million members. They are the leading network f
 
 In XING they are really into teamwork and are using agile techniques. Independent, focused teams build their platform's products. They have been coding Rails since 2006.
 
-XING [contributes](https://github.com/xing) to open source and hosts meetups, user groups, after-work events and workshops. They are [looking for talented people](http://devblog.xing.com/we-are-hiring/) to build their social network of the future in Ruby on Rails, iOS, Android & Perl. Get in contact with them!
+XING [contributes](https://github.com/xing?utm_source=euruko&utm_medium=blog&utm_campaign=selene) to open source and hosts meetups, user groups, after-work events and workshops. They are [looking for talented people](http://devblog.xing.com/we-are-hiring/?utm_source=euruko&utm_medium=blog&utm_campaign=selene) to build their social network of the future in Ruby on Rails, iOS, Android & Perl. Get in contact with them!
