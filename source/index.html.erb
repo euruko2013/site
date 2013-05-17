@@ -32,9 +32,9 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
         <li>
           <span><%= I18n.l(newsitem.time.to_date, format: :short) %></span>
           <% if newsitem.link %>
-            <%= link_to newsitem.title, newsitem.link %>
+            <%= link_to h(newsitem.title), newsitem.link %>
           <% else %>
-            <%= newsitem.title %>
+            <%= h(newsitem.title) %>
           <% end %>
         </li>
         <% end %>

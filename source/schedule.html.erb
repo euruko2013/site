@@ -30,19 +30,19 @@ description: EuRuKo 2013 - Schedule
                 
                 <% if speaker %>
                   <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
-                    <span itemprop="name"><%= speaker.name %></span>
+                    <span itemprop="name"><%= h(speaker.name) %></span>
                   </td>
 
                   <td>
-                    <span itemprop="name"><%= speaker.talk.title %></span>
+                    <span itemprop="name"><%= h(speaker.talk.title) %></span>
                     <% if speaker.talk.description %>
                       <a class="schedule-talk-more">...</a>
-                        <p itemprop="description" class="schedule-talk-description hide"><%= speaker.talk.description %></p>
+                        <p itemprop="description" class="schedule-talk-description hide"><%= h(speaker.talk.description) %></p>
                     <% end %>
                   </td>
 
                 <% else %>
-                  <td colspan="2" itemprop="name"><%= event.title %></td>
+                  <td colspan="2" itemprop="name"><%= h(event.title) %></td>
                 <% end %>
               </tr>
             <% end %>
