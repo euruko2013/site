@@ -7,7 +7,9 @@
         "title" : "<%= speaker.title %>",
         "bio" : "<%= speaker.bio %>",
         "avatar" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}.jpg") %>",
-        "avatar_ring" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}-ring.png") %>"
+        "avatar_ring" : "http://<%= data.settings.domain %>/<%= asset_path(:images, "speakers/#{speaker.id}-ring.png") %>",
+	"twitter" : "<%= speaker.twitter %>",
+	"github" : "<%= speaker.github %>"
       }<%= ',' unless data.speakers.last == speaker %>
     <% end %>
   ],
