@@ -26,6 +26,11 @@
             <i class="icon-camera-retro"></i> Sightseeing
         <% end %>
     </li>
+    <li class="<%= 'active' if active == 'side-activities' %>">
+        <% link_to '/guide/side-activities' do %>
+            <i class="icon-random"></i> Side Activites
+        <% end %>
+    </li>
     <li class="<%= 'active' if active == 'vacations' %>">
         <% link_to '/guide/vacations' do %>
             <i class="icon-asterisk"></i> Vacations
