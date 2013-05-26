@@ -5,7 +5,7 @@
   color: #848484;
 
   #schedule-clock {
-    background: transparent image-url("schedule.png") 0px 0px no-repeat;
+    background: transparent image-url("schedule/gears.png") 0px 0px no-repeat;
     width: 220px;
     height: 169px;
     margin: $vr*2 auto $vr*4;
@@ -25,7 +25,7 @@
       caption {
         width: 150px;
         height: 35px;
-        background: transparent image-url("schedule.png") 0px 0px no-repeat;
+        background: transparent image-url("schedule/gears.png") 0px 0px no-repeat;
         text-indent: -9000px;
         margin: 0 auto 40px auto;
 
