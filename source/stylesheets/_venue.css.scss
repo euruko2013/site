@@ -3,81 +3,102 @@
   padding-bottom: 20px;
   background-color: #f2f2f2;
   font-family: $ubuntu;
+  color: $light_grey;
+  font-size: 16px;
+  text-align: justify;
+
   > h2 {
     padding: 20px 0;
-    color: $lighter_grey;
     text-align: center;
     text-shadow: 1px 1px 0px white;
     font-size: 25px;
   }
+
   > ul {
     list-style: none;
+
     > li {
       clear: both;
       padding: 0 25px;
     }
   }
+
   h5 {
     color: $light_grey;
     font-size: 18px;
   }
-  p {
-    color: $lightest_grey;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  strong {
-    color: $light_grey;
-  }
+
   .intro {
     height: 600px;
     background: transparent image-url("venue/badminton-big.jpg") 0px 0px no-repeat fixed;
     background-size: cover;
     background-size: cover;
-    text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    color: white;
+    text-align: center;
+
     h1 {
       padding: 105px 0 90px 0;
-      color: #fff;
       font-size: 46px;
     }
+
     p {
       margin: 20px auto;
       max-width: 800px;
       width: 85%;
-      color: #fefefe;
-      text-align: center;
       font-size: 16px;
     }
   }
+
   .venue {
     li {
       position: relative;
+      line-height: 24px;
+
       img {
         position: absolute;
         display: block;
         width: 200px;
       }
+
       h5 {
         padding-top: 20px;
       }
+
       &.left {
         padding: 0px 0px 60px 280px;
+
         img {
           left: 60px;
         }
       }
+
       &.right {
         padding: 0px 280px 60px 100px;
+
         img {
           right: 60px;
         }
       }
     }
   }
+
   .transportation {
+    > li {
+      padding-top: 30px;
+      line-height: 24px;
+
+      p {
+        margin: 10px 0;
+      }
+    }
+
+    > p {
+      padding: 0 25px;
+    }
+
     .by-metro {
       #map {
         float: left;
@@ -87,28 +108,29 @@
         border: 1px solid #616161;
       }
     }
+
     .by-bus {
-      padding-top: 20px;
       strong {
         display: block;
         padding: 10px 0;
       }
     }
+
     .by-car {
-      padding-top: 50px;
       h5 {
         margin: 0 0 10px 0;
       }
-      li {
-        color: $lightest_grey;
-        font-size: 16px;
-        line-height: 1.5;
-      }
+
       img {
         float: right;
         margin-top: 35px;
         margin-left: 20px;
         width: 350px;
+      }
+
+      li {
+        margin: 5px 0;
+        line-height: 24px;
       }
     }
   }
