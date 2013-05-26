@@ -1,6 +1,16 @@
 {
   "news" : [
       {
+        "time" : 1369544400,
+        "title" : "Stack Builders is an Aphrodite sponsor",
+        "link" : "http://euruko2013.org/#aphrodite"
+      },
+      {
+        "time" : 1369458000,
+        "title" : "Globaldev is an Aphrodite sponsor",
+        "link" : "http://euruko2013.org/#aphrodite"
+      },
+      {
         "time" : 1369078200,
         "title" : "Suggestions for side activities are now available",
         "link" : "http://euruko2013.org/guide/side-activities/"
@@ -8,7 +18,7 @@
       {
         "time" : 1368748800,
         "title" : "Teowaki is an Aphrodite sponsor",
-        "link" : "http://euruko2013.org/#selene"
+        "link" : "http://euruko2013.org/#aphrodite"
       },
       {
         "time" : 1368662400,
