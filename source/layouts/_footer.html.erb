@@ -1,5 +1,5 @@
-<div class="row">
-  <div class="span2 offset1">
+<div class="row-fluid">
+  <div class="span2 offset2">
     <h4>Conference</h4>
     <ul>
       <li><%= link_to_section 'About', '#about' %></li>
@@ -12,7 +12,7 @@
     </ul>
   </div>
 
-  <div class="span2 offset1">
+  <div class="span2">
     <h4>Guide</h4>
     <ul>
       <li><%= link_to 'Athens', '/guide/city-of-athens' %></li>
@@ -25,7 +25,7 @@
     </ul>
   </div>
 
-  <div class="span2 offset1 mobile">
+  <div class="span2 mobile">
     <h4 id="mobile">Mobile</h4>
     <ul>
       <li>
@@ -41,7 +41,7 @@
     </ul>
   </div>
 
-  <div class="span2 offset1 contact">
+  <div class="span2 contact">
     <h4 id="contact">Stay in touch</h4>
     <ul>
       <li><i class="icon-rss"></i><%= link_to 'Blog', '/blog' %></li>
@@ -52,8 +52,8 @@
   </div>
 </div>
 
-<div class="row newsletter">
-  <div class="span11 offset1">
+<div class="row-fluid newsletter">
+  <div class="span8 offset2">
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
       <form action="http://euruko2013.us5.list-manage.com/subscribe/post?u=d1a6bd50eb7d9b61b9101b5eb&amp;id=c70313aaa0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -67,15 +67,15 @@
 </div>
 
 <% if content_for?(:last_update) %>
-  <div class="row last_update">
-    <div class="span11 offset1">
+  <div class="row-fluid last_update">
+    <div class="span8 offset2">
       Last update: <span itemprop="dateModified"><%= yield_content :last_update %></span>
     </div>
   </div>
 <% end %>
 
-<div class="row last">
-  <div class="span4 offset1 test">
+<div class="row-fluid last">
+  <div class="span4 offset2 test">
     <div class="copyleft">
       <!--[if lte IE 8]><span class="ie"><![endif]-->
         <span class="copysymbol">
@@ -86,7 +86,7 @@
     </div>
   </div>
 
-  <div class="span5 offset2 info">
+  <div class="span4 info">
     <ul>
       <li><%= link_to 'Code of Conduct', '/codeofconduct' %></li> |
       <li><%= link_to 'Terms of Use', '/termsofuse' %></li> |
