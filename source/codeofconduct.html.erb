@@ -45,14 +45,9 @@ description: Euruko 2013 - Code of Conduct
     <p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
 
     <p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
-
   </div>
 
-  <footer>
-    <p>
-      Last update: <span itemprop="dateModified"><%= Date.today %></span>
-    </p>
-
+  <div class="section">
     <p>
       Text adapted from: <a href="http://confcodeofconduct.com">http://confcodeofconduct.com</a>
     </p>
@@ -64,5 +59,9 @@ description: Euruko 2013 - Code of Conduct
     <p>
       This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>
     </p>
-  </footer>
+  </div>
 </div>
+
+<% content_for :last_update do %>
+  <%= Date.today %>
+<% end %>

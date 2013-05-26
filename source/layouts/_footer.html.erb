@@ -66,12 +66,16 @@
   </div>
 </div>
 
+<% if content_for?(:last_update) %>
+  <div class="row last_update">
+    <div class="span11 offset1">
+      Last update: <span itemprop="dateModified"><%= yield_content :last_update %></span>
+    </div>
+  </div>
+<% end %>
+
 <div class="row last">
   <div class="span4 offset1 test">
-    <% if content_for?(:last_update) %>
-      <span class="last_update">Last update: <%= yield_content :last_update %></span>
-    <% end %>
-
     <div class="copyleft">
       <!--[if lte IE 8]><span class="ie"><![endif]-->
         <span class="copysymbol">
