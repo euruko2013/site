@@ -804,12 +804,6 @@ footer {
   }
 
   .copyleft {
-    .ie {
-      filter: FlipH;
-      -ms-filter: "FlipH";
-      display: inline-block;
-    }
-
     .copysymbol {
       -moz-transform: scaleX(-1);
       -o-transform: scaleX(-1);
@@ -1221,6 +1215,20 @@ footer {
 
       img + img {
         margin-left: 20px;
+      }
+    }
+  }
+}
+
+/* IE7 bug fixes */
+
+.ie-lt8 {
+  footer {
+    .copyleft {
+      .ie {
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        display: inline-block;
       }
     }
   }
