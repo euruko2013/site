@@ -57,25 +57,27 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="span4 offset1">
-    <!--[if lte IE 8]><span style="filter: FlipH; -ms-filter: "FlipH"; display: inline-block;"><![endif]-->
-      <span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;">
-        &copy;
-      </span>
-      <!--[if lte IE 8]></span><![endif]-->
-    EuRuKo 2013 -- <%= link_to 'All Rights Reversed', 'http://github.com/euruko2013/site' %>
-
+<div class="row last">
+  <div class="span4 offset1 test">
     <% if content_for?(:last_update) %>
-      <span>Last update: <%= yield_content :last_update %></span>
+      <span class="last_update">Last update: <%= yield_content :last_update %></span>
     <% end %>
+
+    <div class="copyleft">
+      <!--[if lte IE 8]><span class="ie"><![endif]-->
+        <span class="copysymbol">
+          &copy;
+        </span>
+        <!--[if lte IE 8]></span><![endif]-->
+      EuRuKo 2013 - <%= link_to 'All Rights Reversed', 'http://github.com/euruko2013/site' %>
+    </div>
   </div>
 
-  <div class="span4 offset3">
+  <div class="span5 offset2 info">
     <ul>
       <li><%= link_to 'Code of Conduct', '/codeofconduct' %></li> |
       <li><%= link_to 'Terms of Use', '/termsofuse' %></li> |
       <li><%= link_to 'Privacy Policy', '/privacypolicy' %></li>
     </ul>
   </div>
-
+</div>
