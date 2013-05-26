@@ -56,10 +56,8 @@ description: EuRuKo 2013 - Terms of Use
       <li>Tickets are transferable, but not refundable: you can give or sell them to someone else, but we will not issue refunds.  If you choose to transfer your ticket, you must do so with no extra charge.</li>
     </ul>
   </div>
-
-  <footer>
-    <p>
-      Last update: <span itemprop="dateModified"><%= Date.today %></span>
-    </p>
-  </footer>
 </div>
+
+<% content_for :last_update do %>
+  <%= Date.today %>
+<% end %>

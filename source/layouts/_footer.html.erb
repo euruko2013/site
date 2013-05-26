@@ -1,0 +1,96 @@
+<div class="row">
+  <div class="span2 offset1">
+    <h4>Conference</h4>
+    <ul>
+      <li><%= link_to_section 'About', '#about' %></li>
+      <li><%= link_to 'Speakers', '/speakers' %></li>
+      <li><%= link_to 'Schedule', '/schedule' %></li>
+      <li><%= link_to_section 'Tickets', '#tickets' %></li>
+      <li><%= link_to_section 'Venue', '#venue' %></li>
+      <li><%= link_to_section 'Sponsors', '#sponsors' %></li>
+      <li><%= link_to 'Proposals', 'http://cfp.euruko2013.org/proposals' %></li>
+    </ul>
+  </div>
+
+  <div class="span2 offset1">
+    <h4>Guide</h4>
+    <ul>
+      <li><%= link_to 'Athens', '/guide/city-of-athens' %></li>
+      <li><%= link_to 'Travel Info', '/guide/travel-information' %></li>
+      <li><%= link_to 'Accommodation', '/guide/accommodation' %></li>
+      <li><%= link_to 'Transportation', '/guide/transportation' %></li>
+      <li><%= link_to 'Sightseeing', '/guide/sightseeing' %></li>
+      <li><%= link_to 'Side Activities', '/guide/side-activities' %></li>
+      <li><%= link_to 'Vacations', '/guide/vacations' %></li>
+    </ul>
+  </div>
+
+  <div class="span2 offset1 mobile">
+    <h4 id="mobile">Mobile</h4>
+    <ul>
+      <li>
+        <% link_to 'https://itunes.apple.com/us/app/euruko-2013/id648956739?mt=8&uo=4' do %>
+          <%= image_tag "mobile/app_store_badge_135x45.png", alt: "Mobile App available on the App Store" %>
+        <% end %>
+      </li>
+      <li>
+        <% link_to 'https://play.google.com/store/apps/details?id=com.codigia.euruko2013' do %>
+          <%= image_tag "mobile/android_market_badge_135x45.png", alt: "Mobile App available on the Android Store" %>
+        <% end %>
+      </li>
+    </ul>
+  </div>
+
+  <div class="span2 offset1 contact">
+    <h4 id="contact">Stay in touch</h4>
+    <ul>
+      <li><i class="icon-rss"></i><%= link_to 'Blog', '/blog' %></li>
+      <li><i class="icon-twitter"></i><%= link_to 'Twitter', 'https://twitter.com/euruko' %></li>
+      <li><i class="icon-facebook"></i><%= link_to 'Facebook', 'https://www.facebook.com/EuRuKo' %></li>
+      <li><i class="icon-envelope"></i><%= mail_to 'info@euruko2013.org', 'info@euruko2013.org' %></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row newsletter">
+  <div class="span11 offset1">
+    <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup">
+      <form action="http://euruko2013.us5.list-manage.com/subscribe/post?u=d1a6bd50eb7d9b61b9101b5eb&amp;id=c70313aaa0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <label for="mce-EMAIL">Subscribe to our mailing list</label>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </form>
+    </div>
+    <!--End mc_embed_signup-->
+  </div>
+</div>
+
+<% if content_for?(:last_update) %>
+  <div class="row last_update">
+    <div class="span11 offset1">
+      Last update: <span itemprop="dateModified"><%= yield_content :last_update %></span>
+    </div>
+  </div>
+<% end %>
+
+<div class="row last">
+  <div class="span4 offset1 test">
+    <div class="copyleft">
+      <!--[if lte IE 8]><span class="ie"><![endif]-->
+        <span class="copysymbol">
+          &copy;
+        </span>
+        <!--[if lte IE 8]></span><![endif]-->
+      EuRuKo 2013 - <%= link_to 'All Rights Reversed', 'http://github.com/euruko2013/site' %>
+    </div>
+  </div>
+
+  <div class="span5 offset2 info">
+    <ul>
+      <li><%= link_to 'Code of Conduct', '/codeofconduct' %></li> |
+      <li><%= link_to 'Terms of Use', '/termsofuse' %></li> |
+      <li><%= link_to 'Privacy Policy', '/privacypolicy' %></li>
+    </ul>
+  </div>
+</div>

@@ -22,10 +22,8 @@ description: Euruko 2013 - Privacy Policy
       Make sure you also read the <%= link_to 'Terms of Use', '/termsofuse' %>.
     </p>
   </div>
-
-  <footer>
-    <p>
-      Last update: <span itemprop="dateModified"><%= Date.today %></span>
-    </p>
-  </footer>
 </div>
+
+<% content_for :last_update do %>
+  <%= Date.today %>
+<% end %>
