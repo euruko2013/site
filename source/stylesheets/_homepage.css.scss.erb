@@ -824,88 +824,97 @@ footer {
     }
   }
 
-   #mc_embed_signup {
-      width: 85%;
-      margin: $vr auto;
-      font: 300 16px $ubuntu;
+  #mc_embed_signup {
+    width: 85%;
+    margin: $vr auto;
+    font: 300 16px $ubuntu;
+    color: $light_grey;
+    text-align: center;
+
+    label {
+      font-size: 16px;
+    }
+
+    form {
+    }
+
+    h2 {
+      font-weight: bold;
+      padding: 0;
+      margin: 15px 0;
+      font-size: 1.4em;
+    }
+
+    input {
+      border: 1px solid #999;
+      -webkit-appearance: none;
+    }
+
+    input[type=checkbox] {
+      -webkit-appearance: checkbox;
+    }
+
+    input[type=radio] {
+      -webkit-appearance: radio;
+    }
+
+    input:focus {
+      border-color: #333;
+    }
+
+    .button {
+      clear: both;
+      background: rgb(215,215,215);
+      border: 0 none;
       color: $light_grey;
+      cursor: pointer;
+      display: inline-block;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 5px 10px 0;
+      padding: 0;
       text-align: center;
+      text-decoration: none;
+      vertical-align: top;
+      white-space: nowrap;
+      width: auto;
+      border: 1px solid rgb(206,206,206);
 
-      label {
-        font-size: 16px;
-      }
+      &:hover {
+        background: #99352d;
+        color: #f2f2f2;
+        }
+    }
 
-      form {
-      }
+    .small-meta {
+      font-size: 11px;
+    }
 
-     h2 {
-        font-weight: bold;
-        padding: 0;
-        margin: 15px 0;
-        font-size: 1.4em;
-      }
+    .nowrap {
+      white-space: nowrap;
+    }
 
-      input {
-          border: 1px solid #999;
-          -webkit-appearance: none;
-      }
-      input[type=checkbox] {
-          -webkit-appearance: checkbox;
-      }
-      input[type=radio] {
-          -webkit-appearance: radio;
-      }
-      input:focus {
-          border-color: #333;
-      }
-      .button {
-          clear: both;
-         background: rgb(215,215,215);
-          border: 0 none;
-          color: $light_grey;
-          cursor: pointer;
-          display: inline-block;
-          height: 32px;
-          line-height: 32px;
-          margin: 0 5px 10px 0;
-          padding: 0;
-          text-align: center;
-          text-decoration: none;
-          vertical-align: top;
-          white-space: nowrap;
-          width: auto;
-         border: 1px solid rgb(206,206,206);
+    .clear {
+      clear: none;
+      display: inline;
+    }
 
-          &:hover {
-            background: #99352d;
-            color: #f2f2f2;
-          }
-      }
-      .small-meta {
-          font-size: 11px;
-      }
-      .nowrap {
-          white-space: nowrap;
-      }
-      .clear {
-          clear: none;
-          display: inline;
-      }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
 
-      label {
-          display: block;
-          font-weight: bold;
-          margin-bottom: 10px;
-      }
-      input.email {
-          padding: 8px 0;
-          text-indent: 5px;
-          width: 260px;
-      }
-      input.button {
-          height: 39px;
-          padding: 0 15px;
-      }
+    input.email {
+      padding: 8px 0;
+      text-indent: 5px;
+      width: 260px;
+    }
+
+    input.button {
+      height: 39px;
+      padding: 0 15px;
+    }
   }
 }
 
