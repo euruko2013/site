@@ -438,35 +438,4 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
 
     <%= link_to 'help organize the event&hellip; contact us! ›', '#contact', class: 'more' %>
   </div>
-
-  <div class="section" id="contact">
-    <h3 class="centered">Contact
-      <%= link_to_top %>
-    </h3>
-    <p class="centered">
-      <span>Stay tuned and don’t miss out on news about EuRuKo 2013. Remember that traditionally EuRuKo tickets go in seconds so follow our progress closely and be prepared. We are sure you'll love this year’s EuRuKo.</span>
-    </p>
-    <p>
-      <% link_to 'https://twitter.com/euruko', class: 'external-link stay-updated', target: '_blank' do %>
-        Follow us on Twitter
-      <% end %>
-
-      <!-- Begin MailChimp Signup Form -->
-      <div id="mc_embed_signup">
-          <form action="http://euruko2013.us5.list-manage.com/subscribe/post?u=d1a6bd50eb7d9b61b9101b5eb&amp;id=c70313aaa0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <label for="mce-EMAIL">Subscribe to our mailing list</label>
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-          </form>
-      </div>
-      <!--End mc_embed_signup-->
-
-      <%= mail_to 'info@euruko2013.org', 'info@euruko2013.org', class: 'contact' %>
-    </p>
-    <p class="termsofuse privacypolicy">
-      <%= link_to 'Code of Conduct', '/codeofconduct' %>
-      <%= link_to 'Terms of Use', '/termsofuse' %>
-      <%= link_to 'Privacy Policy', '/privacypolicy' %>
-    </p>
-  </div>
 </div>
