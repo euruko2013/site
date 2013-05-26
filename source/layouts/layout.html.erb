@@ -87,6 +87,90 @@
         </div>
       </div>
     </div>
+
     <%= yield %>
+
+    <!-- Footer -->
+    <footer class="section">
+      <div class="row">
+        <div class="span2 offset1">
+          <h4>Conference</h4>
+          <ul>
+            <li><%= link_to_section 'About', '#about' %></li>
+            <li><%= link_to 'Spakers', '/speakers' %></li>
+            <li><%= link_to_section 'Tickets', '#tickets' %></li>
+            <li><%= link_to_section 'Venue', '#venue' %></li>
+            <li><%= link_to 'Schedule', '/schedule' %></li>
+          </ul>
+        </div>
+
+        <div class="span2 offset1">
+          <h4>Guide</h4>
+          <ul>
+            <li><%= link_to 'Athens', '/guide/city-of-athens' %></li>
+            <li><%= link_to 'Travel info', '/guide/travel-information' %></li>
+            <li><%= link_to 'Accommodation', '/guide/accommodation' %></li>
+            <li><%= link_to 'Transportation', '/guide/transportation' %></li>
+            <li><%= link_to 'Sightseeing', '/guide/sightseeing' %></li>
+            <li><%= link_to 'Side Activities', '/guide/side-activities' %></li>
+            <li><%= link_to 'Vacations', '/guide/vacations' %></li>
+          </ul>
+        </div>
+
+        <div class="span2 offset1">
+          <h4 id="mobile">Mobile</h4>
+          <ul>
+            <li><%= link_to 'iTunes', '' %></li>
+            <li><%= link_to 'Android', '' %></li>
+          </ul>
+        </div>
+
+        <div class="span2 offset1">
+          <h4 id="contact">Contact</h4>
+          <ul>
+            <li><%= link_to 'Twitter', 'https://twitter.com/euruko' %></li>
+            <li><%= link_to 'Facebook', '/speakers' %></li>
+            <li><%= mail_to 'info@euruko2013.org', 'info@euruko2013.org', class: 'contact' %></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span8 offset2">
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="http://euruko2013.us5.list-manage.com/subscribe/post?u=d1a6bd50eb7d9b61b9101b5eb&amp;id=c70313aaa0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <label for="mce-EMAIL">Subscribe to our mailing list</label>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span4 offset1">
+          <!--[if lte IE 8]><span style="filter: FlipH; -ms-filter: "FlipH"; display: inline-block;"><![endif]-->
+            <span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;">
+              &copy;
+            </span>
+          <!--[if lte IE 8]></span><![endif]-->
+          EuRuKo 2013 -- <%= link_to 'All Rights Reversed', 'http://github.com/euruko2013/site' %>
+
+          <% if content_for?(:last_update) %>
+            <span>Last update: <%= yield_content :last_update %></span>
+          <% end %>
+        </div>
+
+        <div class="span4 offset3">
+          <ul>
+            <li><%= link_to 'Code of Conduct', '/codeofconduct' %></li> |
+            <li><%= link_to 'Terms of Use', '/termsofuse' %></li> |
+            <li><%= link_to 'Privacy Policy', '/privacypolicy' %></li>
+          </ul>
+        </div>
+    </footer>
+
   </body>
 </html>
