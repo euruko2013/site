@@ -728,7 +728,6 @@ h3 {
   }
 
   ul {
-    margin-bottom: 4*$vr;
     text-align: center;
 
     li {
@@ -758,6 +757,25 @@ h3 {
 
     &:before {
       left: 6px;
+    }
+  }
+
+  .supporters li {
+    li {
+      display: block;
+      padding: 2px $hr;
+      padding-left: 30px;
+      text-align: left;
+
+      &:first-child {
+        padding: 5px $hr;
+        color: #808080;
+        @include bullet-left(#989898, 15px, rgba(152,152,152,.4));
+
+        &:before {
+          left: 6px;
+        }
+      }
     }
   }
 }
@@ -1001,6 +1019,12 @@ footer {
    }
 
     .community {
+      li {
+        margin-bottom: $vr/2;
+      }
+    }
+
+    .supporters {
       li {
         margin-bottom: $vr/2;
       }
