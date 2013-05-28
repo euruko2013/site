@@ -14,6 +14,6 @@ With technology build-in to the company DNA, they are never afraid to try someth
 It is the kind of company that generated and supported a handful of cool new projects through its Innovation Days (Hackathon-like event), some of which are already live serving end-users.
 The company always welcomes passionate software developers that love coding in different languages/frameworks and fancy experimenting, learning and sharing.
 
-![Pamediakopes.gr Dev Team](/images/sponsors/PANO_20130201_164152_Fotor.jpg "Foo")
+![Pamediakopes.gr Dev Team](/images/blog/pamediakopes_pano.jpg "Pamediakopes Panoramic")
 
 If you are an awesome developer (Ruby or not) that wants to make a difference by putting in practice the latest and greatest of technology, pamediakopes.gr is surely the place to be.
