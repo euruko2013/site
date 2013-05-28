@@ -41,7 +41,8 @@
   github: 'fxn'
   keynote: true
   talk:
-    title: "Keynote"
+    title: "I See Your 127.32+, A Tale of Rationals"
+    descr: "Money, be careful with money. While developing a brand new website for online betting I found the requirements related to the flow of money were just not possible to implement with traditional datatypes. There were fundamental features that no matter your precision, would just not work correctly. After reflecting on the feature set, we ended up resorting to fractions. In this talk I'll explain how we integrated rationals in the full stack, from JavaScript down to PostgreSQL, going via Active Record. An interesting journey that ends with all cents under control, and me sleeping very well at night."
 
 - witek:
   id: 'witek'
