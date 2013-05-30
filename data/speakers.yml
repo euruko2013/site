@@ -9,6 +9,7 @@
   keynote: true
   talk:
     title: "Keynote"
+    descr: "Matz will talk about, what else... Ruby! Honestly we have no idea what Matz is going to talk about, but we are pretty sure it's gonna be amazing. If we manage to find out we'll update this section with more info."
 
 - koichi:
   id: 'koichi'
