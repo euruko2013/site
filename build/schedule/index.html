@@ -160,7 +160,7 @@
                 
                   <td colspan="2" itemprop="name">Coffee break</td>
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-28T11:15:00+03:00">11:15</time>
@@ -169,9 +169,18 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk I</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Pat Shaughnessy</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">Functional Programming and Ruby</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">While Ruby is object oriented and imperative, it does have some features that allow for functional programming. In this talk we’ll compare Haskell, a functional programming language, with Ruby while exploring these common functional patterns: higher order functions, lazy evaluation, and memoization. Along the way we’ll explore how Ruby works internally, find out whether it’s a true functional language, and zoom in to take a close look at Ruby 2.0’s implementation of the new “Enumerator::Lazy” feature.</p>
+                  </td>
+
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-28T12:00:00+03:00">12:00</time>
@@ -180,7 +189,16 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk II</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Konstantin Tennhard</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">Natural Language Processing with Ruby</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">Natural Language Processing (NLP) is the art and science of making sense of user-generated data. It is a combination of state-of-the-art computer science techniques and linguistics. Being able to analyze plain text data allows us to gain a lot of insights. Popular NLP tasks are text summarization, keyword extraction or automatic extraction of the author&#x27;s opinion from a text. In the age of social media, only NLP provides solutions to analyze what users are really care about. Companies such as Google or Facebook invest millions in NLP solutions to harvest information from all the data they have been gathering over the years. In this talk, I will present you a real-world NLP problem. We will discuss this problem from both, the linguistic and the computer science perspective. Throughout the talk, we will develop a processing pipeline to efficiently solve this problem in an automated fashion. An NLP pipeline usually consists of multiple components, each solving one aspect of the problem and presenting its own challenges. Among other things, you will learn how to tackle the following essential NLP problems using JRuby and OpenNLP.</p>
+                  </td>
+
               </tr>
               <tr itemscope itemtype="http://schema.org/Event" class="no-talk  break">
                 <td>
@@ -203,15 +221,15 @@
                 </td>
                 
                   <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
-                    <span itemprop="name">Steve Klabnik</span>
+                    <span itemprop="name">Xavier Noria</span>
                   </td>
 
                   <td>
-                    <span itemprop="name">Keynote</span>
+                    <span itemprop="name">I See Your 127.32+, A Tale of Rationals</span>
                   </td>
 
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-28T15:00:00+03:00">15:00</time>
@@ -220,7 +238,16 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk III</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Grzegorz Witek</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">... but we had to kill Unicorns</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">How often do you have to leave your comfort zone? How often does it happen that you need to change the fundamentals of your application? Well… it has happened to my team recently. We had to abandon our way of thinking about Ruby on Rails applications. Single-threaded servers were not a choice anymore, neither was JRuby nor Event Machine. And we had to handle up to 200k requests per minute. This talk is a case study about how, step by step, we got to multi threaded RoR application with MRI 1.9, MySQL, DataMapper. I want to present how we came to the solution, what did we have to do to make our application thread safe, how did we manage to use threads in MRI and what we learned while working on the big feature, that made us change the fundamentals of our application. Although the application in this case was built with Ruby on Rails, the talk won&#x27;t be specific to this framework. I want to talk about threading and parallelism in Ruby and its open source libraries, as well as the process of making deep changes in the application that handles pretty big traffic.</p>
+                  </td>
+
               </tr>
               <tr itemscope itemtype="http://schema.org/Event" class="no-talk  break">
                 <td>
@@ -233,7 +260,7 @@
                 
                   <td colspan="2" itemprop="name">Coffee break</td>
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-28T16:00:00+03:00">16:00</time>
@@ -242,9 +269,18 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk IV</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Chris Kelly</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">Down the rb_newobj() Rabbit Hole: Garbage Collection and a Glimpse into Ruby&#x27;s Future</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">Garbage collection is one of the pillars of Ruby&#x27;s performance story, but getting into the inner workings of MRI&#x27;s garbage collector is a bit hairy. If you want to explore the garbage collector then you&#x27;re going to have to get your hands deep into C code. We&#x27;re going to take a walk through the C internals from Foo.new through garbage collection in Ruby&#x27;s MRI. We’ll examine the idioms and optimizations in the C source and leave you feeling comfortable to explore the code yourself. At the end of the rb_newobj() rabbit hole is a whole world of garbage collection. Major changes have been made in MRI&#x27;s garbage collector from Ruby 1.8 through 2.0: changes intended to make Ruby more performant, changes that can capitalize on MRI&#x27;s roots in UNIX. From mark-and-sweep to copy-on-write and bitmap marking, we&#x27;ll see what the future of Ruby performance might look like by peering through the window of the garbage collector.</p>
+                  </td>
+
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-28T16:45:00+03:00">16:45</time>
@@ -253,7 +289,16 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk V</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Alexandre de Oliveira</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">Forget about classes, welcome objects</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">This talk is a tale about a time when Object-Oriented Programming was about objects and messages, not about classes and methods, when it was about behavior, not schemas. You will understand how OO was intended to be used and what it means to say that OO is about messages. We&#x27;ll talk about the past and then go back to the future to look at our Class-Oriented Programming culture and how we can fix it by doing real OO in Ruby. By doing that, we&#x27;ll start to understand why principles like SOLID and Demeter are here to help us stop losing time and money. This talk is about making you reevaluate the way you approach OO.</p>
+                  </td>
+
               </tr>
               <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
                 <td>
@@ -308,7 +353,7 @@
                   </td>
 
                   <td>
-                    <span itemprop="name">Keynote</span>
+                    <span itemprop="name">Towards more efficient Ruby 2.1</span>
                   </td>
 
               </tr>
@@ -323,7 +368,7 @@
                 
                   <td colspan="2" itemprop="name">Coffee break</td>
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-29T11:15:00+03:00">11:15</time>
@@ -332,9 +377,18 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk VI</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Dirkjan Bussink</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">The future of Ruby is faster</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">You care about your code. You write nicely factored and clean code, with nice and small methods that each do just what they are supposed to do. Maybe you worry sometimes that these additional methods and small objects can be problematic? This talk hopefully makes you stop worrying about this. So with all this care that you do, what can a Ruby implementation do to make sure your code actually runs fast? In this talk I will discuss the techniques used that allow your Ruby code to execute faster. How do we make sure calling a method is cheap or even free? How can we let you mostly get away with allocating a lot of objects? How do we make iterating with .each as fast as a while loop? Different techniques will be discussed, such as inline caches, just in time compilation, method &#x2F; block inlining and better garbage collection. As a Rubinius contributor I&#x27;ve worked on all these subjects so I know a few things about these topics, but these will explained such that any Ruby developer can understand how these optimizations work. The quest for a faster Ruby is happening in a lot of places and you can learn how this is done!</p>
+                  </td>
+
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-29T12:00:00+03:00">12:00</time>
@@ -343,7 +397,16 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk VII</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Benjamin Smith</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">Architecting your Rails app for success!</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">Rails is a great framework for creating web apps... for awhile. What do you do when your codebase grows large? How do you handle large teams of developers? When performance becomes an issue, how do you scale? Most importantly, how do you write code which can easily be refactored later? This is a story of a real life project built from day 1 with all these questions in mind. Learn about the problems we solved and lessons we learned: how to partition your Rails app into distinct modular engines, how to speed up your test suite by only running code effected by your changes, how to add a layer on top of ActiveRecord to enforce loose coupling, and many other patterns that can be applied to your own Rails apps!</p>
+                  </td>
+
               </tr>
               <tr itemscope itemtype="http://schema.org/Event" class="no-talk  break">
                 <td>
@@ -366,15 +429,15 @@
                 </td>
                 
                   <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
-                    <span itemprop="name">Xavier Noria</span>
+                    <span itemprop="name">Steve Klabnik</span>
                   </td>
 
                   <td>
-                    <span itemprop="name">Keynote</span>
+                    <span itemprop="name">Functional Reactive Programming in Ruby</span>
                   </td>
 
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-29T15:00:00+03:00">15:00</time>
@@ -383,7 +446,16 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk VIII</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Ben Lovell</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">Achieving zomgscale with Celluloid and JRuby!</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">Light up your cores! Learn how to achieve levels of scale hitherto unknown to mere mortals. This talk will cover concurrency and parallelisation for the discerning rubyist. We&#x27;ll cover why MRI is keeping your CPUs way cooler than they find comfortable and how you can unlock unfound levels of roflscale by spending a little time with celluloid and JRuby.</p>
+                  </td>
+
               </tr>
               <tr itemscope itemtype="http://schema.org/Event" class="no-talk  break">
                 <td>
@@ -396,7 +468,7 @@
                 
                   <td colspan="2" itemprop="name">Coffee break</td>
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-29T16:00:00+03:00">16:00</time>
@@ -405,9 +477,18 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk IX</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Javier Ramírez</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">Fun with Ruby and Redis</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">All the cool cats are using Redis, and with a reason: It&#x27;s fast, it&#x27;s robust, it&#x27;s easy and it&#x27;s web scale. Put it together with Ruby and it&#x27;s fun too! In this session I will talk about what is redis, what you can do with it, how you can use it from Ruby, why you should be using it already and some common patterns when dealing with it.</p>
+                  </td>
+
               </tr>
-              <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
+              <tr itemscope itemtype="http://schema.org/EducationEvent" class="  ">
                 <td>
                   <span>
                     <time itemprop="startDate" datetime="2013-06-29T16:45:00+03:00">16:45</time>
@@ -416,7 +497,16 @@
                   </span>
                 </td>
                 
-                  <td colspan="2" itemprop="name">Talk X</td>
+                  <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                    <span itemprop="name">Josh Kalderimis</span>
+                  </td>
+
+                  <td>
+                    <span itemprop="name">No one plans for complexity, and neither should you!</span>
+                      <a class="schedule-talk-more">...</a>
+                        <p itemprop="description" class="schedule-talk-description hide">Great ideas start small, hell, just look at all the great services we use today, all of them small ideas which grew, and grew, and grew. Do you think they planned for this level of scale from the outset? God no! And why would they? Planning too early can be the death of such a great idea! The mantra is simple, start small, growth will come naturally. That might sound stupid, but the idea is solid. As your product grows you will learn where the bottlenecks are, where the pain points in code and processing exist, and what needs to scale and what needs to be thrown out the door. Travis CI was no different, started as a simple Rails app, it has now grown into a platform built upon over 9 different apps, using everything from Postgres, Redis, RabbitMQ, Memcached, S3, BlueBox, MRI, JRuby, Websockets, and a huge array of services helping with email, metrics, and alerts. We never designed or planned for this, this came about from natural growth, and we have only just started. This talk is a story of architecture, complexity, and growth, as well as a candid look on what we did wrong and could have done better. And most importantly, this is a talk about how sometimes not building something is more important than building it in the first place.</p>
+                  </td>
+
               </tr>
               <tr itemscope itemtype="http://schema.org/Event" class="no-talk  ">
                 <td>

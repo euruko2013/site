@@ -3,229 +3,344 @@ CALSCALE:GREGORIAN
 PRODID:iCalendar-Ruby
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T083000
 SEQUENCE:0
 SUMMARY:Doors Open
-UID:2013-05-16T22:40:21+03:00_26072046@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_311873419@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T094500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T090000
 SEQUENCE:0
 SUMMARY:Registration
-UID:2013-05-16T22:40:21+03:00_123879489@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_167769620@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T100000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T094500
 SEQUENCE:0
 SUMMARY:Welcome
-UID:2013-05-16T22:40:21+03:00_520069001@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_121629830@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20130628T110000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T100000
 SEQUENCE:0
 SUMMARY:Keynote
-UID:2013-05-16T22:40:21+03:00_312798457@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_667179467@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T111500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T110000
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-16T22:40:21+03:00_334633311@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_207301112@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:While Ruby is object oriented and imperative\, it does have som
+ e features that allow for functional programming. In this talk we’ll compar
+ e Haskell\, a functional programming language\, with Ruby while exploring t
+ hese common functional patterns: higher order functions\, lazy evaluation\,
+  and memoization. Along the way we’ll explore how Ruby works internally\, f
+ ind out whether it’s a true functional language\, and zoom in to take a clo
+ se look at Ruby 2.0’s implementation of the new “Enumerator::Lazy” feature.
 DTEND:20130628T120000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T111500
 SEQUENCE:0
-SUMMARY:Talk I
-UID:2013-05-16T22:40:21+03:00_80524300@euruko2013.org
+SUMMARY:Functional Programming and Ruby
+UID:2013-05-30T04:01:37+03:00_619409944@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Natural Language Processing (NLP) is the art and science of mak
+ ing sense of user-generated data. It is a combination of state-of-the-art c
+ omputer science techniques and linguistics. Being able to analyze plain tex
+ t data allows us to gain a lot of insights. Popular NLP tasks are text summ
+ arization\, keyword extraction or automatic extraction of the author's opin
+ ion from a text. In the age of social media\, only NLP provides solutions t
+ o analyze what users are really care about. Companies such as Google or Fac
+ ebook invest millions in NLP solutions to harvest information from all the 
+ data they have been gathering over the years. In this talk\, I will present
+  you a real-world NLP problem. We will discuss this problem from both\, the
+  linguistic and the computer science perspective. Throughout the talk\, we 
+ will develop a processing pipeline to efficiently solve this problem in an 
+ automated fashion. An NLP pipeline usually consists of multiple components\
+ , each solving one aspect of the problem and presenting its own challenges.
+  Among other things\, you will learn how to tackle the following essential 
+ NLP problems using JRuby and OpenNLP.
 DTEND:20130628T124500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T120000
 SEQUENCE:0
-SUMMARY:Talk II
-UID:2013-05-16T22:40:21+03:00_972304958@euruko2013.org
+SUMMARY:Natural Language Processing with Ruby
+UID:2013-05-30T04:01:37+03:00_164211549@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T140000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T124500
 SEQUENCE:0
 SUMMARY:Lunch
-UID:2013-05-16T22:40:21+03:00_652193516@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_410707686@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20130628T150000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T140000
 SEQUENCE:0
-SUMMARY:Keynote
-UID:2013-05-16T22:40:21+03:00_682010178@euruko2013.org
+SUMMARY:I See Your 127.32+\, A Tale of Rationals
+UID:2013-05-30T04:01:37+03:00_887770568@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:How often do you have to leave your comfort zone? How often doe
+ s it happen that you need to change the fundamentals of your application? W
+ ell… it has happened to my team recently. We had to abandon our way of thin
+ king about Ruby on Rails applications. Single-threaded servers were not a c
+ hoice anymore\, neither was JRuby nor Event Machine. And we had to handle u
+ p to 200k requests per minute. This talk is a case study about how\, step b
+ y step\, we got to multi threaded RoR application with MRI 1.9\, MySQL\, Da
+ taMapper. I want to present how we came to the solution\, what did we have 
+ to do to make our application thread safe\, how did we manage to use thread
+ s in MRI and what we learned while working on the big feature\, that made u
+ s change the fundamentals of our application. Although the application in t
+ his case was built with Ruby on Rails\, the talk won't be specific to this 
+ framework. I want to talk about threading and parallelism in Ruby and its o
+ pen source libraries\, as well as the process of making deep changes in the
+  application that handles pretty big traffic.
 DTEND:20130628T154500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T150000
 SEQUENCE:0
-SUMMARY:Talk III
-UID:2013-05-16T22:40:21+03:00_470694271@euruko2013.org
+SUMMARY:... but we had to kill Unicorns
+UID:2013-05-30T04:01:37+03:00_830305166@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T160000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T154500
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-16T22:40:21+03:00_3778823@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_566252328@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Garbage collection is one of the pillars of Ruby's performance 
+ story\, but getting into the inner workings of MRI's garbage collector is a
+  bit hairy. If you want to explore the garbage collector then you're going 
+ to have to get your hands deep into C code. We're going to take a walk thro
+ ugh the C internals from Foo.new through garbage collection in Ruby's MRI. 
+ We’ll examine the idioms and optimizations in the C source and leave you fe
+ eling comfortable to explore the code yourself. At the end of the rb_newobj
+ () rabbit hole is a whole world of garbage collection. Major changes have b
+ een made in MRI's garbage collector from Ruby 1.8 through 2.0: changes inte
+ nded to make Ruby more performant\, changes that can capitalize on MRI's ro
+ ots in UNIX. From mark-and-sweep to copy-on-write and bitmap marking\, we'l
+ l see what the future of Ruby performance might look like by peering throug
+ h the window of the garbage collector.
 DTEND:20130628T164500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T160000
 SEQUENCE:0
-SUMMARY:Talk IV
-UID:2013-05-16T22:40:21+03:00_231085605@euruko2013.org
+SUMMARY:Down the rb_newobj() Rabbit Hole: Garbage Collection and a Glimpse 
+ into Ruby's Future
+UID:2013-05-30T04:01:37+03:00_467751292@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:This talk is a tale about a time when Object-Oriented Programmi
+ ng was about objects and messages\, not about classes and methods\, when it
+  was about behavior\, not schemas. You will understand how OO was intended 
+ to be used and what it means to say that OO is about messages. We'll talk a
+ bout the past and then go back to the future to look at our Class-Oriented 
+ Programming culture and how we can fix it by doing real OO in Ruby. By doin
+ g that\, we'll start to understand why principles like SOLID and Demeter ar
+ e here to help us stop losing time and money. This talk is about making you
+  reevaluate the way you approach OO.
 DTEND:20130628T173000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T164500
 SEQUENCE:0
-SUMMARY:Talk V
-UID:2013-05-16T22:40:21+03:00_593472180@euruko2013.org
+SUMMARY:Forget about classes\, welcome objects
+UID:2013-05-30T04:01:37+03:00_923009283@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T180000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130628T173000
 SEQUENCE:0
 SUMMARY:Lighting Talks
-UID:2013-05-16T22:40:21+03:00_655872752@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_11396947@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T083000
 SEQUENCE:0
 SUMMARY:Doors Open
-UID:2013-05-16T22:40:21+03:00_465778880@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_338654769@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T100000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T094500
 SEQUENCE:0
 SUMMARY:Welcome
-UID:2013-05-16T22:40:21+03:00_642468078@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_779115790@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20130629T110000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T100000
 SEQUENCE:0
-SUMMARY:Keynote
-UID:2013-05-16T22:40:21+03:00_779835816@euruko2013.org
+SUMMARY:Towards more efficient Ruby 2.1
+UID:2013-05-30T04:01:37+03:00_916219616@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T111500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T110000
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-16T22:40:21+03:00_537025760@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_248091641@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:You care about your code. You write nicely factored and clean c
+ ode\, with nice and small methods that each do just what they are supposed 
+ to do. Maybe you worry sometimes that these additional methods and small ob
+ jects can be problematic? This talk hopefully makes you stop worrying about
+  this. So with all this care that you do\, what can a Ruby implementation d
+ o to make sure your code actually runs fast? In this talk I will discuss th
+ e techniques used that allow your Ruby code to execute faster. How do we ma
+ ke sure calling a method is cheap or even free? How can we let you mostly g
+ et away with allocating a lot of objects? How do we make iterating with .ea
+ ch as fast as a while loop? Different techniques will be discussed\, such a
+ s inline caches\, just in time compilation\, method / block inlining and be
+ tter garbage collection. As a Rubinius contributor I've worked on all these
+  subjects so I know a few things about these topics\, but these will explai
+ ned such that any Ruby developer can understand how these optimizations wor
+ k. The quest for a faster Ruby is happening in a lot of places and you can 
+ learn how this is done!
 DTEND:20130629T120000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T111500
 SEQUENCE:0
-SUMMARY:Talk VI
-UID:2013-05-16T22:40:21+03:00_990537341@euruko2013.org
+SUMMARY:The future of Ruby is faster
+UID:2013-05-30T04:01:37+03:00_747424890@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Rails is a great framework for creating web apps... for awhile.
+  What do you do when your codebase grows large? How do you handle large tea
+ ms of developers? When performance becomes an issue\, how do you scale? Mos
+ t importantly\, how do you write code which can easily be refactored later?
+  This is a story of a real life project built from day 1 with all these que
+ stions in mind. Learn about the problems we solved and lessons we learned: 
+ how to partition your Rails app into distinct modular engines\, how to spee
+ d up your test suite by only running code effected by your changes\, how to
+  add a layer on top of ActiveRecord to enforce loose coupling\, and many ot
+ her patterns that can be applied to your own Rails apps!
 DTEND:20130629T124500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T120000
 SEQUENCE:0
-SUMMARY:Talk VII
-UID:2013-05-16T22:40:21+03:00_624391816@euruko2013.org
+SUMMARY:Architecting your Rails app for success!
+UID:2013-05-30T04:01:37+03:00_334192765@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T140000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T124500
 SEQUENCE:0
 SUMMARY:Lunch
-UID:2013-05-16T22:40:21+03:00_319615024@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_24124459@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20130629T150000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T140000
 SEQUENCE:0
-SUMMARY:Keynote
-UID:2013-05-16T22:40:21+03:00_615854563@euruko2013.org
+SUMMARY:Functional Reactive Programming in Ruby
+UID:2013-05-30T04:01:37+03:00_594425535@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Light up your cores! Learn how to achieve levels of scale hithe
+ rto unknown to mere mortals. This talk will cover concurrency and paralleli
+ sation for the discerning rubyist. We'll cover why MRI is keeping your CPUs
+  way cooler than they find comfortable and how you can unlock unfound level
+ s of roflscale by spending a little time with celluloid and JRuby.
 DTEND:20130629T154500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T150000
 SEQUENCE:0
-SUMMARY:Talk VIII
-UID:2013-05-16T22:40:21+03:00_200248246@euruko2013.org
+SUMMARY:Achieving zomgscale with Celluloid and JRuby!
+UID:2013-05-30T04:01:37+03:00_37829262@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T160000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T154500
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-16T22:40:21+03:00_661385328@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_557825075@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:All the cool cats are using Redis\, and with a reason: It's fas
+ t\, it's robust\, it's easy and it's web scale. Put it together with Ruby a
+ nd it's fun too! In this session I will talk about what is redis\, what you
+  can do with it\, how you can use it from Ruby\, why you should be using it
+  already and some common patterns when dealing with it.
 DTEND:20130629T164500
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T160000
 SEQUENCE:0
-SUMMARY:Talk IX
-UID:2013-05-16T22:40:21+03:00_770920254@euruko2013.org
+SUMMARY:Fun with Ruby and Redis
+UID:2013-05-30T04:01:37+03:00_83139718@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Great ideas start small\, hell\, just look at all the great ser
+ vices we use today\, all of them small ideas which grew\, and grew\, and gr
+ ew. Do you think they planned for this level of scale from the outset? God 
+ no! And why would they? Planning too early can be the death of such a great
+  idea! The mantra is simple\, start small\, growth will come naturally. Tha
+ t might sound stupid\, but the idea is solid. As your product grows you wil
+ l learn where the bottlenecks are\, where the pain points in code and proce
+ ssing exist\, and what needs to scale and what needs to be thrown out the d
+ oor. Travis CI was no different\, started as a simple Rails app\, it has no
+ w grown into a platform built upon over 9 different apps\, using everything
+  from Postgres\, Redis\, RabbitMQ\, Memcached\, S3\, BlueBox\, MRI\, JRuby\
+ , Websockets\, and a huge array of services helping with email\, metrics\, 
+ and alerts. We never designed or planned for this\, this came about from na
+ tural growth\, and we have only just started. This talk is a story of archi
+ tecture\, complexity\, and growth\, as well as a candid look on what we did
+  wrong and could have done better. And most importantly\, this is a talk ab
+ out how sometimes not building something is more important than building it
+  in the first place.
 DTEND:20130629T173000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T164500
 SEQUENCE:0
-SUMMARY:Talk X
-UID:2013-05-16T22:40:21+03:00_351222469@euruko2013.org
+SUMMARY:No one plans for complexity\, and neither should you!
+UID:2013-05-30T04:01:37+03:00_752418425@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T180000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T173000
 SEQUENCE:0
 SUMMARY:Lighting Talks
-UID:2013-05-16T22:40:21+03:00_7388593@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_789937286@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T183000
-DTSTAMP:20130516T224021
+DTSTAMP:20130530T040137
 DTSTART:20130629T180000
 SEQUENCE:0
 SUMMARY:Closing & Voting
-UID:2013-05-16T22:40:21+03:00_531493434@euruko2013.org
+UID:2013-05-30T04:01:37+03:00_180514216@euruko2013.org
 END:VEVENT
 END:VCALENDAR
