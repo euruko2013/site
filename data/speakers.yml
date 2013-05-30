@@ -20,7 +20,8 @@
   github: 'ko1'
   keynote: true
   talk:
-    title: "Keynote"
+    title: "Towards more efficient Ruby 2.1"
+    descr: "Koichi will show ways to achieve a more efficient Ruby 2.1 interpreter, targeted for the next release of CRuby/MRI. The talk will include VM / compilier optimizations, memory / object management and runtime libraries modification. Most of the techniques shown and implementations will be work in progress. This talk is an update version of the one given to Ruby Kaigi 2013."
 
 - klabnik:
   id: 'klabnik'
