@@ -17,30 +17,30 @@
     break: true
   - starts_at: 2013-06-28 11:15:00 +0300
     ends_at: 2013-06-28 12:00:00 +0300
-    title: 'Talk I'
+    speaker_id: shaughnessy
   - starts_at: 2013-06-28 12:00:00 +0300
     ends_at: 2013-06-28 12:45:00 +0300
-    title: 'Talk II'
+    speaker_id: tennhard
   - starts_at: 2013-06-28 12:45:00 +0300
     ends_at: 2013-06-28 14:00:00 +0300
     title: 'Lunch'
     break: true
   - starts_at: 2013-06-28 14:00:00 +0300
     ends_at: 2013-06-28 15:00:00 +0300
-    speaker_id: klabnik
+    speaker_id: noria
   - starts_at: 2013-06-28 15:00:00 +0300
     ends_at: 2013-06-28 15:45:00 +0300
-    title: 'Talk III'
+    speaker_id: witek
   - starts_at: 2013-06-28 15:45:00 +0300
     ends_at: 2013-06-28 16:00:00 +0300
     title: 'Coffee break'
     break: true
   - starts_at: 2013-06-28 16:00:00 +0300
     ends_at: 2013-06-28 16:45:00 +0300
-    title: 'Talk IV'
+    speaker_id: kelly
   - starts_at: 2013-06-28 16:45:00 +0300
     ends_at: 2013-06-28 17:30:00 +0300
-    title: 'Talk V'
+    speaker_id: oliveira
   - starts_at: 2013-06-28 17:30:00 +0300
     ends_at: 2013-06-28 18:00:00 +0300
     title: 'Lighting Talks'
@@ -59,30 +59,30 @@
     break: true
   - starts_at: 2013-06-29 11:15:00 +0300
     ends_at: 2013-06-29 12:00:00 +0300
-    title: 'Talk VI'
+    speaker_id: bussink
   - starts_at: 2013-06-29 12:00:00 +0300
     ends_at: 2013-06-29 12:45:00 +0300
-    title: 'Talk VII'
+    speaker_id: smith
   - starts_at: 2013-06-29 12:45:00 +0300
     ends_at: 2013-06-29 14:00:00 +0300
     title: 'Lunch'
     break: true
   - starts_at: 2013-06-29 14:00:00 +0300
     ends_at: 2013-06-29 15:00:00 +0300
-    speaker_id: noria
+    speaker_id: klabnik
   - starts_at: 2013-06-29 15:00:00 +0300
     ends_at: 2013-06-29 15:45:00 +0300
-    title: 'Talk VIII'
+    speaker_id: lovell
   - starts_at: 2013-06-29 15:45:00 +0300
     ends_at: 2013-06-29 16:00:00 +0300
     title: 'Coffee break'
     break: true
   - starts_at: 2013-06-29 16:00:00 +0300
     ends_at: 2013-06-29 16:45:00 +0300
-    title: 'Talk IX'
+    speaker_id: ramirez
   - starts_at: 2013-06-29 16:45:00 +0300
     ends_at: 2013-06-29 17:30:00 +0300
-    title: 'Talk X'
+    speaker_id: kalderimis
   - starts_at: 2013-06-29 17:30:00 +0300
     ends_at: 2013-06-29 18:00:00 +0300
     title: 'Lighting Talks'
