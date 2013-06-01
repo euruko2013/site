@@ -1,6 +1,11 @@
 {
   "news" : [
       {
+        "time" : 1369983600,
+        "title" : "Logicea is a Helios sponsor",
+        "link" : "http://euruko2013.org/#helios"
+      },
+      {
         "time" : 1369594800,
         "title" : "Mobile Apps for iOS and Android are online!",
         "link" : "http://euruko2013.org/#mobile"
