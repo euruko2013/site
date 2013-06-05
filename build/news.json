@@ -1,6 +1,11 @@
 {
   "news" : [
       {
+        "time" : 1370428200,
+        "title" : "New Relic is our newest Aphrodite sponsor",
+        "link" : "http://euruko2013.org/#aphrodite"
+      },
+      {
         "time" : 1369983600,
         "title" : "Logicea is a Helios sponsor",
         "link" : "http://euruko2013.org/#helios"
