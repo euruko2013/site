@@ -312,35 +312,41 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       </ul>
     </div>
 
-    <!-- <div id="additional">
+    <div id="additional">
       <h2>Additional Sponsors</h2>
 
       <ul class="sponsors">
         <li>
+          <% link_to 'http://github.com/?utm_source=euruko&utm_medium=banner&utm_campaign=party', :target => '_blank' do %>
+            <%= image_tag "sponsors/github_200x100.png", alt: "GitHub sponsor Logo", title: "GitHub", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
+
           <div class="ribbon party">
             <span>Party</span>
           </div>
-
-          <img src="sponsors/place_holder_200x100.png" />
         </li>
 
         <li>
-          <div class="ribbon wifi">
-            <span>WiFi</span>
-          </div>
+          <% link_to 'http://www.vodafone.gr/?utm_source=euruko&utm_medium=banner&utm_campaign=networking', :target => '_blank' do %>
+            <%= image_tag "sponsors/vodafone_200x100.png", alt: "Vodafone sponsor Logo", title: "Vodafone", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
 
-          <img src="sponsors/place_holder_200x100.png" />
+          <div class="ribbon wifi network">
+            <span>Internet Uplink</span>
+          </div>
         </li>
 
         <li>
-          <div class="ribbon network">
-            <span>Network</span>
-          </div>
+          <% link_to 'http://colabworkspace.com/?utm_source=euruko&utm_medium=banner&utm_campaign=colab', :target => '_blank' do %>
+            <%= image_tag "sponsors/colab_200x100.png", alt: "CoLab sponsor Logo", title: "CoLab", itemprop: "image", width: "200", height: "100" %>
+          <% end %>
 
-          <img src="sponsors/place_holder_200x100.png" />
+          <div class="ribbon colab">
+            <span>Collaboration Space</span>
+          </div>
         </li>
       </ul>
-    </div> -->
+    </div>
 
     <p class="centered">
       <%= link_to 'Interested in becoming a sponsor?', 'sponsors/euruko2013-sponsorship-packages.pdf', class: 'external-link brochure' %>
