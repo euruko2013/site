@@ -111,14 +111,14 @@
 	"github" : "benlovell"
       },
       {
-        "id" : "kalderimis",
-        "name" : "Josh Kalderimis",
-        "title" : "CEO of Travis CI",
-        "bio" : "Josh is a core Travis CI team member, a Rails contributor, gem developer, and an enthusiastic ice cream lover who ships technical debt daily! Part of the team that organised EuRuKo 2012 in Amsterdam.",
-        "avatar" : "http://euruko2013.org/images/speakers/kalderimis-bb784351.jpg",
-        "avatar_ring" : "http://euruko2013.org/images/speakers/kalderimis-ring-57891272.png",
-	"twitter" : "j2h",
-	"github" : "joshk"
+        "id" : "kalligas",
+        "name" : "Bill Kalligas",
+        "title" : "Software Engineer at Pamediakopes.gr",
+        "bio" : "Bill is a bit of a newcomer to the Ruby community, but very eager to learn. Proud member of the almighty developers team of Pamediakopes.gr, twisting and bending any UI part he can get his hands on, based on the latest market demands and needs.",
+        "avatar" : "http://euruko2013.org/images/speakers/kalligas-58c687a7.jpg",
+        "avatar_ring" : "http://euruko2013.org/images/speakers/kalligas-ring-767b0c3f.png",
+	"twitter" : "Kalligas",
+	"github" : "arcanoid"
       },
       {
         "id" : "oliveira",
@@ -317,9 +317,9 @@
       {
         "start" : 1372513500,
         "end" : 1372516200,
-        "speaker_id" : "kalderimis",
-        "title" : "No one plans for complexity, and neither should you!",
-        "descr" : "Great ideas start small, hell, just look at all the great services we use today, all of them small ideas which grew, and grew, and grew. Do you think they planned for this level of scale from the outset? God no! And why would they? Planning too early can be the death of such a great idea! The mantra is simple, start small, growth will come naturally. That might sound stupid, but the idea is solid. As your product grows you will learn where the bottlenecks are, where the pain points in code and processing exist, and what needs to scale and what needs to be thrown out the door. Travis CI was no different, started as a simple Rails app, it has now grown into a platform built upon over 9 different apps, using everything from Postgres, Redis, RabbitMQ, Memcached, S3, BlueBox, MRI, JRuby, Websockets, and a huge array of services helping with email, metrics, and alerts. We never designed or planned for this, this came about from natural growth, and we have only just started. This talk is a story of architecture, complexity, and growth, as well as a candid look on what we did wrong and could have done better. And most importantly, this is a talk about how sometimes not building something is more important than building it in the first place."
+        "speaker_id" : "kalligas",
+        "title" : "35.000 tests and counting!",
+        "descr" : "Some say it’s madness, we answer it’s sanity. Have you ever deployed to production clutching your teeth, crossing your fingers, holding lucky charms or praying to the god of luck to have a successful one? Well.. we haven’t! Why? Because we have made testing a constant and indispensable part of our work. Quality assurance is a vital part of program development so that the requirements of the final program are achieved, and we think testing is the right way to it. Most of the times we know when something goes wrong really early and we get to change stuff here and there without worrying that the final result will be a tower of cards coming tumbling down."
       },
       {
         "start" : 1372516200,

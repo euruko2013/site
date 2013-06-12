@@ -3,27 +3,27 @@ CALSCALE:GREGORIAN
 PRODID:iCalendar-Ruby
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T083000
 SEQUENCE:0
 SUMMARY:Doors Open
-UID:2013-05-30T04:07:50+03:00_552116289@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_330721610@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T094500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T090000
 SEQUENCE:0
 SUMMARY:Registration
-UID:2013-05-30T04:07:50+03:00_399790745@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_804185775@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T100000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T094500
 SEQUENCE:0
 SUMMARY:Welcome
-UID:2013-05-30T04:07:50+03:00_606323289@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_276574957@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Matz will talk about\, what else... Ruby! Honestly we have no i
@@ -31,19 +31,19 @@ DESCRIPTION:Matz will talk about\, what else... Ruby! Honestly we have no i
   amazing. If we manage to find out we'll update this section with more info
  .
 DTEND:20130628T110000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T100000
 SEQUENCE:0
 SUMMARY:Keynote
-UID:2013-05-30T04:07:50+03:00_940083843@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_606302088@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T111500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T110000
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-30T04:07:50+03:00_153027699@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_872884558@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:While Ruby is object oriented and imperative\, it does have som
@@ -54,11 +54,11 @@ DESCRIPTION:While Ruby is object oriented and imperative\, it does have som
  ind out whether it’s a true functional language\, and zoom in to take a clo
  se look at Ruby 2.0’s implementation of the new “Enumerator::Lazy” feature.
 DTEND:20130628T120000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T111500
 SEQUENCE:0
 SUMMARY:Functional Programming and Ruby
-UID:2013-05-30T04:07:50+03:00_842124221@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_77975900@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Natural Language Processing (NLP) is the art and science of mak
@@ -78,19 +78,19 @@ DESCRIPTION:Natural Language Processing (NLP) is the art and science of mak
   Among other things\, you will learn how to tackle the following essential 
  NLP problems using JRuby and OpenNLP.
 DTEND:20130628T124500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T120000
 SEQUENCE:0
 SUMMARY:Natural Language Processing with Ruby
-UID:2013-05-30T04:07:50+03:00_554011535@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_387509833@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T140000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T124500
 SEQUENCE:0
-SUMMARY:Lunch
-UID:2013-05-30T04:07:50+03:00_554537715@euruko2013.org
+SUMMARY:Lunch break
+UID:2013-06-12T23:56:23+03:00_643193914@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Money\, be careful with money. While developing a brand new web
@@ -103,11 +103,11 @@ DESCRIPTION:Money\, be careful with money. While developing a brand new web
  interesting journey that ends with all cents under control\, and me sleepin
  g very well at night.
 DTEND:20130628T150000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T140000
 SEQUENCE:0
 SUMMARY:I See Your 127.32+\, A Tale of Rationals
-UID:2013-05-30T04:07:50+03:00_321910136@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_722216252@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:How often do you have to leave your comfort zone? How often doe
@@ -126,19 +126,19 @@ DESCRIPTION:How often do you have to leave your comfort zone? How often doe
  pen source libraries\, as well as the process of making deep changes in the
   application that handles pretty big traffic.
 DTEND:20130628T154500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T150000
 SEQUENCE:0
 SUMMARY:... but we had to kill Unicorns
-UID:2013-05-30T04:07:50+03:00_737003281@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_486219509@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T160000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T154500
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-30T04:07:50+03:00_913568374@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_859809473@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Garbage collection is one of the pillars of Ruby's performance 
@@ -155,12 +155,12 @@ DESCRIPTION:Garbage collection is one of the pillars of Ruby's performance
  l see what the future of Ruby performance might look like by peering throug
  h the window of the garbage collector.
 DTEND:20130628T164500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T160000
 SEQUENCE:0
 SUMMARY:Down the rb_newobj() Rabbit Hole: Garbage Collection and a Glimpse 
  into Ruby's Future
-UID:2013-05-30T04:07:50+03:00_886116320@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_490623409@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This talk is a tale about a time when Object-Oriented Programmi
@@ -173,34 +173,34 @@ DESCRIPTION:This talk is a tale about a time when Object-Oriented Programmi
  e here to help us stop losing time and money. This talk is about making you
   reevaluate the way you approach OO.
 DTEND:20130628T173000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T164500
 SEQUENCE:0
 SUMMARY:Forget about classes\, welcome objects
-UID:2013-05-30T04:07:50+03:00_474094514@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_280448781@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130628T180000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130628T173000
 SEQUENCE:0
 SUMMARY:Lighting Talks
-UID:2013-05-30T04:07:50+03:00_2820774@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_616671135@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T083000
 SEQUENCE:0
 SUMMARY:Doors Open
-UID:2013-05-30T04:07:50+03:00_553224241@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_283592754@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T100000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T094500
 SEQUENCE:0
 SUMMARY:Welcome
-UID:2013-05-30T04:07:50+03:00_154770380@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_775435668@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Koichi will show ways to achieve a more efficient Ruby 2.1 inte
@@ -210,19 +210,19 @@ DESCRIPTION:Koichi will show ways to achieve a more efficient Ruby 2.1 inte
  e work in progress. This talk is an update version of the one given to Ruby
   Kaigi 2013.
 DTEND:20130629T110000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T100000
 SEQUENCE:0
 SUMMARY:Towards more efficient Ruby 2.1
-UID:2013-05-30T04:07:50+03:00_999562165@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_328120660@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T111500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T110000
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-30T04:07:50+03:00_611970650@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_229008135@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:You care about your code. You write nicely factored and clean c
@@ -242,11 +242,11 @@ DESCRIPTION:You care about your code. You write nicely factored and clean c
  k. The quest for a faster Ruby is happening in a lot of places and you can 
  learn how this is done!
 DTEND:20130629T120000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T111500
 SEQUENCE:0
 SUMMARY:The future of Ruby is faster
-UID:2013-05-30T04:07:50+03:00_299215359@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_146956366@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rails is a great framework for creating web apps... for awhile.
@@ -260,19 +260,19 @@ DESCRIPTION:Rails is a great framework for creating web apps... for awhile.
   add a layer on top of ActiveRecord to enforce loose coupling\, and many ot
  her patterns that can be applied to your own Rails apps!
 DTEND:20130629T124500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T120000
 SEQUENCE:0
 SUMMARY:Architecting your Rails app for success!
-UID:2013-05-30T04:07:50+03:00_929666767@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_636002827@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T140000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T124500
 SEQUENCE:0
 SUMMARY:Lunch
-UID:2013-05-30T04:07:50+03:00_871043400@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_131470301@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ruby's strengths lie in its ability to blend styles. We all kno
@@ -282,11 +282,11 @@ DESCRIPTION:Ruby's strengths lie in its ability to blend styles. We all kno
  . In this talk\, Steve will show you FRP\, an implementation of it in Ruby\
  , and how to write programs in this style.
 DTEND:20130629T150000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T140000
 SEQUENCE:0
 SUMMARY:Functional Reactive Programming in Ruby
-UID:2013-05-30T04:07:50+03:00_866032761@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_544425824@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Light up your cores! Learn how to achieve levels of scale hithe
@@ -295,19 +295,19 @@ DESCRIPTION:Light up your cores! Learn how to achieve levels of scale hithe
   way cooler than they find comfortable and how you can unlock unfound level
  s of roflscale by spending a little time with celluloid and JRuby.
 DTEND:20130629T154500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T150000
 SEQUENCE:0
 SUMMARY:Achieving zomgscale with Celluloid and JRuby!
-UID:2013-05-30T04:07:50+03:00_719668970@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_979966039@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T160000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T154500
 SEQUENCE:0
 SUMMARY:Coffee break
-UID:2013-05-30T04:07:50+03:00_946634446@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_786510236@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:All the cool cats are using Redis\, and with a reason: It's fas
@@ -316,52 +316,43 @@ DESCRIPTION:All the cool cats are using Redis\, and with a reason: It's fas
   can do with it\, how you can use it from Ruby\, why you should be using it
   already and some common patterns when dealing with it.
 DTEND:20130629T164500
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T160000
 SEQUENCE:0
 SUMMARY:Fun with Ruby and Redis
-UID:2013-05-30T04:07:50+03:00_141679892@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_357227520@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Great ideas start small\, hell\, just look at all the great ser
- vices we use today\, all of them small ideas which grew\, and grew\, and gr
- ew. Do you think they planned for this level of scale from the outset? God 
- no! And why would they? Planning too early can be the death of such a great
-  idea! The mantra is simple\, start small\, growth will come naturally. Tha
- t might sound stupid\, but the idea is solid. As your product grows you wil
- l learn where the bottlenecks are\, where the pain points in code and proce
- ssing exist\, and what needs to scale and what needs to be thrown out the d
- oor. Travis CI was no different\, started as a simple Rails app\, it has no
- w grown into a platform built upon over 9 different apps\, using everything
-  from Postgres\, Redis\, RabbitMQ\, Memcached\, S3\, BlueBox\, MRI\, JRuby\
- , Websockets\, and a huge array of services helping with email\, metrics\, 
- and alerts. We never designed or planned for this\, this came about from na
- tural growth\, and we have only just started. This talk is a story of archi
- tecture\, complexity\, and growth\, as well as a candid look on what we did
-  wrong and could have done better. And most importantly\, this is a talk ab
- out how sometimes not building something is more important than building it
-  in the first place.
+DESCRIPTION:Some say it’s madness\, we answer it’s sanity. Have you ever de
+ ployed to production clutching your teeth\, crossing your fingers\, holding
+  lucky charms or praying to the god of luck to have a successful one? Well.
+ . we haven’t! Why? Because we have made testing a constant and indispensabl
+ e part of our work. Quality assurance is a vital part of program developmen
+ t so that the requirements of the final program are achieved\, and we think
+  testing is the right way to it. Most of the times we know when something g
+ oes wrong really early and we get to change stuff here and there without wo
+ rrying that the final result will be a tower of cards coming tumbling down.
 DTEND:20130629T173000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T164500
 SEQUENCE:0
-SUMMARY:No one plans for complexity\, and neither should you!
-UID:2013-05-30T04:07:50+03:00_55106513@euruko2013.org
+SUMMARY:35.000 tests and counting!
+UID:2013-06-12T23:56:23+03:00_102273847@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T180000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T173000
 SEQUENCE:0
 SUMMARY:Lighting Talks
-UID:2013-05-30T04:07:50+03:00_549599391@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_507941725@euruko2013.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20130629T183000
-DTSTAMP:20130530T040750
+DTSTAMP:20130612T235623
 DTSTART:20130629T180000
 SEQUENCE:0
 SUMMARY:Closing & Voting
-UID:2013-05-30T04:07:50+03:00_746259565@euruko2013.org
+UID:2013-06-12T23:56:23+03:00_459559554@euruko2013.org
 END:VEVENT
 END:VCALENDAR
