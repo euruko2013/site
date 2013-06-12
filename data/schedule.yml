@@ -23,7 +23,7 @@
     speaker_id: tennhard
   - starts_at: 2013-06-28 12:45:00 +0300
     ends_at: 2013-06-28 14:00:00 +0300
-    title: 'Lunch'
+    title: 'Lunch break'
     break: true
   - starts_at: 2013-06-28 14:00:00 +0300
     ends_at: 2013-06-28 15:00:00 +0300
