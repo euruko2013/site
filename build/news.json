@@ -1,6 +1,11 @@
 {
   "news" : [
       {
+        "time" : 1371232800,
+        "title" : "EuRuKo party sponsored by GitHub <3",
+        "link" : "http://euruko2013.org/#additional"
+      },
+      {
         "time" : 1371112200,
         "title" : "CoLab provided the space to meetup and organise EuRuKo 2013",
         "link" : "http://euruko2013.org/#additional"
