@@ -1,6 +1,11 @@
 {
   "news" : [
       {
+        "time" : 1371754800,
+        "title" : "Last minute tips!",
+        "link" : "http://euruko2013.org/guide/last-minute-tips"
+      },
+      {
         "time" : 1371466800,
         "title" : "Vodafone provides the Internet Uplink!",
         "link" : "http://euruko2013.org/#additional"
