@@ -36,4 +36,9 @@
             <i class="icon-asterisk"></i> Vacations
         <% end %>
     </li>
+    <li class="<%= 'active' if active == 'tips' %>">
+        <% link_to '/guide/last-minute-tips' do %>
+            <i class="icon-time"></i> Last minute tips
+        <% end %>
+    </li>
 </ul>
