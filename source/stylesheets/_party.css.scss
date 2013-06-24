@@ -1,0 +1,40 @@
+#party-page {
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+  font-family: $ubuntu;
+  color: $light_grey;
+  font-size: 16px;
+  text-align: justify;
+
+  .intro {
+    height: 700px;
+    background: transparent image-url("party/background.jpg") 0px 0px no-repeat fixed;
+    background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: white;
+    text-align: center;
+
+    h2 {
+      padding: 105px 0 36px 0;
+      font-size: 124px;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px white;
+    }
+
+    h1 {
+      padding: 15px 0 90px 0;
+      font-size: 80px;
+    }
+
+    p {
+      margin: 20px auto;
+      max-width: 800px;
+      width: 85%;
+      font-size: 16px;
+    }
+  }
+}
