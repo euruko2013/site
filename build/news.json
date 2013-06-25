@@ -1,8 +1,13 @@
 {
   "news" : [
       {
-        "time" : 1372161600,
-        "title" : "Deadline to order lunch extended until Wednesday 26",
+        "time" : 1372158000,
+        "title" : "Deadline to order lunch extended until Wed 26th",
+        "link" : "https://www.eventora.com/en/Events/lunch-euruko-delegates"
+      },
+      {
+        "time" : 1371891600,
+        "title" : "Last chance to order your EuRuKo lunch until Sunday 23rd!",
         "link" : "https://www.eventora.com/en/Events/lunch-euruko-delegates"
       },
       {
