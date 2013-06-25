@@ -7,6 +7,11 @@
   font-size: 16px;
   text-align: justify;
 
+  h5 {
+    color: $light_grey;
+    font-size: 18px;
+  }
+
   .intro {
     height: 700px;
     background: transparent image-url("party/background.jpg") 0px 0px no-repeat fixed;
@@ -39,7 +44,7 @@
   }
 
   .overview {
-    margin: 20px auto;
+    margin: 40px auto 80px auto;
 
     h2 {
       font-size: 24px;
@@ -58,5 +63,81 @@
       width: 85%;
       font-size: 16px;
     }
+  }
+
+  #directions {
+    h5 {
+      text-align: right;
+      padding-top: 250px;
+    }
+
+    #normal-map {
+      display: block;
+    }
+    #small-map {
+      display: none;
+    }
+  }
+
+  #instructions {
+    h5 {
+      text-align: right;
+      padding-top: 280px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
+    #directions {
+      h5 {
+        text-align: left;
+        padding-top: 10px;
+      }
+      #normal-map {
+        display: none;
+      }
+      #small-map {
+        display: block;
+      }
+    }
+
+    #instructions {
+      h5 {
+        text-align: left;
+        padding-top: 10px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .intro {
+      h2 {
+        padding: 105px 0 10px 0;
+        font-size: 104px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px white;
+      }
+
+      h1 {
+        padding: 15px 0 90px 0;
+        font-size: 70px;
+      }
+    }
+
+    #directions {
+      h5 {
+        text-align: left;
+        padding-top: 10px;
+      }
+    }
+
+    #instructions {
+      h5 {
+        text-align: left;
+        padding-top: 10px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
   }
 }
