@@ -90,6 +90,23 @@
     padding: 40px 0;
     background-color: $ludicrous_grey;
 
+    #important-notice {
+      background-color: $light_grey;
+      color: $dark_white;
+
+      h5 {
+        color: $dark_white;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0 0 0;
+      }
+
+      p {
+        padding: 10px 20px 20px 20px;
+        text-align: center;
+      }
+    }
+
     #bars {
       h5 {
         text-align: center;
