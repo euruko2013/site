@@ -1,6 +1,5 @@
 #party-page {
   width: 100%;
-  padding-bottom: 20px;
   background-color: #f2f2f2;
   font-family: $ubuntu;
   color: $light_grey;
@@ -84,6 +83,12 @@
       text-align: right;
       padding-top: 280px;
     }
+  }
+
+  .part2 {
+    margin-top: 40px;
+    padding: 40px 0;
+    background-color: $ludicrous_grey;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 979px) {
