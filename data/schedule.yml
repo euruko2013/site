@@ -43,7 +43,7 @@
     speaker_id: oliveira
   - starts_at: 2013-06-28 17:30:00 +0300
     ends_at: 2013-06-28 18:00:00 +0300
-    title: 'Lighting Talks'
+    title: 'Lightning Talks'
 29:
   - starts_at: 2013-06-29 08:30:00 +0300
     title: 'Doors Open'
@@ -85,7 +85,7 @@
     speaker_id: kalligas
   - starts_at: 2013-06-29 17:30:00 +0300
     ends_at: 2013-06-29 18:00:00 +0300
-    title: 'Lighting Talks'
+    title: 'Lightning Talks'
   - starts_at: 2013-06-29 18:00:00 +0300
     ends_at: 2013-06-29 18:30:00 +0300
     title: 'Closing & Voting'
