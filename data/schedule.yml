@@ -3,7 +3,7 @@
     title: 'Doors Open'
   - starts_at: 2013-06-28 09:00:00 +0300
     ends_at: 2013-06-28 09:45:00 +0300
-    title: 'Registration'
+    title: 'Registration & Welcome Coffee'
     important: true
   - starts_at: 2013-06-28 09:45:00 +0300
     ends_at: 2013-06-28 10:00:00 +0300
