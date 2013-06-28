@@ -1,6 +1,11 @@
 {
   "news" : [
       {
+        "time" : 1372406400,
+        "title" : "Live stream is available",
+        "link" : "http://ustream.tv/channel/euruko-2013"
+      },
+      {
         "time" : 1372398300,
         "title" : "Registration is now open!"
       },
