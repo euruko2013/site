@@ -1,6 +1,11 @@
 {
   "news" : [
       {
+        "time" : 1372417200,
+        "title" : "GitHub party tonight at Agia Eirini Sq.",
+        "link" : "http://euruko2013.org/party/"
+      },
+      {
         "time" : 1372406400,
         "title" : "Live stream is available",
         "link" : "http://ustream.tv/channel/euruko-2013"
