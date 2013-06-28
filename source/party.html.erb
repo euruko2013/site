@@ -2,6 +2,70 @@
 title: Party Zone - EuRuKo 2013 - Athens
 description: EuRuKo 2013 - Party Zone
 ---
+<script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script type="text/javascript">
+    function initialize() {
+        var myLatlng = new google.maps.LatLng(37.979403, 23.728859);
+        var mapOptions = {
+            zoom: 15,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+ 
+        var places = {
+            // https://foursquare.com/v/faust/4ebc2ed46da1686824e395d0
+            'Faust': [37.977247,23.727978],
+            // https://foursquare.com/v/%CE%BA%CE%B1%CF%80%CE%AC%CE%BA%CE%B9-cafe/4b6d5e87f964a5203b732ce3
+            'Kapaki': [37.97694,23.728242],
+            // https://foursquare.com/v/rooster/4bd709ef7b1876b0c4748d86
+            'Rooster': [37.977526,23.727839],
+            // https://foursquare.com/v/ippo-bar/4edbad06e5fa78b16fac2b27
+            'IPPO Bar': [37.977357,23.730843],
+            // https://foursquare.com/v/osterman/50902e9be4b021eeb44b55f0
+            'Osterman': [37.977061,23.728257],
+            // https://foursquare.com/v/school-pizza-bar/512f362fe4b07792ce9e3847
+            'School Pizza Bar': [37.977052,23.728246],
+            // https://foursquare.com/v/zaf/4fc09648e4b014a2d657cec2
+            'ZAF': [37.97712,23.728268],
+            // https://foursquare.com/v/throubi/4cd55322fb595481fc66dd50
+            'Throubi': [37.977475,23.728343],
+            // https://foursquare.com/v/%CE%BC%CE%B1%CE%B3%CE%BA%CE%B1%CE%B6%CE%AD/4b8666f1f964a520bf8831e3
+            'Magaze': [37.977661,23.727817]
+        };
+ 
+ 
+        var map = new google.maps.Map(document.getElementById('normal-map'), mapOptions);
+ 
+        var infoWindows = [];
+        var markers = [];
+        var infowindow = new google.maps.InfoWindow;
+ 
+        for (var i in places) {
+            infoWindows[i] = new google.maps.InfoWindow({
+                content: i
+            });
+ 
+            markers[i] = new google.maps.Marker({
+                position: new google.maps.LatLng(places[i][0], places[i][1]),
+                map: map,
+                title: i
+            });
+ 
+            bindInfoWindow(markers[i], i, infowindow, map);
+        }
+    }
+ 
+    google.maps.event.addDomListener(window, 'load', initialize);
+ 
+    function bindInfoWindow(marker, contentString, infowindow, map) {
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.close();
+            infowindow.setContent(contentString);
+            infowindow.open(map, marker);
+        });
+    }
+</script>
+
 <div id="party-page">
   <div class="intro">
     <h2>euruko</h2>
