@@ -1,6 +1,10 @@
 {
   "news" : [
       {
+        "time" : 1372398300,
+        "title" : "Registration is now open!"
+      },
+      {
         "time" : 1372158000,
         "title" : "Deadline to order lunch extended until Wed 26th",
         "link" : "https://www.eventora.com/en/Events/lunch-euruko-delegates"
