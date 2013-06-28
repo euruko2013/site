@@ -67,21 +67,22 @@
   #directions {
     h5 {
       text-align: right;
-      padding-top: 250px;
     }
 
     #normal-map {
       display: block;
-    }
-    #small-map {
-      display: none;
+      height: 250px;
+      width: 540px;
+
+      img {
+        max-width: none;
+      }
     }
   }
 
   #instructions {
     h5 {
       text-align: right;
-      padding-top: 280px;
     }
   }
 
@@ -127,10 +128,8 @@
         padding-top: 10px;
       }
       #normal-map {
-        display: none;
-      }
-      #small-map {
-        display: block;
+        height: 250px;
+        width: 340px;
       }
     }
 
