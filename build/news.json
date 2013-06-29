@@ -1,6 +1,10 @@
 {
   "news" : [
       {
+        "time" : 1372488600,
+        "title" : "Day 2 begins in 10 minutes"
+      },
+      {
         "time" : 1372417200,
         "title" : "GitHub party tonight at Agia Eirini Sq.",
         "link" : "http://euruko2013.org/party/"
