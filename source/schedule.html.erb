@@ -41,8 +41,14 @@ description: EuRuKo 2013 - Schedule
                     <% end %>
                   </td>
 
+                  <td>
+                    <% if speaker.keynote %>
+                      <span class="label label-info">keynote</span>
+                    <% end %>
+                  </td>
+
                 <% else %>
-                  <td colspan="2" itemprop="name"><%= h(event.title) %></td>
+                  <td colspan="3" itemprop="name"><%= h(event.title) %></td>
                 <% end %>
               </tr>
             <% end %>
