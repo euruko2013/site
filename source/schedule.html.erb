@@ -41,9 +41,23 @@ description: EuRuKo 2013 - Schedule
                     <% end %>
                   </td>
 
-                  <td>
+                  <td class="talk-info">
                     <% if speaker.keynote %>
                       <span class="label label-info">keynote</span>
+                    <% end %>
+
+                    <% if speaker.talk && (speaker.talk.online || speaker.talk.pdf) %>
+                      <span class="label">
+                        slides:
+                        <% if speaker.talk.online %>
+                          <%= link_to 'online', speaker.talk.online, target: 'blank' %>
+                          <i class="icon-external-link"></i> -
+                        <% end %>
+                        <% if speaker.talk.pdf %>
+                          <%= link_to 'pdf', "/speakers/presentations/#{speaker.talk.pdf}" %>
+                          <i class="icon-file"></i>
+                        <% end %>
+                      </span>
                     <% end %>
                   </td>
 
