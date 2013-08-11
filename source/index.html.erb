@@ -43,15 +43,6 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
 
   </div>
 
-  <div class="section" id="stream">
-    <h3 class="centered">Live Stream
-      <%= link_to_top %>
-    </h3>
-    <div class="ustream">
-      <iframe src="http://www.ustream.tv/embed/14982647" width="608" height="368" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
-    </div>
-  </div>
-
   <div class="section" id="about">
     <h3 class="centered">About
       <%= link_to_top %>
@@ -62,6 +53,25 @@ description: EuRuKo 2013 - The European Ruby Conference in sunny Athens, Greece 
       <span>This summer EuRuKo comes to Athens for two days on the 28th and 29th of June.</span>
       <span>We can’t wait to see you in Athens this summer!</span>
     </p>
+  </div>
+
+  <div class="section" id="photos">
+    <h3 class="centered">Photos
+      <%= link_to_top %>
+    </h3>
+    <div class="flickr">
+      <object>
+        <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Feuruko2013%2Fshow%2Fwith%2F9358716388%2F&page_show_back_url=%2Fphotos%2Feuruko2013%2F&user_id=87880835@N04&jump_to=9358716388"></param>
+        <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=124984"></param>
+        <param name="allowFullScreen" value="true"></param>
+        <embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=124984" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Feuruko2013%2Fshow%2Fwith%2F9358716388%2F&page_show_back_url=%2Fphotos%2Feuruko2013%2F&user_id=87880835@N04&jump_to=9358716388"></embed>
+      </object>
+    </div>
+    <div class="centered">
+      <p>
+        If you have photos from the event that you'd like to share send them to <%= mail_to 'info@euruko2013.org', 'info@euruko2013.org' %>.
+      </p>
+    </div>
   </div>
 
   <div class="section" id="speakers">

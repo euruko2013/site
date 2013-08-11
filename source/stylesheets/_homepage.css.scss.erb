@@ -36,10 +36,23 @@ h3 {
   text-align: center;
 }
 
-#stream {
-  div.ustream {
+#photos {
+  background: #e1e1e1;
+  color: $light_grey;
+
+  .flickr {
     margin: 0 auto;
-    width: 608px;
+    width: 800px;
+
+    object, embed {
+      width: 800px;
+      height: 600px;
+    }
+  }
+
+  p {
+    margin: $vr auto;
+    text-align: center;
   }
 }
 
@@ -1055,6 +1068,17 @@ footer {
     visibility: visible;
     width: 70px;
     padding-bottom: 10px;
+  }
+
+  #photos {
+    .flickr {
+      width: 400px;
+
+      object, embed {
+        width: 400px;
+        height: 300px;
+      }
+    }
   }
 
   #introduction {
