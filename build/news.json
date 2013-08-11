@@ -1,6 +1,11 @@
 {
   "news" : [
       {
+        "time" : 1376229600,
+        "title" : "See event photos at Flickr",
+        "link" : "http://www.flickr.com/photos/euruko2013/"
+      },
+      {
         "time" : 1372525200,
         "title" : "Kiev, Ukraine is going to host EuRuKo 2014. Good Luck!"
       },
