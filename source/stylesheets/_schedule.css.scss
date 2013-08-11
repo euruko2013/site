@@ -50,6 +50,7 @@
               margin-top: 10px;
               padding-top: 10px;
               border-top: 1px solid #dddddd;
+              text-align: justify;
             }
           }
 
@@ -80,6 +81,13 @@
 
           td:nth-child(2) {
             padding-right: 60px;
+          }
+
+          .talk-info {
+            a {
+              color: #ffffff;
+              text-decoration: none;
+            }
           }
         }
       }
