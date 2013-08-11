@@ -30,7 +30,7 @@ description: EuRuKo 2013 - Schedule
                 
                 <% if speaker %>
                   <td itemscope itemprop="performer" itemtype="http://schema.org/Person">
-                    <span itemprop="name"><%= h(speaker.name) %></span>
+                    <span itemprop="name"><%= link_to h(speaker.name), "/speakers##{speaker.id}" %></span>
                   </td>
 
                   <td>
