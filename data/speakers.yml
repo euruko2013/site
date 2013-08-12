@@ -178,6 +178,8 @@
     title: "Forget about classes, welcome objects"
     description: "This talk is a tale about a time when Object-Oriented Programming was about objects and messages, not about classes and methods, when it was about behavior, not schemas. You will understand how OO was intended to be used and what it means to say that OO is about messages. We'll talk about the past and then go back to the future to look at our Class-Oriented Programming culture and how we can fix it by doing real OO in Ruby. By doing that, we'll start to understand why principles like SOLID and Demeter are here to help us stop losing time and money. This talk is about making you reevaluate the way you approach OO."
     video: "http://www.ustream.tv/recorded/35059781/highlight/376925"
+    online: "https://speakerdeck.com/kurko/forget-about-classes-welcome-objects"
+    pdf: "forget_about_classes_welcome_objects-oliveira.pdf"
 
 - ramirez:
   id: 'ramirez'
