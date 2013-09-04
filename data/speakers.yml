@@ -39,6 +39,7 @@
     title: "Functional Reactive Programming in Ruby"
     description: "Ruby's strengths lie in its ability to blend styles. We all know about OOP and Ruby, but it often leans functional, as well. There's a style of writing programs called 'Functional Reactive Programming' that is extremely useful in the Haskell world, but isn't really used in Ruby at all. In this talk, Steve will show you FRP, an implementation of it in Ruby, and how to write programs in this style."
     video: "http://www.ustream.tv/recorded/35114647/highlight/377149"
+    pdf: "functional_reactive_programming-klabnik.pdf"
 
 - xavier:
   id: 'noria'
