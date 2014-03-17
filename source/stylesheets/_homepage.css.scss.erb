@@ -40,9 +40,13 @@ h3 {
   background: #f2f2f2;
   color: $light_grey;
 
-  p {
-    margin: $vr auto;
+  .youtube {
     text-align: center;
+
+    iframe {
+      width: 853px;
+      height: 480px;
+    }
   }
 }
 
@@ -1005,6 +1009,15 @@ footer {
     }
   }
 
+  #videos {
+    .youtube {
+      iframe {
+        width: 560px;
+        height: 315px;
+      }
+    }
+  }
+
   #speakers {
     ul {
       li {
@@ -1088,6 +1101,15 @@ footer {
     visibility: visible;
     width: 70px;
     padding-bottom: 10px;
+  }
+
+  #videos {
+    .youtube {
+      iframe {
+        width: 400px;
+        height: 315px;
+      }
+    }
   }
 
   #photos {
