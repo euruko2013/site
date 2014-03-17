@@ -10,7 +10,7 @@
   talk:
     title: "Keynote"
     description: "Matz will talk about, what else... Ruby! Honestly we have no idea what Matz is going to talk about, but we are pretty sure it's gonna be amazing. If we manage to find out we'll update this section with more info."
-    video: "http://www.ustream.tv/recorded/35053867/highlight/376497"
+    video: "https://www.youtube.com/watch?v=_xkE7mJoFHg"
     pdf: "keynote-matz.pdf"
 
 - koichi:
@@ -24,7 +24,7 @@
   talk:
     title: "Towards more efficient Ruby 2.1"
     description: "Koichi will show ways to achieve a more efficient Ruby 2.1 interpreter, targeted for the next release of CRuby/MRI. The talk will include VM / compilier optimizations, memory / object management and runtime libraries modification. Most of the techniques shown and implementations will be work in progress. This talk is an update version of the one given to Ruby Kaigi 2013."
-    video: "http://www.ustream.tv/recorded/35107339/highlight/377033"
+    video: "https://www.youtube.com/watch?v=92zMKGt7Qlk"
     pdf: "toward_more_efficient_ruby_2_1-koichi.pdf"
 
 - klabnik:
@@ -38,7 +38,7 @@
   talk:
     title: "Functional Reactive Programming in Ruby"
     description: "Ruby's strengths lie in its ability to blend styles. We all know about OOP and Ruby, but it often leans functional, as well. There's a style of writing programs called 'Functional Reactive Programming' that is extremely useful in the Haskell world, but isn't really used in Ruby at all. In this talk, Steve will show you FRP, an implementation of it in Ruby, and how to write programs in this style."
-    video: "http://www.ustream.tv/recorded/35114647/highlight/377149"
+    video: "https://www.youtube.com/watch?v=0qv3hWgC950"
     pdf: "functional_reactive_programming-klabnik.pdf"
 
 - xavier:
@@ -52,7 +52,7 @@
   talk:
     title: "I See Your 127.32+, A Tale of Rationals"
     description: "Money, be careful with money. While developing a brand new website for online betting I found the requirements related to the flow of money were just not possible to implement with traditional datatypes. There were fundamental features that no matter your precision, would just not work correctly. After reflecting on the feature set, we ended up resorting to fractions. In this talk I'll explain how we integrated rationals in the full stack, from JavaScript down to PostgreSQL, going via Active Record. An interesting journey that ends with all cents under control, and me sleeping very well at night."
-    video: "http://www.ustream.tv/recorded/35059781/highlight/376905"
+    video: "https://www.youtube.com/watch?v=ArJ_scUWkiQ"
     online: "http://www.slideshare.net/fxn/numbers-23955525"
     pdf: "i_see_your_127_32_a_tale_of_rationals-noria.pdf"
 
@@ -67,7 +67,7 @@
   talk:
     title: "... but we had to kill Unicorns"
     description: "How often do you have to leave your comfort zone? How often does it happen that you need to change the fundamentals of your application? Well… it has happened to my team recently. We had to abandon our way of thinking about Ruby on Rails applications. Single-threaded servers were not a choice anymore, neither was JRuby nor Event Machine. And we had to handle up to 200k requests per minute. This talk is a case study about how, step by step, we got to multi threaded RoR application with MRI 1.9, MySQL, DataMapper. I want to present how we came to the solution, what did we have to do to make our application thread safe, how did we manage to use threads in MRI and what we learned while working on the big feature, that made us change the fundamentals of our application. Although the application in this case was built with Ruby on Rails, the talk won't be specific to this framework. I want to talk about threading and parallelism in Ruby and its open source libraries, as well as the process of making deep changes in the application that handles pretty big traffic."
-    video: "http://www.ustream.tv/recorded/35059781/highlight/376921"
+    video: "https://www.youtube.com/watch?v=-q_kS5Dymmc"
     online: "https://speakerdeck.com/arnvald/dot-dot-dot-but-we-had-to-kill-unicorns"
     pdf: "but_we_had_to_kill_unicorns-witek.pdf"
 
@@ -91,7 +91,7 @@
   talk:
     title: "The future of Ruby is faster"
     description: "You care about your code. You write nicely factored and clean code, with nice and small methods that each do just what they are supposed to do. Maybe you worry sometimes that these additional methods and small objects can be problematic? This talk hopefully makes you stop worrying about this. So with all this care that you do, what can a Ruby implementation do to make sure your code actually runs fast? In this talk I will discuss the techniques used that allow your Ruby code to execute faster. How do we make sure calling a method is cheap or even free? How can we let you mostly get away with allocating a lot of objects? How do we make iterating with .each as fast as a while loop? Different techniques will be discussed, such as inline caches, just in time compilation, method / block inlining and better garbage collection. As a Rubinius contributor I've worked on all these subjects so I know a few things about these topics, but these will explained such that any Ruby developer can understand how these optimizations work. The quest for a faster Ruby is happening in a lot of places and you can learn how this is done!"
-    video: "http://www.ustream.tv/recorded/35107339/highlight/377035"
+    video: "https://www.youtube.com/watch?v=s8qIh-E7fSY"
     online: "https://speakerdeck.com/dbussink/the-future-of-ruby-is-faster"
     pdf: "the_future_of_ruby_is_faster-bussink.pdf"
 
@@ -106,7 +106,7 @@
   talk:
     title: "Architecting your Rails app for success!"
     description: "Rails is a great framework for creating web apps... for awhile. What do you do when your codebase grows large? How do you handle large teams of developers? When performance becomes an issue, how do you scale? Most importantly, how do you write code which can easily be refactored later? This is a story of a real life project built from day 1 with all these questions in mind. Learn about the problems we solved and lessons we learned: how to partition your Rails app into distinct modular engines, how to speed up your test suite by only running code effected by your changes, how to add a layer on top of ActiveRecord to enforce loose coupling, and many other patterns that can be applied to your own Rails apps!"
-    video: "http://www.ustream.tv/recorded/35107339/highlight/377037"
+    video: "https://www.youtube.com/watch?v=vwkMsIKL8Mk"
     online: "https://speakerdeck.com/benjaminleesmith/architecting-your-rails-app-for-success-euruko-2013"
     pdf: "architecting_your_rails_app_for_success-smith.pdf"
 
@@ -121,7 +121,7 @@
   talk:
     title: "Natural Language Processing with Ruby"
     description: "Natural Language Processing (NLP) is the art and science of making sense of user-generated data. It is a combination of state-of-the-art computer science techniques and linguistics. Being able to analyze plain text data allows us to gain a lot of insights. Popular NLP tasks are text summarization, keyword extraction or automatic extraction of the author's opinion from a text. In the age of social media, only NLP provides solutions to analyze what users are really care about. Companies such as Google or Facebook invest millions in NLP solutions to harvest information from all the data they have been gathering over the years. In this talk, I will present you a real-world NLP problem. We will discuss this problem from both, the linguistic and the computer science perspective. Throughout the talk, we will develop a processing pipeline to efficiently solve this problem in an automated fashion. An NLP pipeline usually consists of multiple components, each solving one aspect of the problem and presenting its own challenges. Among other things, you will learn how to tackle the following essential NLP problems using JRuby and OpenNLP."
-    video: "http://www.ustream.tv/recorded/35053867/highlight/376509"
+    video: "https://www.youtube.com/watch?v=sPkeeWnsMn0"
     online: "https://speakerdeck.com/t6d/natural-language-processing-with-jruby-and-opennlp"
     pdf: "natural_language_processing_with_ruby_and_opennlp-tennhard.pdf"
 
@@ -136,7 +136,7 @@
   talk:
     title: "Functional Programming and Ruby"
     description: "While Ruby is object oriented and imperative, it does have some features that allow for functional programming. In this talk we’ll compare Haskell, a functional programming language, with Ruby while exploring these common functional patterns: higher order functions, lazy evaluation, and memoization. Along the way we’ll explore how Ruby works internally, find out whether it’s a true functional language, and zoom in to take a close look at Ruby 2.0’s implementation of the new “Enumerator::Lazy” feature."
-    video: "http://www.ustream.tv/recorded/35053867/highlight/376503"
+    video: "https://www.youtube.com/watch?v=OFHPvzfFeN4"
     online: "https://speakerdeck.com/pat_shaughnessy/functional-programming-and-ruby-euruko"
     pdf: "functional_programming_and_ruby-shaughnessy.pdf"
 
@@ -151,7 +151,7 @@
   talk:
     title: "Achieving zomgscale with Celluloid and JRuby!"
     description: "Light up your cores! Learn how to achieve levels of scale hitherto unknown to mere mortals. This talk will cover concurrency and parallelisation for the discerning rubyist. We'll cover why MRI is keeping your CPUs way cooler than they find comfortable and how you can unlock unfound levels of roflscale by spending a little time with celluloid and JRuby."
-    video: "http://www.ustream.tv/recorded/35114647/highlight/377153"
+    video: "https://www.youtube.com/watch?v=Z1CO-iUAv74"
     online: "https://speakerdeck.com/benlovell/achieving-zomgscale-with-celluloid-and-jruby"
     pdf: "achieving_zomgscale_with_celluloid_and_jruby-lovell.pdf"
 
@@ -166,7 +166,7 @@
   talk:
     title: "35.000 tests and counting!"
     description: "Some say it’s madness, we answer it’s sanity. Have you ever deployed to production clutching your teeth, crossing your fingers, holding lucky charms or praying to the god of luck to have a successful one? Well.. we haven’t! Why? Because we have made testing a constant and indispensable part of our work. Quality assurance is a vital part of program development so that the requirements of the final program are achieved, and we think testing is the right way to it. Most of the times we know when something goes wrong really early and we get to change stuff here and there without worrying that the final result will be a tower of cards coming tumbling down."
-    video: "http://www.ustream.tv/recorded/35114647/highlight/377159"
+    video: "https://www.youtube.com/watch?v=pdcdLn4zYCc"
     online: "https://speakerdeck.com/arcanoid/35-dot-000-tests-and-counting-dot-dot-dot"
     pdf: "35000_tests_and_counting-kalligas.pdf"
 
@@ -181,7 +181,7 @@
   talk:
     title: "Forget about classes, welcome objects"
     description: "This talk is a tale about a time when Object-Oriented Programming was about objects and messages, not about classes and methods, when it was about behavior, not schemas. You will understand how OO was intended to be used and what it means to say that OO is about messages. We'll talk about the past and then go back to the future to look at our Class-Oriented Programming culture and how we can fix it by doing real OO in Ruby. By doing that, we'll start to understand why principles like SOLID and Demeter are here to help us stop losing time and money. This talk is about making you reevaluate the way you approach OO."
-    video: "http://www.ustream.tv/recorded/35059781/highlight/376925"
+    video: "https://www.youtube.com/watch?v=bXrELUilViY"
     online: "https://speakerdeck.com/kurko/forget-about-classes-welcome-objects"
     pdf: "forget_about_classes_welcome_objects-oliveira.pdf"
 
@@ -196,7 +196,7 @@
   talk:
     title: "Fun with Ruby and Redis"
     description: "All the cool cats are using Redis, and with a reason: It's fast, it's robust, it's easy and it's web scale. Put it together with Ruby and it's fun too! In this session I will talk about what is redis, what you can do with it, how you can use it from Ruby, why you should be using it already and some common patterns when dealing with it." 
-    video: "http://www.ustream.tv/recorded/35114647/highlight/377157"
+    video: "https://www.youtube.com/watch?v=eip5feW-dLU"
     online: "http://www.slideshare.net/supercoco9/fun-with-ruby-and-redis"
     pdf: "fun_with_ruby_and_redis-ramirez.pdf"
 
@@ -211,5 +211,5 @@
   talk:
     title: "Down the rb_newobj() Rabbit Hole: Garbage Collection and a Glimpse into Ruby's Future"
     description: "Garbage collection is one of the pillars of Ruby's performance story, but getting into the inner workings of MRI's garbage collector is a bit hairy. If you want to explore the garbage collector then you're going to have to get your hands deep into C code. We're going to take a walk through the C internals from Foo.new through garbage collection in Ruby's MRI. We’ll examine the idioms and optimizations in the C source and leave you feeling comfortable to explore the code yourself. At the end of the rb_newobj() rabbit hole is a whole world of garbage collection. Major changes have been made in MRI's garbage collector from Ruby 1.8 through 2.0: changes intended to make Ruby more performant, changes that can capitalize on MRI's roots in UNIX. From mark-and-sweep to copy-on-write and bitmap marking, we'll see what the future of Ruby performance might look like by peering through the window of the garbage collector."
-    video: "http://www.ustream.tv/recorded/35059781/highlight/376923"
+    video: "https://www.youtube.com/watch?v=KDU_1ypSf68"
     pdf: "down_the_rb_newobj_rabbit_hole-kelly.pdf"
